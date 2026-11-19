@@ -1,0 +1,175 @@
+{
+ "frames": [
+  {
+   "i": 0,
+   "body_off_palette": 0,
+   "body_semi": 0,
+   "body_colors": 15,
+   "body_lowest_row": 37,
+   "body_top_row": 8,
+   "canvas": [
+    40,
+    40
+   ],
+   "sole_ok": true,
+   "head": {
+    "cells": 69,
+    "same": 69,
+    "hidden": 0,
+    "other": 0
+   },
+   "upper": {
+    "cells": 113,
+    "same": 113,
+    "covered": 0,
+    "covered_by": {}
+   },
+   "fixed": {
+    "cells": 148,
+    "same": 148,
+    "covered_by_near_arm": 0,
+    "changed": 0
+   },
+   "equals_master_base": true
+  },
+  {
+   "i": 1,
+   "body_off_palette": 0,
+   "body_semi": 0,
+   "body_colors": 15,
+   "body_lowest_row": 37,
+   "body_top_row": 8,
+   "canvas": [
+    40,
+    40
+   ],
+   "sole_ok": true,
+   "head": {
+    "cells": 69,
+    "same": 69,
+    "hidden": 0,
+    "other": 0
+   },
+   "upper": {
+    "cells": 113,
+    "same": 112,
+    "covered": 1,
+    "covered_by": {
+     "": 1
+    }
+   },
+   "fixed": {
+    "cells": 148,
+    "same": 148,
+    "covered_by_near_arm": 0,
+    "changed": 0
+   }
+  },
+  {
+   "i": 2,
+   "body_off_palette": 0,
+   "body_semi": 0,
+   "body_colors": 15,
+   "body_lowest_row": 37,
+   "body_top_row": 8,
+   "canvas": [
+    40,
+    40
+   ],
+   "sole_ok": true,
+   "head": {
+    "cells": 69,
+    "same": 69,
+    "hidden": 0,
+    "other": 0
+   },
+   "upper": {
+    "cells": 113,
+    "same": 113,
+    "covered": 0,
+    "covered_by": {}
+   },
+   "fixed": {
+    "cells": 148,
+    "same": 148,
+    "covered_by_near_arm": 0,
+    "changed": 0
+   },
+   "equals_master_base": true
+  },
+  {
+   "i": 3,
+   "body_off_palette": 0,
+   "body_semi": 0,
+   "body_colors": 15,
+   "body_lowest_row": 37,
+   "body_top_row": 8,
+   "canvas": [
+    40,
+    40
+   ],
+   "sole_ok": true,
+   "head": {
+    "cells": 69,
+    "same": 69,
+    "hidden": 0,
+    "other": 0
+   },
+   "upper": {
+    "cells": 113,
+    "same": 113,
+    "covered": 0,
+    "covered_by": {}
+   },
+   "fixed": {
+    "cells": 148,
+    "same": 148,
+    "covered_by_near_arm": 0,
+    "changed": 0
+   }
+  }
+ ],
+ "summary": {
+  "frames": 4,
+  "ticks": [
+   50,
+   16,
+   50,
+   16
+  ],
+  "off_palette": 0,
+  "semi_transparent": 0,
+  "sole_fixed": true,
+  "head_same_all": true,
+  "upper_same_min": 112,
+  "upper_cells": 113,
+  "neighbor_change_mean": {
+   "body": 0.01
+  },
+  "master_frames_identical": "2/2",
+  "fixed_cells": 148,
+  "fixed_same_min": 148,
+  "fixed_changed_max": 0,
+  "fixed_covered_by_near_arm_max": 0,
+  "fixed_same_all": true,
+  "pass": true
+ },
+ "neighbor_change": {
+  "body": [
+   0.008,
+   0.008,
+   0.012,
+   0.012
+  ]
+ },
+ "outputs": {
+  "body": {
+   "sheet": "art/characters/mirine/anim/idle_b/out/mirine_idle_b_body.png",
+   "meta": "art/characters/mirine/anim/idle_b/out/mirine_idle_b_body.json",
+   "gif": "art/characters/mirine/anim/idle_b/out/mirine_idle_b_body_x8.gif"
+  },
+  "frames_x8": "art/characters/mirine/anim/idle_b/out/mirine_idle_b_frames_x8.png",
+  "frames": "art/characters/mirine/anim/idle_b/frames"
+ },
+ "timeline": "art/characters/mirine/anim/idle_b/timeline.json"
+}

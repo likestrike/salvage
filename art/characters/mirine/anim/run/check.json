@@ -1,0 +1,310 @@
+{
+ "frames": [
+  {
+   "i": 0,
+   "body_off_palette": 0,
+   "body_semi": 0,
+   "body_colors": 15,
+   "body_lowest_row": 37,
+   "body_top_row": 8,
+   "canvas": [
+    40,
+    40
+   ],
+   "sole_ok": true,
+   "head": {
+    "cells": 69,
+    "same": 69,
+    "hidden": 0,
+    "other": 0
+   },
+   "upper": {
+    "cells": 113,
+    "same": 104,
+    "covered": 9,
+    "covered_by": {
+     "patch": 8,
+     "": 1
+    }
+   },
+   "fixed": {
+    "cells": 148,
+    "same": 148,
+    "covered_by_near_arm": 0,
+    "changed": 0
+   }
+  },
+  {
+   "i": 1,
+   "body_off_palette": 0,
+   "body_semi": 0,
+   "body_colors": 15,
+   "body_lowest_row": 37,
+   "body_top_row": 9,
+   "canvas": [
+    40,
+    40
+   ],
+   "sole_ok": true,
+   "head": {
+    "cells": 69,
+    "same": 69,
+    "hidden": 0,
+    "other": 0
+   },
+   "upper": {
+    "cells": 113,
+    "same": 108,
+    "covered": 5,
+    "covered_by": {
+     "patch": 4,
+     "": 1
+    }
+   },
+   "fixed": {
+    "cells": 148,
+    "same": 148,
+    "covered_by_near_arm": 0,
+    "changed": 0
+   }
+  },
+  {
+   "i": 2,
+   "body_off_palette": 0,
+   "body_semi": 0,
+   "body_colors": 15,
+   "body_lowest_row": 37,
+   "body_top_row": 8,
+   "canvas": [
+    40,
+    40
+   ],
+   "sole_ok": true,
+   "head": {
+    "cells": 69,
+    "same": 69,
+    "hidden": 0,
+    "other": 0
+   },
+   "upper": {
+    "cells": 113,
+    "same": 105,
+    "covered": 8,
+    "covered_by": {
+     "patch": 7,
+     "": 1
+    }
+   },
+   "fixed": {
+    "cells": 148,
+    "same": 148,
+    "covered_by_near_arm": 0,
+    "changed": 0
+   }
+  },
+  {
+   "i": 3,
+   "body_off_palette": 0,
+   "body_semi": 0,
+   "body_colors": 15,
+   "body_lowest_row": 37,
+   "body_top_row": 8,
+   "canvas": [
+    40,
+    40
+   ],
+   "sole_ok": true,
+   "head": {
+    "cells": 69,
+    "same": 69,
+    "hidden": 0,
+    "other": 0
+   },
+   "upper": {
+    "cells": 113,
+    "same": 105,
+    "covered": 8,
+    "covered_by": {
+     "patch": 7,
+     "": 1
+    }
+   },
+   "fixed": {
+    "cells": 148,
+    "same": 148,
+    "covered_by_near_arm": 0,
+    "changed": 0
+   }
+  },
+  {
+   "i": 4,
+   "body_off_palette": 0,
+   "body_semi": 0,
+   "body_colors": 15,
+   "body_lowest_row": 37,
+   "body_top_row": 9,
+   "canvas": [
+    40,
+    40
+   ],
+   "sole_ok": true,
+   "head": {
+    "cells": 69,
+    "same": 69,
+    "hidden": 0,
+    "other": 0
+   },
+   "upper": {
+    "cells": 113,
+    "same": 108,
+    "covered": 5,
+    "covered_by": {
+     "patch": 4,
+     "": 1
+    }
+   },
+   "fixed": {
+    "cells": 148,
+    "same": 148,
+    "covered_by_near_arm": 0,
+    "changed": 0
+   }
+  },
+  {
+   "i": 5,
+   "body_off_palette": 0,
+   "body_semi": 0,
+   "body_colors": 15,
+   "body_lowest_row": 37,
+   "body_top_row": 8,
+   "canvas": [
+    40,
+    40
+   ],
+   "sole_ok": true,
+   "head": {
+    "cells": 69,
+    "same": 69,
+    "hidden": 0,
+    "other": 0
+   },
+   "upper": {
+    "cells": 113,
+    "same": 104,
+    "covered": 9,
+    "covered_by": {
+     "patch": 8,
+     "": 1
+    }
+   },
+   "fixed": {
+    "cells": 148,
+    "same": 148,
+    "covered_by_near_arm": 0,
+    "changed": 0
+   }
+  }
+ ],
+ "summary": {
+  "frames": 6,
+  "ticks": [
+   4,
+   4,
+   4,
+   4,
+   4,
+   4
+  ],
+  "off_palette": 0,
+  "semi_transparent": 0,
+  "sole_fixed": true,
+  "head_same_all": true,
+  "upper_same_min": 104,
+  "upper_cells": 113,
+  "neighbor_change_mean": {
+   "body": 0.464
+  },
+  "foot_slip_max": 0.0,
+  "master_frames_identical": "해당 없음",
+  "fixed_cells": 148,
+  "fixed_same_min": 148,
+  "fixed_changed_max": 0,
+  "fixed_covered_by_near_arm_max": 0,
+  "fixed_same_all": true,
+  "pass": true
+ },
+ "neighbor_change": {
+  "body": [
+   0.581,
+   0.603,
+   0.198,
+   0.565,
+   0.63,
+   0.205
+  ]
+ },
+ "foot_toe_x": [
+  {
+   "near_leg": 26
+  },
+  {
+   "near_leg": 22
+  },
+  {
+   "near_leg": 18
+  },
+  {
+   "far_leg": 24
+  },
+  {
+   "far_leg": 20
+  },
+  {
+   "far_leg": 16
+  }
+ ],
+ "foot_slip": [
+  {
+   "from": 0,
+   "to": 1,
+   "leg": "near_leg",
+   "moved": -4,
+   "want": -4.0,
+   "slip": 0.0
+  },
+  {
+   "from": 1,
+   "to": 2,
+   "leg": "near_leg",
+   "moved": -4,
+   "want": -4.0,
+   "slip": 0.0
+  },
+  {
+   "from": 3,
+   "to": 4,
+   "leg": "far_leg",
+   "moved": -4,
+   "want": -4.0,
+   "slip": 0.0
+  },
+  {
+   "from": 4,
+   "to": 5,
+   "leg": "far_leg",
+   "moved": -4,
+   "want": -4.0,
+   "slip": 0.0
+  }
+ ],
+ "outputs": {
+  "body": {
+   "sheet": "art/characters/mirine/anim/run/out/mirine_run_body.png",
+   "meta": "art/characters/mirine/anim/run/out/mirine_run_body.json",
+   "gif": "art/characters/mirine/anim/run/out/mirine_run_body_x8.gif"
+  },
+  "frames_x8": "art/characters/mirine/anim/run/out/mirine_run_frames_x8.png",
+  "frames": "art/characters/mirine/anim/run/frames"
+ },
+ "timeline": "art/characters/mirine/anim/run/timeline.json"
+}

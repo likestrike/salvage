@@ -1,0 +1,727 @@
+{
+ "format": "salvage-pixel-pipeline/1",
+ "id": "nx07",
+ "name": "NX-07",
+ "doc": "docs/pipeline/CHARACTER_PIPELINE.md",
+ "_": "NX-07 을 파이프라인의 설정으로 옮긴 것. NX-07 은 파이프라인보다 먼저 실험 폴더(art/pipeline_lab/)에서 만들었으므로, 그때 실제로 쓴 파일은 pinned 로 가리킨다 (옮기지 않는다). pixpipe verify nx07 이 이 설정만으로 승인된 마스터 · 프레임을 다시 만들어 견준다. 문장과 표는 옛 스크립트(v2/make_prompts.py · v2/make_master.py · v3_scarf/make_scarf.py · nx07/pixel/make_spec.py)에서 그대로 옮겼다.",
+ "story_height_cm": 170,
+ "paths": {
+  "work": "art/characters/{id}/pixel/work",
+  "prompts": "art/prompts/pipeline/{id}",
+  "final": "art/characters/{id}/pixel",
+  "anim": "art/characters/{id}/anim"
+ },
+ "size": {
+  "height_cells": 36,
+  "height_mark": "기획자 결정 (9.11.5 \"36칸\")",
+  "heads_guide": 3.2,
+  "heads_note": "밑그림의 머리 비율 목표 (정수리 ~ 목 기준). 3.45 로 하면 헬멧이 눌려 작아 보였다. 결과는 재는 기준이 달라 3.4~3.6등신 (9.11.4)"
+ },
+ "screen": {
+  "size": [
+   320,
+   180
+  ],
+  "mark": "[제안] 키 36칸이 화면 높이의 1/5 (9.11.5)"
+ },
+ "generate": {
+  "model": "openai/gpt-image-2.6/sunburst/edit",
+  "image_size": [
+   1024,
+   1024
+  ],
+  "args": {
+   "quality": "high",
+   "background": "opaque"
+  },
+  "budget": 7,
+  "budget_note": "v2 에서 실제로 쓴 횟수 (1단계 3 + 2단계 4). 그 전의 실험까지 합치면 픽셀 쪽 17회 (9.11 E2 4 · 9.11.1 견본 3 · 9.11.2 v1 3 · 9.11.4 v2 7)"
+ },
+ "references": [
+  {
+   "file": "art/concept/setting/nx07/02_side.png",
+   "note": "설정화 측면 — 디자인만. 주포가 앞쪽 팔이라 '따르지 마라'고 적었다",
+   "role": "our character design sheet, side view (android NX-07A, a BOY-type android soldier: big round helmet, a little under 4 heads tall, thick shins and big boots). Take only the design from it. In image 1 the cannon is on the NEAR arm: do NOT copy that. Do not copy its outlines, its fine detail or its stiff standing pose."
+  },
+  {
+   "file": "art/concept/setting/nx07/01_front.png",
+   "note": "설정화 정면 — 주포가 없는 팔(앞쪽 팔)의 모양",
+   "role": "the same character from the front. The arm WITHOUT the cannon (gauntlet + dark glove fist) is how the NEAR arm looks. The cannon is the olive tube with a white ring at its back end, a cyan light band and a cyan muzzle."
+  }
+ ],
+ "prompt": {
+  "subject": "the android NX-07",
+  "top_of_figure": "the top of the helmet",
+  "facing_note": "the face and the helmet emblem point to the right edge",
+  "figure": "a sturdy boy soldier: big round helmet, compact body, thick shins and big boots. Do not make him slimmer, taller, longer-legged or curvier. Not a girl.",
+  "pose": [
+   "Weight on the BACK leg; the front leg a little forward with a slightly bent knee; feet apart, both soles on the same ground line. Hips a little back, chest a little forward, head slightly lowered and looking ahead. Relaxed shoulders.",
+   "The FAR arm (the arm on the far side of the body) ends in the ENERGY CANNON. Its elbow is hidden behind the body; the cannon forearm comes out IN FRONT of the body, held low and relaxed, pointing forward and slightly down, the muzzle at about hip-to-thigh height and sticking out beyond the front of the body, so the cannon is clearly read in the silhouette.",
+   "The NEAR arm (closer to the viewer) hangs relaxed at the side, a little behind the hip, ending in a dark glove fist. No cannon on it.",
+   "A thin antenna rod rises up and back from the ear unit behind the head; it must stick out of the silhouette above and behind the helmet."
+  ],
+  "pose_ko": "뒷다리에 무게, 앞무릎을 조금 굽히고, 주포(먼 쪽 팔)를 몸 앞에 낮게 앞-아래로 든 대기 자세. 앞쪽 팔은 엉덩이 조금 뒤로 늘어뜨린 검은 주먹. 안테나가 실루엣 밖으로 (9.11.4)",
+  "materials_merge": "armor, suit and plates",
+  "accent_strokes": "the face, a highlight on the helmet, the cannon ring, the cyan lights",
+  "saturated": "the cyan lights only: the inverted-triangle emblem on the helmet front (3 art pixels wide), the eye, the cannon light band and the muzzle",
+  "colors": "12 to 16",
+  "s1_cell": 20,
+  "s1_height": 40,
+  "s2_image1": "our own earlier draft of the android NX-07",
+  "s2_curves": "the helmet and the boots",
+  "s2_parts": [
+   "The head: a big round olive helmet; a clear cyan INVERTED TRIANGLE emblem on its front ({emblem}); a dark visor band; under it a small PALE boyish face that is the brightest area of the head, with ONE dark-teal eye of {eye}; no mouth. The ear unit is a small round shape in a darker helmet tone (no white, no cyan in it). A thin antenna, one art pixel wide, rises up and back behind the helmet.",
+   "The arms: the figure faces RIGHT. The cannon belongs to the FAR arm: the olive cannon tube with a white ring at its back end, one cyan light band and a cyan muzzle, held low in front of the body and pointing forward-down, exactly as in image 2. The NEAR arm hangs at the side and ends in a dark glove fist, no cannon on it."
+  ],
+  "s2_accents": "Cyan only on the emblem, the cannon light band and the muzzle (and the eye is dark teal).",
+  "s2_keep_color": "olive",
+  "s2_figure": "a sturdy BOY android soldier in pure side view facing right, the same relaxed standing pose as image 2 with both soles on the same ground line. Do not make it slimmer, taller, longer-legged or curvier.",
+  "s2_vars": [
+   {
+    "max_height": 40,
+    "emblem": "3 art pixels wide on top, 1 below",
+    "eye": "1 x 1 art pixel"
+   },
+   {
+    "max_height": 9999,
+    "emblem": "about 3 art pixels wide, 2 rows",
+    "eye": "1 x 2 art pixels (one wide, two tall)"
+   }
+  ]
+ },
+ "simplify": {
+  "status": "결정",
+  "by": "에이전트가 [제안] → 기획자",
+  "note": "[해석] 9.11.4 에서 에이전트가 [제안]으로 쓴 단순화안이다. 기획자가 그 결과(C36)의 형태를 고르며 받아들인 것으로 읽었다 (9.11.5). 규격(9.11.6)에 들어갔다",
+  "keep": [
+   "둥근 올리브 헬멧의 실루엣",
+   "이마의 시안 역삼각 엠블럼",
+   "뒤로 솟은 안테나",
+   "먼 쪽 팔(왼팔)의 주포와 시안 총구"
+  ],
+  "merge": [
+   "귀 장치 → 헬멧의 어두운 톤 동그라미 (흰 원반 · 시안 점 없음)",
+   "작은 흰 판 → 큰 덩어리에 합침",
+   "올리브 → 설정화의 올리브 드랩(#6F7457) 쪽과 그보다 어두운 쪽"
+  ],
+  "drop": [
+   "작은 시안 점 (시안은 엠블럼 · 총구 · 빛 띠뿐, 눈은 짙은 청록)",
+   "주먹의 손가락"
+  ],
+  "prompt": "the ear unit becomes a small round shape in a darker tone of the helmet color (no white disc, no cyan dot in it) so it never looks like a second eye; the face is the brightest area of the head and the eye is one dark-teal block of 1 x 2 art pixels; small white plates and small cyan dots on the armor are left out or merged.",
+  "doc": "docs/GAME_DESIGN.md 9.11.4"
+ },
+ "plans": {
+  "A": {
+   "label": "어두운 몸이 주인",
+   "title": "dark body is the master shape",
+   "s1": [
+    "The bodysuit is a near-black charcoal (about #22252b, shadow #16181d). The olive armor is a DARK olive drab, close to the suit in brightness (base about #4a5036, shadow #33382a). Together they form one big dark mass that fills most of the body, from the neck to the boots, including the cannon tube and the boots.",
+    "Light accents on top of the dark mass, small and few: the pale face (the brightest area), a short mid-olive highlight band on the top of the helmet (about #6f7457), the white ring at the back end of the cannon, one small white shoulder accent.",
+    "Cyan only on the emblem, the eye, the cannon light band and the muzzle."
+   ],
+   "s2": "a near-black charcoal bodysuit and DARK olive armor that together make ONE big dark mass over most of the body; small light accents only: the pale face, a short olive highlight on the helmet top, the white ring at the back of the cannon, one small white shoulder accent, the pale antenna",
+   "pinned": {
+    "s1_raw": "art/pipeline_lab/pixel_style/v2/s1/nx07_v2s1_A_raw.png",
+    "prompt_files": [
+     "art/prompts/pipeline/nx07_side_v2_s1_common.txt",
+     "art/prompts/pipeline/nx07_side_v2_s1_planA.txt"
+    ]
+   }
+  },
+  "B": {
+   "label": "중간 밝기의 올리브 장갑이 주인",
+   "title": "the olive armor shell is the master shape, the dark suit supports it",
+   "s1": [
+    "The olive armor is a calm, muted olive drab of MIDDLE brightness (base about #6f7457, shadow #4e5340, one small highlight #8a8f6c). Helmet, chest and back armor, the cannon tube, the shins and boots are all this olive and read together as one big connected olive shape that covers most of the body.",
+    "The bodysuit is a near-black charcoal (about #24262c) that shows only in the gaps: neck, upper arms, waist and the backs of the thighs. It is the dark base that holds the olive shape together, not a separate set of pieces.",
+    "The white plates are reduced to two small light shapes: the shoulder ball and the knee plate (off-white about #d9d6cc, shadow #a9a69c). The face is pale.",
+    "Cyan only on the emblem, the eye, the cannon light band and the muzzle."
+   ],
+   "s2": "a calm MIDDLE-bright olive armor shell (helmet, chest, cannon, shins and boots) that reads as one big connected olive shape, held together by a near-black charcoal bodysuit that shows only in the gaps; two small off-white plates (shoulder ball, knee)",
+   "pinned": {
+    "s1_raw": "art/pipeline_lab/pixel_style/v2/s1/nx07_v2s1_B_raw.png",
+    "prompt_files": [
+     "art/prompts/pipeline/nx07_side_v2_s1_common.txt",
+     "art/prompts/pipeline/nx07_side_v2_s1_planB.txt"
+    ]
+   }
+  },
+  "C": {
+   "label": "어두운 몸 + 뒤에서 오는 빛",
+   "title": "dark body, lit from behind",
+   "s1": [
+    "The bodysuit is a near-black charcoal (about #22252b) and the olive armor is a DARK olive drab (about #474d34, shadow #30352a). Together they form one big dark mass that fills most of the body.",
+    "A strong light comes from BEHIND and above the character (from the left of the image). It draws a thin lit edge, ONE art pixel wide, only on the upper-left facing edges of the big shapes: the back and top of the helmet, the top of the shoulder, the top of the cannon tube, the back of the thigh and calf, the heel of the boot. The lit edge is a pale warm grey (about #c9c4b2), not cyan and not white. It is broken into a few strokes, never a closed line around the figure; the front (right) edges of the figure have no lit edge.",
+    "Other light accents, small and few: the pale face and the white ring at the back end of the cannon.",
+    "Cyan only on the emblem, the eye, the cannon light band and the muzzle."
+   ],
+   "s2": "a near-black charcoal bodysuit and DARK olive armor that together make ONE big dark mass, lit from BEHIND: a thin pale warm-grey lit edge, one art pixel wide, only on the back and top edges (back of the helmet, shoulder top, cannon top, back of the legs, heels), broken into a few strokes and never closed around the figure; plus the pale face and the cannon ring",
+   "pinned": {
+    "s1_raw": "art/pipeline_lab/pixel_style/v2/s1/nx07_v2s1_C_raw.png",
+    "prompt_files": [
+     "art/prompts/pipeline/nx07_side_v2_s1_common.txt",
+     "art/prompts/pipeline/nx07_side_v2_s1_planC.txt"
+    ]
+   }
+  }
+ },
+ "jobs": {
+  "A36": {
+   "plan": "A",
+   "height": 36,
+   "cell": 24,
+   "fixes": [
+    {
+     "cell": [
+      14,
+      4
+     ],
+     "from": [
+      14,
+      3
+     ],
+     "why": "이마 엠블럼이 가로 2칸 막대로만 나왔다 (역삼각이 읽히지 않는다). 앞쪽 칸 아래 1칸을 같은 시안으로 칠해 위 2칸 · 아래 1칸의 작은 역삼각으로 만든다 (C36 · C48 과 같은 꼴)"
+    }
+   ],
+   "pinned": {
+    "guide": "art/prompts/pipeline/nx07_side_v2_guide36_A.png",
+    "guide_cells": "art/pipeline_lab/pixel_style/v2/guides/A36_cells.png",
+    "s2_raw": "art/pipeline_lab/pixel_style/v2/s2/nx07_v2_A36_raw.png",
+    "s2_prompt": "art/prompts/pipeline/nx07_side_v2_s2_A36.txt",
+    "master": "art/pipeline_lab/pixel_style/v2/A36/nx07_v2A36_master.png",
+    "unfixed": "art/pipeline_lab/pixel_style/v2/A36/nx07_v2A36_unfixed.png"
+   }
+  },
+  "C36": {
+   "plan": "C",
+   "height": 36,
+   "cell": 24,
+   "fixes": [
+    {
+     "cell": [
+      14,
+      3
+     ],
+     "from": [
+      12,
+      3
+     ],
+     "why": "헬멧 앞 끝(엠블럼 위)의 1칸이 배경 마젠타(#f904f7)로 읽혔다. 뽑힌 그림에서 그 칸은 헬멧 가장자리와 배경이 섞인 자리다. 옆 칸의 헬멧 올리브로 메운다 (팔레트에서 마젠타가 빠진다)"
+    }
+   ],
+   "pinned": {
+    "guide": "art/prompts/pipeline/nx07_side_v2_guide36_C.png",
+    "guide_cells": "art/pipeline_lab/pixel_style/v2/guides/C36_cells.png",
+    "s2_raw": "art/pipeline_lab/pixel_style/v2/s2/nx07_v2_C36_raw.png",
+    "s2_prompt": "art/prompts/pipeline/nx07_side_v2_s2_C36.txt",
+    "master": "art/pipeline_lab/pixel_style/v2/C36/nx07_v2C36_master.png",
+    "unfixed": "art/pipeline_lab/pixel_style/v2/C36/nx07_v2C36_unfixed.png"
+   }
+  },
+  "C48": {
+   "plan": "C",
+   "height": 48,
+   "cell": 18,
+   "fixes": [],
+   "pinned": {
+    "guide": "art/prompts/pipeline/nx07_side_v2_guide48_C.png",
+    "guide_cells": "art/pipeline_lab/pixel_style/v2/guides/C48_cells.png",
+    "s2_raw": "art/pipeline_lab/pixel_style/v2/s2/nx07_v2_C48_raw.png",
+    "s2_prompt": "art/prompts/pipeline/nx07_side_v2_s2_C48.txt",
+    "master": "art/pipeline_lab/pixel_style/v2/C48/nx07_v2C48_master.png"
+   }
+  },
+  "B48": {
+   "plan": "B",
+   "height": 48,
+   "cell": 18,
+   "fixes": [
+    {
+     "cell": [
+      17,
+      10
+     ],
+     "from": [
+      17,
+      11
+     ],
+     "why": "눈 바로 앞의 1칸이 이 칸에만 있는 붉은 살색(#dfa987)이라 눈이 둘이거나 볼에 점이 찍힌 것처럼 보인다. 바로 아래 얼굴색으로 메운다"
+    }
+   ],
+   "pinned": {
+    "guide": "art/prompts/pipeline/nx07_side_v2_guide48_B.png",
+    "guide_cells": "art/pipeline_lab/pixel_style/v2/guides/B48_cells.png",
+    "s2_raw": "art/pipeline_lab/pixel_style/v2/s2/nx07_v2_B48_raw.png",
+    "s2_prompt": "art/prompts/pipeline/nx07_side_v2_s2_B48.txt",
+    "master": "art/pipeline_lab/pixel_style/v2/B48/nx07_v2B48_master.png",
+    "unfixed": "art/pipeline_lab/pixel_style/v2/B48/nx07_v2B48_unfixed.png"
+   }
+  }
+ },
+ "palette": {
+  "max_colors": 16,
+  "merge_stop_dE": 14.0
+ },
+ "layers": {
+  "scarf": {
+   "label": "스카프",
+   "story": "스카프는 저항군에 합류한 뒤에 두른다 (기획자, 2026-11-19). STORY.md 4장",
+   "rule": "목에 감긴 부분(wrap)은 늘 같다. 끝(tail)은 동작마다 rig.json 의 표에서 고른다. 얼굴 · 눈 · 엠블럼 칸은 덮지 않는다. 몸통과 함께 움직인다",
+   "mark": "색 · 모양은 에이전트의 [제안] 넷 가운데 기획자가 S2 를 골랐다 (9.11.6)",
+   "colors": {
+    "orange": {
+     "H": "e88a46",
+     "M": "c25a26",
+     "S": "7e3518"
+    },
+    "ochre": {
+     "H": "e2bc5c",
+     "M": "b48a30",
+     "S": "6e5220"
+    }
+   },
+   "parts": {
+    "wrap": [
+     [
+      10,
+      6,
+      "HHM"
+     ],
+     [
+      11,
+      5,
+      "HMMMSS"
+     ],
+     [
+      12,
+      7,
+      "SSS"
+     ]
+    ],
+    "hang": [
+     [
+      10,
+      2,
+      "HHHM"
+     ],
+     [
+      11,
+      0,
+      "HHM"
+     ],
+     [
+      12,
+      -1,
+      "HM"
+     ],
+     [
+      13,
+      -1,
+      "HS"
+     ],
+     [
+      14,
+      -1,
+      "MS"
+     ],
+     [
+      15,
+      -1,
+      "MS"
+     ],
+     [
+      16,
+      -1,
+      "S"
+     ]
+    ],
+    "fly": [
+     [
+      9,
+      -4,
+      "HHHH"
+     ],
+     [
+      10,
+      -6,
+      "HHMMMMHHHHHM"
+     ],
+     [
+      11,
+      -7,
+      "SMS....MMS"
+     ]
+    ]
+   },
+   "fixed_part": "wrap",
+   "protect": [
+    [
+     10,
+     8
+    ],
+    [
+     10,
+     9
+    ],
+    [
+     11,
+     9
+    ],
+    [
+     12,
+     9
+    ],
+    [
+     10,
+     10
+    ],
+    [
+     11,
+     10
+    ],
+    [
+     11,
+     8
+    ],
+    [
+     13,
+     4
+    ],
+    [
+     14,
+     4
+    ]
+   ],
+   "protect_note": "얼굴(살색 6칸 + 눈 1칸) · 엠블럼 2칸 (x, y)",
+   "options": {
+    "S1": {
+     "label": "S1 주황 · 감기만",
+     "color": "orange",
+     "parts": [
+      "wrap"
+     ],
+     "pinned": "art/pipeline_lab/pixel_style/v3_scarf/S1/nx07_v3S1.png"
+    },
+    "S2": {
+     "label": "S2 주황 · 한 가닥 늘어짐",
+     "color": "orange",
+     "parts": [
+      "wrap",
+      "hang"
+     ],
+     "pinned": "art/pipeline_lab/pixel_style/v3_scarf/S2/nx07_v3S2.png"
+    },
+    "S3": {
+     "label": "S3 주황 · 뒤로 날림",
+     "color": "orange",
+     "parts": [
+      "wrap",
+      "fly"
+     ],
+     "pinned": "art/pipeline_lab/pixel_style/v3_scarf/S3/nx07_v3S3.png"
+    },
+    "S4": {
+     "label": "S4 황토 · 한 가닥 늘어짐",
+     "color": "ochre",
+     "parts": [
+      "wrap",
+      "hang"
+     ],
+     "pinned": "art/pipeline_lab/pixel_style/v3_scarf/S4/nx07_v3S4.png"
+    }
+   }
+  }
+ },
+ "decisions": {
+  "pick": {
+   "job": "C36",
+   "date": "2026-11-19",
+   "quote": "밝기 그대로, 36칸, 큰덩어리 실루엣 없어도 되. 스카프를 더해줘. v2 C36 형태가 맘에 든다.",
+   "saw": [
+    "art/pipeline_lab/pixel_style/v2/compare.png"
+   ]
+  },
+  "layers": {
+   "scarf": {
+    "option": "S2",
+    "date": "2026-11-19",
+    "quote": "S2 주황으로"
+   }
+  },
+  "approved": {
+   "date": "2026-11-19",
+   "quote": "v2 C36 형태가 맘에 든다. / 스카프는 저항군 합류뒤에 두른다. 없는 그림도 필요하다. / S2 주황으로",
+   "variants": [
+    "base",
+    "scarf"
+   ]
+  },
+  "review": {
+   "date": "2026-11-19",
+   "verdict": "받아들임",
+   "quote": "괜찮은것 같아. 이 과정을 캐릭터도 동일한 과정으로 적용할 수 있는 Game Character Production Pipeline 을 만들어. 미리네 캐릭터를 적용해",
+   "anims": [
+    "idle",
+    "run"
+   ],
+   "note": "[해석] 9.11.6 의 두 질문(대기의 1칸 오르내림이 과한가 · 윗몸이 굳은 달리기를 받아들일 것인가)에 '지금대로 간다'로 읽었다"
+  }
+ },
+ "spec": {
+  "parts": {
+   "head": [
+    0,
+    10
+   ],
+   "upper": [
+    11,
+    24
+   ],
+   "legs": [
+    25,
+    35
+   ],
+   "near_arm": [
+    0,
+    16,
+    4,
+    24
+   ]
+  },
+  "parts_note": "머리 = 정수리 ~ 턱 줄 · 몸통 = 등짐 · 골반 · 주포 팔 (앞쪽 팔 제외) · 다리 · 앞쪽 팔 = 엉덩이 뒤로 늘어뜨린 주먹 (x0, y0, x1, y1). rig.json 의 parts 와 같다",
+  "band_labels": {
+   "head": "머리",
+   "upper": "몸통 · 팔",
+   "legs": "다리"
+  },
+  "palette_names": {
+   "1f201c": [
+    "k",
+    "가장 어두운 색",
+    "틈 · 그늘 · 발바닥 · 앞쪽 팔의 가장자리"
+   ],
+   "262921": [
+    "",
+    "헬멧 뒤 그늘 (1칸)",
+    "단독 색"
+   ],
+   "2f3131": [
+    "s",
+    "슈트",
+    "몸통 · 넓적다리 · 위팔"
+   ],
+   "333926": [
+    "d",
+    "어두운 올리브",
+    "장갑의 그늘 면"
+   ],
+   "3f3f3d": [
+    "g",
+    "주먹 회색",
+    "앞쪽 팔의 주먹"
+   ],
+   "3d422b": [
+    "",
+    "안테나 끝 (1칸)",
+    "단독 색"
+   ],
+   "545837": [
+    "o",
+    "올리브",
+    "헬멧 · 장갑의 기본 면"
+   ],
+   "0d7172": [
+    "",
+    "눈",
+    "짙은 청록 1칸"
+   ],
+   "626640": [
+    "l",
+    "밝은 올리브",
+    "가슴 장갑의 밝은 면"
+   ],
+   "b7a897": [
+    "",
+    "주포 고리의 그늘",
+    "주포 팔"
+   ],
+   "cdbeaa": [
+    "w",
+    "흰 장갑",
+    "앞쪽 팔뚝 · 넓적다리 판"
+   ],
+   "01f9fe": [
+    "c",
+    "시안",
+    "이마 엠블럼 · 주포의 빛 띠 · 총구"
+   ],
+   "d1c8a5": [
+    "r",
+    "뒤 빛 (크림)",
+    "뒤 · 위 가장자리의 1칸 획"
+   ],
+   "e5d9c4": [
+    "",
+    "주포 고리의 빛",
+    "주포 팔"
+   ],
+   "fde1c4": [
+    "",
+    "얼굴",
+    "살색 6칸"
+   ],
+   "e88a46": [
+    "H",
+    "스카프 밝음",
+    "스카프 층"
+   ],
+   "c25a26": [
+    "M",
+    "스카프 가운데",
+    "스카프 층"
+   ],
+   "7e3518": [
+    "S",
+    "스카프 그늘",
+    "스카프 층"
+   ]
+  },
+  "materials": [
+   {
+    "name": "헬멧 · 장갑 (올리브)",
+    "colors": [
+     "#333926",
+     "#545837",
+     "#626640"
+    ],
+    "tones": "3톤 + 뒤 빛(d1c8a5)"
+   },
+   {
+    "name": "슈트",
+    "colors": [
+     "#1f201c",
+     "#2f3131"
+    ],
+    "tones": "2톤"
+   },
+   {
+    "name": "흰 장갑",
+    "colors": [
+     "#cdbeaa"
+    ],
+    "tones": "1톤 (뒤 빛과 맞닿음)"
+   },
+   {
+    "name": "주먹",
+    "colors": [
+     "#3f3f3d",
+     "#1f201c"
+    ],
+    "tones": "2톤"
+   },
+   {
+    "name": "얼굴",
+    "colors": [
+     "#fde1c4"
+    ],
+    "tones": "1톤 + 눈 1칸(0d7172)"
+   },
+   {
+    "name": "시안 빛",
+    "colors": [
+     "#01f9fe"
+    ],
+    "tones": "1톤. 엠블럼 · 주포만"
+   },
+   {
+    "name": "주포 고리",
+    "colors": [
+     "#e5d9c4",
+     "#b7a897"
+    ],
+    "tones": "2톤"
+   },
+   {
+    "name": "스카프 (층)",
+    "colors": [
+     "#e88a46",
+     "#c25a26",
+     "#7e3518"
+    ],
+    "tones": "3톤. 위 · 뒤가 밝다"
+   }
+  ],
+  "rules": {
+   "facing": "오른쪽을 본다",
+   "cannon_arm": "먼 쪽 팔 (캐릭터의 왼팔). 앞쪽 팔(오른팔)은 흰 팔뚝 · 회색 주먹 (기획자 결정, 9.11.2)",
+   "outline": "검은 외곽선 없음. 실루엣은 색과 밝기로 읽힌다 (9.11.2)",
+   "light": "뒤-위에서 온다. 뒤쪽 · 위쪽 가장자리에 1칸 두께의 크림색 획(d1c8a5). 닫힌 테두리가 아니다 (9.11.4 의 C 안)",
+   "brightness": "어두운 몸이 주인 (평균 밝기 L* 32, 가장 큰 밝기 덩어리 37%, 채도 높은 칸 1.8% — 9.11.4 C36). 밝기는 그대로 (기획자, 9.11.5)",
+   "palette": "새 색을 만들지 않는다. 스카프 없음 15색, 스카프 있음 18색"
+  },
+  "simplified": [
+   "귀 장치는 헬멧의 어두운 톤 동그라미로 눌렀다 (흰 원반 · 시안 점 없음). 얼굴만 밝다 (9.11.4)",
+   "작은 흰 판 · 작은 시안 점은 빼거나 합쳤다. 시안은 엠블럼 · 주포의 빛 띠 · 총구뿐이고 눈은 짙은 청록이다",
+   "올리브는 설정화의 올리브 드랩(#6F7457) 쪽과 그보다 어두운 쪽으로 돌렸다",
+   "주먹은 회색 덩어리라 손가락은 그리지 않는다"
+  ]
+ },
+ "anim": {
+  "canvas": [
+   40,
+   40
+  ],
+  "anchor": [
+   20,
+   38
+  ],
+  "anchor_x_in_master": 8,
+  "anims": [
+   "idle",
+   "run"
+  ],
+  "note": "기준점 = 발바닥 줄 위 · 골반 가운데(마스터 x 8). 달리기의 이동 속도 1.0칸/틱은 [제안] (9.11.6)"
+ },
+ "pinned": {
+  "measure": "reference/pixel_style/analysis/measure_v2.json (공개하지 않음) · art/pipeline_lab/pixel_style/v3_scarf/measure_scarf.json",
+  "compare": "art/pipeline_lab/pixel_style/v2/compare.png · art/pipeline_lab/pixel_style/v3_scarf/compare.png"
+ },
+ "verify": {
+  "spec": "art/characters/nx07/pixel/nx07_px_spec.json",
+  "measure": {
+   "A36": {
+    "file": "reference/pixel_style/analysis/measure_v2.json",
+    "key": "v2_A36"
+   },
+   "C36": {
+    "file": "reference/pixel_style/analysis/measure_v2.json",
+    "key": "v2_C36"
+   },
+   "C48": {
+    "file": "reference/pixel_style/analysis/measure_v2.json",
+    "key": "v2_C48"
+   },
+   "B48": {
+    "file": "reference/pixel_style/analysis/measure_v2.json",
+    "key": "v2_B48"
+   },
+   "scarf:S1": {
+    "file": "art/pipeline_lab/pixel_style/v3_scarf/measure_scarf.json",
+    "key": "S1"
+   },
+   "scarf:S2": {
+    "file": "art/pipeline_lab/pixel_style/v3_scarf/measure_scarf.json",
+    "key": "S2"
+   },
+   "scarf:S3": {
+    "file": "art/pipeline_lab/pixel_style/v3_scarf/measure_scarf.json",
+    "key": "S3"
+   },
+   "scarf:S4": {
+    "file": "art/pipeline_lab/pixel_style/v3_scarf/measure_scarf.json",
+    "key": "S4"
+   }
+  }
+ }
+}

@@ -1,0 +1,13 @@
+{
+  "format": "salvage-pixel-anim/1",
+  "name": "idle",
+  "label": "대기",
+  "loop": true,
+  "method": "변형: 마스터를 부위로 나눠 칸 단위로 옮긴다. 다리는 마스터 그대로, 머리 · 몸통 · 주포는 함께 1칸 내려갔다 올라온다 (숨쉬기). 앞쪽 팔은 한 프레임 늦게 따라온다. 스카프 끝은 표의 두 모양을 번갈아 쓴다.",
+  "frames": [
+    {"ticks": 36, "make": "변형 (마스터 그대로)", "upper": [0, 0], "arm": "back", "arm_off": [0, 0], "legs": "master", "tail": "hang"},
+    {"ticks": 8, "make": "변형 (윗몸 1칸 내림, 팔은 그대로)", "upper": [0, 1], "arm": "back", "arm_off": [0, 0], "legs": "master", "tail": "hang_b"},
+    {"ticks": 36, "make": "변형 (윗몸 · 팔 1칸 내림)", "upper": [0, 1], "arm": "back", "arm_off": [0, 1], "legs": "master", "tail": "hang"},
+    {"ticks": 8, "make": "변형 (윗몸 올림, 팔은 아직 내려 있음)", "upper": [0, 0], "arm": "back", "arm_off": [0, 1], "legs": "master", "tail": "hang_b"}
+  ]
+}

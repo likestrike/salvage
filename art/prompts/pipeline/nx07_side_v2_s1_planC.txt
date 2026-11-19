@@ -1,0 +1,6 @@
+
+LIGHT AND DARK PLAN — "dark body, lit from behind":
+- The bodysuit is a near-black charcoal (about #22252b) and the olive armor is a DARK olive drab (about #474d34, shadow #30352a). Together they form one big dark mass that fills most of the body.
+- A strong light comes from BEHIND and above the character (from the left of the image). It draws a thin lit edge, ONE art pixel wide, only on the upper-left facing edges of the big shapes: the back and top of the helmet, the top of the shoulder, the top of the cannon tube, the back of the thigh and calf, the heel of the boot. The lit edge is a pale warm grey (about #c9c4b2), not cyan and not white. It is broken into a few strokes, never a closed line around the figure; the front (right) edges of the figure have no lit edge.
+- Other light accents, small and few: the pale face and the white ring at the back end of the cannon.
+- Cyan only on the emblem, the eye, the cannon light band and the muzzle.

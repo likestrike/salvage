@@ -1,0 +1,4 @@
+[upload] image 1: nx07_v2s1_B_raw.png
+[upload] image 2: nx07_side_v2_guide48_B.png
+[run] openai/gpt-image-2.6/sunburst/edit …
+[saved] art\pipeline_lab\pixel_style\v2\s2\nx07_v2_B48_raw.png (851 KB)

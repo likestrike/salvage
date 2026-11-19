@@ -1,0 +1,18 @@
+{
+ "height_cells": 38,
+ "screen": [
+  320,
+  180
+ ],
+ "heads_guide": 3.2,
+ "plans": 1,
+ "kinds": [
+  "dark_backlit"
+ ],
+ "budget": 3,
+ "notes": {
+  "keep": "",
+  "drop": "",
+  "main": ""
+ }
+}

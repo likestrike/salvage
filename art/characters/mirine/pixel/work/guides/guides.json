@@ -1,0 +1,65 @@
+{
+ "A30": {
+  "guide": "art/prompts/pipeline/mirine/guide_A30.png",
+  "from": "art/characters/mirine/pixel/work/s1/mirine_s1_A.png",
+  "cell": 30,
+  "origin": [
+   302,
+   62
+  ],
+  "cells": [
+   14,
+   30
+  ],
+  "heads": 3.0,
+  "src_head_px": 290,
+  "src_height_px": 850,
+  "head_cells": 10,
+  "body_cells": 20,
+  "src_cell_head": 29.0,
+  "src_cell_body": 28.0,
+  "neck": "설정의 head_px (손으로 잰 값)",
+  "auto_head_px": 252,
+  "heads_auto": 3.75
+ },
+ "B30": {
+  "guide": "art/prompts/pipeline/mirine/guide_B30.png",
+  "from": "art/characters/mirine/pixel/work/s1/mirine_s1_B.png",
+  "cell": 30,
+  "origin": [
+   302,
+   62
+  ],
+  "cells": [
+   14,
+   30
+  ],
+  "heads": 3.0,
+  "src_head_px": 294,
+  "src_height_px": 855,
+  "head_cells": 10,
+  "body_cells": 20,
+  "src_cell_head": 29.4,
+  "src_cell_body": 28.05
+ },
+ "C30": {
+  "guide": "art/prompts/pipeline/mirine/guide_C30.png",
+  "from": "art/characters/mirine/pixel/work/s1/mirine_s1_C.png",
+  "cell": 30,
+  "origin": [
+   302,
+   62
+  ],
+  "cells": [
+   14,
+   30
+  ],
+  "heads": 3.0,
+  "src_head_px": 306,
+  "src_height_px": 853,
+  "head_cells": 10,
+  "body_cells": 20,
+  "src_cell_head": 30.6,
+  "src_cell_body": 27.35
+ }
+}

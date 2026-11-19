@@ -1,0 +1,29 @@
+{
+ "cell": [
+  40,
+  40
+ ],
+ "padding": 0,
+ "animations": {
+  "idle": {
+   "row": 0,
+   "frames": 4,
+   "ticks": [
+    27,
+    6,
+    27,
+    6
+   ],
+   "loop": true
+  }
+ },
+ "anchor": [
+  20,
+  38
+ ],
+ "variant": "body",
+ "variant_label": "층 없음",
+ "made_from": "art/characters/mirine/anim/idle/timeline.json",
+ "rig": "art/characters/mirine/anim/rig.json",
+ "tick": "1/60초"
+}

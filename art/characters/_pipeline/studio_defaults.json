@@ -1,0 +1,95 @@
+{
+ "format": "salvage-pixel-studio-defaults/1",
+ "doc": "docs/pipeline/CHARACTER_PIPELINE.md 12장 · docs/GAME_DESIGN.md 9.11.10",
+ "_": "[제안] 캐릭터에 묶이지 않은 기본 문장. pixpipe defaults 가 이 문장과 기획자의 메모로 pipeline.json 의 prompt · simplify · plans · references 를 채운다 (스튜디오가 쓴다). NX-07(9.11.4) · 미리네(9.11.8)에서 통한 문장을 일반화했다. 9.11.3 의 금지 사항을 지킨다: 어두운 색을 막지 않는다 (공통 틀 _stage1.txt 의 'Dark colors are welcome'), 부품을 같은 무게로 나열하지 않는다 (주인 덩어리 하나 + 작은 강조 획만). 체형은 글로 적지 않고 그림에서 읽게 한다 (9.6). 이 파일을 고치면 앞으로 스튜디오로 만드는 캐릭터의 프롬프트가 바뀐다 (이미 뽑은 캐릭터의 기록은 그대로).",
+ "prompt": {
+  "subject": "the character from our design sheet",
+  "top_of_figure": "the top of the head (or of the hat or helmet; not counting a thin antenna or a single strand of hair)",
+  "facing_note": "the face and the eye look toward the right edge",
+  "figure": "with exactly the age, the build, the head size and the body proportions of the character in image 1 (read them from the drawing, do not invent new ones). Do not make the character slimmer, taller, longer-legged, curvier or more glamorous than in the design sheet.",
+  "pose": [
+   "A relaxed, living idle stance: weight on the BACK leg, the front foot a little forward, both soles on the same ground line. Shoulders relaxed, the head level or slightly lowered, looking ahead.",
+   "If the character carries something in one hand (a tool, a device, a weapon), the FAR arm (the arm on the far side of the body) holds it in a natural resting grip, a little in front of the body, so that it is read in the silhouette.",
+   "The NEAR arm (closer to the viewer) hangs relaxed at the side, ending in a small simple hand."
+  ],
+  "pose_ko": "뒷다리에 무게, 앞발을 조금 앞으로, 두 발바닥이 같은 땅의 줄에. 한 손에 드는 것이 있으면 먼 쪽 손으로 몸 앞에 조금 내밀어 실루엣에 읽히게. 앞쪽 팔은 옆에 늘어뜨림 (스튜디오의 기본 자세)",
+  "materials_merge": "clothes, armor, sleeves and the other parts of similar brightness",
+  "accent_strokes": "the pale face, one or two small highlights, and the one or two most characteristic small details of the design",
+  "saturated": "the eye and the one most characteristic glowing or strongly colored detail of the design (for example a light, a screen or a badge), if there is one",
+  "colors": "12 to 16",
+  "s2_image1": "our own earlier draft of this character",
+  "s2_curves": "the head, the hair and the shoes",
+  "s2_parts": [
+   "The head: keep the head and hair shape of image 2. The face is the brightest skin area of the head, with ONE clear eye of {eye} looking right; no mouth line needed. Small devices near the face (ear pieces, earrings, hair clips, goggles' small parts) are at most one dark art pixel or are left out, so that they never read as a second eye.",
+   "The arms: the figure faces RIGHT. Keep the arms exactly as in image 2: the FAR arm and whatever it holds, the NEAR arm at the side with a small simple hand."
+  ],
+  "s2_accents": "Strongly saturated color only on the eye and the one most characteristic detail.",
+  "s2_keep_color": "big dark shapes",
+  "s2_figure": "the same character in pure side view facing right, the same relaxed standing pose as image 2 with both soles on the same ground line. Keep the age, the build and the body proportions of image 2; do not make the character slimmer, taller, longer-legged or curvier.",
+  "s2_vars": [
+   {"max_height": 9999, "eye": "1 x 2 art pixels (one wide, two tall)"}
+  ]
+ },
+ "simplify": "keep only what reads at this tiny size: the silhouette, the hair or headgear shape, the face and the one or two most characteristic details; small emblems, buttons, zippers, straps, pockets, patterns, frayed edges, fingers and tiny lights are left out or merged into the big shapes; small devices near the face become at most one dark art pixel or are left out",
+ "notes": {
+  "keep": "The game designer asks to keep these readable (written in Korean, as small accent strokes, not as many separate parts): «{text}».",
+  "drop": "The game designer says these may be left out (written in Korean): «{text}».",
+  "main": "the part the game designer named as the master shape (written in Korean): «{text}»",
+  "main_default": "the biggest part of the clothing or armor (decide it from the design)"
+ },
+ "references": {
+  "side": "our character design sheet, side view. Take only the design and the body proportions (age, build, head size) from it. Do not copy its black outlines, its fine detail or its stiff standing pose.",
+  "front": "the same character from the front: how the clothes, the colors and the carried items look.",
+  "back": "the same character from behind (design only).",
+  "other": "another drawing of the same character (design only; do not copy its drawing style).",
+  "style": "NOT a design reference: another character (an android soldier) from the SAME game, already finished in the target pixel style. Copy only HOW it is drawn: the size of one art pixel, no outline, big dark calm areas, a thin pale lit edge only on the back and top edges, muted colors, very few saturated pixels. Do not copy its shapes, its armor, its olive colors or its pose, and do not draw it."
+ },
+ "plans": [
+  {
+   "kind": "dark_backlit",
+   "label": "어두운 몸 + 뒤에서 오는 빛",
+   "title": "dark body is the master shape, lit from behind",
+   "why": "승인된 두 마스터(NX-07 C36 · 미리네 A30)가 모두 이 계획이다",
+   "s1": [
+    "The master shape is {main}. Make it DARK and muted: a near-black or very dark version of its design color (a base and one shadow tone). Together with the parts of similar brightness it forms one big dark mass that fills most of the body.",
+    "A light comes from BEHIND and above the character (from the left of the image). It draws a thin lit edge, ONE art pixel wide, only on the upper-left facing edges of the big shapes: the top and back of the head, the top of the shoulder, the back edge of the body, the back of the legs. The lit edge is a pale warm cream (about #d1c8a5), not cyan and not white. It is broken into a few strokes, never a closed line around the figure; the front (right) edges have no lit edge.",
+    "Other light accents, small and few: the pale face and one or two small light details of the design."
+   ],
+   "s2": "{main} made DARK so that it forms ONE big dark mass over most of the body, lit from BEHIND: a thin pale warm cream lit edge, one art pixel wide, only on the back and top edges, broken into a few strokes and never closed around the figure; plus the pale face and one or two small light accents"
+  },
+  {
+   "kind": "light_mass",
+   "label": "밝은 덩어리가 주인 · 어두운 몸이 받침",
+   "title": "one bright big shape is the master on a dark body",
+   "why": "미리네 B (덩어리가 가장 또렷했다)",
+   "s1": [
+    "The master shape is {main}, and it is the BRIGHTEST big shape: a pale, calm version of its design color (a base, one shadow tone, at most one small highlight). It is one big connected light shape, never broken into strands or pieces.",
+    "The rest of the body is DARK and muted and forms one dark mass behind and under the light shape; it holds the figure together.",
+    "Other light accents, small and few: the face (a warm skin color, so it reads apart from the light shape) and one small light detail."
+   ],
+   "s2": "{main} as ONE big connected bright shape on a DARK muted rest of the body that makes one dark mass; small accents only: the warm pale face and one small light detail"
+  },
+  {
+   "kind": "mid_tone",
+   "label": "중간 톤의 덩어리가 주인 (설정화의 색)",
+   "title": "the middle-bright main shape in its design color is the master",
+   "why": "NX-07 B · 미리네 C (설정화의 색에 가장 가깝다)",
+   "s1": [
+    "The master shape is {main} in its design color at MIDDLE brightness (a base, one shadow tone, one small highlight). It reads as one big connected shape that covers most of the body.",
+    "A near-black version of the darkest design color only in the gaps and the deepest folds (under the arms, between the legs, inside the sleeves). It is the dark base, not a line.",
+    "Other light accents, small and few: the pale face and one or two small light details."
+   ],
+   "s2": "{main} in its MIDDLE-bright design color as one big connected shape over most of the body, near-black only in the gaps; small light accents only: the pale face and one or two small light details"
+  }
+ ],
+ "sizes": {
+  "_": "[제안] s1_height = 목표 키 × 1.12 (NX-07 36 → 40, 미리네 30 → 34), s1_cell = 780 ÷ s1_height (14~24), 밑그림 칸 = 900 ÷ 목표 키 (최대 30), 머리 비율 = 설정상 키가 150cm 아래면 3.0, 아니면 3.2, 생성 한도 = 변형 수 × 2 + 2",
+  "s1_height_ratio": 1.12,
+  "s1_canvas": 780,
+  "guide_canvas": 900,
+  "guide_cell_max": 30,
+  "heads_child": 3.0,
+  "heads_default": 3.2,
+  "child_below_cm": 150
+ }
+}

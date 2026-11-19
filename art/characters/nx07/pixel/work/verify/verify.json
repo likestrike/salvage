@@ -1,0 +1,576 @@
+{
+ "date": "2026-11-19",
+ "character": "nx07",
+ "out": "art/characters/nx07/pixel/work/verify",
+ "image_generation_calls": 0,
+ "checks": [
+  {
+   "what": "1단계 프롬프트 A (fal_image 가 보내는 글)",
+   "same_value": true
+  },
+  {
+   "what": "1단계 프롬프트 B (fal_image 가 보내는 글)",
+   "same_value": true
+  },
+  {
+   "what": "1단계 프롬프트 C (fal_image 가 보내는 글)",
+   "same_value": true
+  },
+  {
+   "what": "밑그림 A36",
+   "made": "art/characters/nx07/pixel/work/verify/prompts/guide_A36.png",
+   "expected": "art/prompts/pipeline/nx07_side_v2_guide36_A.png",
+   "same_sha256": true,
+   "sha256": "1ba5f7522b06c882"
+  },
+  {
+   "what": "밑그림의 1배 칸 그림 A36",
+   "made": "art/characters/nx07/pixel/work/verify/work/guides/A36_cells.png",
+   "expected": "art/pipeline_lab/pixel_style/v2/guides/A36_cells.png",
+   "same_sha256": true,
+   "sha256": "7e859e026b6ea901"
+  },
+  {
+   "what": "밑그림 C36",
+   "made": "art/characters/nx07/pixel/work/verify/prompts/guide_C36.png",
+   "expected": "art/prompts/pipeline/nx07_side_v2_guide36_C.png",
+   "same_sha256": true,
+   "sha256": "0e1531b02af492ad"
+  },
+  {
+   "what": "밑그림의 1배 칸 그림 C36",
+   "made": "art/characters/nx07/pixel/work/verify/work/guides/C36_cells.png",
+   "expected": "art/pipeline_lab/pixel_style/v2/guides/C36_cells.png",
+   "same_sha256": true,
+   "sha256": "a6c4ac912bcc2b72"
+  },
+  {
+   "what": "밑그림 C48",
+   "made": "art/characters/nx07/pixel/work/verify/prompts/guide_C48.png",
+   "expected": "art/prompts/pipeline/nx07_side_v2_guide48_C.png",
+   "same_sha256": true,
+   "sha256": "8c98955c85b649e2"
+  },
+  {
+   "what": "밑그림의 1배 칸 그림 C48",
+   "made": "art/characters/nx07/pixel/work/verify/work/guides/C48_cells.png",
+   "expected": "art/pipeline_lab/pixel_style/v2/guides/C48_cells.png",
+   "same_sha256": true,
+   "sha256": "62efdb980895b725"
+  },
+  {
+   "what": "밑그림 B48",
+   "made": "art/characters/nx07/pixel/work/verify/prompts/guide_B48.png",
+   "expected": "art/prompts/pipeline/nx07_side_v2_guide48_B.png",
+   "same_sha256": true,
+   "sha256": "06a2759656a26928"
+  },
+  {
+   "what": "밑그림의 1배 칸 그림 B48",
+   "made": "art/characters/nx07/pixel/work/verify/work/guides/B48_cells.png",
+   "expected": "art/pipeline_lab/pixel_style/v2/guides/B48_cells.png",
+   "same_sha256": true,
+   "sha256": "6905a3073b0067e4"
+  },
+  {
+   "what": "2단계 프롬프트 A36",
+   "same_value": true
+  },
+  {
+   "what": "2단계 프롬프트 C36",
+   "same_value": true
+  },
+  {
+   "what": "2단계 프롬프트 C48",
+   "same_value": true
+  },
+  {
+   "what": "2단계 프롬프트 B48",
+   "same_value": true
+  },
+  {
+   "what": "마스터 A36",
+   "made": "art/characters/nx07/pixel/work/verify/work/A36/nx07_A36_master.png",
+   "expected": "art/pipeline_lab/pixel_style/v2/A36/nx07_v2A36_master.png",
+   "same_sha256": true,
+   "sha256": "e70944320e846e5c"
+  },
+  {
+   "what": "손보기 전 A36",
+   "made": "art/characters/nx07/pixel/work/verify/work/A36/nx07_A36_unfixed.png",
+   "expected": "art/pipeline_lab/pixel_style/v2/A36/nx07_v2A36_unfixed.png",
+   "same_sha256": true,
+   "sha256": "81edf2fa4977c560"
+  },
+  {
+   "what": "마스터 C36",
+   "made": "art/characters/nx07/pixel/work/verify/work/C36/nx07_C36_master.png",
+   "expected": "art/pipeline_lab/pixel_style/v2/C36/nx07_v2C36_master.png",
+   "same_sha256": true,
+   "sha256": "4affcb056403254a"
+  },
+  {
+   "what": "손보기 전 C36",
+   "made": "art/characters/nx07/pixel/work/verify/work/C36/nx07_C36_unfixed.png",
+   "expected": "art/pipeline_lab/pixel_style/v2/C36/nx07_v2C36_unfixed.png",
+   "same_sha256": true,
+   "sha256": "b87ae48877e0b03f"
+  },
+  {
+   "what": "마스터 C48",
+   "made": "art/characters/nx07/pixel/work/verify/work/C48/nx07_C48_master.png",
+   "expected": "art/pipeline_lab/pixel_style/v2/C48/nx07_v2C48_master.png",
+   "same_sha256": true,
+   "sha256": "720c97995b1393d2"
+  },
+  {
+   "what": "마스터 B48",
+   "made": "art/characters/nx07/pixel/work/verify/work/B48/nx07_B48_master.png",
+   "expected": "art/pipeline_lab/pixel_style/v2/B48/nx07_v2B48_master.png",
+   "same_sha256": true,
+   "sha256": "0602b06e9b84a86e"
+  },
+  {
+   "what": "손보기 전 B48",
+   "made": "art/characters/nx07/pixel/work/verify/work/B48/nx07_B48_unfixed.png",
+   "expected": "art/pipeline_lab/pixel_style/v2/B48/nx07_v2B48_unfixed.png",
+   "same_sha256": true,
+   "sha256": "a6a1bd7fcf3d9058"
+  },
+  {
+   "what": "층 scarf S1",
+   "made": "art/characters/nx07/pixel/work/verify/work/layers/nx07_scarf_S1.png",
+   "expected": "art/pipeline_lab/pixel_style/v3_scarf/S1/nx07_v3S1.png",
+   "same_sha256": true,
+   "sha256": "594402c657ed953c"
+  },
+  {
+   "what": "층 scarf S2",
+   "made": "art/characters/nx07/pixel/work/verify/work/layers/nx07_scarf_S2.png",
+   "expected": "art/pipeline_lab/pixel_style/v3_scarf/S2/nx07_v3S2.png",
+   "same_sha256": true,
+   "sha256": "2abbe1a189c6112e"
+  },
+  {
+   "what": "층 scarf S3",
+   "made": "art/characters/nx07/pixel/work/verify/work/layers/nx07_scarf_S3.png",
+   "expected": "art/pipeline_lab/pixel_style/v3_scarf/S3/nx07_v3S3.png",
+   "same_sha256": true,
+   "sha256": "bd8191d42e7e11c2"
+  },
+  {
+   "what": "층 scarf S4",
+   "made": "art/characters/nx07/pixel/work/verify/work/layers/nx07_scarf_S4.png",
+   "expected": "art/pipeline_lab/pixel_style/v3_scarf/S4/nx07_v3S4.png",
+   "same_sha256": true,
+   "sha256": "a7a34e7dd989876f"
+  },
+  {
+   "what": "승인된 마스터 px_base",
+   "made": "art/characters/nx07/pixel/work/verify/final/nx07_px_base.png",
+   "expected": "art/characters/nx07/pixel/nx07_px_base.png",
+   "same_sha256": true,
+   "sha256": "4affcb056403254a"
+  },
+  {
+   "what": "승인된 마스터 px_scarf",
+   "made": "art/characters/nx07/pixel/work/verify/final/nx07_px_scarf.png",
+   "expected": "art/characters/nx07/pixel/nx07_px_scarf.png",
+   "same_sha256": true,
+   "sha256": "2abbe1a189c6112e"
+  },
+  {
+   "what": "그림 숫자 A36 = reference/pixel_style/analysis/measure_v2.json#v2_A36",
+   "same_value": true
+  },
+  {
+   "what": "그림 숫자 C36 = reference/pixel_style/analysis/measure_v2.json#v2_C36",
+   "same_value": true
+  },
+  {
+   "what": "그림 숫자 C48 = reference/pixel_style/analysis/measure_v2.json#v2_C48",
+   "same_value": true
+  },
+  {
+   "what": "그림 숫자 B48 = reference/pixel_style/analysis/measure_v2.json#v2_B48",
+   "same_value": true
+  },
+  {
+   "what": "그림 숫자 scarf:S1 = art/pipeline_lab/pixel_style/v3_scarf/measure_scarf.json#S1",
+   "same_value": true
+  },
+  {
+   "what": "그림 숫자 scarf:S2 = art/pipeline_lab/pixel_style/v3_scarf/measure_scarf.json#S2",
+   "same_value": true
+  },
+  {
+   "what": "그림 숫자 scarf:S3 = art/pipeline_lab/pixel_style/v3_scarf/measure_scarf.json#S3",
+   "same_value": true
+  },
+  {
+   "what": "그림 숫자 scarf:S4 = art/pipeline_lab/pixel_style/v3_scarf/measure_scarf.json#S4",
+   "same_value": true
+  },
+  {
+   "what": "참고 숫자 ref_man (reference_targets.json = 옛 측정)",
+   "same_value": true
+  },
+  {
+   "what": "참고 숫자 ref_girl (reference_targets.json = 옛 측정)",
+   "same_value": true
+  },
+  {
+   "what": "참고 그림을 다시 재면 reference_targets.json 과 같은가",
+   "same_value": true
+  },
+  {
+   "what": "규격: 캔버스 · 키 · 발바닥 줄",
+   "same_value": true
+  },
+  {
+   "what": "규격: 부위마다의 칸 수",
+   "same_value": true
+  },
+  {
+   "what": "규격: 팔레트 (색 · 칸 수 · 놓인 줄)",
+   "same_value": true
+  },
+  {
+   "what": "규격: 층 scarf (덮는 칸 · 더하는 칸 · 고정 부분)",
+   "same_value": true
+  },
+  {
+   "what": "규격: 측정한 머리",
+   "same_value": true
+  },
+  {
+   "what": "프레임 idle/body_00.png",
+   "made": "art/characters/nx07/pixel/work/verify/anim/idle/frames/body_00.png",
+   "expected": "art/characters/nx07/anim/idle/frames/body_00.png",
+   "same_sha256": true,
+   "sha256": "e1a1b0b411aa2c0e"
+  },
+  {
+   "what": "프레임 idle/body_01.png",
+   "made": "art/characters/nx07/pixel/work/verify/anim/idle/frames/body_01.png",
+   "expected": "art/characters/nx07/anim/idle/frames/body_01.png",
+   "same_sha256": true,
+   "sha256": "c76b0f804a04b2f8"
+  },
+  {
+   "what": "프레임 idle/body_02.png",
+   "made": "art/characters/nx07/pixel/work/verify/anim/idle/frames/body_02.png",
+   "expected": "art/characters/nx07/anim/idle/frames/body_02.png",
+   "same_sha256": true,
+   "sha256": "5b62bc7cffb6db2c"
+  },
+  {
+   "what": "프레임 idle/body_03.png",
+   "made": "art/characters/nx07/pixel/work/verify/anim/idle/frames/body_03.png",
+   "expected": "art/characters/nx07/anim/idle/frames/body_03.png",
+   "same_sha256": true,
+   "sha256": "1a41e45460b722cb"
+  },
+  {
+   "what": "프레임 idle/scarf_00.png",
+   "made": "art/characters/nx07/pixel/work/verify/anim/idle/frames/scarf_00.png",
+   "expected": "art/characters/nx07/anim/idle/frames/scarf_00.png",
+   "same_sha256": true,
+   "sha256": "af83eb4010392df5"
+  },
+  {
+   "what": "프레임 idle/scarf_01.png",
+   "made": "art/characters/nx07/pixel/work/verify/anim/idle/frames/scarf_01.png",
+   "expected": "art/characters/nx07/anim/idle/frames/scarf_01.png",
+   "same_sha256": true,
+   "sha256": "293a1a75c4be35f5"
+  },
+  {
+   "what": "프레임 idle/scarf_02.png",
+   "made": "art/characters/nx07/pixel/work/verify/anim/idle/frames/scarf_02.png",
+   "expected": "art/characters/nx07/anim/idle/frames/scarf_02.png",
+   "same_sha256": true,
+   "sha256": "ed76d3da5b0989bf"
+  },
+  {
+   "what": "프레임 idle/scarf_03.png",
+   "made": "art/characters/nx07/pixel/work/verify/anim/idle/frames/scarf_03.png",
+   "expected": "art/characters/nx07/anim/idle/frames/scarf_03.png",
+   "same_sha256": true,
+   "sha256": "4071c8e8b6d88113"
+  },
+  {
+   "what": "프레임 idle/scarf_layer_00.png",
+   "made": "art/characters/nx07/pixel/work/verify/anim/idle/frames/scarf_layer_00.png",
+   "expected": "art/characters/nx07/anim/idle/frames/scarf_layer_00.png",
+   "same_sha256": true,
+   "sha256": "cde2fb5fa8412e0f"
+  },
+  {
+   "what": "프레임 idle/scarf_layer_01.png",
+   "made": "art/characters/nx07/pixel/work/verify/anim/idle/frames/scarf_layer_01.png",
+   "expected": "art/characters/nx07/anim/idle/frames/scarf_layer_01.png",
+   "same_sha256": true,
+   "sha256": "b86b9d60d9183acf"
+  },
+  {
+   "what": "프레임 idle/scarf_layer_02.png",
+   "made": "art/characters/nx07/pixel/work/verify/anim/idle/frames/scarf_layer_02.png",
+   "expected": "art/characters/nx07/anim/idle/frames/scarf_layer_02.png",
+   "same_sha256": true,
+   "sha256": "ac05860669cb7abb"
+  },
+  {
+   "what": "프레임 idle/scarf_layer_03.png",
+   "made": "art/characters/nx07/pixel/work/verify/anim/idle/frames/scarf_layer_03.png",
+   "expected": "art/characters/nx07/anim/idle/frames/scarf_layer_03.png",
+   "same_sha256": true,
+   "sha256": "ec5f498b6bd5efec"
+  },
+  {
+   "what": "내보낸 것 idle/nx07_idle_body.json",
+   "made": "art/characters/nx07/pixel/work/verify/anim/idle/out/nx07_idle_body.json",
+   "expected": "art/characters/nx07/anim/idle/out/nx07_idle_body.json",
+   "same_sha256": true,
+   "sha256": "39456610f7af91e0"
+  },
+  {
+   "what": "내보낸 것 idle/nx07_idle_body.png",
+   "made": "art/characters/nx07/pixel/work/verify/anim/idle/out/nx07_idle_body.png",
+   "expected": "art/characters/nx07/anim/idle/out/nx07_idle_body.png",
+   "same_sha256": true,
+   "sha256": "2e44778901816662"
+  },
+  {
+   "what": "내보낸 것 idle/nx07_idle_body_x8.gif",
+   "made": "art/characters/nx07/pixel/work/verify/anim/idle/out/nx07_idle_body_x8.gif",
+   "expected": "art/characters/nx07/anim/idle/out/nx07_idle_body_x8.gif",
+   "same_sha256": true,
+   "sha256": "289e5117429b6e7f"
+  },
+  {
+   "what": "내보낸 것 idle/nx07_idle_frames_x8.png",
+   "made": "art/characters/nx07/pixel/work/verify/anim/idle/out/nx07_idle_frames_x8.png",
+   "expected": "art/characters/nx07/anim/idle/out/nx07_idle_frames_x8.png",
+   "same_sha256": true,
+   "sha256": "98fec8422d54bbdb"
+  },
+  {
+   "what": "내보낸 것 idle/nx07_idle_scarf.json",
+   "made": "art/characters/nx07/pixel/work/verify/anim/idle/out/nx07_idle_scarf.json",
+   "expected": "art/characters/nx07/anim/idle/out/nx07_idle_scarf.json",
+   "same_sha256": true,
+   "sha256": "522eb4935a4ae522"
+  },
+  {
+   "what": "내보낸 것 idle/nx07_idle_scarf.png",
+   "made": "art/characters/nx07/pixel/work/verify/anim/idle/out/nx07_idle_scarf.png",
+   "expected": "art/characters/nx07/anim/idle/out/nx07_idle_scarf.png",
+   "same_sha256": true,
+   "sha256": "6aa00448af579be8"
+  },
+  {
+   "what": "내보낸 것 idle/nx07_idle_scarf_x8.gif",
+   "made": "art/characters/nx07/pixel/work/verify/anim/idle/out/nx07_idle_scarf_x8.gif",
+   "expected": "art/characters/nx07/anim/idle/out/nx07_idle_scarf_x8.gif",
+   "same_sha256": true,
+   "sha256": "7961bfb4c50ab77a"
+  },
+  {
+   "what": "검사 요약 idle",
+   "same_value": true
+  },
+  {
+   "what": "검사 프레임별 idle",
+   "same_value": true
+  },
+  {
+   "what": "프레임 run/body_00.png",
+   "made": "art/characters/nx07/pixel/work/verify/anim/run/frames/body_00.png",
+   "expected": "art/characters/nx07/anim/run/frames/body_00.png",
+   "same_sha256": true,
+   "sha256": "df34bb8c9bc37aea"
+  },
+  {
+   "what": "프레임 run/body_01.png",
+   "made": "art/characters/nx07/pixel/work/verify/anim/run/frames/body_01.png",
+   "expected": "art/characters/nx07/anim/run/frames/body_01.png",
+   "same_sha256": true,
+   "sha256": "e478a88914c31234"
+  },
+  {
+   "what": "프레임 run/body_02.png",
+   "made": "art/characters/nx07/pixel/work/verify/anim/run/frames/body_02.png",
+   "expected": "art/characters/nx07/anim/run/frames/body_02.png",
+   "same_sha256": true,
+   "sha256": "1b1088bb8eea4baf"
+  },
+  {
+   "what": "프레임 run/body_03.png",
+   "made": "art/characters/nx07/pixel/work/verify/anim/run/frames/body_03.png",
+   "expected": "art/characters/nx07/anim/run/frames/body_03.png",
+   "same_sha256": true,
+   "sha256": "cc9ce1146e6f7cda"
+  },
+  {
+   "what": "프레임 run/body_04.png",
+   "made": "art/characters/nx07/pixel/work/verify/anim/run/frames/body_04.png",
+   "expected": "art/characters/nx07/anim/run/frames/body_04.png",
+   "same_sha256": true,
+   "sha256": "57395e8f7efea528"
+  },
+  {
+   "what": "프레임 run/body_05.png",
+   "made": "art/characters/nx07/pixel/work/verify/anim/run/frames/body_05.png",
+   "expected": "art/characters/nx07/anim/run/frames/body_05.png",
+   "same_sha256": true,
+   "sha256": "2da40fac1f0604bd"
+  },
+  {
+   "what": "프레임 run/scarf_00.png",
+   "made": "art/characters/nx07/pixel/work/verify/anim/run/frames/scarf_00.png",
+   "expected": "art/characters/nx07/anim/run/frames/scarf_00.png",
+   "same_sha256": true,
+   "sha256": "64e2e8f3aead89b1"
+  },
+  {
+   "what": "프레임 run/scarf_01.png",
+   "made": "art/characters/nx07/pixel/work/verify/anim/run/frames/scarf_01.png",
+   "expected": "art/characters/nx07/anim/run/frames/scarf_01.png",
+   "same_sha256": true,
+   "sha256": "0374cce0802253b1"
+  },
+  {
+   "what": "프레임 run/scarf_02.png",
+   "made": "art/characters/nx07/pixel/work/verify/anim/run/frames/scarf_02.png",
+   "expected": "art/characters/nx07/anim/run/frames/scarf_02.png",
+   "same_sha256": true,
+   "sha256": "e50bfaba8c458119"
+  },
+  {
+   "what": "프레임 run/scarf_03.png",
+   "made": "art/characters/nx07/pixel/work/verify/anim/run/frames/scarf_03.png",
+   "expected": "art/characters/nx07/anim/run/frames/scarf_03.png",
+   "same_sha256": true,
+   "sha256": "5134e622367cda95"
+  },
+  {
+   "what": "프레임 run/scarf_04.png",
+   "made": "art/characters/nx07/pixel/work/verify/anim/run/frames/scarf_04.png",
+   "expected": "art/characters/nx07/anim/run/frames/scarf_04.png",
+   "same_sha256": true,
+   "sha256": "3190de48d1392a0c"
+  },
+  {
+   "what": "프레임 run/scarf_05.png",
+   "made": "art/characters/nx07/pixel/work/verify/anim/run/frames/scarf_05.png",
+   "expected": "art/characters/nx07/anim/run/frames/scarf_05.png",
+   "same_sha256": true,
+   "sha256": "d08c4aeeabee02c7"
+  },
+  {
+   "what": "프레임 run/scarf_layer_00.png",
+   "made": "art/characters/nx07/pixel/work/verify/anim/run/frames/scarf_layer_00.png",
+   "expected": "art/characters/nx07/anim/run/frames/scarf_layer_00.png",
+   "same_sha256": true,
+   "sha256": "a73945c2aa0adace"
+  },
+  {
+   "what": "프레임 run/scarf_layer_01.png",
+   "made": "art/characters/nx07/pixel/work/verify/anim/run/frames/scarf_layer_01.png",
+   "expected": "art/characters/nx07/anim/run/frames/scarf_layer_01.png",
+   "same_sha256": true,
+   "sha256": "88e8c521e3f79a1f"
+  },
+  {
+   "what": "프레임 run/scarf_layer_02.png",
+   "made": "art/characters/nx07/pixel/work/verify/anim/run/frames/scarf_layer_02.png",
+   "expected": "art/characters/nx07/anim/run/frames/scarf_layer_02.png",
+   "same_sha256": true,
+   "sha256": "6ef0c322c65e17b2"
+  },
+  {
+   "what": "프레임 run/scarf_layer_03.png",
+   "made": "art/characters/nx07/pixel/work/verify/anim/run/frames/scarf_layer_03.png",
+   "expected": "art/characters/nx07/anim/run/frames/scarf_layer_03.png",
+   "same_sha256": true,
+   "sha256": "a73945c2aa0adace"
+  },
+  {
+   "what": "프레임 run/scarf_layer_04.png",
+   "made": "art/characters/nx07/pixel/work/verify/anim/run/frames/scarf_layer_04.png",
+   "expected": "art/characters/nx07/anim/run/frames/scarf_layer_04.png",
+   "same_sha256": true,
+   "sha256": "88e8c521e3f79a1f"
+  },
+  {
+   "what": "프레임 run/scarf_layer_05.png",
+   "made": "art/characters/nx07/pixel/work/verify/anim/run/frames/scarf_layer_05.png",
+   "expected": "art/characters/nx07/anim/run/frames/scarf_layer_05.png",
+   "same_sha256": true,
+   "sha256": "6ef0c322c65e17b2"
+  },
+  {
+   "what": "내보낸 것 run/nx07_run_body.json",
+   "made": "art/characters/nx07/pixel/work/verify/anim/run/out/nx07_run_body.json",
+   "expected": "art/characters/nx07/anim/run/out/nx07_run_body.json",
+   "same_sha256": true,
+   "sha256": "355eb7db6e705719"
+  },
+  {
+   "what": "내보낸 것 run/nx07_run_body.png",
+   "made": "art/characters/nx07/pixel/work/verify/anim/run/out/nx07_run_body.png",
+   "expected": "art/characters/nx07/anim/run/out/nx07_run_body.png",
+   "same_sha256": true,
+   "sha256": "231eac1b922c8704"
+  },
+  {
+   "what": "내보낸 것 run/nx07_run_body_x8.gif",
+   "made": "art/characters/nx07/pixel/work/verify/anim/run/out/nx07_run_body_x8.gif",
+   "expected": "art/characters/nx07/anim/run/out/nx07_run_body_x8.gif",
+   "same_sha256": true,
+   "sha256": "e1fe801801b2aade"
+  },
+  {
+   "what": "내보낸 것 run/nx07_run_frames_x8.png",
+   "made": "art/characters/nx07/pixel/work/verify/anim/run/out/nx07_run_frames_x8.png",
+   "expected": "art/characters/nx07/anim/run/out/nx07_run_frames_x8.png",
+   "same_sha256": true,
+   "sha256": "40bea642705415d3"
+  },
+  {
+   "what": "내보낸 것 run/nx07_run_scarf.json",
+   "made": "art/characters/nx07/pixel/work/verify/anim/run/out/nx07_run_scarf.json",
+   "expected": "art/characters/nx07/anim/run/out/nx07_run_scarf.json",
+   "same_sha256": true,
+   "sha256": "1a467a5cf96c8880"
+  },
+  {
+   "what": "내보낸 것 run/nx07_run_scarf.png",
+   "made": "art/characters/nx07/pixel/work/verify/anim/run/out/nx07_run_scarf.png",
+   "expected": "art/characters/nx07/anim/run/out/nx07_run_scarf.png",
+   "same_sha256": true,
+   "sha256": "1e48f766deaf8e2d"
+  },
+  {
+   "what": "내보낸 것 run/nx07_run_scarf_x8.gif",
+   "made": "art/characters/nx07/pixel/work/verify/anim/run/out/nx07_run_scarf_x8.gif",
+   "expected": "art/characters/nx07/anim/run/out/nx07_run_scarf_x8.gif",
+   "same_sha256": true,
+   "sha256": "1af975ff904084b0"
+  },
+  {
+   "what": "검사 요약 run",
+   "same_value": true
+  },
+  {
+   "what": "검사 프레임별 run",
+   "same_value": true
+  }
+ ],
+ "summary": {
+  "same": 92,
+  "total": 92,
+  "all_same": true
+ }
+}

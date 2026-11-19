@@ -1,0 +1,25 @@
+Redraw the rough pixel block-out of image 3 as a CLEAN, FINISHED pixel-art game sprite of the android NX-07: chunky low-resolution pixel art with NO outline at all.
+
+REFERENCES:
+- image 1 = the character design sheet, side view (android NX-07A, a BOY-type android soldier). Take only the design from it: the round olive-drab helmet, the cyan inverted-triangle emblem on the front of the helmet, the ear unit (white disc with a short white swept-back fin), the pale boyish face, the olive chest armor, the bodysuit, the white shoulder ball and knee plates, the big olive boots, the small backpack. IMPORTANT: in image 1 the cannon is on the NEAR arm. Do NOT copy that. Do not copy its fine detail or its outlines.
+- image 2 = the same character from the front. Look at the arm WITHOUT the cannon: a white-and-olive gauntlet and a black glove fist. That is how the NEAR arm must look in the output. The cannon (olive barrel, white ring at the back end, cyan light band, cyan muzzle) is the one in image 2.
+- image 3 = a ROUGH BLOCK-OUT on the exact pixel grid of the output. It has exactly the size of the output image. Every square block in it is ONE ART PIXEL (16 x 16 image pixels) and the figure is 56 art pixels tall. KEEP: its grid, its size, its position on the canvas, its pose and its silhouette. It is messy: redraw every part as a clean shape.
+
+THE ARMS (most important):
+- The figure faces RIGHT. The NEAR arm (closer to the viewer) hangs down at the side of the body: bodysuit upper arm, a white ring, an olive gauntlet, and a BLACK GLOVE FIST at hip height. It is a normal arm with a hand. No cannon on it.
+- The FAR arm (the other arm, on the far side of the body) is the ENERGY CANNON. Its elbow is hidden behind the body and the near arm; its cannon forearm is held forward in FRONT of the chest, pointing straight forward, exactly where image 3 shows it: white ring at the back end, olive barrel, one cyan light band, cyan muzzle at the front end. The whole barrel and the muzzle must be clearly visible in front of the body.
+
+THE STYLE (this is the point of the image):
+- Big chunky pixels: every art pixel is a hard 16 x 16 square exactly on the grid of image 3. No detail smaller than one art pixel. Never shift a block by half a square.
+- NO OUTLINE AT ALL, not black and not a dark edge ring. Every part keeps its own base color right to its edge; the silhouette and the parts are read only by the difference of color and brightness between neighbouring areas. Shadow tones go only where a part is in shadow (its lower or back side), not around its edge.
+- The figure must stand out on a DARK night background: the BODYSUIT is a mid-dark SLATE BLUE-GREY (like the bodysuit in image 3), clearly lighter than black, so the body reads as one connected shape with the armor. Never pure black anywhere except the glove fist, and even the fist is a very dark slate, not #000.
+- Large flat color areas. Each material has only 2 tones (base and shadow) in big clean blocks; the helmet top and the white plates may get one small 1-art-pixel highlight. No noise, no speckles, no dithering, no stray single pixels.
+- About 16 colors for the whole figure.
+- Face: a small pale face under the dark visor band; ONE teal eye of 1 x 2 art pixels; no mouth.
+- The ear unit is a small round grey-white block BEHIND the face with only ONE tiny cyan pixel, smaller and less bright than the eye, so it never looks like a second eye.
+- The cyan emblem is a clear inverted triangle 3 art pixels wide. The cyan lights (emblem, eye, the light band on the cannon, the muzzle) are the brightest and most saturated colors. The boots have no big cyan lights: at most one single cyan pixel on the ankle joint.
+
+THE FIGURE: exactly ONE character, a pure side view facing RIGHT, the same standing pose as image 3, both feet on the same ground line. The build stays exactly as in image 3: a sturdy boy soldier with a big helmet and big boots. Do not make it slimmer, taller, longer-legged or curvier.
+
+BACKGROUND: completely flat solid magenta (#FF00FF) everywhere outside the figure. No ground, no shadow, no text, no border, no grid lines.
+Hard square pixels on one even grid, no anti-aliasing, no blur, no gradients, no semi-transparent pixels.

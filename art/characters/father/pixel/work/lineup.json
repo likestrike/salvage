@@ -1,0 +1,47 @@
+{
+ "screen": [
+  320,
+  180
+ ],
+ "floor": 152,
+ "gap": 6,
+ "items": [
+  {
+   "label": "NX-07 (스카프)",
+   "kind": "approved",
+   "id": "nx07",
+   "variant": "scarf",
+   "file": "art/characters/nx07/pixel/nx07_px_scarf.png",
+   "x": 128,
+   "y": 116,
+   "w": 22,
+   "h": 36
+  },
+  {
+   "label": "미리네",
+   "kind": "approved",
+   "id": "mirine",
+   "variant": "base",
+   "file": "art/characters/mirine/pixel/mirine_px_base.png",
+   "x": 156,
+   "y": 122,
+   "w": 14,
+   "h": 30
+  },
+  {
+   "label": "A38",
+   "kind": "candidate",
+   "job": "A38",
+   "file": "art/characters/father/pixel/work/A38/father_A38_master.png",
+   "state": "",
+   "x": 176,
+   "y": 114,
+   "w": 15,
+   "h": 38
+  }
+ ],
+ "file": "art/characters/father/pixel/work/lineup_screen.png",
+ "fits": true,
+ "made_by": "tools/pixpipe.py lineup",
+ "note": "1배 그림. 지금 게임의 배경을 화면 높이로 줄이고 누른 것 (pixel_anim.screen_bg) 위에 같은 발바닥 줄로 세웠다"
+}

@@ -1,0 +1,75 @@
+{
+ "format": "salvage-pixel-targets/1",
+ "_": "참고 그림(기획자가 보인 다른 회사의 도트 그림)에서 잰 숫자다. 그림은 여기 없다 (reference/pixel_style/ 에만 있고 저장소에서 빠져 있다). 파이프라인의 '그림' 숫자는 이 값과의 거리로만 보인다 — 통과 · 실패의 문턱이 아니다 (기획서 9.11.3). 이 파일이 있으면 참고 그림이 PC 에 없어도 파이프라인은 끝까지 돈다.",
+ "doc": "docs/GAME_DESIGN.md 9.11.3 · docs/pipeline/CHARACTER_PIPELINE.md",
+ "measured": "2026-11-19",
+ "method": "tools/pixel_measure.py: 그림을 1배로 복원(restore_grid, 칸 약 8px) → 배경과 가까운 칸 지우기 → 색 잡음 묶기(ΔE 10) → 두 인물로 나누기 → picture(). 기획서 9.11.3 의 measure.py · measure_v2.py 와 같은 계산",
+ "source": {
+  "image": "reference/pixel_style/reference_도트6.png",
+  "note": "기획자가 보인 깨끗한 정지 도트 그림 한 장 (도트5와 같은 그림). 두 인물이 있다",
+  "bg": "395f74",
+  "bg_dE": 9.0,
+  "cluster_dE": 10.0,
+  "split": {
+   "row": 22,
+   "col": 34
+  },
+  "figures": {
+   "ref_man": "outside",
+   "ref_girl": "inside"
+  },
+  "face_hidden": [
+   "ref_man"
+  ]
+ },
+ "from_old_measure": {
+  "ref_man": {
+   "file": "reference/pixel_style/analysis/measure_v2.json",
+   "key": "ref_man"
+  },
+  "ref_girl": {
+   "file": "reference/pixel_style/analysis/measure_v2.json",
+   "key": "ref_girl"
+  }
+ },
+ "figures": {
+  "ref_man": {
+   "label": "참고 큰 인물",
+   "note": "키 38칸. 검은 옷 하나가 몸의 2/3. 얼굴은 가렸다 (모자 그늘 · 목도리)",
+   "picture": {
+    "largest_value_mass_pct": 68.5,
+    "value_top3_pct": 79.6,
+    "region_big_pct": 45.0,
+    "region_mid_pct": 33.9,
+    "region_small_pct": 21.1,
+    "accent_pct": 4.5,
+    "L_mean": 26.3,
+    "face_contrast": null,
+    "height": 38,
+    "head": 8,
+    "heads_tall": 4.75,
+    "solidity": 0.73,
+    "edge_L_mean": 20.9
+   }
+  },
+  "ref_girl": {
+   "label": "참고 아이",
+   "note": "키 23칸. 큰 머리, 밝은 얼굴과 머리카락",
+   "picture": {
+    "largest_value_mass_pct": 16.4,
+    "value_top3_pct": 43.5,
+    "region_big_pct": 31.8,
+    "region_mid_pct": 39.3,
+    "region_small_pct": 29.0,
+    "accent_pct": 37.9,
+    "L_mean": 47.6,
+    "face_contrast": 46.0,
+    "height": 23,
+    "head": 3,
+    "heads_tall": 7.67,
+    "solidity": 0.91,
+    "edge_L_mean": 39.5
+   }
+  }
+ }
+}

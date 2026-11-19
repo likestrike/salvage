@@ -1,0 +1,27 @@
+Design ONE small pixel-art game sprite of the android NX-07 from scratch, as a pixel artist would: decide the pose, the big shapes and the light/dark plan for a tiny sprite. Do NOT shrink or trace the illustration.
+
+REFERENCES (design only):
+- image 1 = our character design sheet, side view (android NX-07A, a BOY-type android soldier: big round helmet, a little under 4 heads tall, thick shins and big boots). Take only the design from it. In image 1 the cannon is on the NEAR arm: do NOT copy that. Do not copy its outlines, its fine detail or its stiff standing pose.
+- image 2 = the same character from the front. The arm WITHOUT the cannon (gauntlet + dark glove fist) is how the NEAR arm looks. The cannon is the olive tube with a white ring at its back end, a cyan light band and a cyan muzzle.
+
+SIZE AND PIXELS:
+- Big chunky pixels. Every art pixel is a hard square of about 20 x 20 image pixels. The whole figure is about 40 art pixels tall (about 800 image pixels), from the top of the helmet to the soles.
+- No detail smaller than one art pixel. No anti-aliasing, no gradients, no dithering, no noise or speckles, no stray single pixels.
+
+THE FIGURE: exactly one character, side view facing RIGHT (the face and the helmet emblem point to the right edge), a sturdy boy soldier: big round helmet, compact body, thick shins and big boots. Do not make him slimmer, taller, longer-legged or curvier. Not a girl.
+
+THE POSE (a living idle stance, this drawing becomes the reference for all frames, so not an action pose):
+- Weight on the BACK leg; the front leg a little forward with a slightly bent knee; feet apart, both soles on the same ground line. Hips a little back, chest a little forward, head slightly lowered and looking ahead. Relaxed shoulders.
+- The FAR arm (the arm on the far side of the body) ends in the ENERGY CANNON. Its elbow is hidden behind the body; the cannon forearm comes out IN FRONT of the body, held low and relaxed, pointing forward and slightly down, the muzzle at about hip-to-thigh height and sticking out beyond the front of the body, so the cannon is clearly read in the silhouette.
+- The NEAR arm (closer to the viewer) hangs relaxed at the side, a little behind the hip, ending in a dark glove fist. No cannon on it.
+- A thin antenna rod rises up and back from the ear unit behind the head; it must stick out of the silhouette above and behind the helmet.
+
+HOW THE BEST SMALL SPRITES OF THIS KIND ARE BUILT (follow this, it is the point of the image):
+- ONE MASTER VALUE SHAPE. If you squint, the body is mostly one big connected area of a single brightness level; the largest such area covers about two thirds of the body. Do not chop the body into many medium pieces of alternating light and dark: armor, suit and plates are merged into the big shape wherever they have similar brightness.
+- On top of the master shape only a FEW SMALL ACCENT STROKES (1 to 3 art pixels each): the face, a highlight on the helmet, the cannon ring, the cyan lights. About one fifth of the cells are small strokes, the rest are big calm areas.
+- Very little saturated color: only about 5% of the cells are strongly saturated. Those are the cyan lights only: the inverted-triangle emblem on the helmet front (3 art pixels wide), the eye, the cannon light band and the muzzle. Everything else is muted and greyish.
+- NO OUTLINE: no black line drawn around the figure and no dark ring around each part. The edge of the figure is simply the edge of its big shapes. Dark parts may sit on the edge, because they are dark parts, not lines.
+- Dark colors are welcome, including near-black charcoal. Each material has only 2 tones (base and shadow), plus at most one small highlight. About 12 to 16 colors for the whole figure.
+- Simplify the design for this tiny size: the ear unit becomes a small round shape in a darker tone of the helmet color (no white disc, no cyan dot in it) so it never looks like a second eye; the face is the brightest area of the head and the eye is one dark-teal block of 1 x 2 art pixels; small white plates and small cyan dots on the armor are left out or merged.
+
+BACKGROUND: completely flat solid magenta (#FF00FF) everywhere outside the figure. No ground, no shadow, no text, no border, no grid lines.

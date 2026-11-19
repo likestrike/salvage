@@ -1,0 +1,20 @@
+Redraw image 2 as a CLEAN, FINISHED pixel-art game sprite. Image 2 is a rough block-out on the EXACT pixel grid of the output; image 1 is the drawing it was made from (our own earlier draft of this character).
+
+THE GRID (most important):
+- Image 2 has exactly the size of the output image. Every square block in it is ONE ART PIXEL of 23 x 23 image pixels. The grid starts at x=339, y=75. The figure is 38 art pixels tall.
+- KEEP exactly: the grid, the size, the position on the canvas, the pose, the silhouette and the light/dark plan of image 2. Every art pixel of the output is one hard 23 x 23 square exactly on this grid. Never shift a block by half a square, never draw anything smaller than one art pixel.
+
+WHAT TO CLEAN (image 2 is messy because it was squeezed onto the grid):
+- Make every shape a clean, deliberate pixel-art shape: smooth stair-step curves on the head, the hair and the shoes, straight runs, no ragged single blocks, no stray pixels, no noise.
+- Keep the BIG CALM AREAS big. Do not break them into many small pieces. Do not add new parts, panel lines or small lights.
+- The head: keep the head and hair shape of image 2. The face is the brightest skin area of the head, with ONE clear eye of 1 x 2 art pixels (one wide, two tall) looking right; no mouth line needed. Small devices near the face (ear pieces, earrings, hair clips, goggles' small parts) are at most one dark art pixel or are left out, so that they never read as a second eye.
+- The arms: the figure faces RIGHT. Keep the arms exactly as in image 2: the FAR arm and whatever it holds, the NEAR arm at the side with a small simple hand.
+- Light/dark plan to keep: the biggest part of the clothing or armor (decide it from the design) made DARK so that it forms ONE big dark mass over most of the body, lit from BEHIND: a thin pale warm cream lit edge, one art pixel wide, only on the back and top edges, broken into a few strokes and never closed around the figure; plus the pale face and one or two small light accents.
+- Strongly saturated color only on the eye and the one most characteristic detail. About 5% of the figure is saturated color, everything else is muted.
+- NO OUTLINE: no black line around the figure and no dark ring around the parts. Dark parts are allowed on the edge because they are dark parts.
+- 12 to 16 colors in total, each material 2 tones plus at most one small highlight. Use the colors of image 2; do not brighten the big dark shapes.
+
+THE FIGURE: exactly one character, the same character in pure side view facing right, the same relaxed standing pose as image 2 with both soles on the same ground line. Keep the age, the build and the body proportions of image 2; do not make the character slimmer, taller, longer-legged or curvier.
+
+BACKGROUND: completely flat solid magenta (#FF00FF) everywhere outside the figure. No ground, no shadow, no text, no border, no grid lines.
+Hard square pixels on one even grid, no anti-aliasing, no blur, no gradients, no semi-transparent pixels.

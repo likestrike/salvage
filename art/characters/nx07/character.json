@@ -1401,9 +1401,712 @@
           1024
         ]
       }
+    },
+    "pm_v1a": {
+      "group": "pixel_master",
+      "label": "v1 A · 제 색의 진한 톤 테두리 · 승인 기록 없음",
+      "file": "art/pipeline_lab/pixel_style/v1/a_selout/nx07_v1a_master.png",
+      "source": {
+        "made_by": "art/pipeline_lab/pixel_style/v1/make_master.py (알려진 격자 16px · 원점 320,64 · Lab 색 묶기 16색 · 칸 손보기)",
+        "from": "art/pipeline_lab/pixel_style/v1/a_selout/nx07_v1a_raw.png",
+        "tool": "tools/fal_image.py",
+        "model": "openai/gpt-image-2.6/sunburst/edit",
+        "prompts": [
+          "art/prompts/pipeline/nx07_side_v1_selout.txt"
+        ],
+        "refs": [
+          "art/concept/setting/nx07/02_side.png",
+          "art/concept/setting/nx07/01_front.png",
+          "art/prompts/pipeline/nx07_side_v1_guide56.png"
+        ],
+        "note": "픽셀 아트에서는 주포가 먼 쪽 팔(왼팔)이다 (기획자 결정 2026-11-19)",
+        "doc": "docs/GAME_DESIGN.md 9.11.2"
+      },
+      "status": "채택하지 않음 (2026-11-19, 기획자 평가 · 9.11.3)",
+      "facing": "right",
+      "info": "art/pipeline_lab/pixel_style/v1/a_selout/nx07_v1a_master_info.json",
+      "also": {
+        "x8": "art/pipeline_lab/pixel_style/v1/a_selout/nx07_v1a_master_x8.png",
+        "palette": "art/pipeline_lab/pixel_style/v1/a_selout/nx07_v1a_master_palette.hex",
+        "candidates": "art/pipeline_lab/pixel_style/v1/a_selout/nx07_v1a_candidates.png",
+        "unfixed": "art/pipeline_lab/pixel_style/v1/a_selout/nx07_v1a_unfixed.png",
+        "fixes": "art/pipeline_lab/pixel_style/v1/a_selout/nx07_v1a_fixes.json"
+      },
+      "base": {
+        "version": 1,
+        "date": "2026-11-19",
+        "sha256": "acb1d20e16be1dc5accd12fd5f2feb49a0b171da29647296c717484998515afb",
+        "bytes": 1084,
+        "size": [
+          23,
+          56
+        ]
+      }
+    },
+    "pm_v1b": {
+      "group": "pixel_master",
+      "label": "v1 B · 외곽선 없음 · 에이전트 추천 · 승인 기록 없음",
+      "file": "art/pipeline_lab/pixel_style/v1/b_flat/nx07_v1b_master.png",
+      "source": {
+        "made_by": "art/pipeline_lab/pixel_style/v1/make_master.py (알려진 격자 16px · 원점 320,64 · Lab 색 묶기 16색 · 칸 손보기)",
+        "from": "art/pipeline_lab/pixel_style/v1/b_flat/nx07_v1b_raw.png",
+        "tool": "tools/fal_image.py",
+        "model": "openai/gpt-image-2.6/sunburst/edit",
+        "prompts": [
+          "art/prompts/pipeline/nx07_side_v1_flat.txt"
+        ],
+        "refs": [
+          "art/concept/setting/nx07/02_side.png",
+          "art/concept/setting/nx07/01_front.png",
+          "art/prompts/pipeline/nx07_side_v1_guide56.png"
+        ],
+        "note": "픽셀 아트에서는 주포가 먼 쪽 팔(왼팔)이다 (기획자 결정 2026-11-19)",
+        "doc": "docs/GAME_DESIGN.md 9.11.2"
+      },
+      "status": "채택하지 않음 (2026-11-19, 기획자 평가 · 9.11.3)",
+      "facing": "right",
+      "info": "art/pipeline_lab/pixel_style/v1/b_flat/nx07_v1b_master_info.json",
+      "also": {
+        "x8": "art/pipeline_lab/pixel_style/v1/b_flat/nx07_v1b_master_x8.png",
+        "palette": "art/pipeline_lab/pixel_style/v1/b_flat/nx07_v1b_master_palette.hex",
+        "candidates": "art/pipeline_lab/pixel_style/v1/b_flat/nx07_v1b_candidates.png",
+        "unfixed": "art/pipeline_lab/pixel_style/v1/b_flat/nx07_v1b_unfixed.png",
+        "fixes": "art/pipeline_lab/pixel_style/v1/b_flat/nx07_v1b_fixes.json"
+      },
+      "base": {
+        "version": 1,
+        "date": "2026-11-19",
+        "sha256": "8f1a5f6eb149a10736dbd01ef62558990fd089788232e66ed7902a66f480b707",
+        "bytes": 980,
+        "size": [
+          23,
+          56
+        ]
+      }
+    },
+    "pm_v1c": {
+      "group": "pixel_master",
+      "label": "v1 C · B와 같은 프롬프트로 한 번 더 · 승인 기록 없음",
+      "file": "art/pipeline_lab/pixel_style/v1/c_flat2/nx07_v1c_master.png",
+      "source": {
+        "made_by": "art/pipeline_lab/pixel_style/v1/make_master.py (알려진 격자 16px · 원점 320,64 · Lab 색 묶기 16색)",
+        "from": "art/pipeline_lab/pixel_style/v1/c_flat2/nx07_v1c_raw.png",
+        "tool": "tools/fal_image.py",
+        "model": "openai/gpt-image-2.6/sunburst/edit",
+        "prompts": [
+          "art/prompts/pipeline/nx07_side_v1_flat.txt"
+        ],
+        "refs": [
+          "art/concept/setting/nx07/02_side.png",
+          "art/concept/setting/nx07/01_front.png",
+          "art/prompts/pipeline/nx07_side_v1_guide56.png"
+        ],
+        "note": "픽셀 아트에서는 주포가 먼 쪽 팔(왼팔)이다 (기획자 결정 2026-11-19)",
+        "doc": "docs/GAME_DESIGN.md 9.11.2"
+      },
+      "status": "채택하지 않음 (2026-11-19, 기획자 평가 · 9.11.3)",
+      "facing": "right",
+      "info": "art/pipeline_lab/pixel_style/v1/c_flat2/nx07_v1c_master_info.json",
+      "also": {
+        "x8": "art/pipeline_lab/pixel_style/v1/c_flat2/nx07_v1c_master_x8.png",
+        "palette": "art/pipeline_lab/pixel_style/v1/c_flat2/nx07_v1c_master_palette.hex",
+        "candidates": "art/pipeline_lab/pixel_style/v1/c_flat2/nx07_v1c_candidates.png"
+      },
+      "base": {
+        "version": 1,
+        "date": "2026-11-19",
+        "sha256": "7444a9950a40e0d688f09cd9fcb03a476738c0d92534578acd8e72797b4314e1",
+        "bytes": 1040,
+        "size": [
+          23,
+          56
+        ]
+      }
+    },
+    "pm_v2a36": {
+      "group": "pixel_master",
+      "label": "v2 A36 · 어두운 몸이 주인 · 키 36칸 · 실험 · 승인 기록 없음",
+      "file": "art/pipeline_lab/pixel_style/v2/A36/nx07_v2A36_master.png",
+      "source": {
+        "made_by": "art/pipeline_lab/pixel_style/v2/make_master.py (알려진 격자 · Lab 색 묶기 16색 · 칸 손보기)",
+        "from": "art/pipeline_lab/pixel_style/v2/s2/nx07_v2_A36_raw.png",
+        "tool": "tools/fal_image.py",
+        "model": "openai/gpt-image-2.6/sunburst/edit",
+        "prompts": [
+          "art/prompts/pipeline/nx07_side_v2_s1_common.txt",
+          "art/prompts/pipeline/nx07_side_v2_s1_planA.txt",
+          "art/prompts/pipeline/nx07_side_v2_s2_A36.txt"
+        ],
+        "refs": [
+          "art/concept/setting/nx07/02_side.png",
+          "art/concept/setting/nx07/01_front.png",
+          "art/pipeline_lab/pixel_style/v2/s1/nx07_v2s1_A_raw.png",
+          "art/prompts/pipeline/nx07_side_v2_guide36_A.png"
+        ],
+        "note": "두 번에 나눠 뽑음: 1단계(설정화 두 장만, 밑그림 없이) → 밑그림(make_guide.py) → 2단계(1단계 그림 + 밑그림). 주포는 먼 쪽 팔(왼팔). 단순화와 밝기 계획은 [제안]",
+        "doc": "docs/GAME_DESIGN.md 9.11.4"
+      },
+      "status": "실험 · 승인 기록 없음 · 기획자가 C36 을 골랐다 (2026-11-19, 9.11.5)",
+      "facing": "right",
+      "info": "art/pipeline_lab/pixel_style/v2/A36/nx07_v2A36_master_info.json",
+      "also": {
+        "x8": "art/pipeline_lab/pixel_style/v2/A36/nx07_v2A36_master_x8.png",
+        "palette": "art/pipeline_lab/pixel_style/v2/A36/nx07_v2A36_master_palette.hex",
+        "unfixed": "art/pipeline_lab/pixel_style/v2/A36/nx07_v2A36_unfixed.png",
+        "fixes": "art/pipeline_lab/pixel_style/v2/A36/nx07_v2A36_fixes.json"
+      },
+      "base": {
+        "version": 1,
+        "date": "2026-11-19",
+        "sha256": "e70944320e846e5cb4a7fa8d0120797563fbe3697b6e93c3f10519fcb7f285ed",
+        "bytes": 729,
+        "size": [
+          21,
+          36
+        ]
+      }
+    },
+    "pm_v2c36": {
+      "group": "pixel_master",
+      "label": "v2 C36 · 어두운 몸 + 뒤에서 오는 빛 · 키 36칸 · 실험 · 승인 기록 없음",
+      "file": "art/pipeline_lab/pixel_style/v2/C36/nx07_v2C36_master.png",
+      "source": {
+        "made_by": "art/pipeline_lab/pixel_style/v2/make_master.py (알려진 격자 · Lab 색 묶기 16색 · 칸 손보기)",
+        "from": "art/pipeline_lab/pixel_style/v2/s2/nx07_v2_C36_raw.png",
+        "tool": "tools/fal_image.py",
+        "model": "openai/gpt-image-2.6/sunburst/edit",
+        "prompts": [
+          "art/prompts/pipeline/nx07_side_v2_s1_common.txt",
+          "art/prompts/pipeline/nx07_side_v2_s1_planC.txt",
+          "art/prompts/pipeline/nx07_side_v2_s2_C36.txt"
+        ],
+        "refs": [
+          "art/concept/setting/nx07/02_side.png",
+          "art/concept/setting/nx07/01_front.png",
+          "art/pipeline_lab/pixel_style/v2/s1/nx07_v2s1_C_raw.png",
+          "art/prompts/pipeline/nx07_side_v2_guide36_C.png"
+        ],
+        "note": "두 번에 나눠 뽑음: 1단계(설정화 두 장만, 밑그림 없이) → 밑그림(make_guide.py) → 2단계(1단계 그림 + 밑그림). 주포는 먼 쪽 팔(왼팔). 단순화와 밝기 계획은 [제안]",
+        "doc": "docs/GAME_DESIGN.md 9.11.4"
+      },
+      "status": "실험 폴더의 원본 · 승인된 마스터 px_base 로 복사했다 (2026-11-19, 9.11.6). 스카프를 더한 변형은 pm_v3s1~s4",
+      "facing": "right",
+      "info": "art/pipeline_lab/pixel_style/v2/C36/nx07_v2C36_master_info.json",
+      "also": {
+        "x8": "art/pipeline_lab/pixel_style/v2/C36/nx07_v2C36_master_x8.png",
+        "palette": "art/pipeline_lab/pixel_style/v2/C36/nx07_v2C36_master_palette.hex",
+        "unfixed": "art/pipeline_lab/pixel_style/v2/C36/nx07_v2C36_unfixed.png",
+        "fixes": "art/pipeline_lab/pixel_style/v2/C36/nx07_v2C36_fixes.json"
+      },
+      "base": {
+        "version": 1,
+        "date": "2026-11-19",
+        "sha256": "4affcb056403254a873001ec320271b35d7fa93f479157df645ffcd791d1a68d",
+        "bytes": 769,
+        "size": [
+          21,
+          36
+        ]
+      }
+    },
+    "pm_v2c48": {
+      "group": "pixel_master",
+      "label": "v2 C48 · 어두운 몸 + 뒤에서 오는 빛 · 키 48칸 · 에이전트가 가장 낫다고 본 것 · 실험 · 승인 기록 없음",
+      "file": "art/pipeline_lab/pixel_style/v2/C48/nx07_v2C48_master.png",
+      "source": {
+        "made_by": "art/pipeline_lab/pixel_style/v2/make_master.py (알려진 격자 · Lab 색 묶기 16색)",
+        "from": "art/pipeline_lab/pixel_style/v2/s2/nx07_v2_C48_raw.png",
+        "tool": "tools/fal_image.py",
+        "model": "openai/gpt-image-2.6/sunburst/edit",
+        "prompts": [
+          "art/prompts/pipeline/nx07_side_v2_s1_common.txt",
+          "art/prompts/pipeline/nx07_side_v2_s1_planC.txt",
+          "art/prompts/pipeline/nx07_side_v2_s2_C48.txt"
+        ],
+        "refs": [
+          "art/concept/setting/nx07/02_side.png",
+          "art/concept/setting/nx07/01_front.png",
+          "art/pipeline_lab/pixel_style/v2/s1/nx07_v2s1_C_raw.png",
+          "art/prompts/pipeline/nx07_side_v2_guide48_C.png"
+        ],
+        "note": "두 번에 나눠 뽑음: 1단계(설정화 두 장만, 밑그림 없이) → 밑그림(make_guide.py) → 2단계(1단계 그림 + 밑그림). 주포는 먼 쪽 팔(왼팔). 단순화와 밝기 계획은 [제안]",
+        "doc": "docs/GAME_DESIGN.md 9.11.4"
+      },
+      "status": "실험 · 승인 기록 없음 · 기획자가 C36 을 골랐다 (2026-11-19, 9.11.5)",
+      "facing": "right",
+      "info": "art/pipeline_lab/pixel_style/v2/C48/nx07_v2C48_master_info.json",
+      "also": {
+        "x8": "art/pipeline_lab/pixel_style/v2/C48/nx07_v2C48_master_x8.png",
+        "palette": "art/pipeline_lab/pixel_style/v2/C48/nx07_v2C48_master_palette.hex"
+      },
+      "base": {
+        "version": 1,
+        "date": "2026-11-19",
+        "sha256": "720c97995b1393d2ac1c5a985e2b4fb2735a34c10c7ba6726bd4b53edf5ba87d",
+        "bytes": 926,
+        "size": [
+          28,
+          48
+        ]
+      }
+    },
+    "pm_v2b48": {
+      "group": "pixel_master",
+      "label": "v2 B48 · 올리브 장갑이 주인 · 키 48칸 · 실험 · 승인 기록 없음",
+      "file": "art/pipeline_lab/pixel_style/v2/B48/nx07_v2B48_master.png",
+      "source": {
+        "made_by": "art/pipeline_lab/pixel_style/v2/make_master.py (알려진 격자 · Lab 색 묶기 16색 · 칸 손보기)",
+        "from": "art/pipeline_lab/pixel_style/v2/s2/nx07_v2_B48_raw.png",
+        "tool": "tools/fal_image.py",
+        "model": "openai/gpt-image-2.6/sunburst/edit",
+        "prompts": [
+          "art/prompts/pipeline/nx07_side_v2_s1_common.txt",
+          "art/prompts/pipeline/nx07_side_v2_s1_planB.txt",
+          "art/prompts/pipeline/nx07_side_v2_s2_B48.txt"
+        ],
+        "refs": [
+          "art/concept/setting/nx07/02_side.png",
+          "art/concept/setting/nx07/01_front.png",
+          "art/pipeline_lab/pixel_style/v2/s1/nx07_v2s1_B_raw.png",
+          "art/prompts/pipeline/nx07_side_v2_guide48_B.png"
+        ],
+        "note": "두 번에 나눠 뽑음: 1단계(설정화 두 장만, 밑그림 없이) → 밑그림(make_guide.py) → 2단계(1단계 그림 + 밑그림). 주포는 먼 쪽 팔(왼팔). 단순화와 밝기 계획은 [제안]",
+        "doc": "docs/GAME_DESIGN.md 9.11.4"
+      },
+      "status": "실험 · 승인 기록 없음 · 기획자가 C36 을 골랐다 (2026-11-19, 9.11.5)",
+      "facing": "right",
+      "info": "art/pipeline_lab/pixel_style/v2/B48/nx07_v2B48_master_info.json",
+      "also": {
+        "x8": "art/pipeline_lab/pixel_style/v2/B48/nx07_v2B48_master_x8.png",
+        "palette": "art/pipeline_lab/pixel_style/v2/B48/nx07_v2B48_master_palette.hex",
+        "unfixed": "art/pipeline_lab/pixel_style/v2/B48/nx07_v2B48_unfixed.png",
+        "fixes": "art/pipeline_lab/pixel_style/v2/B48/nx07_v2B48_fixes.json"
+      },
+      "base": {
+        "version": 1,
+        "date": "2026-11-19",
+        "sha256": "0602b06e9b84a86edf5b110e864ce0916c21e5c1145503eb5c42f31b40d10fe8",
+        "bytes": 975,
+        "size": [
+          29,
+          48
+        ]
+      }
+    },
+    "pm_v3s1": {
+      "group": "pixel_master",
+      "label": "v3 S1 · C36 + 스카프 주황 · 감기만 · 실험 · 승인 기록 없음",
+      "file": "art/pipeline_lab/pixel_style/v3_scarf/S1/nx07_v3S1.png",
+      "source": {
+        "made_by": "art/pipeline_lab/pixel_style/v3_scarf/make_scarf.py (칸을 직접 찍음 · 이미지 생성 0회)",
+        "from": "art/pipeline_lab/pixel_style/v2/C36/nx07_v2C36_master.png",
+        "note": "C36 의 칸은 목 둘레 12칸만 바뀌었다. 스카프의 색과 모양은 [제안]",
+        "doc": "docs/GAME_DESIGN.md 9.11.5"
+      },
+      "status": "실험 · 채택하지 않음 — 기획자가 S2 를 골랐다 (2026-11-19, 9.11.6)",
+      "facing": "right",
+      "info": "art/pipeline_lab/pixel_style/v3_scarf/S1/nx07_v3S1_info.json",
+      "also": {
+        "x12": "art/pipeline_lab/pixel_style/v3_scarf/S1/nx07_v3S1_x12.png",
+        "palette": "art/pipeline_lab/pixel_style/v3_scarf/S1/nx07_v3S1_palette.hex"
+      },
+      "base": {
+        "version": 1,
+        "date": "2026-11-19",
+        "sha256": "594402c657ed953c5500aac70b5842b9c942591453c8bfa4d64018288a76ed7a",
+        "bytes": 790,
+        "size": [
+          21,
+          36
+        ]
+      }
+    },
+    "pm_v3s2": {
+      "group": "pixel_master",
+      "label": "v3 S2 · C36 + 스카프 주황 · 한 가닥 늘어짐 · 에이전트가 가장 낫다고 본 것 · 실험 · 승인 기록 없음",
+      "file": "art/pipeline_lab/pixel_style/v3_scarf/S2/nx07_v3S2.png",
+      "source": {
+        "made_by": "art/pipeline_lab/pixel_style/v3_scarf/make_scarf.py (칸을 직접 찍음 · 이미지 생성 0회)",
+        "from": "art/pipeline_lab/pixel_style/v2/C36/nx07_v2C36_master.png",
+        "note": "C36 의 칸은 목 둘레 12칸만 바뀌고, 몸 뒤에 16칸을 더했다. 캔버스를 왼쪽으로 1칸 넓혔다 (발 기준점 그대로). 스카프의 색과 모양은 [제안]",
+        "doc": "docs/GAME_DESIGN.md 9.11.5"
+      },
+      "status": "실험 폴더의 원본 · 기획자가 S2 를 골랐다 (2026-11-19). 승인된 마스터 px_scarf 로 복사했다 (9.11.6)",
+      "facing": "right",
+      "info": "art/pipeline_lab/pixel_style/v3_scarf/S2/nx07_v3S2_info.json",
+      "also": {
+        "x12": "art/pipeline_lab/pixel_style/v3_scarf/S2/nx07_v3S2_x12.png",
+        "palette": "art/pipeline_lab/pixel_style/v3_scarf/S2/nx07_v3S2_palette.hex"
+      },
+      "base": {
+        "version": 1,
+        "date": "2026-11-19",
+        "sha256": "2abbe1a189c6112e90aae1efcd2dabd740c7d98d5433588ca06b2926ca419f5d",
+        "bytes": 845,
+        "size": [
+          22,
+          36
+        ]
+      }
+    },
+    "pm_v3s3": {
+      "group": "pixel_master",
+      "label": "v3 S3 · C36 + 스카프 주황 · 뒤로 날림 · 실험 · 승인 기록 없음",
+      "file": "art/pipeline_lab/pixel_style/v3_scarf/S3/nx07_v3S3.png",
+      "source": {
+        "made_by": "art/pipeline_lab/pixel_style/v3_scarf/make_scarf.py (칸을 직접 찍음 · 이미지 생성 0회)",
+        "from": "art/pipeline_lab/pixel_style/v2/C36/nx07_v2C36_master.png",
+        "note": "C36 의 칸은 목 둘레 12칸만 바뀌고, 몸 뒤에 22칸을 더했다. 캔버스를 왼쪽으로 7칸 넓혔다 (발 기준점 그대로). 스카프의 색과 모양은 [제안]",
+        "doc": "docs/GAME_DESIGN.md 9.11.5"
+      },
+      "status": "실험 · 채택하지 않음 — 기획자가 S2 를 골랐다 (2026-11-19, 9.11.6)",
+      "facing": "right",
+      "info": "art/pipeline_lab/pixel_style/v3_scarf/S3/nx07_v3S3_info.json",
+      "also": {
+        "x12": "art/pipeline_lab/pixel_style/v3_scarf/S3/nx07_v3S3_x12.png",
+        "palette": "art/pipeline_lab/pixel_style/v3_scarf/S3/nx07_v3S3_palette.hex"
+      },
+      "base": {
+        "version": 1,
+        "date": "2026-11-19",
+        "sha256": "bd8191d42e7e11c2a1787ff52affda148077033d3dec19571d9ff9c8d29e06df",
+        "bytes": 846,
+        "size": [
+          28,
+          36
+        ]
+      }
+    },
+    "pm_v3s4": {
+      "group": "pixel_master",
+      "label": "v3 S4 · C36 + 스카프 황토 · 한 가닥 늘어짐 (S2 와 같은 모양) · 실험 · 승인 기록 없음",
+      "file": "art/pipeline_lab/pixel_style/v3_scarf/S4/nx07_v3S4.png",
+      "source": {
+        "made_by": "art/pipeline_lab/pixel_style/v3_scarf/make_scarf.py (칸을 직접 찍음 · 이미지 생성 0회)",
+        "from": "art/pipeline_lab/pixel_style/v2/C36/nx07_v2C36_master.png",
+        "note": "S2 와 같은 칸, 색만 황토. 스카프의 색과 모양은 [제안]",
+        "doc": "docs/GAME_DESIGN.md 9.11.5"
+      },
+      "status": "실험 · 채택하지 않음 — 기획자가 S2 를 골랐다 (2026-11-19, 9.11.6)",
+      "facing": "right",
+      "info": "art/pipeline_lab/pixel_style/v3_scarf/S4/nx07_v3S4_info.json",
+      "also": {
+        "x12": "art/pipeline_lab/pixel_style/v3_scarf/S4/nx07_v3S4_x12.png",
+        "palette": "art/pipeline_lab/pixel_style/v3_scarf/S4/nx07_v3S4_palette.hex"
+      },
+      "base": {
+        "version": 1,
+        "date": "2026-11-19",
+        "sha256": "a7a34e7dd989876f1bc1c1baf776c8c04f06ee22ac414b96e4c8dee0aa9e5c4a",
+        "bytes": 847,
+        "size": [
+          22,
+          36
+        ]
+      }
+    },
+    "px_base": {
+      "group": "pixel_master",
+      "label": "픽셀 마스터 · 스카프 없음 (저항군 합류 전) — v2 C36",
+      "file": "art/characters/nx07/pixel/nx07_px_base.png",
+      "source": {
+        "made_by": "복사 (내용 그대로)",
+        "from": "art/pipeline_lab/pixel_style/v2/C36/nx07_v2C36_master.png",
+        "note": "실험 폴더의 원본(pm_v2c36)을 캐릭터의 자리로 복사했다. 해시가 같다",
+        "doc": "docs/GAME_DESIGN.md 9.11.6"
+      },
+      "status": "승인 (2026-11-19, 기획자) · NX-07 픽셀 마스터 · 스카프 없음",
+      "facing": "right",
+      "info": "art/pipeline_lab/pixel_style/v2/C36/nx07_v2C36_master_info.json",
+      "also": {
+        "spec": "art/characters/nx07/pixel/nx07_px_spec.json",
+        "x8": "art/pipeline_lab/pixel_style/v2/C36/nx07_v2C36_master_x8.png"
+      },
+      "base": {
+        "version": 1,
+        "date": "2026-11-19",
+        "sha256": "4affcb056403254a873001ec320271b35d7fa93f479157df645ffcd791d1a68d",
+        "bytes": 769,
+        "size": [
+          21,
+          36
+        ]
+      }
+    },
+    "px_scarf": {
+      "group": "pixel_master",
+      "label": "픽셀 마스터 · 스카프 있음 (저항군 합류 뒤) — v3 S2",
+      "file": "art/characters/nx07/pixel/nx07_px_scarf.png",
+      "source": {
+        "made_by": "복사 (내용 그대로)",
+        "from": "art/pipeline_lab/pixel_style/v3_scarf/S2/nx07_v3S2.png",
+        "note": "실험 폴더의 원본(pm_v3s2)을 캐릭터의 자리로 복사했다. 해시가 같다. px_base 위에 스카프 층을 얹은 그림이다",
+        "doc": "docs/GAME_DESIGN.md 9.11.6"
+      },
+      "status": "승인 (2026-11-19, 기획자) · NX-07 픽셀 마스터 · 스카프 있음",
+      "facing": "right",
+      "info": "art/pipeline_lab/pixel_style/v3_scarf/S2/nx07_v3S2_info.json",
+      "also": {
+        "spec": "art/characters/nx07/pixel/nx07_px_spec.json",
+        "x12": "art/pipeline_lab/pixel_style/v3_scarf/S2/nx07_v3S2_x12.png"
+      },
+      "base": {
+        "version": 1,
+        "date": "2026-11-19",
+        "sha256": "2abbe1a189c6112e90aae1efcd2dabd740c7d98d5433588ca06b2926ca419f5d",
+        "bytes": 845,
+        "size": [
+          22,
+          36
+        ]
+      }
+    },
+    "px_spec": {
+      "group": "pixel_spec",
+      "label": "픽셀 마스터 규격 그림 (부위 · 팔레트 · 기준점)",
+      "file": "art/characters/nx07/pixel/nx07_px_spec.png",
+      "source": {
+        "made_by": "art/characters/nx07/pixel/make_spec.py (마스터에서 잼)",
+        "doc": "docs/GAME_DESIGN.md 9.11.6"
+      },
+      "also": {
+        "json": "art/characters/nx07/pixel/nx07_px_spec.json"
+      },
+      "base": {
+        "version": 1,
+        "date": "2026-11-19",
+        "sha256": "e327efd1b47c01e50a19959d4d7757ca6c86bcc166fb5c1cb4012a54e7629cde",
+        "bytes": 116962,
+        "size": [
+          1900,
+          1290
+        ]
+      }
+    },
+    "anim_idle_body": {
+      "group": "pixel_anim",
+      "label": "대기 · 스카프 없음",
+      "file": "art/characters/nx07/anim/idle/out/nx07_idle_body.png",
+      "source": {
+        "made_by": "tools/pixel_anim.py build art/characters/nx07/anim idle",
+        "rig": "art/characters/nx07/anim/rig.json",
+        "timeline": "art/characters/nx07/anim/idle/timeline.json",
+        "from": "art/characters/nx07/pixel/nx07_px_base.png",
+        "doc": "docs/GAME_DESIGN.md 9.11.6"
+      },
+      "status": "기획자 평가: 받아들임 (2026-11-19, 9.11.7)",
+      "facing": "right",
+      "anim": {
+        "frames": 4,
+        "cell": [
+          40,
+          40
+        ],
+        "ticks": [
+          36,
+          8,
+          36,
+          8
+        ],
+        "loop": true,
+        "anchor": [
+          20,
+          38
+        ]
+      },
+      "also": {
+        "gif": "art/characters/nx07/anim/idle/out/nx07_idle_body_x8.gif",
+        "meta": "art/characters/nx07/anim/idle/out/nx07_idle_body.json",
+        "check": "art/characters/nx07/anim/idle/check.json",
+        "frames": "art/characters/nx07/anim/idle/frames/"
+      },
+      "base": {
+        "version": 1,
+        "date": "2026-11-19",
+        "sha256": "2e44778901816662e10513589d069946a8b49de54e60bf56aba331543ce794a8",
+        "bytes": 1280,
+        "size": [
+          160,
+          40
+        ]
+      }
+    },
+    "anim_idle_scarf": {
+      "group": "pixel_anim",
+      "label": "대기 · 스카프 있음",
+      "file": "art/characters/nx07/anim/idle/out/nx07_idle_scarf.png",
+      "source": {
+        "made_by": "tools/pixel_anim.py build art/characters/nx07/anim idle",
+        "rig": "art/characters/nx07/anim/rig.json",
+        "timeline": "art/characters/nx07/anim/idle/timeline.json",
+        "from": "art/characters/nx07/pixel/nx07_px_scarf.png",
+        "doc": "docs/GAME_DESIGN.md 9.11.6"
+      },
+      "status": "기획자 평가: 받아들임 (2026-11-19, 9.11.7)",
+      "facing": "right",
+      "anim": {
+        "frames": 4,
+        "cell": [
+          40,
+          40
+        ],
+        "ticks": [
+          36,
+          8,
+          36,
+          8
+        ],
+        "loop": true,
+        "anchor": [
+          20,
+          38
+        ]
+      },
+      "also": {
+        "gif": "art/characters/nx07/anim/idle/out/nx07_idle_scarf_x8.gif",
+        "meta": "art/characters/nx07/anim/idle/out/nx07_idle_scarf.json",
+        "check": "art/characters/nx07/anim/idle/check.json",
+        "frames": "art/characters/nx07/anim/idle/frames/"
+      },
+      "base": {
+        "version": 1,
+        "date": "2026-11-19",
+        "sha256": "6aa00448af579be8cb9f772100d61fb98404d9c8a747fc6b09ac83e4a8a6a2f6",
+        "bytes": 1352,
+        "size": [
+          160,
+          40
+        ]
+      }
+    },
+    "anim_run_body": {
+      "group": "pixel_anim",
+      "label": "달리기 · 스카프 없음",
+      "file": "art/characters/nx07/anim/run/out/nx07_run_body.png",
+      "source": {
+        "made_by": "tools/pixel_anim.py build art/characters/nx07/anim run",
+        "rig": "art/characters/nx07/anim/rig.json",
+        "timeline": "art/characters/nx07/anim/run/timeline.json",
+        "from": "art/characters/nx07/pixel/nx07_px_base.png",
+        "doc": "docs/GAME_DESIGN.md 9.11.6"
+      },
+      "status": "기획자 평가: 받아들임 (2026-11-19, 9.11.7)",
+      "facing": "right",
+      "anim": {
+        "frames": 6,
+        "cell": [
+          40,
+          40
+        ],
+        "ticks": [
+          5,
+          5,
+          5,
+          5,
+          5,
+          5
+        ],
+        "loop": true,
+        "anchor": [
+          20,
+          38
+        ]
+      },
+      "also": {
+        "gif": "art/characters/nx07/anim/run/out/nx07_run_body_x8.gif",
+        "meta": "art/characters/nx07/anim/run/out/nx07_run_body.json",
+        "check": "art/characters/nx07/anim/run/check.json",
+        "frames": "art/characters/nx07/anim/run/frames/"
+      },
+      "base": {
+        "version": 1,
+        "date": "2026-11-19",
+        "sha256": "231eac1b922c8704d116d52ce908536334da792a3fed7afe76f37d1ab5426666",
+        "bytes": 1805,
+        "size": [
+          240,
+          40
+        ]
+      }
+    },
+    "anim_run_scarf": {
+      "group": "pixel_anim",
+      "label": "달리기 · 스카프 있음",
+      "file": "art/characters/nx07/anim/run/out/nx07_run_scarf.png",
+      "source": {
+        "made_by": "tools/pixel_anim.py build art/characters/nx07/anim run",
+        "rig": "art/characters/nx07/anim/rig.json",
+        "timeline": "art/characters/nx07/anim/run/timeline.json",
+        "from": "art/characters/nx07/pixel/nx07_px_scarf.png",
+        "doc": "docs/GAME_DESIGN.md 9.11.6"
+      },
+      "status": "기획자 평가: 받아들임 (2026-11-19, 9.11.7)",
+      "facing": "right",
+      "anim": {
+        "frames": 6,
+        "cell": [
+          40,
+          40
+        ],
+        "ticks": [
+          5,
+          5,
+          5,
+          5,
+          5,
+          5
+        ],
+        "loop": true,
+        "anchor": [
+          20,
+          38
+        ]
+      },
+      "also": {
+        "gif": "art/characters/nx07/anim/run/out/nx07_run_scarf_x8.gif",
+        "meta": "art/characters/nx07/anim/run/out/nx07_run_scarf.json",
+        "check": "art/characters/nx07/anim/run/check.json",
+        "frames": "art/characters/nx07/anim/run/frames/"
+      },
+      "base": {
+        "version": 1,
+        "date": "2026-11-19",
+        "sha256": "1e48f766deaf8e2d79f5f21fd42e55d88f1c012444b73224db10f34273d151c5",
+        "bytes": 1891,
+        "size": [
+          240,
+          40
+        ]
+      }
     }
   },
-  "approvals": [],
+  "approvals": [
+    {
+      "date": "2026-11-19",
+      "by": "기획자",
+      "assets": {
+        "px_base": "4affcb056403254a873001ec320271b35d7fa93f479157df645ffcd791d1a68d"
+      },
+      "note": "NX-07 픽셀 마스터 (스카프 없음 · 저항군 합류 전). 형태 · 밝기 · 키 36칸. 승인 기록을 에이전트가 적었다",
+      "saw": [
+        "art/pipeline_lab/pixel_style/v2/compare.png",
+        "art/pipeline_lab/pixel_style/v3_scarf/compare.png"
+      ],
+      "quote": "v2 C36 형태가 맘에 든다. / 스카프는 저항군 합류뒤에 두른다. 없는 그림도 필요하다."
+    },
+    {
+      "date": "2026-11-19",
+      "by": "기획자",
+      "assets": {
+        "px_scarf": "2abbe1a189c6112e90aae1efcd2dabd740c7d98d5433588ca06b2926ca419f5d"
+      },
+      "note": "NX-07 픽셀 마스터 (스카프 있음 · 저항군 합류 뒤) = S2 주황 · 한 가닥 늘어짐. 승인 기록을 에이전트가 적었다",
+      "saw": [
+        "art/pipeline_lab/pixel_style/v3_scarf/compare.png"
+      ],
+      "quote": "S2 주황으로"
+    }
+  ],
   "records": [
     {
       "date": "2026-11-19",
@@ -1413,6 +2116,83 @@
       "quote": "그리고 비교 그림은 C.지금 게임의 도트가 낫다.",
       "doc": "docs/GAME_DESIGN.md 9.11",
       "note": "평가이고 승인 기록이 아니다. 픽셀 마스터를 기준으로 삼을지는 [미정]."
+    },
+    {
+      "date": "2026-11-19",
+      "by": "기획자",
+      "kind": "평가",
+      "what": "픽셀 마스터 v1 후보(A · B · C, 추천했던 B)를 채택하지 않음. 참고 그림(reference/pixel_style/)의 도트 스타일이 되지 못했다",
+      "quote": "내가 참고 하라고 했던 픽셀 이미지 대로 되어 있지 않아. 픽셀 마스터가 너무 별로다. 원화가 이상한거지. [그림 2장] 이런 픽셀 스타일을 가지지 못했어. 왜 그런지 분석해봐",
+      "keys": [
+        "pm_v1a",
+        "pm_v1b",
+        "pm_v1c"
+      ],
+      "doc": "docs/GAME_DESIGN.md 9.11.3",
+      "note": "원인 분석은 9.11.3. 요약: 밝기 덩어리가 없다(가장 큰 밝기 덩어리 15%, 참고 큰 인물 68%) · 올리브가 설정화보다 밝고 채도가 높다 · 같은 크기의 조각이 번갈아 쌓였다 · 자세가 밑그림 그대로 뻣뻣하다. 다음 길은 [미정]."
+    },
+    {
+      "date": "2026-11-19",
+      "by": "기획자",
+      "kind": "결정",
+      "what": "v2 후보 가운데 C36 의 형태를 골랐다. 밝기 그대로 · 키 36칸 · 큰 덩어리 / 큰 실루엣은 더하지 않음 · 스카프를 더함",
+      "quote": "밝기 그대로, 36칸, 큰덩어리 실루엣 없어도 되. 스카프를 더해줘. v2 C36 형태가 맘에 든다.",
+      "keys": [
+        "pm_v2c36",
+        "pm_v2a36",
+        "pm_v2c48",
+        "pm_v2b48"
+      ],
+      "doc": "docs/GAME_DESIGN.md 9.11.5",
+      "note": "형태를 고른 것이고 마스터의 승인 기록은 아니다. 스카프의 색과 모양은 [제안] (pm_v3s1~s4)."
+    },
+    {
+      "date": "2026-11-19",
+      "by": "기획자",
+      "kind": "결정",
+      "what": "스카프 변형 넷 가운데 S2(주황 · 등 뒤로 한 가닥 늘어짐)를 골랐다. S1 · S3 · S4 는 채택하지 않음",
+      "quote": "S2 주황으로",
+      "saw": "art/pipeline_lab/pixel_style/v3_scarf/compare.png",
+      "keys": [
+        "pm_v3s2",
+        "pm_v3s1",
+        "pm_v3s3",
+        "pm_v3s4"
+      ],
+      "doc": "docs/GAME_DESIGN.md 9.11.6",
+      "note": "승인 기록은 approvals (px_scarf)."
+    },
+    {
+      "date": "2026-11-19",
+      "by": "기획자",
+      "kind": "결정",
+      "what": "스카프는 저항군에 합류한 뒤에 두른다. 스카프 없는 그림도 필요하다 → 픽셀 마스터가 두 벌 (px_base = 스카프 없음, px_scarf = 스카프 있음), 애니메이션도 두 벌",
+      "quote": "스카프는 저항군 합류뒤에 두른다. 없는 그림도 필요하다.",
+      "keys": [
+        "px_base",
+        "px_scarf"
+      ],
+      "doc": "docs/STORY.md 4장 · docs/GAME_DESIGN.md 9.11.6",
+      "note": "'저항군'이 STORY.md 의 '반 AI파'와 같은 세력인지, NX-07 이 언제 어떻게 합류하는지는 [미정]."
+    },
+    {
+      "date": "2026-11-19",
+      "by": "기획자",
+      "kind": "평가",
+      "what": "대기 · 달리기(두 벌)를 보고 받아들였다. 같은 과정을 다른 캐릭터에도 적용하는 파이프라인으로 묶고 미리네에 적용하라고 했다",
+      "quote": "괜찮은것 같아. 이 과정을 캐릭터도 동일한 과정으로 적용할 수 있는 Game Character Production Pipeline 을 만들어. 미리네 캐릭터를 적용해",
+      "keys": [
+        "anim_idle_body",
+        "anim_idle_scarf",
+        "anim_run_body",
+        "anim_run_scarf"
+      ],
+      "saw": [
+        "art/characters/nx07/anim/preview/compare.png",
+        "art/characters/nx07/anim/preview/ingame_run_320x180_x4.gif"
+      ],
+      "doc": "docs/GAME_DESIGN.md 9.11.7",
+      "note": "[해석] 9.11.6 의 두 질문(대기의 1칸 오르내림이 과한가 · 윗몸이 굳은 달리기를 받아들일 것인가)에 '지금대로 간다'로 읽었다. 승인(approvals)이 아니라 평가 기록이다"
     }
   ],
   "history": [
@@ -1518,6 +2298,130 @@
       "what": "출처 고침",
       "by": "agent",
       "note": "E2 픽셀 마스터의 프롬프트가 art/prompts/pipeline/ 에 들어와 출처에 적었다 (앞서 \"기록 없음\"으로 적었던 것을 고침)"
+    },
+    {
+      "date": "2026-11-19",
+      "what": "파일 더함",
+      "by": "agent",
+      "asset": "pm_v1a",
+      "file": "art/pipeline_lab/pixel_style/v1/a_selout/nx07_v1a_master.png"
+    },
+    {
+      "date": "2026-11-19",
+      "what": "파일 더함",
+      "by": "agent",
+      "asset": "pm_v1b",
+      "file": "art/pipeline_lab/pixel_style/v1/b_flat/nx07_v1b_master.png"
+    },
+    {
+      "date": "2026-11-19",
+      "what": "파일 더함",
+      "by": "agent",
+      "asset": "pm_v1c",
+      "file": "art/pipeline_lab/pixel_style/v1/c_flat2/nx07_v1c_master.png"
+    },
+    {
+      "date": "2026-11-19",
+      "what": "픽셀 마스터 v2 후보 등록",
+      "by": "agent",
+      "assets": [
+        "pm_v2a36",
+        "pm_v2c36",
+        "pm_v2c48",
+        "pm_v2b48"
+      ],
+      "note": "기획자 지시 \"비슷한걸로 그림을 픽셀 아트로 다시 뽑아야해\" (9.11.4). 실험 · 승인 기록 없음"
+    },
+    {
+      "date": "2026-11-19",
+      "what": "C36 + 스카프 변형 등록",
+      "by": "agent",
+      "assets": [
+        "pm_v3s1",
+        "pm_v3s2",
+        "pm_v3s3",
+        "pm_v3s4"
+      ],
+      "note": "칸을 직접 찍음 (이미지 생성 0회). 실험 · 승인 기록 없음 (9.11.5)"
+    },
+    {
+      "date": "2026-11-19",
+      "what": "파일 더함",
+      "by": "agent",
+      "asset": "px_base",
+      "file": "art/characters/nx07/pixel/nx07_px_base.png"
+    },
+    {
+      "date": "2026-11-19",
+      "what": "파일 더함",
+      "by": "agent",
+      "asset": "px_scarf",
+      "file": "art/characters/nx07/pixel/nx07_px_scarf.png"
+    },
+    {
+      "date": "2026-11-19",
+      "what": "파일 더함",
+      "by": "agent",
+      "asset": "px_spec",
+      "file": "art/characters/nx07/pixel/nx07_px_spec.png"
+    },
+    {
+      "date": "2026-11-19",
+      "what": "파일 더함",
+      "by": "agent",
+      "asset": "anim_idle_body",
+      "file": "art/characters/nx07/anim/idle/out/nx07_idle_body.png"
+    },
+    {
+      "date": "2026-11-19",
+      "what": "파일 더함",
+      "by": "agent",
+      "asset": "anim_idle_scarf",
+      "file": "art/characters/nx07/anim/idle/out/nx07_idle_scarf.png"
+    },
+    {
+      "date": "2026-11-19",
+      "what": "파일 더함",
+      "by": "agent",
+      "asset": "anim_run_body",
+      "file": "art/characters/nx07/anim/run/out/nx07_run_body.png"
+    },
+    {
+      "date": "2026-11-19",
+      "what": "파일 더함",
+      "by": "agent",
+      "asset": "anim_run_scarf",
+      "file": "art/characters/nx07/anim/run/out/nx07_run_scarf.png"
+    },
+    {
+      "date": "2026-11-19",
+      "what": "승인",
+      "by": "기획자",
+      "assets": [
+        "px_base"
+      ],
+      "note": "NX-07 픽셀 마스터 (스카프 없음 · 저항군 합류 전). 형태 · 밝기 · 키 36칸. 승인 기록을 에이전트가 적었다"
+    },
+    {
+      "date": "2026-11-19",
+      "what": "승인",
+      "by": "기획자",
+      "assets": [
+        "px_scarf"
+      ],
+      "note": "NX-07 픽셀 마스터 (스카프 있음 · 저항군 합류 뒤) = S2 주황 · 한 가닥 늘어짐. 승인 기록을 에이전트가 적었다"
+    },
+    {
+      "date": "2026-11-19",
+      "what": "기획자 평가 기록",
+      "by": "agent",
+      "assets": [
+        "anim_idle_body",
+        "anim_idle_scarf",
+        "anim_run_body",
+        "anim_run_scarf"
+      ],
+      "note": "대기 · 달리기를 받아들임 (9.11.7)"
     }
   ],
   "game": {
@@ -1529,9 +2433,25 @@
     ],
     "sole": 89,
     "facing": "right",
-    "note": "게임 캐릭터의 크기와 등신은 [미정] (기획서 9.11 · 10장 2-7). 픽셀 마스터는 아직 실험이다."
+    "note": "지금 게임에 들어 있는 것은 스타일 3 그림이다. 새 도트 방향의 NX-07 픽셀 마스터는 승인됐다 (키 36칸, 두 벌: px_base · px_scarf, 기획서 9.11.6). 게임은 아직 바꾸지 않았다. 화면 밀도(320×180)는 [제안]."
   },
   "links": [
+    {
+      "label": "캐릭터 픽셀 파이프라인 — 설정 (pipeline.json) · 재현 검증 (verify.json)",
+      "file": "art/characters/nx07/pixel/pipeline.json"
+    },
+    {
+      "label": "대기 · 달리기 첫 증명 — 비교 그림 (9.11.6)",
+      "file": "art/characters/nx07/anim/preview/compare.png"
+    },
+    {
+      "label": "달리기 — 어두운 게임 화면 320×180 ×4 GIF (9.11.6)",
+      "file": "art/characters/nx07/anim/preview/ingame_run_320x180_x4.gif"
+    },
+    {
+      "label": "픽셀 마스터 규격 (9.11.6)",
+      "file": "art/characters/nx07/pixel/nx07_px_spec.png"
+    },
     {
       "label": "설정화 묶음 확인 그림 (일곱 장 + 화풍 기준 그림)",
       "file": "art/concept/setting/nx07/overview.png"
@@ -1539,6 +2459,10 @@
     {
       "label": "픽셀 마스터 비교 그림 (실험, 9.11)",
       "file": "art/pipeline_lab/pixel_master/compare.png"
+    },
+    {
+      "label": "C36 + 스카프 변형 비교 그림 (실험, 9.11.5)",
+      "file": "art/pipeline_lab/pixel_style/v3_scarf/compare.png"
     },
     {
       "label": "상태별 시트의 표 · 검사",

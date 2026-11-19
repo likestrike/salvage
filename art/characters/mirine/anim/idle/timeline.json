@@ -1,0 +1,76 @@
+{
+  "format": "salvage-pixel-anim/1",
+  "name": "idle",
+  "label": "대기 A (숨쉬기 1칸)",
+  "loop": true,
+  "ticks_note": "[제안] 한 바퀴 66틱(1.1초). NX-07(88틱)보다 빠른 아이의 숨. 함께 세우면 264틱(4.4초)마다 둘의 박자가 다시 맞는다 (같은 박자로 숨쉬면 기계처럼 보인다)",
+  "method": "변형: 다리는 마스터 그대로, 머리 · 윗몸이 함께 1칸 내려갔다 올라온다 (숨쉬기). 단말기를 든 손은 한 프레임 늦게 따라온다. 머리카락 끝은 한 박자 늦고(1~2칸), 도포 뒤 끝의 빛 획이 윗몸과 함께 내려간다 (덧칠 1~2칸)",
+  "frames": [
+    {
+      "ticks": 27,
+      "make": "마스터 그대로",
+      "upper": [
+        0,
+        0
+      ],
+      "arm": "back",
+      "arm_off": [
+        0,
+        0
+      ],
+      "legs": "master"
+    },
+    {
+      "ticks": 6,
+      "make": "윗몸 1칸 내림 · 손은 그대로 · 머리카락 끝은 아직 위",
+      "upper": [
+        0,
+        1
+      ],
+      "arm": "hold",
+      "arm_off": [
+        0,
+        0
+      ],
+      "legs": "master",
+      "patch": [
+        "hem_down",
+        "hair_lag_up"
+      ]
+    },
+    {
+      "ticks": 27,
+      "make": "윗몸 · 손 1칸 내림",
+      "upper": [
+        0,
+        1
+      ],
+      "arm": "back",
+      "arm_off": [
+        0,
+        1
+      ],
+      "legs": "master",
+      "patch": [
+        "hem_down"
+      ]
+    },
+    {
+      "ticks": 6,
+      "make": "윗몸 올림 · 손은 아직 내려 있음 · 머리카락 끝은 아직 아래",
+      "upper": [
+        0,
+        0
+      ],
+      "arm": "back",
+      "arm_off": [
+        0,
+        1
+      ],
+      "legs": "master",
+      "patch": [
+        "hair_lag_down"
+      ]
+    }
+  ]
+}

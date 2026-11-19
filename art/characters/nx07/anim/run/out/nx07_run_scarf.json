@@ -1,0 +1,31 @@
+{
+ "cell": [
+  40,
+  40
+ ],
+ "padding": 0,
+ "animations": {
+  "run": {
+   "row": 0,
+   "frames": 6,
+   "ticks": [
+    5,
+    5,
+    5,
+    5,
+    5,
+    5
+   ],
+   "loop": true
+  }
+ },
+ "anchor": [
+  20,
+  38
+ ],
+ "variant": "scarf",
+ "variant_label": "스카프 있음 (저항군 합류 뒤)",
+ "made_from": "art/characters/nx07/anim/run/timeline.json",
+ "rig": "art/characters/nx07/anim/rig.json",
+ "tick": "1/60초"
+}

@@ -1,0 +1,112 @@
+{
+  "format": "salvage-pixel-anim/1",
+  "name": "run",
+  "label": "달리기",
+  "loop": true,
+  "speed": 1.0,
+  "speed_note": "[제안] 가정한 이동 속도: 1.0 칸/틱 (320×180 화면. 640×360 이면 2.0px/틱). 딛는 발이 한 프레임(5틱)에 5칸씩 뒤로 가야 미끄러지지 않는다.",
+  "hips": {
+    "near": 7,
+    "far": 9
+  },
+  "hips_note": "엉덩이 관절의 x (마스터 좌표). 가까운 쪽 다리 7, 먼 쪽 다리 9.",
+  "method": "새로 찍음: 다리 · 앞쪽 팔 · 스카프 끝은 표(rig.json)의 자세를 프레임마다 고른다. 머리 · 몸통 · 주포는 마스터의 칸을 그대로 옮긴다 (오르내림만).",
+  "frames": [
+    {
+      "ticks": 5,
+      "make": "새로 찍음 (다리 · 팔) + 변형 (윗몸)",
+      "upper": [
+        0,
+        0
+      ],
+      "near": "P0",
+      "far": "P3",
+      "arm": "back",
+      "arm_off": [
+        0,
+        0
+      ],
+      "tail": "run_a"
+    },
+    {
+      "ticks": 5,
+      "make": "새로 찍음 (다리 · 팔) + 변형 (윗몸)",
+      "upper": [
+        0,
+        1
+      ],
+      "near": "P1",
+      "far": "P4",
+      "arm": "mid",
+      "arm_off": [
+        0,
+        1
+      ],
+      "tail": "run_b"
+    },
+    {
+      "ticks": 5,
+      "make": "새로 찍음 (다리 · 팔) + 변형 (윗몸)",
+      "upper": [
+        0,
+        0
+      ],
+      "near": "P2",
+      "far": "P5",
+      "arm": "fwd",
+      "arm_off": [
+        0,
+        0
+      ],
+      "tail": "run_c"
+    },
+    {
+      "ticks": 5,
+      "make": "새로 찍음 (다리 · 팔) + 변형 (윗몸)",
+      "upper": [
+        0,
+        0
+      ],
+      "near": "P3",
+      "far": "P0",
+      "arm": "fwd",
+      "arm_off": [
+        0,
+        0
+      ],
+      "tail": "run_a"
+    },
+    {
+      "ticks": 5,
+      "make": "새로 찍음 (다리 · 팔) + 변형 (윗몸)",
+      "upper": [
+        0,
+        1
+      ],
+      "near": "P4",
+      "far": "P1",
+      "arm": "mid",
+      "arm_off": [
+        0,
+        1
+      ],
+      "tail": "run_b"
+    },
+    {
+      "ticks": 5,
+      "make": "새로 찍음 (다리 · 팔) + 변형 (윗몸)",
+      "upper": [
+        0,
+        0
+      ],
+      "near": "P5",
+      "far": "P2",
+      "arm": "back",
+      "arm_off": [
+        0,
+        0
+      ],
+      "tail": "run_c"
+    }
+  ]
+}

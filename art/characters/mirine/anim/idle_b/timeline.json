@@ -1,0 +1,56 @@
+{
+  "format": "salvage-pixel-anim/1",
+  "name": "idle_b",
+  "label": "대기 B (더 줄인 안: 몸은 그대로)",
+  "loop": true,
+  "ticks_note": "[제안] 한 바퀴 132틱(2.2초). NX-07(88틱)과 264틱마다 박자가 맞는다",
+  "method": "변형: 몸 · 머리 · 단말기는 마스터 그대로. 머리카락 끝과 도포 뒤 끝만 1칸씩 번갈아 고쳐 찍는다 (덧칠 2~3칸)",
+  "frames": [
+    {
+      "ticks": 50,
+      "make": "마스터 그대로",
+      "upper": [
+        0,
+        0
+      ],
+      "arm": "back",
+      "legs": "master"
+    },
+    {
+      "ticks": 16,
+      "make": "머리카락 끝 1칸 안쪽",
+      "upper": [
+        0,
+        0
+      ],
+      "arm": "back",
+      "legs": "master",
+      "patch": [
+        "hair_sway"
+      ]
+    },
+    {
+      "ticks": 50,
+      "make": "마스터 그대로",
+      "upper": [
+        0,
+        0
+      ],
+      "arm": "back",
+      "legs": "master"
+    },
+    {
+      "ticks": 16,
+      "make": "도포 뒤 끝 1칸 안쪽",
+      "upper": [
+        0,
+        0
+      ],
+      "arm": "back",
+      "legs": "master",
+      "patch": [
+        "hem_sway"
+      ]
+    }
+  ]
+}

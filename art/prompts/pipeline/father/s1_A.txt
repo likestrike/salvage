@@ -1,0 +1,32 @@
+Design ONE small pixel-art game sprite of the character from our design sheet from scratch, as a pixel artist would: decide the pose, the big shapes and the light/dark plan for a tiny sprite. Do NOT shrink or trace the illustration.
+
+REFERENCES (design only):
+- image 1 = our character design sheet, side view. Take only the design and the body proportions (age, build, head size) from it. Do not copy its black outlines, its fine detail or its stiff standing pose.
+- image 2 = the same character from the front: how the clothes, the colors and the carried items look.
+- image 3 = NOT a design reference: another character (an android soldier) from the SAME game, already finished in the target pixel style. Copy only HOW it is drawn: the size of one art pixel, no outline, big dark calm areas, a thin pale lit edge only on the back and top edges, muted colors, very few saturated pixels. Do not copy its shapes, its armor, its olive colors or its pose, and do not draw it.
+
+SIZE AND PIXELS:
+- Big chunky pixels. Every art pixel is a hard square of about 18 x 18 image pixels. The whole figure is about 43 art pixels tall (about 774 image pixels), from the top of the head (or of the hat or helmet; not counting a thin antenna or a single strand of hair) to the soles.
+- No detail smaller than one art pixel. No anti-aliasing, no gradients, no dithering, no noise or speckles, no stray single pixels.
+
+THE FIGURE: exactly one character, side view facing RIGHT (the face and the eye look toward the right edge), with exactly the age, the build, the head size and the body proportions of the character in image 1 (read them from the drawing, do not invent new ones). Do not make the character slimmer, taller, longer-legged, curvier or more glamorous than in the design sheet.
+
+THE POSE (a living idle stance, this drawing becomes the reference for all frames, so not an action pose):
+- A relaxed, living idle stance: weight on the BACK leg, the front foot a little forward, both soles on the same ground line. Shoulders relaxed, the head level or slightly lowered, looking ahead.
+- If the character carries something in one hand (a tool, a device, a weapon), the FAR arm (the arm on the far side of the body) holds it in a natural resting grip, a little in front of the body, so that it is read in the silhouette.
+- The NEAR arm (closer to the viewer) hangs relaxed at the side, ending in a small simple hand.
+
+HOW THE BEST SMALL SPRITES OF THIS KIND ARE BUILT (follow this, it is the point of the image):
+- ONE MASTER VALUE SHAPE. If you squint, the body is mostly one big connected area of a single brightness level; the largest such area covers about two thirds of the body. Do not chop the body into many medium pieces of alternating light and dark: clothes, armor, sleeves and the other parts of similar brightness are merged into the big shape wherever they have similar brightness.
+- On top of the master shape only a FEW SMALL ACCENT STROKES (1 to 3 art pixels each): the pale face, one or two small highlights, and the one or two most characteristic small details of the design. About one fifth of the cells are small strokes, the rest are big calm areas.
+- Very little saturated color: only about 5% of the cells are strongly saturated. Those are the eye and the one most characteristic glowing or strongly colored detail of the design (for example a light, a screen or a badge), if there is one. Everything else is muted and greyish.
+- NO OUTLINE: no black line drawn around the figure and no dark ring around each part. The edge of the figure is simply the edge of its big shapes. Dark parts may sit on the edge, because they are dark parts, not lines.
+- Dark colors are welcome, including near-black charcoal. Each material has only 2 tones (base and shadow), plus at most one small highlight. About 12 to 16 colors for the whole figure.
+- Simplify the design for this tiny size: keep only what reads at this tiny size: the silhouette, the hair or headgear shape, the face and the one or two most characteristic details; small emblems, buttons, zippers, straps, pockets, patterns, frayed edges, fingers and tiny lights are left out or merged into the big shapes; small devices near the face become at most one dark art pixel or are left out
+
+BACKGROUND: completely flat solid magenta (#FF00FF) everywhere outside the figure. No ground, no shadow, no text, no border, no grid lines.
+
+LIGHT AND DARK PLAN — "dark body is the master shape, lit from behind":
+- The master shape is the biggest part of the clothing or armor (decide it from the design). Make it DARK and muted: a near-black or very dark version of its design color (a base and one shadow tone). Together with the parts of similar brightness it forms one big dark mass that fills most of the body.
+- A light comes from BEHIND and above the character (from the left of the image). It draws a thin lit edge, ONE art pixel wide, only on the upper-left facing edges of the big shapes: the top and back of the head, the top of the shoulder, the back edge of the body, the back of the legs. The lit edge is a pale warm cream (about #d1c8a5), not cyan and not white. It is broken into a few strokes, never a closed line around the figure; the front (right) edges have no lit edge.
+- Other light accents, small and few: the pale face and one or two small light details of the design.

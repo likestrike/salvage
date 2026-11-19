@@ -1,0 +1,133 @@
+{
+ "date": "2026-11-19",
+ "targets": "art/characters/_pipeline/reference_targets.json",
+ "items": {
+  "A38": {
+   "label": "어두운 몸 + 뒤에서 오는 빛 · 38칸",
+   "file": "art/characters/father/pixel/work/A38/father_A38_master.png",
+   "format": {
+    "semi_transparent": 0,
+    "off_palette": 0,
+    "colors": 16,
+    "orphan_pct": 8.9,
+    "pass": true,
+    "grid_good": 1.0
+   },
+   "picture": {
+    "largest_value_mass_pct": 28.6,
+    "value_top3_pct": 57.5,
+    "region_big_pct": 48.3,
+    "region_mid_pct": 33.1,
+    "region_small_pct": 18.6,
+    "accent_pct": 13.9,
+    "L_mean": 54.0,
+    "face_contrast": 23.3,
+    "face_skin_cells": 38,
+    "height": 38,
+    "head": 12,
+    "heads_tall": 3.17,
+    "solidity": 0.73,
+    "edge_L_mean": 57.2
+   },
+   "distance": {
+    "largest_value_mass_pct": [
+     {
+      "ref": "참고 큰 인물",
+      "value": 68.5,
+      "diff": -39.9
+     },
+     {
+      "ref": "참고 아이",
+      "value": 16.4,
+      "diff": 12.2
+     }
+    ],
+    "value_top3_pct": [
+     {
+      "ref": "참고 큰 인물",
+      "value": 79.6,
+      "diff": -22.1
+     },
+     {
+      "ref": "참고 아이",
+      "value": 43.5,
+      "diff": 14.0
+     }
+    ],
+    "region_big_pct": [
+     {
+      "ref": "참고 큰 인물",
+      "value": 45.0,
+      "diff": 3.3
+     },
+     {
+      "ref": "참고 아이",
+      "value": 31.8,
+      "diff": 16.5
+     }
+    ],
+    "region_mid_pct": [
+     {
+      "ref": "참고 큰 인물",
+      "value": 33.9,
+      "diff": -0.8
+     },
+     {
+      "ref": "참고 아이",
+      "value": 39.3,
+      "diff": -6.2
+     }
+    ],
+    "region_small_pct": [
+     {
+      "ref": "참고 큰 인물",
+      "value": 21.1,
+      "diff": -2.5
+     },
+     {
+      "ref": "참고 아이",
+      "value": 29.0,
+      "diff": -10.4
+     }
+    ],
+    "accent_pct": [
+     {
+      "ref": "참고 큰 인물",
+      "value": 4.5,
+      "diff": 9.4
+     },
+     {
+      "ref": "참고 아이",
+      "value": 37.9,
+      "diff": -24.0
+     }
+    ],
+    "L_mean": [
+     {
+      "ref": "참고 큰 인물",
+      "value": 26.3,
+      "diff": 27.7
+     },
+     {
+      "ref": "참고 아이",
+      "value": 47.6,
+      "diff": 6.4
+     }
+    ],
+    "face_contrast": [
+     {
+      "ref": "참고 큰 인물",
+      "value": null,
+      "diff": null
+     },
+     {
+      "ref": "참고 아이",
+      "value": 46.0,
+      "diff": -22.7
+     }
+    ]
+   }
+  }
+ },
+ "note": "형식은 통과 · 실패가 있다. 그림은 참고 그림과의 거리일 뿐이다. 마지막 판정은 기획자의 눈이다 (9.11.3)."
+}

@@ -1,0 +1,20 @@
+Redraw image 2 as a CLEAN, FINISHED pixel-art game sprite. Image 2 is a rough block-out on the EXACT pixel grid of the output; image 1 is the drawing it was made from (our own earlier draft of the girl Mirine).
+
+THE GRID (most important):
+- Image 2 has exactly the size of the output image. Every square block in it is ONE ART PIXEL of 30 x 30 image pixels. The grid starts at x=302, y=62. The figure is 30 art pixels tall.
+- KEEP exactly: the grid, the size, the position on the canvas, the pose, the silhouette and the light/dark plan of image 2. Every art pixel of the output is one hard 30 x 30 square exactly on this grid. Never shift a block by half a square, never draw anything smaller than one art pixel.
+
+WHAT TO CLEAN (image 2 is messy because it was squeezed onto the grid):
+- Make every shape a clean, deliberate pixel-art shape: smooth stair-step curves on the hair, the head and the sneakers, straight runs, no ragged single blocks, no stray pixels, no noise.
+- Keep the BIG CALM AREAS big. Do not break them into many small pieces. Do not add new parts, panel lines or small lights.
+- The head: long silver hair covers the back of the head and falls down her back to the waist, with bangs over the forehead and ONE small curled ahoge on top; under the bangs a small PALE child's face that is the brightest skin area, with ONE teal eye of 1 x 2 art pixels (one wide, two tall); no mouth line needed. The hair device is at most one dark-teal art pixel in the hair, with no glow. A child's face, nothing mature.
+- The arms: the figure faces RIGHT. The FAR arm holds the small dark hacking terminal in front of the chest with its teal screen (2 x 2 art pixels) toward her face, exactly as in image 2. The NEAR arm hangs at her side inside the wide navy sleeve, with a small pale hand at its end.
+- Light/dark plan to keep: a MIDDLE-DARK navy robe (the navy of the design sheet) that reads as one big connected navy shape over most of the body, light grey-silver hair as one connected shape down the back, near-black navy only in the gaps; small light accents only: the pale face, the white soles, the pale T-shirt strip.
+- Teal only on the terminal screen and the eye. About 5% of the figure is saturated color, everything else is muted.
+- NO OUTLINE: no black line around the figure and no dark ring around the parts. Dark parts are allowed on the edge because they are dark parts.
+- 12 to 16 colors in total, each material 2 tones plus at most one small highlight. Use the colors of image 2; do not brighten the navy robe.
+
+THE FIGURE: exactly one character, an 11-year-old girl with a CHILD's body in pure side view facing right, the same relaxed standing pose as image 2 with both soles on the same ground line. Plain everyday clothes, nothing mature. Do not make her slimmer, taller, longer-legged or curvier.
+
+BACKGROUND: completely flat solid magenta (#FF00FF) everywhere outside the figure. No ground, no shadow, no text, no border, no grid lines.
+Hard square pixels on one even grid, no anti-aliasing, no blur, no gradients, no semi-transparent pixels.

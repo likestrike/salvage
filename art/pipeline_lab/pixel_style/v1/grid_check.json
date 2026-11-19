@@ -1,0 +1,35 @@
+{
+ "a_selout": {
+  "good": 0.988,
+  "half_xy": 0.134,
+  "half_x": 0.496,
+  "half_y": 0.445,
+  "cells": 684,
+  "known16": [
+   23,
+   56
+  ]
+ },
+ "b_flat": {
+  "good": 0.997,
+  "half_xy": 0.216,
+  "half_x": 0.552,
+  "half_y": 0.522,
+  "cells": 666,
+  "known16": [
+   23,
+   56
+  ]
+ },
+ "c_flat2": {
+  "good": 0.963,
+  "half_xy": 0.226,
+  "half_x": 0.568,
+  "half_y": 0.504,
+  "cells": 683,
+  "known16": [
+   23,
+   56
+  ]
+ }
+}

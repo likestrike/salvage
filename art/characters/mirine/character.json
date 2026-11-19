@@ -426,10 +426,337 @@
           1122
         ]
       }
+    },
+    "pm_A30": {
+      "group": "pixel_master",
+      "label": "A30 · 어두운 도포가 주인 + 뒤에서 오는 빛 · 키 30칸 · 실험 · 승인 기록 없음",
+      "file": "art/characters/mirine/pixel/work/A30/mirine_A30_master.png",
+      "source": {
+        "made_by": "tools/pixpipe.py master (알려진 격자 · Lab 색 묶기 16색 · 칸 손보기 1)",
+        "from": "art/characters/mirine/pixel/work/s2/mirine_s2_A30.png",
+        "tool": "tools/fal_image.py",
+        "model": "openai/gpt-image-2.6/sunburst/edit",
+        "prompts": [
+          "art/prompts/pipeline/mirine/s1_A.txt",
+          "art/prompts/pipeline/mirine/s2_A30.txt"
+        ],
+        "note": "캐릭터 픽셀 파이프라인을 두 번째 캐릭터에 처음 적용. 디자인 시안 A · 키 30칸 · 단순화안 · 밝기 계획은 모두 [제안]",
+        "doc": "docs/GAME_DESIGN.md 9.11.8"
+      },
+      "status": "작업 폴더의 원본 · 기획자가 A30 를 골랐다 (2026-11-19). 승인된 마스터 px_base 로 복사했다 (2026-11-19)",
+      "facing": "right",
+      "info": "art/characters/mirine/pixel/work/A30/mirine_A30_master_info.json",
+      "also": {
+        "x8": "art/characters/mirine/pixel/work/A30/mirine_A30_master_x8.png",
+        "unfixed": "art/characters/mirine/pixel/work/A30/mirine_A30_unfixed.png",
+        "fixes": "art/characters/mirine/pixel/work/A30/mirine_A30_fixes.json",
+        "board": "art/characters/mirine/pixel/work/board.png"
+      },
+      "base": {
+        "version": 1,
+        "date": "2026-11-19",
+        "sha256": "6d840b354234f891047909d43906e9da857373047e14b791412560c517a08eae",
+        "bytes": 548,
+        "size": [
+          14,
+          30
+        ]
+      }
+    },
+    "pm_B30": {
+      "group": "pixel_master",
+      "label": "B30 · 밝은 은발이 주인 · 어두운 도포가 받침 · 키 30칸 · 실험 · 승인 기록 없음",
+      "file": "art/characters/mirine/pixel/work/B30/mirine_B30_master.png",
+      "source": {
+        "made_by": "tools/pixpipe.py master (알려진 격자 · Lab 색 묶기 16색 · 칸 손보기 1)",
+        "from": "art/characters/mirine/pixel/work/s2/mirine_s2_B30.png",
+        "tool": "tools/fal_image.py",
+        "model": "openai/gpt-image-2.6/sunburst/edit",
+        "prompts": [
+          "art/prompts/pipeline/mirine/s1_B.txt",
+          "art/prompts/pipeline/mirine/s2_B30.txt"
+        ],
+        "note": "캐릭터 픽셀 파이프라인을 두 번째 캐릭터에 처음 적용. 디자인 시안 A · 키 30칸 · 단순화안 · 밝기 계획은 모두 [제안]",
+        "doc": "docs/GAME_DESIGN.md 9.11.8"
+      },
+      "status": "실험 · 채택하지 않음 — 기획자가 A30 를 골랐다 (2026-11-19)",
+      "facing": "right",
+      "info": "art/characters/mirine/pixel/work/B30/mirine_B30_master_info.json",
+      "also": {
+        "x8": "art/characters/mirine/pixel/work/B30/mirine_B30_master_x8.png",
+        "unfixed": "art/characters/mirine/pixel/work/B30/mirine_B30_unfixed.png",
+        "fixes": "art/characters/mirine/pixel/work/B30/mirine_B30_fixes.json",
+        "board": "art/characters/mirine/pixel/work/board.png"
+      },
+      "base": {
+        "version": 1,
+        "date": "2026-11-19",
+        "sha256": "de9f383085912da6fde0349449108a45841030914d5e84b6d6e3204def49a0a8",
+        "bytes": 514,
+        "size": [
+          14,
+          30
+        ]
+      }
+    },
+    "pm_C30": {
+      "group": "pixel_master",
+      "label": "C30 · 중간 밝기의 남색 도포가 주인 (설정화의 색) · 키 30칸 · 실험 · 승인 기록 없음",
+      "file": "art/characters/mirine/pixel/work/C30/mirine_C30_master.png",
+      "source": {
+        "made_by": "tools/pixpipe.py master (알려진 격자 · Lab 색 묶기 16색 · 칸 손보기 1)",
+        "from": "art/characters/mirine/pixel/work/s2/mirine_s2_C30.png",
+        "tool": "tools/fal_image.py",
+        "model": "openai/gpt-image-2.6/sunburst/edit",
+        "prompts": [
+          "art/prompts/pipeline/mirine/s1_C.txt",
+          "art/prompts/pipeline/mirine/s2_C30.txt"
+        ],
+        "note": "캐릭터 픽셀 파이프라인을 두 번째 캐릭터에 처음 적용. 디자인 시안 A · 키 30칸 · 단순화안 · 밝기 계획은 모두 [제안]",
+        "doc": "docs/GAME_DESIGN.md 9.11.8"
+      },
+      "status": "실험 · 채택하지 않음 — 기획자가 A30 를 골랐다 (2026-11-19)",
+      "facing": "right",
+      "info": "art/characters/mirine/pixel/work/C30/mirine_C30_master_info.json",
+      "also": {
+        "x8": "art/characters/mirine/pixel/work/C30/mirine_C30_master_x8.png",
+        "unfixed": "art/characters/mirine/pixel/work/C30/mirine_C30_unfixed.png",
+        "fixes": "art/characters/mirine/pixel/work/C30/mirine_C30_fixes.json",
+        "board": "art/characters/mirine/pixel/work/board.png"
+      },
+      "base": {
+        "version": 1,
+        "date": "2026-11-19",
+        "sha256": "26c51a31e0c2fa412dd6cfda5bd7240e7d250f0b6af41cead72c29b2b295f6ed",
+        "bytes": 542,
+        "size": [
+          13,
+          30
+        ]
+      }
+    },
+    "px_base": {
+      "group": "pixel_master",
+      "label": "픽셀 마스터 · 층 없음",
+      "file": "art/characters/mirine/pixel/mirine_px_base.png",
+      "source": {
+        "made_by": "tools/pixpipe.py approve (고른 후보를 복사)",
+        "from": "art/characters/mirine/pixel/work/A30/mirine_A30_master.png",
+        "doc": "docs/pipeline/CHARACTER_PIPELINE.md"
+      },
+      "status": "승인 (2026-11-19, 기획자)",
+      "facing": "right",
+      "base": {
+        "version": 1,
+        "date": "2026-11-19",
+        "sha256": "6d840b354234f891047909d43906e9da857373047e14b791412560c517a08eae",
+        "bytes": 548,
+        "size": [
+          14,
+          30
+        ]
+      }
+    },
+    "px_spec": {
+      "group": "pixel_spec",
+      "label": "픽셀 마스터 규격 그림 (부위 · 팔레트 · 기준점)",
+      "file": "art/characters/mirine/pixel/mirine_px_spec.png",
+      "source": {
+        "made_by": "tools/pixpipe.py spec (승인된 마스터에서 잼)",
+        "doc": "docs/pipeline/CHARACTER_PIPELINE.md"
+      },
+      "also": {
+        "json": "art/characters/mirine/pixel/mirine_px_spec.json"
+      },
+      "base": {
+        "version": 1,
+        "date": "2026-11-19",
+        "sha256": "0bdb38f51a02755f2bd070e52606d4a3cec448990d2ac97398bec98cbcd2a577",
+        "bytes": 115382,
+        "size": [
+          1900,
+          1106
+        ]
+      }
+    },
+    "anim_idle_body": {
+      "group": "pixel_anim",
+      "label": "대기 A (숨쉬기 1칸) · 층 없음",
+      "file": "art/characters/mirine/anim/idle/out/mirine_idle_body.png",
+      "source": {
+        "made_by": "tools/pixpipe.py anim mirine (tools/pixel_anim.py)",
+        "rig": "art/characters/mirine/anim/rig.json",
+        "timeline": "art/characters/mirine/anim/idle/timeline.json",
+        "from": "art/characters/mirine/pixel/mirine_px_base.png",
+        "doc": "docs/pipeline/CHARACTER_PIPELINE.md"
+      },
+      "status": "기획자 평가 전",
+      "facing": "right",
+      "anim": {
+        "frames": 4,
+        "cell": [
+          40,
+          40
+        ],
+        "ticks": [
+          27,
+          6,
+          27,
+          6
+        ],
+        "loop": true,
+        "anchor": [
+          20,
+          38
+        ]
+      },
+      "also": {
+        "gif": "art/characters/mirine/anim/idle/out/mirine_idle_body_x8.gif",
+        "meta": "art/characters/mirine/anim/idle/out/mirine_idle_body.json",
+        "check": "art/characters/mirine/anim/idle/check.json",
+        "frames": "art/characters/mirine/anim/idle/frames/"
+      },
+      "base": {
+        "version": 1,
+        "date": "2026-11-19",
+        "sha256": "12b53bdf9d520ed520adf46c72a92e791982b68f5a9780120a90186040b0eac0",
+        "bytes": 931,
+        "size": [
+          160,
+          40
+        ]
+      }
+    },
+    "anim_idle_b_body": {
+      "group": "pixel_anim",
+      "label": "대기 B (더 줄인 안: 몸은 그대로) · 층 없음",
+      "file": "art/characters/mirine/anim/idle_b/out/mirine_idle_b_body.png",
+      "source": {
+        "made_by": "tools/pixpipe.py anim mirine (tools/pixel_anim.py)",
+        "rig": "art/characters/mirine/anim/rig.json",
+        "timeline": "art/characters/mirine/anim/idle_b/timeline.json",
+        "from": "art/characters/mirine/pixel/mirine_px_base.png",
+        "doc": "docs/pipeline/CHARACTER_PIPELINE.md"
+      },
+      "status": "기획자 평가 전",
+      "facing": "right",
+      "anim": {
+        "frames": 4,
+        "cell": [
+          40,
+          40
+        ],
+        "ticks": [
+          50,
+          16,
+          50,
+          16
+        ],
+        "loop": true,
+        "anchor": [
+          20,
+          38
+        ]
+      },
+      "also": {
+        "gif": "art/characters/mirine/anim/idle_b/out/mirine_idle_b_body_x8.gif",
+        "meta": "art/characters/mirine/anim/idle_b/out/mirine_idle_b_body.json",
+        "check": "art/characters/mirine/anim/idle_b/check.json",
+        "frames": "art/characters/mirine/anim/idle_b/frames/"
+      },
+      "base": {
+        "version": 1,
+        "date": "2026-11-19",
+        "sha256": "383d3359a17661ac9cee20b50b4a097b023c874124fe47f902ca6f44f50274ad",
+        "bytes": 784,
+        "size": [
+          160,
+          40
+        ]
+      }
+    },
+    "anim_run_body": {
+      "group": "pixel_anim",
+      "label": "달리기 · 층 없음",
+      "file": "art/characters/mirine/anim/run/out/mirine_run_body.png",
+      "source": {
+        "made_by": "tools/pixpipe.py anim mirine (tools/pixel_anim.py)",
+        "rig": "art/characters/mirine/anim/rig.json",
+        "timeline": "art/characters/mirine/anim/run/timeline.json",
+        "from": "art/characters/mirine/pixel/mirine_px_base.png",
+        "doc": "docs/pipeline/CHARACTER_PIPELINE.md"
+      },
+      "status": "기획자 평가 전",
+      "facing": "right",
+      "anim": {
+        "frames": 6,
+        "cell": [
+          40,
+          40
+        ],
+        "ticks": [
+          4,
+          4,
+          4,
+          4,
+          4,
+          4
+        ],
+        "loop": true,
+        "anchor": [
+          20,
+          38
+        ]
+      },
+      "also": {
+        "gif": "art/characters/mirine/anim/run/out/mirine_run_body_x8.gif",
+        "meta": "art/characters/mirine/anim/run/out/mirine_run_body.json",
+        "check": "art/characters/mirine/anim/run/check.json",
+        "frames": "art/characters/mirine/anim/run/frames/"
+      },
+      "base": {
+        "version": 1,
+        "date": "2026-11-19",
+        "sha256": "ac4e8161efd355b9a9d5ab0b44f1f49311779d762bf6cdfaac5ca188cdc37f89",
+        "bytes": 1494,
+        "size": [
+          240,
+          40
+        ]
+      }
     }
   },
-  "approvals": [],
-  "records": [],
+  "approvals": [
+    {
+      "date": "2026-11-19",
+      "by": "기획자",
+      "assets": {
+        "px_base": "6d840b354234f891047909d43906e9da857373047e14b791412560c517a08eae"
+      },
+      "note": "pixpipe approve. [해석] 기획자가 board.png 를 보고 A30 을 골랐고 그것을 픽셀 마스터로 승인한 것으로 읽었다. 키 30칸 · 디자인 시안 A 는 따로 말하지 않았다 (A30 이 그 둘을 바탕으로 한 후보라 그대로 간다, 명시적 확정은 아니다)",
+      "quote": "A로하자",
+      "saw": [
+        "art/characters/mirine/pixel/work/board.png"
+      ]
+    }
+  ],
+  "records": [
+    {
+      "date": "2026-11-19",
+      "by": "기획자",
+      "kind": "결정",
+      "what": "픽셀 마스터 후보 가운데 A30 를 골랐다",
+      "quote": "A로하자",
+      "keys": [
+        "A30"
+      ],
+      "doc": "docs/pipeline/CHARACTER_PIPELINE.md",
+      "note": "",
+      "saw": [
+        "art/characters/mirine/pixel/work/board.png"
+      ]
+    }
+  ],
   "history": [
     {
       "date": "2026-11-19",
@@ -485,6 +812,80 @@
       "what": "설명 칸 적음",
       "by": "agent",
       "note": "디자인 상태 · 설정 키 · 게임 정보 · 기록을 STORY.md 4장과 기획서 9.4.1 · 9.8 · 9.9 · 9.10 · 9.11에서 옮겨 적었다"
+    },
+    {
+      "date": "2026-11-19",
+      "what": "파일 더함",
+      "by": "agent",
+      "asset": "pm_A30",
+      "file": "art/characters/mirine/pixel/work/A30/mirine_A30_master.png"
+    },
+    {
+      "date": "2026-11-19",
+      "what": "파일 더함",
+      "by": "agent",
+      "asset": "pm_B30",
+      "file": "art/characters/mirine/pixel/work/B30/mirine_B30_master.png"
+    },
+    {
+      "date": "2026-11-19",
+      "what": "파일 더함",
+      "by": "agent",
+      "asset": "pm_C30",
+      "file": "art/characters/mirine/pixel/work/C30/mirine_C30_master.png"
+    },
+    {
+      "date": "2026-11-19",
+      "what": "기획자 결정 기록",
+      "by": "agent",
+      "note": "픽셀 마스터 후보 가운데 A30 를 골랐다"
+    },
+    {
+      "date": "2026-11-19",
+      "what": "후보의 상태에 고름을 적음",
+      "by": "agent",
+      "note": "A30 (pixpipe pick)"
+    },
+    {
+      "date": "2026-11-19",
+      "what": "승인",
+      "by": "기획자",
+      "assets": [
+        "px_base"
+      ],
+      "note": "pixpipe approve"
+    },
+    {
+      "date": "2026-11-19",
+      "what": "파일 더함",
+      "by": "agent",
+      "asset": "px_spec",
+      "file": "art/characters/mirine/pixel/mirine_px_spec.png",
+      "note": "pixpipe"
+    },
+    {
+      "date": "2026-11-19",
+      "what": "파일 더함",
+      "by": "agent",
+      "asset": "anim_idle_body",
+      "file": "art/characters/mirine/anim/idle/out/mirine_idle_body.png",
+      "note": "pixpipe"
+    },
+    {
+      "date": "2026-11-19",
+      "what": "파일 더함",
+      "by": "agent",
+      "asset": "anim_idle_b_body",
+      "file": "art/characters/mirine/anim/idle_b/out/mirine_idle_b_body.png",
+      "note": "pixpipe"
+    },
+    {
+      "date": "2026-11-19",
+      "what": "파일 더함",
+      "by": "agent",
+      "asset": "anim_run_body",
+      "file": "art/characters/mirine/anim/run/out/mirine_run_body.png",
+      "note": "pixpipe"
     }
   ],
   "game": {

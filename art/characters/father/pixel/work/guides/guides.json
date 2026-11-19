@@ -1,0 +1,22 @@
+{
+ "A38": {
+  "guide": "art/prompts/pipeline/father/guide_A38.png",
+  "from": "art/characters/father/pixel/work/s1/father_s1_A.png",
+  "cell": 23,
+  "origin": [
+   339,
+   75
+  ],
+  "cells": [
+   15,
+   38
+  ],
+  "heads": 3.17,
+  "src_head_px": 198,
+  "src_height_px": 782,
+  "head_cells": 12,
+  "body_cells": 26,
+  "src_cell_head": 16.5,
+  "src_cell_body": 22.46
+ }
+}

@@ -15,7 +15,7 @@
     python tools/charpipe.py add-pixel-lab <id> <실험 폴더>
     python tools/charpipe.py accept <id> <key…|--changed> --note "…"
                                                         # 바뀐 파일을 새 판으로 받아들인다 (기준 해시를 바꾸고 판 번호를 올린다)
-    python tools/charpipe.py approve <id> <key…> --by 기획자 --note "…"
+    python tools/charpipe.py approve <id> <key…> --by 기획자 --note "…" [--saw 그림 …] [--quote "원문"]
                                                         # 승인을 적는다. 기획자가 대화에서 승인했을 때만 쓴다
 
 --root 로 다른 폴더를 프로젝트처럼 다룰 수 있다 (바뀜 감지 시험용).
@@ -48,7 +48,9 @@ GROUPS = {
     "design": "디자인 시안",
     "design_ref": "원본 설정화 (reference/)",
     "reference_only": "참조만 (기획자 원본, 고치지 않는다)",
-    "pixel_master": "픽셀 마스터 후보 (실험)",
+    "pixel_master": "픽셀 마스터 (승인된 것과 실험 후보)",
+    "pixel_spec": "픽셀 마스터 규격",
+    "pixel_anim": "픽셀 애니메이션 (승인된 마스터에서 만든 것)",
     "sprite": "게임의 스프라이트",
 }
 # 검사의 문턱 [제안]
@@ -316,7 +318,12 @@ def cmd_approve(a) -> None:
         if s.get("base") and cur != s["base"]["sha256"]:
             sys.exit(f"[approve] {k}: 등록한 뒤 파일이 바뀌었다. 먼저 accept 로 새 판을 받아들인다")
         hashes[k] = cur
-    c["approvals"].append({"date": today(), "by": a.by, "assets": hashes, "note": a.note or ""})
+    ap = {"date": today(), "by": a.by, "assets": hashes, "note": a.note or ""}
+    if a.saw:
+        ap["saw"] = a.saw  # 무엇을 보고 정했는가 (그림 경로)
+    if a.quote:
+        ap["quote"] = a.quote  # 한 말 (원문)
+    c["approvals"].append(ap)
     log(c, "승인", by=a.by, assets=list(hashes), note=a.note or "")
     save_char(c)
     print(f"[approve] {a.id}: {', '.join(hashes)}")
@@ -525,6 +532,15 @@ def first_frame_crop(src: Path, cell: list[int], dst_dir: Path, sha: str) -> str
     return dst.relative_to(reg_dir()).as_posix()
 
 
+def pipeline_status(cid: str) -> list[dict]:
+    """캐릭터 픽셀 파이프라인의 단계마다 상태 (tools/pixpipe.py 의 status, docs/pipeline/CHARACTER_PIPELINE.md)."""
+    sys.path.insert(0, str(Path(__file__).resolve().parent))
+    import pixpipe
+    if pixpipe.ROOT.resolve() != ROOT.resolve():  # --root 로 다른 폴더를 다룰 때는 건너뛴다
+        return []
+    return pixpipe.status(cid)
+
+
 def cmd_report(a, checks: dict | None = None) -> None:
     rd = reg_dir()
     tdir = rd / "_report" / "thumbs"
@@ -556,6 +572,8 @@ def cmd_report(a, checks: dict | None = None) -> None:
                     raw = ROOT / (s.get("source") or {}).get("from", "")
                     if raw.is_file():
                         item["raw_thumb"] = thumb(raw, d, sha256(raw), height=360)
+                elif g == "pixel_anim":
+                    item["thumb"] = rel(p)  # 1배 시트 그대로 (화면은 also.gif 를 보인다)
                 elif g == "sprite":
                     item["thumb"] = rel(p)
                     if k == first_sprite:
@@ -565,7 +583,8 @@ def cmd_report(a, checks: dict | None = None) -> None:
                 keep.update((rd / item[t]) for t in ("thumb", "raw_thumb", "frame0") if item.get(t) and not item[t].startswith("art/"))
             assets.append(item)
         chars.append({k: c.get(k) for k in ("id", "name", "kind", "design", "story", "game", "approvals", "records", "history", "links")}
-                     | {"assets": assets, "check": {k: chk[k] for k in ("date", "result", "items", "thresholds")}})
+                     | {"assets": assets, "check": {k: chk[k] for k in ("date", "result", "items", "thresholds")},
+                        "pipeline": pipeline_status(cid)})
     # 쓰지 않게 된 미리보기 지우기
     for f in tdir.rglob("*.*"):
         if f not in keep:
@@ -605,6 +624,8 @@ def main() -> None:
     p.add_argument("--changed", action="store_true"); p.add_argument("--note")
     p = sub.add_parser("approve"); p.add_argument("id"); p.add_argument("keys", nargs="+")
     p.add_argument("--by", required=True); p.add_argument("--note")
+    p.add_argument("--saw", action="append", help="무엇을 보고 정했는가 (그림 경로, 여러 번)")
+    p.add_argument("--quote", help="한 말 (원문)")
     a = ap.parse_args()
     if a.root:
         ROOT = Path(a.root).resolve()

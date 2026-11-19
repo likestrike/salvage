@@ -1,0 +1,34 @@
+Design ONE small pixel-art game sprite of the girl Mirine from scratch, as a pixel artist would: decide the pose, the big shapes and the light/dark plan for a tiny sprite. Do NOT shrink or trace the illustration.
+
+REFERENCES (design only):
+- image 1 = our character design sheet, side view (the girl Mirine, an 11-year-old child: big head, short child's body, long silver hair down to the waist, an oversized open navy robe, big chunky sneakers). Take only the design and the child's body proportions from it. Do not copy its black outlines, its fine detail or its stiff standing pose.
+- image 2 = the same girl from the front: the plain white T-shirt, the short denim shorts, the brown belt with a tool pouch, grey socks, navy-and-white sneakers, and her handheld hacking terminal (a dark-grey brick with a glowing teal screen).
+- image 3 = NOT a design reference: another character (an android soldier) from the SAME game, already finished in the target pixel style. Copy only HOW it is drawn: the size of one art pixel, no outline, big dark calm areas, a thin pale lit edge only on the back and top edges, muted colors, very few saturated pixels. Do not copy its shapes, its armor, its olive colors or its pose, and do not draw it.
+
+SIZE AND PIXELS:
+- Big chunky pixels. Every art pixel is a hard square of about 22 x 22 image pixels. The whole figure is about 34 art pixels tall (about 748 image pixels), from the top of the head (not counting the ahoge) to the soles.
+- No detail smaller than one art pixel. No anti-aliasing, no gradients, no dithering, no noise or speckles, no stray single pixels.
+
+THE FIGURE: exactly one character, side view facing RIGHT (her face and eye look toward the right edge), an 11-year-old girl with a CHILD's body: a big head, a short body, short limbs, small hands and big chunky sneakers. Draw her as a child in plain everyday clothes; nothing mature, nothing glamorous, no make-up. Do not make her taller, slimmer, longer-legged or curvier.
+
+THE POSE (a living idle stance, this drawing becomes the reference for all frames, so not an action pose):
+- A relaxed, living idle stance: weight on the BACK leg, the front foot a little forward, both soles on the same ground line. The head slightly lowered, looking down at the terminal in her hands.
+- The FAR arm (the arm on the far side of the body) holds her small hacking terminal in front of her chest; its teal screen faces her and the terminal sticks out a little in front of the body, so it is read in the silhouette.
+- The NEAR arm (closer to the viewer) hangs relaxed at her side, mostly hidden in the wide navy sleeve; only a small pale hand shows at the end of the sleeve.
+- The long silver hair falls down her back to the waist, over the back of the robe. One small curled ahoge sticks up from the top of the head. The open navy robe hangs down to just below the knees, its back edge a little behind the legs; the bare lower legs, the socks and the big sneakers show below it.
+
+HOW THE BEST SMALL SPRITES OF THIS KIND ARE BUILT (follow this, it is the point of the image):
+- ONE MASTER VALUE SHAPE. If you squint, the body is mostly one big connected area of a single brightness level; the largest such area covers about two thirds of the body. Do not chop the body into many medium pieces of alternating light and dark: the robe, its wide sleeves, its hood collar and the shorts under it are merged into the big shape wherever they have similar brightness.
+- On top of the master shape only a FEW SMALL ACCENT STROKES (1 to 3 art pixels each): the pale face, the teal screen of the terminal, the white sneaker soles, a short pale trim line on the robe's front edge. About one fifth of the cells are small strokes, the rest are big calm areas.
+- Very little saturated color: only about 5% of the cells are strongly saturated. Those are the teal screen of the terminal (2 to 4 art pixels) and the teal eye only. Everything else is muted and greyish.
+- NO OUTLINE: no black line drawn around the figure and no dark ring around each part. The edge of the figure is simply the edge of its big shapes. Dark parts may sit on the edge, because they are dark parts, not lines.
+- Dark colors are welcome, including near-black charcoal. Each material has only 2 tones (base and shadow), plus at most one small highlight. About 12 to 16 colors for the whole figure.
+- Simplify the design for this tiny size: the hair device becomes at most one dark-teal art pixel in the hair (no glow); the sleeve emblem, the gold corner marks, the pale frayed patches on the hem, the small tools in the pouch and the keypad are left out; the belt and the tool pouch become one small brown block at the hip; the T-shirt shows only as a pale strip in the robe opening; the denim shorts are a short dark-blue band under the robe; the socks and the shoe straps merge into the sneakers.
+
+BACKGROUND: completely flat solid magenta (#FF00FF) everywhere outside the figure. No ground, no shadow, no text, no border, no grid lines.
+
+LIGHT AND DARK PLAN — "bright silver hair is the master light shape on a dark robe":
+- The silver hair is the BRIGHTEST big shape: a pale cool silver (base about #c9c7d4, shadow #9896ab, one small highlight #e6e4ee). It is one big connected light shape from the top of the head down the back to the waist, never broken into strands.
+- The navy robe is a DARK, muted navy (base about #262e45, shadow #181d2e). Robe, sleeves and shorts form one big dark mass behind and under the hair; it holds the figure together.
+- Other light accents, small and few: the pale face (a warm skin color, so it reads apart from the cool hair), the white sneaker soles, the pale strip of the T-shirt.
+- Teal only on the terminal screen and the eye.

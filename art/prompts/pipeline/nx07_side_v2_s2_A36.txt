@@ -1,0 +1,20 @@
+Redraw image 2 as a CLEAN, FINISHED pixel-art game sprite. Image 2 is a rough block-out on the EXACT pixel grid of the output; image 1 is the drawing it was made from (our own earlier draft of the android NX-07).
+
+THE GRID (most important):
+- Image 2 has exactly the size of the output image. Every square block in it is ONE ART PIXEL of 24 x 24 image pixels. The grid starts at x=260, y=80. The figure is 36 art pixels tall.
+- KEEP exactly: the grid, the size, the position on the canvas, the pose, the silhouette and the light/dark plan of image 2. Every art pixel of the output is one hard 24 x 24 square exactly on this grid. Never shift a block by half a square, never draw anything smaller than one art pixel.
+
+WHAT TO CLEAN (image 2 is messy because it was squeezed onto the grid):
+- Make every shape a clean, deliberate pixel-art shape: smooth stair-step curves on the helmet and the boots, straight runs, no ragged single blocks, no stray pixels, no noise.
+- Keep the BIG CALM AREAS big. Do not break them into many small pieces. Do not add new parts, panel lines or small lights.
+- The head: a big round olive helmet; a clear cyan INVERTED TRIANGLE emblem on its front (3 art pixels wide on top, 1 below); a dark visor band; under it a small PALE boyish face that is the brightest area of the head, with ONE dark-teal eye of 1 x 1 art pixel; no mouth. The ear unit is a small round shape in a darker helmet tone (no white, no cyan in it). A thin antenna, one art pixel wide, rises up and back behind the helmet.
+- The arms: the figure faces RIGHT. The cannon belongs to the FAR arm: the olive cannon tube with a white ring at its back end, one cyan light band and a cyan muzzle, held low in front of the body and pointing forward-down, exactly as in image 2. The NEAR arm hangs at the side and ends in a dark glove fist, no cannon on it.
+- Light/dark plan to keep: a near-black charcoal bodysuit and DARK olive armor that together make ONE big dark mass over most of the body; small light accents only: the pale face, a short olive highlight on the helmet top, the white ring at the back of the cannon, one small white shoulder accent, the pale antenna.
+- Cyan only on the emblem, the cannon light band and the muzzle (and the eye is dark teal). About 5% of the figure is saturated color, everything else is muted.
+- NO OUTLINE: no black line around the figure and no dark ring around the parts. Dark parts are allowed on the edge because they are dark parts.
+- 12 to 16 colors in total, each material 2 tones plus at most one small highlight. Use the colors of image 2; do not brighten the olive.
+
+THE FIGURE: exactly one character, a sturdy BOY android soldier in pure side view facing right, the same relaxed standing pose as image 2 with both soles on the same ground line. Do not make it slimmer, taller, longer-legged or curvier.
+
+BACKGROUND: completely flat solid magenta (#FF00FF) everywhere outside the figure. No ground, no shadow, no text, no border, no grid lines.
+Hard square pixels on one even grid, no anti-aliasing, no blur, no gradients, no semi-transparent pixels.

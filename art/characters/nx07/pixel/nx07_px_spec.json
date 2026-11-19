@@ -1,0 +1,624 @@
+{
+ "format": "salvage-pixel-spec/1",
+ "character": "nx07",
+ "doc": "docs/GAME_DESIGN.md 9.11.6",
+ "_": "NX-07 을 픽셀로 그릴 때 지키는 규칙. 숫자는 make_spec.py 가 마스터에서 잰 값이다. 'proposal' 이 붙은 것은 [제안].",
+ "masters": {
+  "base": {
+   "file": "art/characters/nx07/pixel/nx07_px_base.png",
+   "from": "art/pipeline_lab/pixel_style/v2/C36/nx07_v2C36_master.png",
+   "label": "스카프 없음 (저항군 합류 전)",
+   "size": [
+    21,
+    36
+   ],
+   "colors": 15
+  },
+  "scarf": {
+   "file": "art/characters/nx07/pixel/nx07_px_scarf.png",
+   "from": "art/pipeline_lab/pixel_style/v3_scarf/S2/nx07_v3S2.png",
+   "label": "스카프 있음 (저항군 합류 뒤)",
+   "size": [
+    22,
+    36
+   ],
+   "colors": 18,
+   "pad_left": 1,
+   "note": "base 위에 스카프 층을 얹은 것. 층을 빼면 base 와 한 칸도 다르지 않다"
+  },
+  "approved": "2026-11-19 기획자 (character.json 의 approvals)"
+ },
+ "canvas": {
+  "master_base": [
+   21,
+   36
+  ],
+  "master_scarf": [
+   22,
+   36
+  ],
+  "anim": [
+   40,
+   40
+  ],
+  "anim_place": [
+   12,
+   2
+  ],
+  "anim_anchor": [
+   20,
+   38
+  ],
+  "anchor_note": "발 기준점 = 캔버스 (20, 38): 발바닥 줄(38, 칸 경계) 위, 골반 가운데(마스터 x 8). 마스터를 (12, 2)에 놓는다. 모든 프레임 · 모든 동작이 같은 캔버스와 같은 기준점을 쓴다.",
+  "master_front_foot": {
+   "x": 14.0,
+   "sole": 36,
+   "note": "앞발(오른쪽 부츠) 바닥의 가운데 · 발바닥 줄 (C36 좌표, 9.11.5)"
+  }
+ },
+ "height": {
+  "cells": 36,
+  "top_row": 0,
+  "sole_row": 36,
+  "bands": {
+   "머리": {
+    "rows": [
+     0,
+     10
+    ],
+    "cells_tall": 11
+   },
+   "몸통 · 팔": {
+    "rows": [
+     11,
+     24
+    ],
+    "cells_tall": 14
+   },
+   "다리": {
+    "rows": [
+     25,
+     35
+    ],
+    "cells_tall": 11
+   }
+  },
+  "measured_head": {
+   "height": 36,
+   "head": 10,
+   "heads_tall": 3.6
+  },
+  "note": "머리 줄(0~10)은 턱 줄까지다. 도구(pixel_master.head_height)가 잰 정수리 ~ 목은 10칸, 3.6등신"
+ },
+ "parts_cells": {
+  "head": 107,
+  "upper": 168,
+  "near_arm": 39,
+  "legs": 130
+ },
+ "facing": "right",
+ "cannon_arm": "먼 쪽 팔 (캐릭터의 왼팔). 앞쪽 팔(오른팔)은 흰 팔뚝 · 회색 주먹 (기획자 결정, 9.11.2)",
+ "outline": "검은 외곽선 없음. 실루엣은 색과 밝기로 읽힌다 (9.11.2)",
+ "light": "뒤-위에서 온다. 뒤쪽 · 위쪽 가장자리에 1칸 두께의 크림색 획(d1c8a5). 닫힌 테두리가 아니다 (9.11.4 의 C 안)",
+ "brightness": "어두운 몸이 주인 (평균 밝기 L* 32, 가장 큰 밝기 덩어리 37%, 채도 높은 칸 1.8% — 9.11.4 C36). 밝기는 그대로 (기획자, 9.11.5)",
+ "palette": [
+  {
+   "hex": "#1f201c",
+   "key": "k",
+   "name": "가장 어두운 색",
+   "use": "틈 · 그늘 · 발바닥 · 앞쪽 팔의 가장자리",
+   "cells_base": 86,
+   "cells_scarf": 77,
+   "in_base": true,
+   "rows": [
+    "다리",
+    "머리",
+    "몸통 · 팔"
+   ]
+  },
+  {
+   "hex": "#262921",
+   "key": "",
+   "name": "헬멧 뒤 그늘 (1칸)",
+   "use": "단독 색",
+   "cells_base": 1,
+   "cells_scarf": 1,
+   "in_base": true,
+   "rows": [
+    "머리"
+   ]
+  },
+  {
+   "hex": "#2f3131",
+   "key": "s",
+   "name": "슈트",
+   "use": "몸통 · 넓적다리 · 위팔",
+   "cells_base": 62,
+   "cells_scarf": 62,
+   "in_base": true,
+   "rows": [
+    "다리",
+    "머리",
+    "몸통 · 팔"
+   ]
+  },
+  {
+   "hex": "#333926",
+   "key": "d",
+   "name": "어두운 올리브",
+   "use": "장갑의 그늘 면",
+   "cells_base": 81,
+   "cells_scarf": 81,
+   "in_base": true,
+   "rows": [
+    "다리",
+    "머리",
+    "몸통 · 팔"
+   ]
+  },
+  {
+   "hex": "#3f3f3d",
+   "key": "g",
+   "name": "주먹 회색",
+   "use": "앞쪽 팔의 주먹",
+   "cells_base": 8,
+   "cells_scarf": 5,
+   "in_base": true,
+   "rows": [
+    "몸통 · 팔"
+   ]
+  },
+  {
+   "hex": "#3d422b",
+   "key": "",
+   "name": "안테나 끝 (1칸)",
+   "use": "단독 색",
+   "cells_base": 1,
+   "cells_scarf": 1,
+   "in_base": true,
+   "rows": [
+    "머리"
+   ]
+  },
+  {
+   "hex": "#7e3518",
+   "key": "S",
+   "name": "스카프 그늘",
+   "use": "스카프 층",
+   "cells_base": 0,
+   "cells_scarf": 9,
+   "in_base": false,
+   "rows": [
+    "스카프 층"
+   ]
+  },
+  {
+   "hex": "#545837",
+   "key": "o",
+   "name": "올리브",
+   "use": "헬멧 · 장갑의 기본 면",
+   "cells_base": 140,
+   "cells_scarf": 140,
+   "in_base": true,
+   "rows": [
+    "다리",
+    "머리",
+    "몸통 · 팔"
+   ]
+  },
+  {
+   "hex": "#0d7172",
+   "key": "",
+   "name": "눈",
+   "use": "짙은 청록 1칸",
+   "cells_base": 1,
+   "cells_scarf": 1,
+   "in_base": true,
+   "rows": [
+    "머리"
+   ]
+  },
+  {
+   "hex": "#626640",
+   "key": "l",
+   "name": "밝은 올리브",
+   "use": "가슴 장갑의 밝은 면",
+   "cells_base": 12,
+   "cells_scarf": 12,
+   "in_base": true,
+   "rows": [
+    "머리",
+    "몸통 · 팔"
+   ]
+  },
+  {
+   "hex": "#c25a26",
+   "key": "M",
+   "name": "스카프 가운데",
+   "use": "스카프 층",
+   "cells_base": 0,
+   "cells_scarf": 9,
+   "in_base": false,
+   "rows": [
+    "스카프 층"
+   ]
+  },
+  {
+   "hex": "#e88a46",
+   "key": "H",
+   "name": "스카프 밝음",
+   "use": "스카프 층",
+   "cells_base": 0,
+   "cells_scarf": 10,
+   "in_base": false,
+   "rows": [
+    "스카프 층"
+   ]
+  },
+  {
+   "hex": "#b7a897",
+   "key": "",
+   "name": "주포 고리의 그늘",
+   "use": "주포 팔",
+   "cells_base": 2,
+   "cells_scarf": 2,
+   "in_base": true,
+   "rows": [
+    "몸통 · 팔"
+   ]
+  },
+  {
+   "hex": "#cdbeaa",
+   "key": "w",
+   "name": "흰 장갑",
+   "use": "앞쪽 팔뚝 · 넓적다리 판",
+   "cells_base": 5,
+   "cells_scarf": 5,
+   "in_base": true,
+   "rows": [
+    "다리",
+    "몸통 · 팔"
+   ]
+  },
+  {
+   "hex": "#01f9fe",
+   "key": "c",
+   "name": "시안",
+   "use": "이마 엠블럼 · 주포의 빛 띠 · 총구",
+   "cells_base": 8,
+   "cells_scarf": 8,
+   "in_base": true,
+   "rows": [
+    "머리",
+    "몸통 · 팔"
+   ]
+  },
+  {
+   "hex": "#d1c8a5",
+   "key": "r",
+   "name": "뒤 빛 (크림)",
+   "use": "뒤 · 위 가장자리의 1칸 획",
+   "cells_base": 27,
+   "cells_scarf": 27,
+   "in_base": true,
+   "rows": [
+    "다리",
+    "머리",
+    "몸통 · 팔"
+   ]
+  },
+  {
+   "hex": "#e5d9c4",
+   "key": "",
+   "name": "주포 고리의 빛",
+   "use": "주포 팔",
+   "cells_base": 4,
+   "cells_scarf": 4,
+   "in_base": true,
+   "rows": [
+    "몸통 · 팔"
+   ]
+  },
+  {
+   "hex": "#fde1c4",
+   "key": "",
+   "name": "얼굴",
+   "use": "살색 6칸",
+   "cells_base": 6,
+   "cells_scarf": 6,
+   "in_base": true,
+   "rows": [
+    "머리"
+   ]
+  }
+ ],
+ "palette_rule": "새 색을 만들지 않는다. 스카프 없음 = 위 표에서 in_base 인 15색, 스카프 있음 = 18색",
+ "materials": [
+  {
+   "name": "헬멧 · 장갑 (올리브)",
+   "colors": [
+    "#333926",
+    "#545837",
+    "#626640"
+   ],
+   "tones": "3톤 + 뒤 빛(d1c8a5)"
+  },
+  {
+   "name": "슈트",
+   "colors": [
+    "#1f201c",
+    "#2f3131"
+   ],
+   "tones": "2톤"
+  },
+  {
+   "name": "흰 장갑",
+   "colors": [
+    "#cdbeaa"
+   ],
+   "tones": "1톤 (뒤 빛과 맞닿음)"
+  },
+  {
+   "name": "주먹",
+   "colors": [
+    "#3f3f3d",
+    "#1f201c"
+   ],
+   "tones": "2톤"
+  },
+  {
+   "name": "얼굴",
+   "colors": [
+    "#fde1c4"
+   ],
+   "tones": "1톤 + 눈 1칸(0d7172)"
+  },
+  {
+   "name": "시안 빛",
+   "colors": [
+    "#01f9fe"
+   ],
+   "tones": "1톤. 엠블럼 · 주포만"
+  },
+  {
+   "name": "주포 고리",
+   "colors": [
+    "#e5d9c4",
+    "#b7a897"
+   ],
+   "tones": "2톤"
+  },
+  {
+   "name": "스카프 (층)",
+   "colors": [
+    "#e88a46",
+    "#c25a26",
+    "#7e3518"
+   ],
+   "tones": "3톤. 위 · 뒤가 밝다"
+  }
+ ],
+ "simplified": [
+  "귀 장치는 헬멧의 어두운 톤 동그라미로 눌렀다 (흰 원반 · 시안 점 없음). 얼굴만 밝다 (9.11.4)",
+  "작은 흰 판 · 작은 시안 점은 빼거나 합쳤다. 시안은 엠블럼 · 주포의 빛 띠 · 총구뿐이고 눈은 짙은 청록이다",
+  "올리브는 설정화의 올리브 드랩(#6F7457) 쪽과 그보다 어두운 쪽으로 돌렸다",
+  "주먹은 회색 덩어리라 손가락은 그리지 않는다"
+ ],
+ "scarf_layer": {
+  "colors": [
+   "#e88a46",
+   "#c25a26",
+   "#7e3518"
+  ],
+  "wrap_cells": [
+   [
+    5,
+    11
+   ],
+   [
+    6,
+    10
+   ],
+   [
+    6,
+    11
+   ],
+   [
+    7,
+    10
+   ],
+   [
+    7,
+    11
+   ],
+   [
+    7,
+    12
+   ],
+   [
+    8,
+    10
+   ],
+   [
+    8,
+    11
+   ],
+   [
+    8,
+    12
+   ],
+   [
+    9,
+    11
+   ],
+   [
+    9,
+    12
+   ],
+   [
+    10,
+    11
+   ]
+  ],
+  "covers_base_cells": [
+   [
+    6,
+    10
+   ],
+   [
+    7,
+    10
+   ],
+   [
+    8,
+    10
+   ],
+   [
+    5,
+    11
+   ],
+   [
+    6,
+    11
+   ],
+   [
+    7,
+    11
+   ],
+   [
+    8,
+    11
+   ],
+   [
+    9,
+    11
+   ],
+   [
+    10,
+    11
+   ],
+   [
+    7,
+    12
+   ],
+   [
+    8,
+    12
+   ],
+   [
+    9,
+    12
+   ]
+  ],
+  "adds_cells": [
+   [
+    2,
+    10
+   ],
+   [
+    3,
+    10
+   ],
+   [
+    4,
+    10
+   ],
+   [
+    5,
+    10
+   ],
+   [
+    0,
+    11
+   ],
+   [
+    1,
+    11
+   ],
+   [
+    2,
+    11
+   ],
+   [
+    0,
+    12
+   ],
+   [
+    0,
+    13
+   ],
+   [
+    0,
+    14
+   ],
+   [
+    0,
+    15
+   ],
+   [
+    -1,
+    12
+   ],
+   [
+    -1,
+    13
+   ],
+   [
+    -1,
+    14
+   ],
+   [
+    -1,
+    15
+   ],
+   [
+    -1,
+    16
+   ]
+  ],
+  "counts": {
+   "covers": 12,
+   "adds": 16
+  },
+  "rule": "목에 감긴 부분(wrap, 12칸)은 늘 같다. 끝(tail)은 동작마다 rig.json 의 표에서 고른다. 얼굴 · 눈 · 엠블럼 칸은 덮지 않는다. 몸통과 함께 움직인다",
+  "story": "스카프는 저항군에 합류한 뒤에 두른다 (기획자, 2026-11-19). STORY.md 4장"
+ },
+ "invariant_proposal": {
+  "_": "[제안] 프레임이 바뀌어도 칸 단위로 옮기기만 하고 한 칸도 바꾸지 않는 부분",
+  "fixed": [
+   {
+    "part": "머리 (0~10줄)",
+    "cells": 107,
+    "rule": "모든 프레임에서 마스터와 같다. 다른 층에 가려도 안 된다"
+   },
+   {
+    "part": "몸통 · 등짐 · 골반 · 주포 팔 (11~24줄, 앞쪽 팔 제외)",
+    "cells": 168,
+    "rule": "마스터와 같다. 앞쪽 팔 · 다리가 앞에서 가리는 칸만 허용하고 몇 칸인지 적는다"
+   },
+   {
+    "part": "스카프의 목에 감긴 부분",
+    "cells": 12,
+    "rule": "스카프 있음 프레임에서 S2 와 같다"
+   }
+  ],
+  "free": [
+   {
+    "part": "다리 (25~35줄)",
+    "cells": 130,
+    "rule": "프레임마다 새로 찍는다. 색은 마스터의 다리 색, 먼 쪽 다리는 한 톤 어둡게"
+   },
+   {
+    "part": "앞쪽 팔 (16~24줄, x 0~4)",
+    "cells": 39,
+    "rule": "자세 표(뒤 · 아래 · 앞)에서 고른다. 팔이 비운 몸통 뒤 가장자리는 슈트 색으로 채운다"
+   },
+   {
+    "part": "스카프 끝",
+    "rule": "동작마다 표에서 고른다"
+   }
+  ],
+  "limit": "공격 · 피격처럼 몸통이 돌아가거나 주포를 드는 동작에서는 몸통 · 주포 팔의 불변을 풀어야 한다 (이번 범위 밖)"
+ },
+ "measured_by": "art/characters/nx07/pixel/make_spec.py"
+}

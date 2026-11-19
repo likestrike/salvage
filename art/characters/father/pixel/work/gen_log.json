@@ -1,0 +1,82 @@
+[
+ {
+  "date": "2026-11-19",
+  "step": "s1",
+  "name": "A",
+  "dry_run": false,
+  "model": "openai/gpt-image-2.6/sunburst/edit",
+  "prompt_file": {
+   "path": "art/prompts/pipeline/father/s1_A.txt",
+   "sha256": "330897d3cefb6ae5e95b4fb39be37764cb9b623ba58b4801811267d6a2ada5e8"
+  },
+  "refs": [
+   {
+    "path": "art/concept/setting/father/02_side.png",
+    "sha256": "155e8727ae2f0d4666fcca06714ff143fa2d018a7618e3c971d10655a6c25d82"
+   },
+   {
+    "path": "art/concept/setting/father/01_front.png",
+    "sha256": "d1a3004721723a1a8b6bdc6b82ac82fc8f7ac1d87b2d9315ac3ce7ae3e42a8be"
+   },
+   {
+    "path": "art/prompts/pipeline/father/style_nx07_px_base_x18.png",
+    "sha256": "1de592d8e0fa9d46172d8769c5ae4e8d56c733586f15fa897fbdbd1c27af891d"
+   }
+  ],
+  "args": {
+   "image_size": [
+    1024,
+    1024
+   ],
+   "quality": "high",
+   "background": "opaque"
+  },
+  "simplify_status": "[제안]으로 진행 (기획자 결정 없음)",
+  "out": {
+   "path": "art/characters/father/pixel/work/s1/father_s1_A.png",
+   "sha256": "7c675d7d412360c20d155f717a4fc3a13b6a1d2d34214c3ada4499716d5a3fb9",
+   "size": [
+    1024,
+    1024
+   ]
+  }
+ },
+ {
+  "date": "2026-11-19",
+  "step": "s2",
+  "name": "A38",
+  "dry_run": false,
+  "model": "openai/gpt-image-2.6/sunburst/edit",
+  "prompt_file": {
+   "path": "art/prompts/pipeline/father/s2_A38.txt",
+   "sha256": "8a79577ab88ffd0aa7bbe268e8717c7d709c4f638507c0a7833d1f4614a8bcf3"
+  },
+  "refs": [
+   {
+    "path": "art/characters/father/pixel/work/s1/father_s1_A.png",
+    "sha256": "7c675d7d412360c20d155f717a4fc3a13b6a1d2d34214c3ada4499716d5a3fb9"
+   },
+   {
+    "path": "art/prompts/pipeline/father/guide_A38.png",
+    "sha256": "82b93b28cec6970d1a5e2c66af6570672d9deba3c78ab57456f502023efc8858"
+   }
+  ],
+  "args": {
+   "image_size": [
+    1024,
+    1024
+   ],
+   "quality": "high",
+   "background": "opaque"
+  },
+  "simplify_status": "[제안]으로 진행 (기획자 결정 없음)",
+  "out": {
+   "path": "art/characters/father/pixel/work/s2/father_s2_A38.png",
+   "sha256": "9940e1623e77854418f2e70c81116ec17a1128b8bd9e172e212e133f7f416e56",
+   "size": [
+    1024,
+    1024
+   ]
+  }
+ }
+]

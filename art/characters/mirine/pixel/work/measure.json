@@ -1,0 +1,385 @@
+{
+ "date": "2026-11-19",
+ "targets": "art/characters/_pipeline/reference_targets.json",
+ "items": {
+  "A30": {
+   "label": "어두운 도포가 주인 + 뒤에서 오는 빛 · 30칸",
+   "file": "art/characters/mirine/pixel/work/A30/mirine_A30_master.png",
+   "format": {
+    "semi_transparent": 0,
+    "off_palette": 0,
+    "colors": 15,
+    "orphan_pct": 12.7,
+    "pass": true,
+    "grid_good": 1.0
+   },
+   "picture": {
+    "largest_value_mass_pct": 35.9,
+    "value_top3_pct": 69.1,
+    "region_big_pct": 36.7,
+    "region_mid_pct": 30.5,
+    "region_small_pct": 32.8,
+    "accent_pct": 0.8,
+    "L_mean": 47.0,
+    "face_contrast": 40.3,
+    "face_skin_cells": 6,
+    "height": 30,
+    "head": 8,
+    "heads_tall": 3.75,
+    "solidity": 0.78,
+    "edge_L_mean": 53.2
+   },
+   "distance": {
+    "largest_value_mass_pct": [
+     {
+      "ref": "참고 큰 인물",
+      "value": 68.5,
+      "diff": -32.6
+     },
+     {
+      "ref": "참고 아이",
+      "value": 16.4,
+      "diff": 19.5
+     }
+    ],
+    "value_top3_pct": [
+     {
+      "ref": "참고 큰 인물",
+      "value": 79.6,
+      "diff": -10.5
+     },
+     {
+      "ref": "참고 아이",
+      "value": 43.5,
+      "diff": 25.6
+     }
+    ],
+    "region_big_pct": [
+     {
+      "ref": "참고 큰 인물",
+      "value": 45.0,
+      "diff": -8.3
+     },
+     {
+      "ref": "참고 아이",
+      "value": 31.8,
+      "diff": 4.9
+     }
+    ],
+    "region_mid_pct": [
+     {
+      "ref": "참고 큰 인물",
+      "value": 33.9,
+      "diff": -3.4
+     },
+     {
+      "ref": "참고 아이",
+      "value": 39.3,
+      "diff": -8.8
+     }
+    ],
+    "region_small_pct": [
+     {
+      "ref": "참고 큰 인물",
+      "value": 21.1,
+      "diff": 11.7
+     },
+     {
+      "ref": "참고 아이",
+      "value": 29.0,
+      "diff": 3.8
+     }
+    ],
+    "accent_pct": [
+     {
+      "ref": "참고 큰 인물",
+      "value": 4.5,
+      "diff": -3.7
+     },
+     {
+      "ref": "참고 아이",
+      "value": 37.9,
+      "diff": -37.1
+     }
+    ],
+    "L_mean": [
+     {
+      "ref": "참고 큰 인물",
+      "value": 26.3,
+      "diff": 20.7
+     },
+     {
+      "ref": "참고 아이",
+      "value": 47.6,
+      "diff": -0.6
+     }
+    ],
+    "face_contrast": [
+     {
+      "ref": "참고 큰 인물",
+      "value": null,
+      "diff": null
+     },
+     {
+      "ref": "참고 아이",
+      "value": 46.0,
+      "diff": -5.7
+     }
+    ]
+   }
+  },
+  "B30": {
+   "label": "밝은 은발이 주인 · 어두운 도포가 받침 · 30칸",
+   "file": "art/characters/mirine/pixel/work/B30/mirine_B30_master.png",
+   "format": {
+    "semi_transparent": 0,
+    "off_palette": 0,
+    "colors": 15,
+    "orphan_pct": 10.1,
+    "pass": true,
+    "grid_good": 0.941
+   },
+   "picture": {
+    "largest_value_mass_pct": 24.9,
+    "value_top3_pct": 58.2,
+    "region_big_pct": 41.8,
+    "region_mid_pct": 28.3,
+    "region_small_pct": 30.0,
+    "accent_pct": 0.4,
+    "L_mean": 53.3,
+    "face_contrast": 28.0,
+    "face_skin_cells": 5,
+    "height": 30,
+    "head": 10,
+    "heads_tall": 3.0,
+    "solidity": 0.77,
+    "edge_L_mean": 54.1
+   },
+   "distance": {
+    "largest_value_mass_pct": [
+     {
+      "ref": "참고 큰 인물",
+      "value": 68.5,
+      "diff": -43.6
+     },
+     {
+      "ref": "참고 아이",
+      "value": 16.4,
+      "diff": 8.5
+     }
+    ],
+    "value_top3_pct": [
+     {
+      "ref": "참고 큰 인물",
+      "value": 79.6,
+      "diff": -21.4
+     },
+     {
+      "ref": "참고 아이",
+      "value": 43.5,
+      "diff": 14.7
+     }
+    ],
+    "region_big_pct": [
+     {
+      "ref": "참고 큰 인물",
+      "value": 45.0,
+      "diff": -3.2
+     },
+     {
+      "ref": "참고 아이",
+      "value": 31.8,
+      "diff": 10.0
+     }
+    ],
+    "region_mid_pct": [
+     {
+      "ref": "참고 큰 인물",
+      "value": 33.9,
+      "diff": -5.6
+     },
+     {
+      "ref": "참고 아이",
+      "value": 39.3,
+      "diff": -11.0
+     }
+    ],
+    "region_small_pct": [
+     {
+      "ref": "참고 큰 인물",
+      "value": 21.1,
+      "diff": 8.9
+     },
+     {
+      "ref": "참고 아이",
+      "value": 29.0,
+      "diff": 1.0
+     }
+    ],
+    "accent_pct": [
+     {
+      "ref": "참고 큰 인물",
+      "value": 4.5,
+      "diff": -4.1
+     },
+     {
+      "ref": "참고 아이",
+      "value": 37.9,
+      "diff": -37.5
+     }
+    ],
+    "L_mean": [
+     {
+      "ref": "참고 큰 인물",
+      "value": 26.3,
+      "diff": 27.0
+     },
+     {
+      "ref": "참고 아이",
+      "value": 47.6,
+      "diff": 5.7
+     }
+    ],
+    "face_contrast": [
+     {
+      "ref": "참고 큰 인물",
+      "value": null,
+      "diff": null
+     },
+     {
+      "ref": "참고 아이",
+      "value": 46.0,
+      "diff": -18.0
+     }
+    ]
+   }
+  },
+  "C30": {
+   "label": "중간 밝기의 남색 도포가 주인 (설정화의 색) · 30칸",
+   "file": "art/characters/mirine/pixel/work/C30/mirine_C30_master.png",
+   "format": {
+    "semi_transparent": 0,
+    "off_palette": 0,
+    "colors": 16,
+    "orphan_pct": 10.4,
+    "pass": true,
+    "grid_good": 0.996
+   },
+   "picture": {
+    "largest_value_mass_pct": 28.8,
+    "value_top3_pct": 56.0,
+    "region_big_pct": 28.8,
+    "region_mid_pct": 48.0,
+    "region_small_pct": 23.2,
+    "accent_pct": 0.4,
+    "L_mean": 51.8,
+    "face_contrast": 32.8,
+    "face_skin_cells": 7,
+    "height": 30,
+    "head": 10,
+    "heads_tall": 3.0,
+    "solidity": 0.8,
+    "edge_L_mean": 58.1
+   },
+   "distance": {
+    "largest_value_mass_pct": [
+     {
+      "ref": "참고 큰 인물",
+      "value": 68.5,
+      "diff": -39.7
+     },
+     {
+      "ref": "참고 아이",
+      "value": 16.4,
+      "diff": 12.4
+     }
+    ],
+    "value_top3_pct": [
+     {
+      "ref": "참고 큰 인물",
+      "value": 79.6,
+      "diff": -23.6
+     },
+     {
+      "ref": "참고 아이",
+      "value": 43.5,
+      "diff": 12.5
+     }
+    ],
+    "region_big_pct": [
+     {
+      "ref": "참고 큰 인물",
+      "value": 45.0,
+      "diff": -16.2
+     },
+     {
+      "ref": "참고 아이",
+      "value": 31.8,
+      "diff": -3.0
+     }
+    ],
+    "region_mid_pct": [
+     {
+      "ref": "참고 큰 인물",
+      "value": 33.9,
+      "diff": 14.1
+     },
+     {
+      "ref": "참고 아이",
+      "value": 39.3,
+      "diff": 8.7
+     }
+    ],
+    "region_small_pct": [
+     {
+      "ref": "참고 큰 인물",
+      "value": 21.1,
+      "diff": 2.1
+     },
+     {
+      "ref": "참고 아이",
+      "value": 29.0,
+      "diff": -5.8
+     }
+    ],
+    "accent_pct": [
+     {
+      "ref": "참고 큰 인물",
+      "value": 4.5,
+      "diff": -4.1
+     },
+     {
+      "ref": "참고 아이",
+      "value": 37.9,
+      "diff": -37.5
+     }
+    ],
+    "L_mean": [
+     {
+      "ref": "참고 큰 인물",
+      "value": 26.3,
+      "diff": 25.5
+     },
+     {
+      "ref": "참고 아이",
+      "value": 47.6,
+      "diff": 4.2
+     }
+    ],
+    "face_contrast": [
+     {
+      "ref": "참고 큰 인물",
+      "value": null,
+      "diff": null
+     },
+     {
+      "ref": "참고 아이",
+      "value": 46.0,
+      "diff": -13.2
+     }
+    ]
+   }
+  }
+ },
+ "note": "형식은 통과 · 실패가 있다. 그림은 참고 그림과의 거리일 뿐이다. 마지막 판정은 기획자의 눈이다 (9.11.3)."
+}

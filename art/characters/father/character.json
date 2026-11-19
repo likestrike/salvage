@@ -267,6 +267,37 @@
           2048
         ]
       }
+    },
+    "pm_A38": {
+      "group": "pixel_master",
+      "label": "A38 · 어두운 몸 + 뒤에서 오는 빛 · 키 38칸",
+      "file": "art/characters/father/pixel/work/A38/father_A38_master.png",
+      "source": {
+        "made_by": "tools/pixpipe.py master (pixpipe candidates 가 등록)",
+        "from": "art/characters/father/pixel/work/s2/father_s2_A38.png",
+        "prompts": [
+          "art/prompts/pipeline/father/s1_A.txt",
+          "art/prompts/pipeline/father/s2_A38.txt"
+        ],
+        "doc": "docs/pipeline/CHARACTER_PIPELINE.md"
+      },
+      "status": "실험 · 승인 기록 없음",
+      "facing": "right",
+      "info": "art/characters/father/pixel/work/A38/father_A38_master_info.json",
+      "also": {
+        "x8": "art/characters/father/pixel/work/A38/father_A38_master_x8.png",
+        "compare": "art/characters/father/pixel/work/compare.png"
+      },
+      "base": {
+        "version": 1,
+        "date": "2026-11-19",
+        "sha256": "753537e62dbedb1962dafc120901f552ed77018f78a55276b67f458cc201655d",
+        "bytes": 642,
+        "size": [
+          15,
+          38
+        ]
+      }
     }
   },
   "approvals": [],
@@ -291,6 +322,14 @@
       "what": "설명 칸 적음",
       "by": "agent",
       "note": "디자인 상태 · 설정 키 · 게임 정보 · 기록을 STORY.md 4장과 기획서 9.4.1 · 9.8 · 9.9 · 9.10 · 9.11에서 옮겨 적었다"
+    },
+    {
+      "date": "2026-11-19",
+      "what": "파일 더함",
+      "by": "agent",
+      "asset": "pm_A38",
+      "file": "art/characters/father/pixel/work/A38/father_A38_master.png",
+      "note": "pixpipe"
     }
   ],
   "game": null,

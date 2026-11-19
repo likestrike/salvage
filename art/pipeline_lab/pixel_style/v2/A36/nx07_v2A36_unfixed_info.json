@@ -1,0 +1,799 @@
+{
+ "master": {
+  "name": "known16",
+  "cell": 16,
+  "metrics": {
+   "size": [
+    21,
+    36
+   ],
+   "height": 36,
+   "head": 10,
+   "heads_tall": 3.6,
+   "colors": 16,
+   "semi_transparent": 0,
+   "off_palette": 0,
+   "orphan_pct": 4.5
+  },
+  "spread": 0.0
+ },
+ "picked": "known16",
+ "recommended": null,
+ "metrics": {
+  "size": [
+   21,
+   36
+  ],
+  "height": 36,
+  "head": 10,
+  "heads_tall": 3.6,
+  "colors": 16,
+  "semi_transparent": 0,
+  "off_palette": 0,
+  "orphan_pct": 4.5
+ },
+ "src": "art/pipeline_lab/pixel_style/v2/s2/nx07_v2_A36_raw.png",
+ "grid": {
+  "cell": 24,
+  "origin": [
+   260,
+   80
+  ]
+ },
+ "guide": "art/prompts/pipeline/nx07_side_v2_guide36_A.png",
+ "method": "알려진 격자의 칸 대표색 → Lab ΔE 가 가까운 색끼리 묶기 (목표 16색, ΔE 14 넘으면 멈춤)",
+ "merged": [
+  {
+   "from": "08fdff",
+   "into": "07fdff",
+   "cells": 1,
+   "dE": 0.0
+  },
+  {
+   "from": "05fdfe",
+   "into": "04fdfe",
+   "cells": 2,
+   "dE": 0.0
+  },
+  {
+   "from": "04fafe",
+   "into": "02fafe",
+   "cells": 1,
+   "dE": 0.0
+  },
+  {
+   "from": "03fdff",
+   "into": "07fdff",
+   "cells": 1,
+   "dE": 0.1
+  },
+  {
+   "from": "08fdfe",
+   "into": "04fdfe",
+   "cells": 1,
+   "dE": 0.1
+  },
+  {
+   "from": "e9e9e7",
+   "into": "e8e8e6",
+   "cells": 2,
+   "dE": 0.4
+  },
+  {
+   "from": "e9e8e7",
+   "into": "e8e7e6",
+   "cells": 1,
+   "dE": 0.4
+  },
+  {
+   "from": "848864",
+   "into": "858965",
+   "cells": 1,
+   "dE": 0.4
+  },
+  {
+   "from": "5d6340",
+   "into": "5c623f",
+   "cells": 1,
+   "dE": 0.4
+  },
+  {
+   "from": "5b623f",
+   "into": "5a613e",
+   "cells": 1,
+   "dE": 0.4
+  },
+  {
+   "from": "5b6240",
+   "into": "5a613f",
+   "cells": 1,
+   "dE": 0.4
+  },
+  {
+   "from": "5a603e",
+   "into": "5b613f",
+   "cells": 1,
+   "dE": 0.4
+  },
+  {
+   "from": "525938",
+   "into": "515837",
+   "cells": 2,
+   "dE": 0.4
+  },
+  {
+   "from": "525939",
+   "into": "515838",
+   "cells": 2,
+   "dE": 0.4
+  },
+  {
+   "from": "525838",
+   "into": "515737",
+   "cells": 10,
+   "dE": 0.4
+  },
+  {
+   "from": "525839",
+   "into": "515738",
+   "cells": 6,
+   "dE": 0.4
+  },
+  {
+   "from": "505736",
+   "into": "515837",
+   "cells": 1,
+   "dE": 0.4
+  },
+  {
+   "from": "505737",
+   "into": "515838",
+   "cells": 7,
+   "dE": 0.4
+  },
+  {
+   "from": "505836",
+   "into": "4f5735",
+   "cells": 1,
+   "dE": 0.4
+  },
+  {
+   "from": "525738",
+   "into": "515637",
+   "cells": 1,
+   "dE": 0.4
+  },
+  {
+   "from": "505636",
+   "into": "515737",
+   "cells": 4,
+   "dE": 0.4
+  },
+  {
+   "from": "505637",
+   "into": "515738",
+   "cells": 9,
+   "dE": 0.4
+  },
+  {
+   "from": "505738",
+   "into": "4f5637",
+   "cells": 2,
+   "dE": 0.4
+  },
+  {
+   "from": "505536",
+   "into": "515637",
+   "cells": 1,
+   "dE": 0.4
+  },
+  {
+   "from": "4e5535",
+   "into": "4f5636",
+   "cells": 1,
+   "dE": 0.4
+  },
+  {
+   "from": "4e5536",
+   "into": "4f5637",
+   "cells": 2,
+   "dE": 0.4
+  },
+  {
+   "from": "3f452b",
+   "into": "40462c",
+   "cells": 1,
+   "dE": 0.4
+  },
+  {
+   "from": "3a4128",
+   "into": "394027",
+   "cells": 1,
+   "dE": 0.4
+  },
+  {
+   "from": "3a4027",
+   "into": "393f26",
+   "cells": 1,
+   "dE": 0.4
+  },
+  {
+   "from": "394027",
+   "into": "383f26",
+   "cells": 5,
+   "dE": 0.4
+  },
+  {
+   "from": "393f27",
+   "into": "383e26",
+   "cells": 3,
+   "dE": 0.4
+  },
+  {
+   "from": "373e25",
+   "into": "383f26",
+   "cells": 3,
+   "dE": 0.4
+  },
+  {
+   "from": "383f27",
+   "into": "373e26",
+   "cells": 2,
+   "dE": 0.4
+  },
+  {
+   "from": "373d25",
+   "into": "383e26",
+   "cells": 2,
+   "dE": 0.4
+  },
+  {
+   "from": "363d26",
+   "into": "373e27",
+   "cells": 1,
+   "dE": 0.4
+  },
+  {
+   "from": "6b724c",
+   "into": "6a724c",
+   "cells": 1,
+   "dE": 0.4
+  },
+  {
+   "from": "e8e9e7",
+   "into": "e8e8e6",
+   "cells": 1,
+   "dE": 0.5
+  },
+  {
+   "from": "2e3231",
+   "into": "2d3231",
+   "cells": 3,
+   "dE": 0.5
+  },
+  {
+   "from": "2e3232",
+   "into": "2d3131",
+   "cells": 1,
+   "dE": 0.5
+  },
+  {
+   "from": "2c3130",
+   "into": "2d3231",
+   "cells": 2,
+   "dE": 0.5
+  },
+  {
+   "from": "5a613f",
+   "into": "5b613f",
+   "cells": 3,
+   "dE": 0.5
+  },
+  {
+   "from": "2e3131",
+   "into": "2d3030",
+   "cells": 1,
+   "dE": 0.5
+  },
+  {
+   "from": "2c3030",
+   "into": "2d3131",
+   "cells": 5,
+   "dE": 0.5
+  },
+  {
+   "from": "2c302f",
+   "into": "2d3130",
+   "cells": 5,
+   "dE": 0.5
+  },
+  {
+   "from": "2c2f2e",
+   "into": "2b2e2d",
+   "cells": 1,
+   "dE": 0.5
+  },
+  {
+   "from": "2b2f2f",
+   "into": "2a2e2e",
+   "cells": 1,
+   "dE": 0.5
+  },
+  {
+   "from": "2e3130",
+   "into": "2d3130",
+   "cells": 1,
+   "dE": 0.5
+  },
+  {
+   "from": "2b2e2e",
+   "into": "2a2e2e",
+   "cells": 1,
+   "dE": 0.5
+  },
+  {
+   "from": "2b2e2d",
+   "into": "2a2e2d",
+   "cells": 2,
+   "dE": 0.5
+  },
+  {
+   "from": "525837",
+   "into": "515837",
+   "cells": 2,
+   "dE": 0.5
+  },
+  {
+   "from": "2b2d2d",
+   "into": "2a2d2d",
+   "cells": 1,
+   "dE": 0.5
+  },
+  {
+   "from": "3f462c",
+   "into": "40462c",
+   "cells": 1,
+   "dE": 0.5
+  },
+  {
+   "from": "1d2120",
+   "into": "1e2120",
+   "cells": 1,
+   "dE": 0.5
+  },
+  {
+   "from": "373f26",
+   "into": "383f26",
+   "cells": 1,
+   "dE": 0.5
+  },
+  {
+   "from": "1e2120",
+   "into": "1d201f",
+   "cells": 6,
+   "dE": 0.5
+  },
+  {
+   "from": "1e211f",
+   "into": "1d201e",
+   "cells": 6,
+   "dE": 0.5
+  },
+  {
+   "from": "1c201e",
+   "into": "1d211f",
+   "cells": 2,
+   "dE": 0.5
+  },
+  {
+   "from": "1c201f",
+   "into": "1d201f",
+   "cells": 3,
+   "dE": 0.5
+  },
+  {
+   "from": "373e27",
+   "into": "383e27",
+   "cells": 3,
+   "dE": 0.5
+  },
+  {
+   "from": "fddab7",
+   "into": "fdd9b6",
+   "cells": 1,
+   "dE": 0.5
+  },
+  {
+   "from": "1e2020",
+   "into": "1d1f1f",
+   "cells": 2,
+   "dE": 0.5
+  },
+  {
+   "from": "1d1f1e",
+   "into": "1e201f",
+   "cells": 3,
+   "dE": 0.5
+  },
+  {
+   "from": "1d2020",
+   "into": "1c1f1f",
+   "cells": 1,
+   "dE": 0.5
+  },
+  {
+   "from": "1c1f1e",
+   "into": "1d201f",
+   "cells": 14,
+   "dE": 0.5
+  },
+  {
+   "from": "383e26",
+   "into": "373e26",
+   "cells": 20,
+   "dE": 0.5
+  },
+  {
+   "from": "393f26",
+   "into": "383f26",
+   "cells": 4,
+   "dE": 0.5
+  },
+  {
+   "from": "1c1e1e",
+   "into": "1d1f1f",
+   "cells": 1,
+   "dE": 0.5
+  },
+  {
+   "from": "1c1f1f",
+   "into": "1d1f1f",
+   "cells": 7,
+   "dE": 0.5
+  },
+  {
+   "from": "1e201f",
+   "into": "1d201f",
+   "cells": 8,
+   "dE": 0.5
+  },
+  {
+   "from": "fdd9b5",
+   "into": "fdd9b6",
+   "cells": 1,
+   "dE": 0.5
+  },
+  {
+   "from": "fdd9b7",
+   "into": "fdd9b6",
+   "cells": 2,
+   "dE": 0.5
+  },
+  {
+   "from": "858864",
+   "into": "858965",
+   "cells": 1,
+   "dE": 0.5
+  },
+  {
+   "from": "515938",
+   "into": "515837",
+   "cells": 2,
+   "dE": 0.6
+  },
+  {
+   "from": "515838",
+   "into": "515737",
+   "cells": 19,
+   "dE": 0.6
+  },
+  {
+   "from": "515739",
+   "into": "515638",
+   "cells": 1,
+   "dE": 0.6
+  },
+  {
+   "from": "515637",
+   "into": "515738",
+   "cells": 6,
+   "dE": 0.6
+  },
+  {
+   "from": "515636",
+   "into": "515737",
+   "cells": 1,
+   "dE": 0.6
+  },
+  {
+   "from": "07fdff",
+   "into": "04fdfe",
+   "cells": 3,
+   "dE": 0.6
+  },
+  {
+   "from": "2d3231",
+   "into": "2d3130",
+   "cells": 11,
+   "dE": 0.6
+  },
+  {
+   "from": "2d3030",
+   "into": "2d3131",
+   "cells": 2,
+   "dE": 0.6
+  },
+  {
+   "from": "5c623e",
+   "into": "5c623f",
+   "cells": 1,
+   "dE": 0.6
+  },
+  {
+   "from": "2a2d2d",
+   "into": "2a2e2e",
+   "cells": 4,
+   "dE": 0.6
+  },
+  {
+   "from": "2a2d2e",
+   "into": "2a2c2d",
+   "cells": 1,
+   "dE": 0.6
+  },
+  {
+   "from": "515836",
+   "into": "515837",
+   "cells": 2,
+   "dE": 0.6
+  },
+  {
+   "from": "515738",
+   "into": "515737",
+   "cells": 30,
+   "dE": 0.6
+  },
+  {
+   "from": "4f5636",
+   "into": "4f5637",
+   "cells": 4,
+   "dE": 0.6
+  },
+  {
+   "from": "373f27",
+   "into": "373e26",
+   "cells": 2,
+   "dE": 0.6
+  },
+  {
+   "from": "4e5435",
+   "into": "4e5436",
+   "cells": 1,
+   "dE": 0.6
+  },
+  {
+   "from": "40462b",
+   "into": "40462c",
+   "cells": 1,
+   "dE": 0.6
+  },
+  {
+   "from": "1d211f",
+   "into": "1d201e",
+   "cells": 6,
+   "dE": 0.6
+  },
+  {
+   "from": "e9e9e8",
+   "into": "e8e8e6",
+   "cells": 2,
+   "dE": 0.6
+  },
+  {
+   "from": "5a613e",
+   "into": "5c623f",
+   "cells": 2,
+   "dE": 0.7
+  },
+  {
+   "from": "5c623f",
+   "into": "5b613f",
+   "cells": 5,
+   "dE": 0.7
+  },
+  {
+   "from": "e8e7e6",
+   "into": "e8e8e6",
+   "cells": 2,
+   "dE": 0.7
+  },
+  {
+   "from": "5a603f",
+   "into": "5b613f",
+   "cells": 1,
+   "dE": 0.7
+  },
+  {
+   "from": "2d3130",
+   "into": "2d3131",
+   "cells": 26,
+   "dE": 0.7
+  },
+  {
+   "from": "2a2e2d",
+   "into": "2a2e2e",
+   "cells": 5,
+   "dE": 0.7
+  },
+  {
+   "from": "1d201e",
+   "into": "1d201f",
+   "cells": 22,
+   "dE": 0.7
+  },
+  {
+   "from": "383f26",
+   "into": "373e26",
+   "cells": 20,
+   "dE": 0.7
+  },
+  {
+   "from": "6a714c",
+   "into": "6a724c",
+   "cells": 2,
+   "dE": 0.8
+  },
+  {
+   "from": "515837",
+   "into": "515737",
+   "cells": 13,
+   "dE": 0.8
+  },
+  {
+   "from": "383e27",
+   "into": "373e26",
+   "cells": 7,
+   "dE": 0.8
+  },
+  {
+   "from": "4c5234",
+   "into": "4e5436",
+   "cells": 1,
+   "dE": 0.9
+  },
+  {
+   "from": "1c1e1f",
+   "into": "1d1f1f",
+   "cells": 1,
+   "dE": 0.9
+  },
+  {
+   "from": "4f5637",
+   "into": "515737",
+   "cells": 11,
+   "dE": 0.9
+  },
+  {
+   "from": "737952",
+   "into": "717952",
+   "cells": 1,
+   "dE": 0.9
+  },
+  {
+   "from": "c8b6ae",
+   "into": "c5b5ad",
+   "cells": 1,
+   "dE": 0.9
+  },
+  {
+   "from": "1d1f1f",
+   "into": "1d201f",
+   "cells": 17,
+   "dE": 1.0
+  },
+  {
+   "from": "383d25",
+   "into": "373e26",
+   "cells": 1,
+   "dE": 1.0
+  },
+  {
+   "from": "5e6341",
+   "into": "5b613f",
+   "cells": 2,
+   "dE": 1.0
+  },
+  {
+   "from": "515638",
+   "into": "4e5436",
+   "cells": 3,
+   "dE": 1.0
+  },
+  {
+   "from": "fcd9b8",
+   "into": "fdd9b6",
+   "cells": 1,
+   "dE": 1.1
+  },
+  {
+   "from": "828762",
+   "into": "858965",
+   "cells": 1,
+   "dE": 1.1
+  },
+  {
+   "from": "c7b7ad",
+   "into": "c5b5ad",
+   "cells": 1,
+   "dE": 1.3
+  },
+  {
+   "from": "363d27",
+   "into": "373e26",
+   "cells": 1,
+   "dE": 1.3
+  },
+  {
+   "from": "2a2c2d",
+   "into": "2a2e2e",
+   "cells": 2,
+   "dE": 1.4
+  },
+  {
+   "from": "2a2e2e",
+   "into": "2d3131",
+   "cells": 16,
+   "dE": 1.4
+  },
+  {
+   "from": "393f25",
+   "into": "373e26",
+   "cells": 1,
+   "dE": 1.4
+  },
+  {
+   "from": "4f5735",
+   "into": "515737",
+   "cells": 2,
+   "dE": 1.5
+  },
+  {
+   "from": "1e211e",
+   "into": "1d201f",
+   "cells": 1,
+   "dE": 1.5
+  },
+  {
+   "from": "4e5436",
+   "into": "515737",
+   "cells": 7,
+   "dE": 1.6
+  },
+  {
+   "from": "42492d",
+   "into": "40462c",
+   "cells": 1,
+   "dE": 1.7
+  },
+  {
+   "from": "02fafe",
+   "into": "04fdfe",
+   "cells": 2,
+   "dE": 2.0
+  },
+  {
+   "from": "717652",
+   "into": "717952",
+   "cells": 1,
+   "dE": 2.2
+  },
+  {
+   "from": "717952",
+   "into": "6a724c",
+   "cells": 3,
+   "dE": 2.8
+  }
+ ],
+ "doc": "docs/GAME_DESIGN.md 9.11.4",
+ "note": "손보기 전"
+}

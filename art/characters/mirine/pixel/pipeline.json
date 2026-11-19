@@ -1,0 +1,499 @@
+{
+ "format": "salvage-pixel-pipeline/1",
+ "id": "mirine",
+ "name": "미리네",
+ "doc": "docs/pipeline/CHARACTER_PIPELINE.md",
+ "_": "캐릭터 픽셀 파이프라인의 설정 (pixpipe init 이 만든 빈 틀). 값은 비어 있다. 지어내 채우지 않는다: 기획자가 정한 것은 그대로, 에이전트가 고른 것은 [제안]으로 적는다. 칸마다의 설명은 CHARACTER_PIPELINE.md 의 '설정 파일' 표. 채운 예: art/characters/nx07/pixel/pipeline.json",
+ "story_height_cm": 142,
+ "where": "2026-11-19: 기획자가 A30 을 골랐다 (\"A로하자\") → 승인 · 규격 · 대기 · 달리기. 기획자의 평가(⑭) 전에 멈췄다. 키 30칸 · 디자인 시안 A 는 기획자가 따로 확정하지 않았다 (A30 이 그 둘을 바탕으로 한 후보라 그대로 간다). 기획서 9.11.9",
+ "paths": {
+  "work": "art/characters/{id}/pixel/work",
+  "prompts": "art/prompts/pipeline/{id}",
+  "final": "art/characters/{id}/pixel",
+  "anim": "art/characters/{id}/anim"
+ },
+ "size": {
+  "height_cells": 30,
+  "height_mark": "[제안] 오케스트레이터의 기본값: NX-07 36칸 = 170cm 의 비율로 142cm ≈ 30칸. 기획자가 정하지 않았다",
+  "heads_guide": 3.0,
+  "heads_note": "[제안] 밑그림의 머리 비율 목표 (정수리 ~ 목 기준). 아이라서 NX-07(3.2)보다 머리를 조금 크게"
+ },
+ "screen": {
+  "size": [
+   320,
+   180
+  ],
+  "mark": "[제안] NX-07 과 같은 화면 밀도 (9.11.5)"
+ },
+ "generate": {
+  "model": "openai/gpt-image-2.6/sunburst/edit",
+  "image_size": [
+   1024,
+   1024
+  ],
+  "args": {
+   "quality": "high",
+   "background": "opaque"
+  },
+  "budget": 8,
+  "budget_note": "[제안] 오케스트레이터가 잡은 상한 8회 (기획자가 정한 값이 아니다). 계획: 1단계 3 + 2단계 3 = 6, 다시 뽑기 2"
+ },
+ "references": [
+  {
+   "file": "art/concept/setting/mirine/02_side.png",
+   "note": "설정화 측면 — 디자인과 아이의 체형만. 단말기는 먼 쪽 손, 앞쪽 팔은 넓은 소매 안에 늘어뜨림",
+   "role": "our character design sheet, side view (the girl Mirine, an 11-year-old child: big head, short child's body, long silver hair down to the waist, an oversized open navy robe, big chunky sneakers). Take only the design and the child's body proportions from it. Do not copy its black outlines, its fine detail or its stiff standing pose."
+  },
+  {
+   "file": "art/concept/setting/mirine/01_front.png",
+   "note": "설정화 정면 — 옷 · 단말기의 모양",
+   "role": "the same girl from the front: the plain white T-shirt, the short denim shorts, the brown belt with a tool pouch, grey socks, navy-and-white sneakers, and her handheld hacking terminal (a dark-grey brick with a glowing teal screen)."
+  },
+  {
+   "file": "art/prompts/pipeline/mirine/style_nx07_px_base_x22.png",
+   "note": "승인된 NX-07 픽셀 마스터를 nearest ×22 로 키운 것 — 그리는 방식의 기준 (디자인 · 색은 따르지 않게)",
+   "role": "NOT a design reference: another character (an android soldier) from the SAME game, already finished in the target pixel style. Copy only HOW it is drawn: the size of one art pixel, no outline, big dark calm areas, a thin pale lit edge only on the back and top edges, muted colors, very few saturated pixels. Do not copy its shapes, its armor, its olive colors or its pose, and do not draw it."
+  }
+ ],
+ "references_note": "[{\"file\": 설정화 경로, \"role\": 프롬프트에 들어갈 영어 문장 (image N = 다음에 오는 말), \"note\": 한국어 메모}]. 1단계에는 밑그림을 넣지 않는다",
+ "prompt": {
+  "subject": "the girl Mirine",
+  "top_of_figure": "the top of the head (not counting the ahoge)",
+  "facing_note": "her face and eye look toward the right edge",
+  "figure": "an 11-year-old girl with a CHILD's body: a big head, a short body, short limbs, small hands and big chunky sneakers. Draw her as a child in plain everyday clothes; nothing mature, nothing glamorous, no make-up. Do not make her taller, slimmer, longer-legged or curvier.",
+  "pose": [
+   "A relaxed, living idle stance: weight on the BACK leg, the front foot a little forward, both soles on the same ground line. The head slightly lowered, looking down at the terminal in her hands.",
+   "The FAR arm (the arm on the far side of the body) holds her small hacking terminal in front of her chest; its teal screen faces her and the terminal sticks out a little in front of the body, so it is read in the silhouette.",
+   "The NEAR arm (closer to the viewer) hangs relaxed at her side, mostly hidden in the wide navy sleeve; only a small pale hand shows at the end of the sleeve.",
+   "The long silver hair falls down her back to the waist, over the back of the robe. One small curled ahoge sticks up from the top of the head. The open navy robe hangs down to just below the knees, its back edge a little behind the legs; the bare lower legs, the socks and the big sneakers show below it."
+  ],
+  "pose_ko": "뒷다리에 무게, 앞발을 조금 앞으로, 고개를 조금 숙여 손의 단말기를 본다. 단말기는 먼 쪽 손으로 가슴 앞에 (실루엣 앞으로 조금 나온다). 앞쪽 팔은 넓은 소매 안에 늘어뜨림. 은발은 등을 따라 허리까지, 아호게 하나. 도포는 무릎 아래까지",
+  "materials_merge": "the robe, its wide sleeves, its hood collar and the shorts under it",
+  "accent_strokes": "the pale face, the teal screen of the terminal, the white sneaker soles, a short pale trim line on the robe's front edge",
+  "saturated": "the teal screen of the terminal (2 to 4 art pixels) and the teal eye only",
+  "colors": "12 to 16",
+  "s1_cell": 22,
+  "s1_height": 34,
+  "s2_image1": "our own earlier draft of the girl Mirine",
+  "s2_curves": "the hair, the head and the sneakers",
+  "s2_parts": [
+   "The head: long silver hair covers the back of the head and falls down her back to the waist, with bangs over the forehead and ONE small curled ahoge on top; under the bangs a small PALE child's face that is the brightest skin area, with ONE teal eye of {eye}; no mouth line needed. The hair device is at most one dark-teal art pixel in the hair, with no glow. A child's face, nothing mature.",
+   "The arms: the figure faces RIGHT. The FAR arm holds the small dark hacking terminal in front of the chest with its teal screen ({screen}) toward her face, exactly as in image 2. The NEAR arm hangs at her side inside the wide navy sleeve, with a small pale hand at its end."
+  ],
+  "s2_accents": "Teal only on the terminal screen and the eye.",
+  "s2_keep_color": "navy robe",
+  "s2_figure": "an 11-year-old girl with a CHILD's body in pure side view facing right, the same relaxed standing pose as image 2 with both soles on the same ground line. Plain everyday clothes, nothing mature. Do not make her slimmer, taller, longer-legged or curvier.",
+  "s2_vars": [
+   {
+    "max_height": 9999,
+    "eye": "1 x 2 art pixels (one wide, two tall)",
+    "screen": "2 x 2 art pixels"
+   }
+  ]
+ },
+ "simplify": {
+  "status": "[제안]",
+  "by": "에이전트 [제안] (2026-11-19). 기획자가 정하지 않았다",
+  "note": "[제안] 주인 덩어리는 둘: 남색 도포(어두운, 몸의 대부분) · 은발(밝은, 머리에서 허리까지). 나머지는 작은 강조 획. 층은 두지 않는다 (기획자가 요청한 층이 없고, 은발 · 도포는 몸의 실루엣 자체라 떼어 낼 필요가 없다)",
+  "keep": [
+   "긴 은발의 실루엣 (머리 뒤에서 허리까지 한 덩어리)과 아호게 하나",
+   "무릎 아래까지 오는 남색 도포 (어두운 큰 덩어리, 넓은 소매)",
+   "창백한 얼굴과 청록 눈 (얼굴이 살색 가운데 가장 밝다)",
+   "먼 쪽 손의 단말기와 청록 화면 (채도 높은 칸은 거의 여기뿐)",
+   "흰 밑창의 큰 운동화와 맨 종아리 (아이의 비례)"
+  ],
+  "merge": [
+   "귀 위 장치 → 머리카락 속 어두운 청록 1칸 (빛 없음) 또는 뺀다",
+   "벨트 + 툴 파우치 → 허리의 갈색 덩어리 하나",
+   "흰 티셔츠 → 도포 앞 틈의 밝은 띠",
+   "데님 반바지 → 도포 밑에 조금 보이는 어두운 파랑 (도포와 한 덩어리에 가깝게)",
+   "회색 양말 · 운동화 끈 → 운동화 덩어리",
+   "도포의 테두리 → 앞 가장자리의 짧은 밝은 획 (있으면)"
+  ],
+  "drop": [
+   "소매의 흰 날개 엠블럼 · 금색 귀퉁이",
+   "해진 밑단의 흰 얼룩",
+   "파우치에 꽂힌 공구들 · 단말기의 자판",
+   "손가락 · 입"
+  ],
+  "prompt": "the hair device becomes at most one dark-teal art pixel in the hair (no glow); the sleeve emblem, the gold corner marks, the pale frayed patches on the hem, the small tools in the pouch and the keypad are left out; the belt and the tool pouch become one small brown block at the hip; the T-shirt shows only as a pale strip in the robe opening; the denim shorts are a short dark-blue band under the robe; the socks and the shoe straps merge into the sneakers."
+ },
+ "plans": {
+  "A": {
+   "label": "어두운 도포가 주인 + 뒤에서 오는 빛",
+   "title": "dark robe is the master shape, lit from behind",
+   "head_px": 290,
+   "head_px_note": "1단계 그림에서 정수리(아호게 끝, y 102) ~ 턱(얼굴 살색의 마지막 줄, y 392)을 손으로 잰 값. 자동(가장 좁은 줄)은 252px 로 얼굴 가운데를 목으로 잡았다 — 긴 머리카락이 등까지 이어져 목이 좁은 줄이 되지 않는다. B · C 는 자동 값(294 · 306)이 턱(301 · 312)과 6px 안이라 그대로 둔다",
+   "s1": [
+    "The navy robe is a DARK, muted navy (base about #262e45, shadow #181d2e). Robe, sleeves and shorts form one big dark mass that fills most of the body from the shoulders to below the knees.",
+    "The silver hair is a MIDDLE grey with a cool violet tint (base about #8d8b9c, shadow #63627a), darker than the face, so the dark robe stays the master shape and the hair is the second shape.",
+    "A light comes from BEHIND and above the character (from the left of the image). It draws a thin lit edge, ONE art pixel wide, only on the upper-left facing edges: the top and back of the hair, the top of the shoulder, the back edge of the robe, the back of the calf. The lit edge is a pale warm cream (about #d1c8a5), not cyan and not white. It is broken into a few strokes, never a closed line; the front (right) edges have no lit edge.",
+    "Other light accents, small and few: the pale face, the white sneaker soles, the pale strip of the T-shirt.",
+    "Teal only on the terminal screen and the eye."
+   ],
+   "s2": "a DARK muted navy robe that makes ONE big dark mass over most of the body, middle-grey silver hair as the second shape, lit from BEHIND: a thin pale cream lit edge, one art pixel wide, only on the back and top edges (top and back of the hair, shoulder top, back edge of the robe, back of the calf), broken into a few strokes and never closed; plus the pale face, the white soles and the pale T-shirt strip"
+  },
+  "B": {
+   "label": "밝은 은발이 주인 · 어두운 도포가 받침",
+   "title": "bright silver hair is the master light shape on a dark robe",
+   "s1": [
+    "The silver hair is the BRIGHTEST big shape: a pale cool silver (base about #c9c7d4, shadow #9896ab, one small highlight #e6e4ee). It is one big connected light shape from the top of the head down the back to the waist, never broken into strands.",
+    "The navy robe is a DARK, muted navy (base about #262e45, shadow #181d2e). Robe, sleeves and shorts form one big dark mass behind and under the hair; it holds the figure together.",
+    "Other light accents, small and few: the pale face (a warm skin color, so it reads apart from the cool hair), the white sneaker soles, the pale strip of the T-shirt.",
+    "Teal only on the terminal screen and the eye."
+   ],
+   "s2": "pale cool silver hair that is ONE big connected bright shape from the head down the back to the waist, on a DARK muted navy robe that makes one big dark mass; small light accents only: the warm pale face, the white soles, the pale T-shirt strip"
+  },
+  "C": {
+   "label": "중간 밝기의 남색 도포가 주인 (설정화의 색)",
+   "title": "the middle-bright navy robe is the master shape",
+   "s1": [
+    "The navy robe is the navy of the design sheet, of MIDDLE-DARK brightness (base about #39507a, shadow #283a5c, one small highlight #4d669a on the shoulder). Robe, sleeves and shorts read together as one big connected navy shape that covers most of the body.",
+    "The silver hair is a light grey with a cool violet tint (base about #b4b2c2, shadow #85849a), one connected shape down the back to the waist.",
+    "A near-black navy (about #161a28) only in the gaps and the deepest folds: under the hair, inside the sleeve, between the legs. It is the dark base, not a line.",
+    "Other light accents, small and few: the pale face, the white sneaker soles, the pale strip of the T-shirt.",
+    "Teal only on the terminal screen and the eye."
+   ],
+   "s2": "a MIDDLE-DARK navy robe (the navy of the design sheet) that reads as one big connected navy shape over most of the body, light grey-silver hair as one connected shape down the back, near-black navy only in the gaps; small light accents only: the pale face, the white soles, the pale T-shirt strip"
+  }
+ },
+ "plans_note": "밝기 계획의 변형. {\"A\": {\"label\": 한국어 이름, \"title\": 영어 제목, \"s1\": [1단계 영어 문장들], \"s2\": 2단계 영어 한 문장}}",
+ "jobs": {
+  "A30": {
+   "plan": "A",
+   "height": 30,
+   "cell": 30,
+   "fixes": [
+    {
+     "cell": [
+      6,
+      6
+     ],
+     "from": [
+      6,
+      5
+     ],
+     "why": "귀 위 장치가 얼굴 뒤 눈 높이의 어두운 청록 1칸으로 나와 눈이 둘로(안경처럼) 읽힌다 (NX-07 의 귀 원반과 같은 실패, 9.11.3). 단순화안 [제안]의 '또는 뺀다'대로 바로 위 머리카락 색으로 메운다"
+    }
+   ]
+  },
+  "B30": {
+   "plan": "B",
+   "height": 30,
+   "cell": 30,
+   "fixes": [
+    {
+     "cell": [
+      6,
+      6
+     ],
+     "from": [
+      6,
+      5
+     ],
+     "why": "귀 위 장치가 얼굴 뒤 눈 높이의 어두운 청록 1칸으로 나와 눈이 둘로(안경처럼) 읽힌다 (NX-07 의 귀 원반과 같은 실패, 9.11.3). 단순화안 [제안]의 '또는 뺀다'대로 바로 위 머리카락 색으로 메운다"
+    }
+   ]
+  },
+  "C30": {
+   "plan": "C",
+   "height": 30,
+   "cell": 30,
+   "fixes": [
+    {
+     "cell": [
+      5,
+      6
+     ],
+     "from": [
+      5,
+      5
+     ],
+     "why": "귀 위 장치가 얼굴 뒤 눈 높이의 어두운 청록 1칸으로 나와 눈이 둘로(안경처럼) 읽힌다 (NX-07 의 귀 원반과 같은 실패, 9.11.3). 단순화안 [제안]의 '또는 뺀다'대로 바로 위 머리카락 색으로 메운다"
+    }
+   ]
+  }
+ },
+ "jobs_note": "2단계 후보. {\"A36\": {\"plan\": \"A\", \"height\": 키 칸 수, \"cell\": 밑그림의 칸 px (1024 캔버스에 들어가게), \"fixes\": [{\"cell\": [x, y], \"from\": [sx, sy], \"why\": 이유}]}}",
+ "palette": {
+  "max_colors": 16,
+  "merge_stop_dE": 14.0
+ },
+ "layers": {},
+ "layers_note": "몸 위에 얹는 층 (NX-07 의 스카프). 없으면 비워 둔다. 모양은 nx07 의 pipeline.json 을 본다",
+ "decisions": {
+  "pick": {
+   "job": "A30",
+   "date": "2026-11-19",
+   "quote": "A로하자",
+   "saw": [
+    "art/characters/mirine/pixel/work/board.png"
+   ]
+  },
+  "approved": {
+   "date": "2026-11-19",
+   "quote": "A로하자",
+   "variants": [
+    "base"
+   ]
+  }
+ },
+ "decisions_note": "기획자의 결정. pixpipe pick · approve · review 가 적는다. 손으로 쓰지 않는다",
+ "spec": {
+  "parts": {
+   "head": [
+    0,
+    9
+   ],
+   "upper": [
+    10,
+    21
+   ],
+   "legs": [
+    22,
+    29
+   ],
+   "near_arm": [
+    10,
+    10,
+    13,
+    14
+   ],
+   "near_arm_label": "단말기를 든 손 (먼 쪽 팔의 아래팔 · 손 · 단말기)",
+   "free": [
+    {
+     "label": "긴 머리카락의 아래 끝",
+     "rect": [
+      0,
+      12,
+      3,
+      17
+     ]
+    },
+    {
+     "label": "앞쪽 손 (소매 끝)",
+     "rect": [
+      2,
+      18,
+      6,
+      20
+     ]
+    }
+   ]
+  },
+  "parts_note": "[제안] 승인된 A30 을 보고 정했다. 머리 0~9줄 = 아호게 ~ 턱(얼굴 살색의 마지막 줄 9) · 몸통 10~21줄 = 도포 윗부분 · 티셔츠 띠 · 벨트 · 반바지 · 머리카락의 등 부분 · 다리 22~29줄 = 도포 아랫단 · 맨 종아리 · 양말 · 운동화 · near_arm = 단말기를 든 손 (NX-07 의 '앞쪽 팔' 자리를 미리네는 단말기에 쓴다) · free = 머리 · 몸통 띠 안에서 바뀌어도 되는 칸",
+  "band_labels": {
+   "head": "머리",
+   "upper": "몸통 (도포 윗부분)",
+   "legs": "다리 · 도포 아랫단"
+  },
+  "palette_names": {
+   "25273f": [
+    "a",
+    "가장 어두운 남색",
+    "도포의 그늘 · 틈 · 밑창 사이"
+   ],
+   "333356": [
+    "b",
+    "남색",
+    "도포 · 소매 · 운동화 윗부분 · 단말기"
+   ],
+   "643e2e": [
+    "c",
+    "어두운 갈색",
+    "벨트 · 파우치의 그늘"
+   ],
+   "4a5582": [
+    "d",
+    "데님",
+    "반바지"
+   ],
+   "895941": [
+    "e",
+    "갈색",
+    "파우치"
+   ],
+   "6f6081": [
+    "f",
+    "머리카락 그늘",
+    "은발의 어두운 면 · 단말기 가장자리"
+   ],
+   "2f7d91": [
+    "g",
+    "눈",
+    "짙은 청록 1칸"
+   ],
+   "a48eb0": [
+    "h",
+    "머리카락",
+    "은발의 기본 면 · 양말"
+   ],
+   "ddaa8b": [
+    "i",
+    "살색 그늘",
+    "얼굴 앞 · 넓적다리 위"
+   ],
+   "c5b0c6": [
+    "j",
+    "머리카락 밝음",
+    "아호게 · 정수리"
+   ],
+   "2cedde": [
+    "k",
+    "청록 화면",
+    "단말기 화면 2칸 (채도 높은 칸은 여기뿐)"
+   ],
+   "d9cac6": [
+    "l",
+    "옅은 회색",
+    "티셔츠 아래 · 먼 쪽 다리"
+   ],
+   "eedfbb": [
+    "m",
+    "뒤 빛 (크림)",
+    "뒤 · 위 가장자리의 1칸 획"
+   ],
+   "fddfc6": [
+    "n",
+    "살색",
+    "얼굴 · 손 · 종아리"
+   ],
+   "f1e5da": [
+    "o",
+    "흰색",
+    "티셔츠 띠 · 운동화 밑창과 앞코"
+   ]
+  },
+  "materials": [
+   {
+    "name": "도포 (남색)",
+    "colors": [
+     "#25273f",
+     "#333356"
+    ],
+    "tones": "2톤 + 뒤 빛(eedfbb)"
+   },
+   {
+    "name": "은발",
+    "colors": [
+     "#6f6081",
+     "#a48eb0",
+     "#c5b0c6"
+    ],
+    "tones": "3톤 + 뒤 빛. 설정화의 은발보다 연보라로 나왔다 (승인된 그대로)"
+   },
+   {
+    "name": "살색",
+    "colors": [
+     "#ddaa8b",
+     "#fddfc6"
+    ],
+    "tones": "2톤"
+   },
+   {
+    "name": "옷 속 (티셔츠 · 반바지 · 벨트)",
+    "colors": [
+     "#f1e5da",
+     "#d9cac6",
+     "#4a5582",
+     "#643e2e",
+     "#895941"
+    ],
+    "tones": "색마다 1톤"
+   },
+   {
+    "name": "단말기",
+    "colors": [
+     "#333356",
+     "#6f6081",
+     "#2cedde"
+    ],
+    "tones": "몸 2톤 + 화면 1톤"
+   },
+   {
+    "name": "운동화",
+    "colors": [
+     "#333356",
+     "#25273f",
+     "#f1e5da"
+    ],
+    "tones": "남색 윗부분 + 흰 밑창"
+   }
+  ],
+  "rules": {
+   "facing": "오른쪽을 본다",
+   "terminal": "단말기는 먼 쪽 손으로 가슴 앞에 든다. 앞쪽 팔은 넓은 소매 안에 늘어뜨린다 (손만 보인다)",
+   "outline": "검은 외곽선 없음 (NX-07 과 같다, 9.11.2)",
+   "light": "뒤-위에서 온다. 머리카락의 위 · 뒤, 어깨 위, 도포의 뒤 가장자리에 1칸 두께의 크림색 획(eedfbb). 닫힌 테두리가 아니다 (밝기 계획 A)",
+   "brightness": "어두운 도포가 주인, 은발이 둘째 덩어리 (평균 밝기 L* 47, 가장 큰 밝기 덩어리 35.9% — 9.11.8 A30)",
+   "palette": "새 색을 만들지 않는다. 15색",
+   "body": "11살 아이: 큰 머리 · 짧은 몸 · 짧은 팔다리 · 큰 운동화. 자세와 몸짓은 아이의 평범한 것 그대로"
+  },
+  "simplified": [
+   "귀 위 장치는 뺐다 (눈 높이의 어두운 청록 1칸이 눈이 둘로 읽혀 머리카락 색으로 메웠다, 9.11.8)",
+   "소매의 날개 엠블럼 · 금색 귀퉁이 · 해진 밑단의 흰 얼룩 · 파우치의 공구 · 자판 · 손가락 · 입은 뺐다",
+   "벨트 + 파우치는 허리의 갈색 덩어리 하나, 흰 티셔츠는 도포 앞 틈의 밝은 띠, 양말 · 끈은 운동화에 합쳤다",
+   "청록은 단말기 화면 2칸뿐이고 눈은 짙은 청록 1칸이다"
+  ],
+  "part_labels": {
+   "head": "머리 (얼굴 · 앞머리 · 아호게)",
+   "upper": "도포 윗부분",
+   "near_arm": "단말기를 든 손",
+   "legs": "다리 · 도포 아랫단",
+   "free": "바뀌어도 되는 칸 (머리카락 끝 · 앞쪽 손)",
+   "upper (앞쪽 팔 · 바뀌어도 되는 칸 제외)": "도포 윗부분 (손 · 머리카락 끝 제외)"
+  },
+  "hand_measured": {
+   "head_rows": [
+    0,
+    9
+   ],
+   "head_cells": 10,
+   "heads_tall": 3.0,
+   "face_rows": [
+    7,
+    9
+   ],
+   "eye": [
+    9,
+    8
+   ],
+   "text": "머리 0~9줄 10칸 (아호게 ~ 턱) · 3.0등신 · 얼굴 살색 7~9줄 · 눈 (9, 8) 1칸",
+   "note": "자동 측정(가장 좁은 줄 = 목)은 긴 머리카락이 등까지 이어져 8칸 · 3.75등신으로 틀린다 (CHARACTER_PIPELINE.md 11장). 승인된 마스터를 칸 단위로 확대해 손으로 쟀다"
+  },
+  "noticed": [
+   "승인된 그림 그대로 둔다 (고치지 않았다): 은발이 설정화의 은회색보다 연보라로 나왔다 · 도포 아랫단(22~24줄)에 옅은 칸이 흩어져 조각나 보인다"
+  ]
+ },
+ "anim": {
+  "canvas": [
+   40,
+   40
+  ],
+  "anchor": [
+   20,
+   38
+  ],
+  "anchor_x_in_master": 7,
+  "anims": [
+   "idle",
+   "idle_b",
+   "run"
+  ],
+  "note": "[제안] NX-07 과 같은 캔버스 · 기준점 (같은 화면에 세우면 발바닥 줄이 같다). 기준점 = 발바닥 줄 위 · 두 발의 가운데(마스터 x 7). idle = 대기 A (숨쉬기 1칸, NX-07 과 같은 틀) · idle_b = 대기 B (더 줄인 안: 몸은 그대로, 머리카락 끝 · 도포 끝만). 달리기는 4틱 × 6 (NX-07 5틱), 가정 속도 1.0칸/틱은 NX-07 과 같다"
+ },
+ "_available_files": [
+  "front: art/concept/setting/mirine/01_front.png",
+  "side: art/concept/setting/mirine/02_side.png",
+  "back: art/concept/setting/mirine/03_back.png",
+  "face: art/concept/setting/mirine/04_face.png",
+  "body: art/concept/setting/mirine/05_body.png",
+  "items: art/concept/setting/mirine/06_items.png",
+  "poses: art/concept/setting/mirine/07_poses.png",
+  "design_a: art/concept/mirine_alt_a.png",
+  "design_b: art/concept/mirine_alt_b.png",
+  "design_c: art/concept/mirine_alt_c.png",
+  "design_d: art/concept/mirine_alt_d.png",
+  "design_ref: reference/미리네_디자인시안1차.png"
+ ]
+}

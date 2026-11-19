@@ -1,0 +1,62 @@
+{
+ "master": {
+  "name": "c36_plus_scarf",
+  "cell": null,
+  "metrics": {
+   "size": [
+    22,
+    36
+   ],
+   "height": 36,
+   "head": 10,
+   "heads_tall": 3.6,
+   "head_note": "C36 에서 잰 값 (머리 칸은 같다)",
+   "colors": 18,
+   "semi_transparent": 0,
+   "off_palette": 0,
+   "orphan_pct": 7.4
+  },
+  "spread": null
+ },
+ "picked": "c36_plus_scarf",
+ "recommended": null,
+ "name": "S4 황토 · 한 가닥 늘어짐",
+ "base": "art/pipeline_lab/pixel_style/v2/C36/nx07_v2C36_master.png",
+ "method": "칸을 직접 찍었다 (make_scarf.py 의 표). 이미지 생성 0회",
+ "size": [
+  22,
+  36
+ ],
+ "height": 36,
+ "canvas_pad_left": 1,
+ "foot_anchor": {
+  "c36": [
+   14.0,
+   36
+  ],
+  "here": [
+   15.0,
+   36
+  ],
+  "note": "앞발(오른쪽 부츠) 바닥의 가운데 x, 발바닥 줄 y (칸 경계). 넓힌 만큼 x 만 더했다"
+ },
+ "colors": 18,
+ "c36_colors": 15,
+ "scarf_colors": {
+  "H": "#e2bc5c",
+  "M": "#b48a30",
+  "S": "#6e5220"
+ },
+ "semi_transparent": 0,
+ "off_palette": 0,
+ "diff_vs_c36": {
+  "cells_replaced": 12,
+  "cells_added": 16,
+  "cells_changed_total": 28,
+  "c36_cells": 444,
+  "c36_cells_unchanged": 432,
+  "other_cells_changed": 0
+ },
+ "scarf_mark": "[제안] 색 · 모양. 실험 · 승인 기록 없음",
+ "doc": "docs/GAME_DESIGN.md 9.11.5"
+}

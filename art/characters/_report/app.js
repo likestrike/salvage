@@ -60,6 +60,7 @@
         '<dt>설정 키</dt><dd>' + (c.story.height_cm ? esc(c.story.height_cm) + 'cm ' + mark(c.story.height_mark) : '—') + '</dd>' +
         '<dt>원화 검사</dt><dd>' + badge(c.check.result) + '</dd>' +
         '<dt>승인</dt><dd>' + approvalText(c) + '</dd>' +
+        '<dt>파이프라인</dt><dd>' + pipeShort(c) + '</dd>' +
         '<dt>파일</dt><dd>' + c.assets.length + '개 등록' + changedNote(c) + '</dd>' +
         '</dl></div></a>';
     });
@@ -72,6 +73,27 @@
     app.innerHTML = h;
     fixPx(app);
   }
+  // ------------------------------------------------------------ 캐릭터 픽셀 파이프라인 (tools/pixpipe.py status, docs/pipeline/CHARACTER_PIPELINE.md)
+  var PSTATE = { '됨': 'done', '기획자 결정 대기': 'wait', '아직': 'todo', '해당 없음': 'na' };
+  function pipeShort(c) {
+    var p = c.pipeline || [];
+    if (!p.length) return '—';
+    var done = p.filter(function (s) { return s.state === '됨' || s.state === '해당 없음'; }).length;
+    var wait = p.filter(function (s) { return s.state === '기획자 결정 대기'; });
+    var dots = p.map(function (s) { return '<span class="pdot p-' + PSTATE[s.state] + '" title="' + esc(s.name + ': ' + s.state) + '"></span>'; }).join('');
+    return dots + ' <span class="note">' + done + '/' + p.length + (wait.length ? ' · 기획자 결정 대기: ' + esc(wait.map(function (s) { return s.name; }).join(', ')) : '') + '</span>';
+  }
+  function pipeline(c) {
+    var p = c.pipeline || [];
+    var h = '<p class="lead">같은 과정을 캐릭터마다 밟는다. 설정: <code>art/characters/' + esc(c.id) + '/pixel/pipeline.json</code> · 설명서: ' +
+      link('docs/pipeline/CHARACTER_PIPELINE.md', 'docs/pipeline/CHARACTER_PIPELINE.md') + ' · 다시 재기: <code>python -X utf8 tools/pixpipe.py status ' + esc(c.id) + '</code></p>';
+    h += '<table><tr><th style="width:36px">#</th><th style="width:230px">단계</th><th style="width:130px">상태</th><th style="width:190px">누가</th><th>내용</th><th style="width:170px">명령</th></tr>';
+    p.forEach(function (s, i) {
+      h += '<tr><td class="num">' + (i + 1) + '</td><td>' + esc(s.name) + '</td><td><span class="pstate p-' + PSTATE[s.state] + '">' + esc(s.state) + '</span></td><td class="note">' +
+        esc(s.who) + '</td><td class="note">' + esc(s.detail) + '</td><td class="note"><code>' + esc(s.cmd) + '</code></td></tr>';
+    });
+    return h + '</table><p class="note">됨 = 그 단계의 결과가 있다 · 기획자 결정 대기 = 기획자가 보고 정할 차례 · 아직 = 시작하지 않았다. 승인은 등록부의 approvals 가 지금 파일과 같은 해시일 때만 됨이다.</p>';
+  }
   function changedNote(c) {
     var n = c.assets.filter(function (a) { return a.now.state !== '그대로'; }).length;
     return n ? ' · <b style="color:var(--warn)">' + n + '개 바뀜/없음</b>' : '';
@@ -82,8 +104,10 @@
     var A = byKey(c);
     var sec = [];
     sec.push(['summary', '요약', summary(c)]);
+    sec.push(['pipe', '픽셀 파이프라인 — 어디까지 왔나', pipeline(c)]);
     sec.push(['views', '정면 · 측면 · 후면', views(c, A)]);
     sec.push(['sheets', '나머지 원화', sheets(c)]);
+    if (ofGroup(c, 'pixel_anim').length || ofGroup(c, 'pixel_spec').length) sec.push(['pa', '픽셀 마스터 (승인) · 애니메이션', pixelAnims(c)]);
     if (ofGroup(c, 'pixel_master').length) sec.push(['pm', '픽셀 마스터 후보 (실험)', pixelMasters(c)]);
     sec.push(['sprites', '게임의 스프라이트', sprites(c)]);
     sec.push(['design', '디자인 시안', designs(c)]);
@@ -168,7 +192,7 @@
 
   function pixelMasters(c) {
     var pms = ofGroup(c, 'pixel_master'), f0 = idleFrame(c), Z = 4;
-    var h = '<p class="lead"><span class="mark undecided">실험</span> 기획서 9.11의 실험 결과다. 어느 것도 기준으로 정하지 않았다. 캐릭터 크기와 등신은 <span class="mark undecided">[미정]</span>. ' +
+    var h = '<p class="lead"><span class="mark undecided">실험</span> 기획서 9.11의 실험 결과다. 승인된 마스터는 위의 \'픽셀 마스터 (승인) · 애니메이션\'에 있다 (9.11.6). ' +
       '모두 같은 배율(' + Z + '배)이고 발바닥을 한 줄에 맞췄다.</p>';
     h += '<div class="pmrow">';
     if (f0) h += '<div class="pm c">' + pxImg(pic(f0.frame0), Z) + '<div class="lab">C · 지금 게임의 도트<br>(대기 첫 프레임)</div></div>';
@@ -197,6 +221,28 @@
     }
     var recs = (c.records || []);
     if (recs.length) h += '<h3>기록된 평가</h3><ul>' + recs.map(function (r) { return '<li>' + esc(r.date) + ' ' + esc(r.by) + ': ' + esc(r.what) + ' <span class="note">— "' + esc(r.quote) + '" (' + esc(r.doc) + '). ' + esc(r.note) + '</span></li>'; }).join('') + '</ul>';
+    return h;
+  }
+
+  // 승인된 픽셀 마스터 · 규격 · 그 마스터로 만든 애니메이션 (기획서 9.11.6). GIF 는 스스로 움직인다.
+  function pixelAnims(c) {
+    var ok = c.assets.filter(function (a) { return a.group === 'pixel_master' && /^승인/.test(a.status || ''); });
+    var spec = ofGroup(c, 'pixel_spec'), an = ofGroup(c, 'pixel_anim');
+    var h = '<p class="lead">승인된 마스터에서 만든 것만 여기에 둔다. 마스터 ×5 · 애니메이션 GIF ×5 (nearest), 제 속도(1틱 = 1/60초).</p><div class="pmrow" style="flex-wrap:wrap;overflow:visible">';
+    ok.forEach(function (a) {
+      h += '<div class="pm"><a href="' + proj(a.file) + '" target="_blank">' + pxImg(pic(a.thumb), 5, a.now.size) + '</a><div class="lab">' + esc(a.label) + '<br><span class="note">' + esc(a.status) + '</span></div></div>';
+    });
+    an.forEach(function (a) {
+      var g = a.also && a.also.gif;
+      h += '<div class="pm"><a href="' + proj(g || a.file) + '" target="_blank">' + (g ? '<img src="' + proj(g) + '" alt="" style="height:200px">' : '') + '</a><div class="lab">' + esc(a.label) +
+        (a.anim ? '<br><span class="note">' + a.anim.frames + '프레임 · 틱 ' + esc((a.anim.ticks || []).join(' · ')) + '</span>' : '') + '</div></div>';
+    });
+    h += '</div>';
+    spec.forEach(function (a) {
+      h += '<p>' + link(a.file, a.label) + (a.also && a.also.json ? ' · ' + link(a.also.json, '규격 JSON') : '') + '</p>';
+    });
+    var ls = an.filter(function (a) { return a.also && a.also.check; });
+    if (ls.length) h += '<p class="note">검사: ' + ls.map(function (a) { return link(a.also.check, a.label); }).join(' · ') + '</p>';
     return h;
   }
 

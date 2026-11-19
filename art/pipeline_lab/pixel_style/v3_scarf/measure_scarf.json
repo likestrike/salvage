@@ -1,0 +1,157 @@
+{
+ "C36": {
+  "size": [
+   21,
+   36
+  ],
+  "cells": 444,
+  "colors": 15,
+  "height": 36,
+  "head": 10,
+  "largest_value_mass_pct": 36.9,
+  "value_top3_pct": 50.5,
+  "region_big_mid_small_pct": [
+   19.8,
+   63.7,
+   16.4
+  ],
+  "accent_pct": 1.8,
+  "L_mean": 32.3,
+  "bright_pct": 11.7,
+  "face": {
+   "skin_cells": 6,
+   "skin_pct": 1.4,
+   "eye_cells": 1,
+   "face_L": 91.1,
+   "around_L": 20.1,
+   "contrast": 71.0
+  },
+  "solidity": 0.71,
+  "perimeter_per_sqrt_area": 6.41,
+  "edge_L_mean": 35.7
+ },
+ "S1": {
+  "size": [
+   21,
+   36
+  ],
+  "cells": 444,
+  "colors": 18,
+  "height": 36,
+  "head": 10,
+  "largest_value_mass_pct": 35.1,
+  "value_top3_pct": 48.6,
+  "region_big_mid_small_pct": [
+   19.8,
+   64.0,
+   16.2
+  ],
+  "accent_pct": 4.5,
+  "L_mean": 33.1,
+  "bright_pct": 12.4,
+  "face": {
+   "skin_cells": 6,
+   "skin_pct": 1.4,
+   "eye_cells": 1,
+   "face_L": 91.1,
+   "around_L": 24.5,
+   "contrast": 66.7
+  },
+  "solidity": 0.71,
+  "perimeter_per_sqrt_area": 6.41,
+  "edge_L_mean": 36.6
+ },
+ "S2": {
+  "size": [
+   22,
+   36
+  ],
+  "cells": 460,
+  "colors": 18,
+  "height": 36,
+  "head": 9,
+  "largest_value_mass_pct": 33.9,
+  "value_top3_pct": 47.0,
+  "region_big_mid_small_pct": [
+   19.1,
+   61.7,
+   19.1
+  ],
+  "accent_pct": 7.8,
+  "L_mean": 33.8,
+  "bright_pct": 13.5,
+  "face": {
+   "skin_cells": 6,
+   "skin_pct": 1.3,
+   "eye_cells": 1,
+   "face_L": 91.1,
+   "around_L": 24.5,
+   "contrast": 66.7
+  },
+  "solidity": 0.7,
+  "perimeter_per_sqrt_area": 6.67,
+  "edge_L_mean": 37.0
+ },
+ "S3": {
+  "size": [
+   28,
+   36
+  ],
+  "cells": 466,
+  "colors": 18,
+  "height": 36,
+  "head": 9,
+  "largest_value_mass_pct": 33.5,
+  "value_top3_pct": 46.4,
+  "region_big_mid_small_pct": [
+   18.9,
+   63.7,
+   17.4
+  ],
+  "accent_pct": 9.0,
+  "L_mean": 34.2,
+  "bright_pct": 14.2,
+  "face": {
+   "skin_cells": 6,
+   "skin_pct": 1.3,
+   "eye_cells": 1,
+   "face_L": 91.1,
+   "around_L": 24.5,
+   "contrast": 66.7
+  },
+  "solidity": 0.62,
+  "perimeter_per_sqrt_area": 6.9,
+  "edge_L_mean": 38.2
+ },
+ "S4": {
+  "size": [
+   22,
+   36
+  ],
+  "cells": 460,
+  "colors": 18,
+  "height": 36,
+  "head": 9,
+  "largest_value_mass_pct": 32.6,
+  "value_top3_pct": 48.9,
+  "region_big_mid_small_pct": [
+   19.1,
+   61.7,
+   19.1
+  ],
+  "accent_pct": 5.9,
+  "L_mean": 34.3,
+  "bright_pct": 13.5,
+  "face": {
+   "skin_cells": 6,
+   "skin_pct": 1.3,
+   "eye_cells": 1,
+   "face_L": 91.1,
+   "around_L": 25.5,
+   "contrast": 65.6
+  },
+  "solidity": 0.7,
+  "perimeter_per_sqrt_area": 6.67,
+  "edge_L_mean": 37.9
+ }
+}

@@ -1,0 +1,366 @@
+[
+ {
+  "date": "2026-11-19",
+  "step": "s1",
+  "name": "A",
+  "dry_run": true,
+  "model": "openai/gpt-image-2.6/sunburst/edit",
+  "prompt_file": {
+   "path": "art/prompts/pipeline/mirine/s1_A.txt",
+   "sha256": "c3d021f833225c60251c279e5c047f54f94ec8dc83509f18d8dc1e467af40c88"
+  },
+  "refs": [
+   {
+    "path": "art/concept/setting/mirine/02_side.png",
+    "sha256": "3cf4dbb457058d89d34c959cf6fff723858a70b69b5a2db0ea1546b933627a55"
+   },
+   {
+    "path": "art/concept/setting/mirine/01_front.png",
+    "sha256": "cfeeca3ec8a34964a08d2743981b92a86d34bdbfa48c30b28bb459cf348d4d50"
+   },
+   {
+    "path": "art/prompts/pipeline/mirine/style_nx07_px_base_x22.png",
+    "sha256": "345da31dcdb72984d66c2e47bff6e38ff4c13fb6b6f79ed37432b5e7ba90a8fc"
+   }
+  ],
+  "args": {
+   "image_size": [
+    1024,
+    1024
+   ],
+   "quality": "high",
+   "background": "opaque"
+  },
+  "simplify_status": "[제안]으로 진행 (기획자 결정 없음)"
+ },
+ {
+  "date": "2026-11-19",
+  "step": "s1",
+  "name": "A",
+  "dry_run": false,
+  "model": "openai/gpt-image-2.6/sunburst/edit",
+  "prompt_file": {
+   "path": "art/prompts/pipeline/mirine/s1_A.txt",
+   "sha256": "c3d021f833225c60251c279e5c047f54f94ec8dc83509f18d8dc1e467af40c88"
+  },
+  "refs": [
+   {
+    "path": "art/concept/setting/mirine/02_side.png",
+    "sha256": "3cf4dbb457058d89d34c959cf6fff723858a70b69b5a2db0ea1546b933627a55"
+   },
+   {
+    "path": "art/concept/setting/mirine/01_front.png",
+    "sha256": "cfeeca3ec8a34964a08d2743981b92a86d34bdbfa48c30b28bb459cf348d4d50"
+   },
+   {
+    "path": "art/prompts/pipeline/mirine/style_nx07_px_base_x22.png",
+    "sha256": "345da31dcdb72984d66c2e47bff6e38ff4c13fb6b6f79ed37432b5e7ba90a8fc"
+   }
+  ],
+  "args": {
+   "image_size": [
+    1024,
+    1024
+   ],
+   "quality": "high",
+   "background": "opaque"
+  },
+  "simplify_status": "[제안]으로 진행 (기획자 결정 없음)",
+  "out": {
+   "path": "art/characters/mirine/pixel/work/s1/mirine_s1_A.png",
+   "sha256": "eac3aa9af18fccf29edbf66af9175219e70ecdf1485476b298ff97415f691b49",
+   "size": [
+    1024,
+    1024
+   ]
+  }
+ },
+ {
+  "date": "2026-11-19",
+  "step": "s1",
+  "name": "B",
+  "dry_run": false,
+  "model": "openai/gpt-image-2.6/sunburst/edit",
+  "prompt_file": {
+   "path": "art/prompts/pipeline/mirine/s1_B.txt",
+   "sha256": "63c4b4aeb03c1c8fde11fcc420a6ca60a5617cd31068b8993e939904bec2c414"
+  },
+  "refs": [
+   {
+    "path": "art/concept/setting/mirine/02_side.png",
+    "sha256": "3cf4dbb457058d89d34c959cf6fff723858a70b69b5a2db0ea1546b933627a55"
+   },
+   {
+    "path": "art/concept/setting/mirine/01_front.png",
+    "sha256": "cfeeca3ec8a34964a08d2743981b92a86d34bdbfa48c30b28bb459cf348d4d50"
+   },
+   {
+    "path": "art/prompts/pipeline/mirine/style_nx07_px_base_x22.png",
+    "sha256": "345da31dcdb72984d66c2e47bff6e38ff4c13fb6b6f79ed37432b5e7ba90a8fc"
+   }
+  ],
+  "args": {
+   "image_size": [
+    1024,
+    1024
+   ],
+   "quality": "high",
+   "background": "opaque"
+  },
+  "simplify_status": "[제안]으로 진행 (기획자 결정 없음)",
+  "out": {
+   "path": "art/characters/mirine/pixel/work/s1/mirine_s1_B.png",
+   "sha256": "7b00437b70db666083132e610be17fae0c9b35cd23b82a50bc4e4d00a2f7e723",
+   "size": [
+    1024,
+    1024
+   ]
+  }
+ },
+ {
+  "date": "2026-11-19",
+  "step": "s1",
+  "name": "C",
+  "dry_run": false,
+  "model": "openai/gpt-image-2.6/sunburst/edit",
+  "prompt_file": {
+   "path": "art/prompts/pipeline/mirine/s1_C.txt",
+   "sha256": "de57c610881bc461a16564c04ee0797d4f7faa14bf54bbedf5a7fb87ec9f8f26"
+  },
+  "refs": [
+   {
+    "path": "art/concept/setting/mirine/02_side.png",
+    "sha256": "3cf4dbb457058d89d34c959cf6fff723858a70b69b5a2db0ea1546b933627a55"
+   },
+   {
+    "path": "art/concept/setting/mirine/01_front.png",
+    "sha256": "cfeeca3ec8a34964a08d2743981b92a86d34bdbfa48c30b28bb459cf348d4d50"
+   },
+   {
+    "path": "art/prompts/pipeline/mirine/style_nx07_px_base_x22.png",
+    "sha256": "345da31dcdb72984d66c2e47bff6e38ff4c13fb6b6f79ed37432b5e7ba90a8fc"
+   }
+  ],
+  "args": {
+   "image_size": [
+    1024,
+    1024
+   ],
+   "quality": "high",
+   "background": "opaque"
+  },
+  "simplify_status": "[제안]으로 진행 (기획자 결정 없음)",
+  "out": {
+   "path": "art/characters/mirine/pixel/work/s1/mirine_s1_C.png",
+   "sha256": "181c93be4912b7142fe8af7ab751de7361c171a5015ebda15ede8e5cb01ff79f",
+   "size": [
+    1024,
+    1024
+   ]
+  }
+ },
+ {
+  "date": "2026-11-19",
+  "step": "s2",
+  "name": "A30",
+  "dry_run": true,
+  "model": "openai/gpt-image-2.6/sunburst/edit",
+  "prompt_file": {
+   "path": "art/prompts/pipeline/mirine/s2_A30.txt",
+   "sha256": "9dacf68522bdbc593cbf9371b9935ef82943a71b3f35ded940ff0c5803221c3a"
+  },
+  "refs": [
+   {
+    "path": "art/characters/mirine/pixel/work/s1/mirine_s1_A.png",
+    "sha256": "eac3aa9af18fccf29edbf66af9175219e70ecdf1485476b298ff97415f691b49"
+   },
+   {
+    "path": "art/prompts/pipeline/mirine/guide_A30.png",
+    "sha256": "9b166635399056d51c3207ef0e801d2cc489cbe46323600702349baa026f66cf"
+   }
+  ],
+  "args": {
+   "image_size": [
+    1024,
+    1024
+   ],
+   "quality": "high",
+   "background": "opaque"
+  },
+  "simplify_status": "[제안]으로 진행 (기획자 결정 없음)"
+ },
+ {
+  "date": "2026-11-19",
+  "step": "s2",
+  "name": "B30",
+  "dry_run": true,
+  "model": "openai/gpt-image-2.6/sunburst/edit",
+  "prompt_file": {
+   "path": "art/prompts/pipeline/mirine/s2_B30.txt",
+   "sha256": "984d6f29bbd84ecc1eb61e1214a5f1e243dde81dea6b65b6084e7e66a29e0e53"
+  },
+  "refs": [
+   {
+    "path": "art/characters/mirine/pixel/work/s1/mirine_s1_B.png",
+    "sha256": "7b00437b70db666083132e610be17fae0c9b35cd23b82a50bc4e4d00a2f7e723"
+   },
+   {
+    "path": "art/prompts/pipeline/mirine/guide_B30.png",
+    "sha256": "ac244daf9b07ec96c3bb2deac0881dc0d56fe13120bb27977e7281187b02f990"
+   }
+  ],
+  "args": {
+   "image_size": [
+    1024,
+    1024
+   ],
+   "quality": "high",
+   "background": "opaque"
+  },
+  "simplify_status": "[제안]으로 진행 (기획자 결정 없음)"
+ },
+ {
+  "date": "2026-11-19",
+  "step": "s2",
+  "name": "C30",
+  "dry_run": true,
+  "model": "openai/gpt-image-2.6/sunburst/edit",
+  "prompt_file": {
+   "path": "art/prompts/pipeline/mirine/s2_C30.txt",
+   "sha256": "f7bce703e3e6ec7888d90ca6e13f54109275e39925baa005a4a92591b389d5a5"
+  },
+  "refs": [
+   {
+    "path": "art/characters/mirine/pixel/work/s1/mirine_s1_C.png",
+    "sha256": "181c93be4912b7142fe8af7ab751de7361c171a5015ebda15ede8e5cb01ff79f"
+   },
+   {
+    "path": "art/prompts/pipeline/mirine/guide_C30.png",
+    "sha256": "320f445bddf505227fcee1d7ccb883883876565f1e579a3f954818502d8fba70"
+   }
+  ],
+  "args": {
+   "image_size": [
+    1024,
+    1024
+   ],
+   "quality": "high",
+   "background": "opaque"
+  },
+  "simplify_status": "[제안]으로 진행 (기획자 결정 없음)"
+ },
+ {
+  "date": "2026-11-19",
+  "step": "s2",
+  "name": "A30",
+  "dry_run": false,
+  "model": "openai/gpt-image-2.6/sunburst/edit",
+  "prompt_file": {
+   "path": "art/prompts/pipeline/mirine/s2_A30.txt",
+   "sha256": "9dacf68522bdbc593cbf9371b9935ef82943a71b3f35ded940ff0c5803221c3a"
+  },
+  "refs": [
+   {
+    "path": "art/characters/mirine/pixel/work/s1/mirine_s1_A.png",
+    "sha256": "eac3aa9af18fccf29edbf66af9175219e70ecdf1485476b298ff97415f691b49"
+   },
+   {
+    "path": "art/prompts/pipeline/mirine/guide_A30.png",
+    "sha256": "9b166635399056d51c3207ef0e801d2cc489cbe46323600702349baa026f66cf"
+   }
+  ],
+  "args": {
+   "image_size": [
+    1024,
+    1024
+   ],
+   "quality": "high",
+   "background": "opaque"
+  },
+  "simplify_status": "[제안]으로 진행 (기획자 결정 없음)",
+  "out": {
+   "path": "art/characters/mirine/pixel/work/s2/mirine_s2_A30.png",
+   "sha256": "6e231b8b95c525f540c983ede75af769e8190341c54a22a3687cc2fc59d54ac2",
+   "size": [
+    1024,
+    1024
+   ]
+  }
+ },
+ {
+  "date": "2026-11-19",
+  "step": "s2",
+  "name": "B30",
+  "dry_run": false,
+  "model": "openai/gpt-image-2.6/sunburst/edit",
+  "prompt_file": {
+   "path": "art/prompts/pipeline/mirine/s2_B30.txt",
+   "sha256": "984d6f29bbd84ecc1eb61e1214a5f1e243dde81dea6b65b6084e7e66a29e0e53"
+  },
+  "refs": [
+   {
+    "path": "art/characters/mirine/pixel/work/s1/mirine_s1_B.png",
+    "sha256": "7b00437b70db666083132e610be17fae0c9b35cd23b82a50bc4e4d00a2f7e723"
+   },
+   {
+    "path": "art/prompts/pipeline/mirine/guide_B30.png",
+    "sha256": "ac244daf9b07ec96c3bb2deac0881dc0d56fe13120bb27977e7281187b02f990"
+   }
+  ],
+  "args": {
+   "image_size": [
+    1024,
+    1024
+   ],
+   "quality": "high",
+   "background": "opaque"
+  },
+  "simplify_status": "[제안]으로 진행 (기획자 결정 없음)",
+  "out": {
+   "path": "art/characters/mirine/pixel/work/s2/mirine_s2_B30.png",
+   "sha256": "187b635efab5d99cd18b8638350bc082d49326362a132931139856f519645f51",
+   "size": [
+    1024,
+    1024
+   ]
+  }
+ },
+ {
+  "date": "2026-11-19",
+  "step": "s2",
+  "name": "C30",
+  "dry_run": false,
+  "model": "openai/gpt-image-2.6/sunburst/edit",
+  "prompt_file": {
+   "path": "art/prompts/pipeline/mirine/s2_C30.txt",
+   "sha256": "f7bce703e3e6ec7888d90ca6e13f54109275e39925baa005a4a92591b389d5a5"
+  },
+  "refs": [
+   {
+    "path": "art/characters/mirine/pixel/work/s1/mirine_s1_C.png",
+    "sha256": "181c93be4912b7142fe8af7ab751de7361c171a5015ebda15ede8e5cb01ff79f"
+   },
+   {
+    "path": "art/prompts/pipeline/mirine/guide_C30.png",
+    "sha256": "320f445bddf505227fcee1d7ccb883883876565f1e579a3f954818502d8fba70"
+   }
+  ],
+  "args": {
+   "image_size": [
+    1024,
+    1024
+   ],
+   "quality": "high",
+   "background": "opaque"
+  },
+  "simplify_status": "[제안]으로 진행 (기획자 결정 없음)",
+  "out": {
+   "path": "art/characters/mirine/pixel/work/s2/mirine_s2_C30.png",
+   "sha256": "356d9f9f11b16ef6ef88336fa002c5f965ee9b1ec15e3e64c635678ef1769d33",
+   "size": [
+    1024,
+    1024
+   ]
+  }
+ }
+]

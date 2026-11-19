@@ -48,7 +48,7 @@
     {
       "name": "등록한 뒤 바뀐 파일",
       "result": "통과",
-      "detail": "등록한 9개 파일의 내용이 등록할 때와 같다",
+      "detail": "등록한 10개 파일의 내용이 등록할 때와 같다",
       "what": "모든 파일"
     },
     {
@@ -201,6 +201,32 @@
         2048
       ],
       "state": "그대로"
+    },
+    "pm_A38": {
+      "exists": true,
+      "sha256": "753537e62dbedb1962dafc120901f552ed77018f78a55276b67f458cc201655d",
+      "bytes": 642,
+      "size": [
+        15,
+        38
+      ],
+      "state": "그대로",
+      "metrics": {
+        "size": [
+          15,
+          38
+        ],
+        "height": 38,
+        "head": 12,
+        "heads_tall": 3.17,
+        "colors": 16,
+        "orphan_pct": 8.9,
+        "spread": 0.0,
+        "err": null,
+        "cell": 23,
+        "picked": "known-grid",
+        "recommended": null
+      }
     }
   },
   "thresholds": {
