@@ -1,0 +1,17 @@
+CHARACTER: NX-07, a mass-produced combat android built as a BOY soldier, 170 cm tall. Draw exactly this character. Do not redesign, simplify or decorate anything.
+
+REFERENCES:
+- image 1 = the three standing views of NX-07 (front, side mirrored to face right, back), cut from this project's own finished design sheet. THIS FIXES THE DESIGN AND THE BODY. Measure the proportions on image 1: from the top of the helmet to the chin is a little less than one quarter of the total height (about 4.3 heads tall); a big round helmet; a compact sturdy build; thick armored shins and big boots.
+- image 2 = the original design sheet of NX-07. Design reference only: do not copy its drawing style, its text or its layout.
+- image 3 = an approved side view of NX-07 in his normal combat state, with the ENERGY CANNON as his right forearm. Use it for the cannon arm.
+- The last image, the style anchor, happens to be the finished design sheet of this same character. Its drawing style is the standard, and its design details may be used too; only its layout, its text and its poses are not to be copied.
+
+DESIGN - keep exactly as in image 1:
+- Head: a large round olive-drab helmet with a glowing cyan inverted-triangle emblem on the forehead and a dark visor band above the eyes; the face of a young boy inside it, with large teal eyes under thick upper lash lines and a small serious mouth; a round white-and-olive earpiece with a cyan lens on each side of the helmet; one straight gray antenna rod standing up behind the earpiece.
+- Torso: olive-drab chest armor with a high collar and round olive shoulder armor with small cyan lights; a black bodysuit; a small olive-and-white backpack with a cyan glowing core and short antennas.
+- Arms: black upper arms; a big forearm gauntlet of white and olive plates; a black hand.
+- Legs: white hip plates; black thighs with an olive side plate; white knee plates with a round dark knee joint; thick olive shin armor; a round ankle joint with a cyan light; big olive boots with a white cap and a dark sole.
+- Lights only where image 1 has them; no additional lights, no stenciled numbers, no extra emblems.
+- NORMAL COMBAT STATE: his right forearm, from the elbow down, is the energy cannon of image 3: a short thick round olive-drab barrel as wide as the gauntlet, with a white collar ring at the elbow end, one cyan light band along its side and a round glowing cyan muzzle. His left arm keeps the normal gauntlet and black hand.
+
+BUILD - VERY IMPORTANT: this android is a BOY soldier and must read as a boy at first glance. The body is straight, compact and sturdy, like a toy soldier. No feminine shapes at all: no narrow waist with wide hips, no hourglass curve, no bust shape on the chest armor, no rounded hips or buttocks, no long slender legs, no thin arms, no arched back, no hip sway, no elegant pose. The hips are not wider than the chest armor. Do not make the figure slimmer, taller or longer-legged than image 1, and do not change the size of the head.

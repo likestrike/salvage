@@ -1,0 +1,240 @@
+{
+  "id": "uncle",
+  "date": "2026-11-19",
+  "result": "통과",
+  "items": [
+    {
+      "name": "원화 일곱 장",
+      "result": "통과",
+      "detail": "정면 · 측면 · 후면 · 얼굴 · 신체 · 무기/소지품 · 포즈가 모두 있다",
+      "what": "원화"
+    },
+    {
+      "name": "세 시점의 캔버스 크기",
+      "result": "통과",
+      "detail": "정면 869×2097 / 측면 869×2097 / 후면 869×2097",
+      "what": "원화"
+    },
+    {
+      "name": "세 시점의 캐릭터 키",
+      "result": "통과",
+      "detail": "정면 1933 · 측면 1922 · 후면 1937 px (차이 15px, 0.8%)",
+      "what": "원화"
+    },
+    {
+      "name": "세 시점의 발바닥 줄",
+      "result": "통과",
+      "detail": "정면 2013 · 측면 2009 · 후면 2017 (차이 8px)",
+      "what": "원화"
+    },
+    {
+      "name": "세 시점이 잘리지 않았나",
+      "result": "통과",
+      "detail": "캔버스 끝까지 여백 80px · 87px · 80px",
+      "what": "원화"
+    },
+    {
+      "name": "배경이 흰색인가",
+      "result": "통과",
+      "detail": "일곱 장 모두 가장자리 띠의 98% 넘게 흰색",
+      "what": "원화"
+    },
+    {
+      "name": "가장자리에 그림이 닿았나",
+      "result": "통과",
+      "detail": "일곱 장 모두 가장자리에 닿은 그림이 없다",
+      "what": "원화"
+    },
+    {
+      "name": "등록한 뒤 바뀐 파일",
+      "result": "통과",
+      "detail": "등록한 11개 파일의 내용이 등록할 때와 같다",
+      "what": "모든 파일"
+    },
+    {
+      "name": "승인 뒤 바뀐 파일",
+      "result": "정보",
+      "detail": "승인 기록 없음 — 비교할 승인이 없다",
+      "what": "승인"
+    },
+    {
+      "name": "스프라이트 검사 (art/sprites/cast_idle/style3/gate.json)",
+      "result": "통과",
+      "detail": "상태별 시트를 만든 도구(state_sheets.py)의 검사 결과를 옮겨 적었다",
+      "what": "스프라이트"
+    }
+  ],
+  "now": {
+    "front": {
+      "exists": true,
+      "sha256": "dbe6159b3eff594cbbe24a7492881b6ce051b74519943a4c8d1be73526cbfca2",
+      "bytes": 1179420,
+      "size": [
+        869,
+        2097
+      ],
+      "state": "그대로",
+      "measure": {
+        "white_ratio": 1.0,
+        "edge_color": "#ffffff",
+        "edge_ink": 0.0,
+        "top": 80,
+        "sole": 2013,
+        "height": 1933,
+        "left": 80,
+        "right": 789,
+        "margin": 80
+      }
+    },
+    "side": {
+      "exists": true,
+      "sha256": "98becdc0eafd1056cddeb892fbd4d6b11dca4ae45bd2201d5d005c7564262a29",
+      "bytes": 835554,
+      "size": [
+        869,
+        2097
+      ],
+      "state": "그대로",
+      "measure": {
+        "white_ratio": 1.0,
+        "edge_color": "#ffffff",
+        "edge_ink": 0.0,
+        "top": 87,
+        "sole": 2009,
+        "height": 1922,
+        "left": 192,
+        "right": 677,
+        "margin": 87
+      }
+    },
+    "back": {
+      "exists": true,
+      "sha256": "50cb08078b7b49261267183d401f5ef423398bfbe4fccbc6fcc36d471726957a",
+      "bytes": 937357,
+      "size": [
+        869,
+        2097
+      ],
+      "state": "그대로",
+      "measure": {
+        "white_ratio": 1.0,
+        "edge_color": "#ffffff",
+        "edge_ink": 0.0,
+        "top": 80,
+        "sole": 2017,
+        "height": 1937,
+        "left": 129,
+        "right": 740,
+        "margin": 80
+      }
+    },
+    "face": {
+      "exists": true,
+      "sha256": "eb38fc3368b133512e73d3738d2af33e5f22dd54a1c2dd77085b3d610e24c2c8",
+      "bytes": 5326280,
+      "size": [
+        3072,
+        2048
+      ],
+      "state": "그대로",
+      "measure": {
+        "white_ratio": 1.0,
+        "edge_color": "#fefefe",
+        "edge_ink": 0.0
+      }
+    },
+    "body": {
+      "exists": true,
+      "sha256": "e16ee19cf251135498f407b68d828ef03763453e7f2a5294a82bbdc2fc1e3929",
+      "bytes": 4571773,
+      "size": [
+        3072,
+        2048
+      ],
+      "state": "그대로",
+      "measure": {
+        "white_ratio": 1.0,
+        "edge_color": "#fefefe",
+        "edge_ink": 0.0
+      }
+    },
+    "items": {
+      "exists": true,
+      "sha256": "74f2534acc8d02fc39f1a44852b58290f04ef465166947749dd81da33289879d",
+      "bytes": 4522149,
+      "size": [
+        3072,
+        2048
+      ],
+      "state": "그대로",
+      "measure": {
+        "white_ratio": 1.0,
+        "edge_color": "#fefefe",
+        "edge_ink": 0.0
+      }
+    },
+    "poses": {
+      "exists": true,
+      "sha256": "7a5d583c15cd0e308de337ae786d07581712f90542e1ccae72e97c3f4fddeb44",
+      "bytes": 3883187,
+      "size": [
+        3072,
+        2048
+      ],
+      "state": "그대로",
+      "measure": {
+        "white_ratio": 1.0,
+        "edge_color": "#fefefe",
+        "edge_ink": 0.0
+      }
+    },
+    "poses_raw": {
+      "exists": true,
+      "sha256": "2a5bff1f297efc8e56ed5bb9b3826f4d2013130ea34c4ddb6c95b0e0a391360b",
+      "bytes": 4395889,
+      "size": [
+        3072,
+        2048
+      ],
+      "state": "그대로"
+    },
+    "turnaround": {
+      "exists": true,
+      "sha256": "c1e33acec040beba9fb7d1c3bf639b592204f828dacb43d938f419bdb776cb98",
+      "bytes": 4351757,
+      "size": [
+        3072,
+        2048
+      ],
+      "state": "그대로"
+    },
+    "sprite_cast_idle_style3_uncle": {
+      "exists": true,
+      "sha256": "3b5ebad2aaa67f67c23658f3491b459283fd7e54cbd403d4c731532994235fec",
+      "bytes": 12759,
+      "size": [
+        448,
+        112
+      ],
+      "state": "그대로"
+    },
+    "design_sheet": {
+      "exists": true,
+      "sha256": "875c175505bd6191ba75696a1c098f3abaff0452b11d0b2d36cc22edf871230f",
+      "bytes": 5361672,
+      "size": [
+        3072,
+        2048
+      ],
+      "state": "그대로"
+    }
+  },
+  "thresholds": {
+    "height_pass": 0.01,
+    "height_warn": 0.03,
+    "white_pass": 0.98,
+    "white_warn": 0.9,
+    "edge_warn": 0.002,
+    "margin_min": 10
+  }
+}

@@ -1,0 +1,14 @@
+Redraw the character from image 1 as a new character design sheet. Keep the design, and restyle the shapes, proportions and rendering in the ART STYLE described at the end.
+
+REFERENCES: image 1 = the existing design sheet of this character. Use it ONLY for the design and for the sheet layout. Ignore its rendering style and its black line art. Do not copy any caption text from it.
+
+KEEP the design "mechanic" (Mirine, design draft B): an 11-year-old girl, 142 cm tall, teal eyes. A short choppy silver bob with a small ahoge; welding goggles pushed up on top of her head. An adult-size industrial-yellow work jacket with black hazard trim, far too big for her, sleeves rolled up many times, with a cargo-robot workshop emblem on the back. Under it a white T-shirt and dark navy work overalls with long legs and one shoulder strap undone. Heavy work boots, fingerless work gloves, a tool belt, a large wrench, and a small self-made computer strapped to her left forearm with a glowing teal screen. A smudge of oil on one cheek. A confident, cheerful grin.
+
+RESTYLE: draw the hair as big angular chunks with sharp tips and small white rectangular highlights; make the shoes, cuffs and hands bigger and the torso and legs slimmer; draw the clothes as big simple shapes with very few folds, and hard items with chamfered edges; use clean saturated colors with purple-tinted hard shadows and small sparkle glints.
+
+TITLE lines: "미리네" / "시안 B" / "MECHANIC"
+PROFILE lines: "나이 : 11세" / "신장 : 142cm" / "역할 : 메카닉"
+EXPRESSIONS: a confident grin, deep concentration, surprise, a stubborn pout.
+ITEMS: the large wrench, the forearm computer, the welding goggles, the tool belt.
+POSES: tightening a bolt on a robot arm, typing on the forearm computer, running while carrying a toolbox.
+PALETTE: six swatches labeled "옐로", "네이비", "화이트", "가죽", "머리카락", "눈동자".

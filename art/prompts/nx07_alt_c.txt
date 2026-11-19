@@ -1,0 +1,14 @@
+Design a NEW alternative version of the android NX-07 and present it as a character design sheet.
+
+REFERENCES: image 1 = the current design of NX-07 (use it only for the sheet layout, the drawing style and the world's military design language). Image 2 = another android of the same army (design language only). The new design must be clearly DIFFERENT from image 1: no human face, no triangle forehead emblem, different armor shapes and a different silhouette.
+
+CONCEPT "heavy assault": a mass-produced combat robot that is short, wide and sturdy, about 150 cm tall, tough but endearing.
+- Head: a smooth, fully closed dome helmet with no human face. A wide dark horizontal visor band shows two round glowing cyan eye-lights that give it expression. Small vents on the cheeks, one stubby antenna on top.
+- Body: a thick barrel-shaped chest with a front hatch and a grab handle, massive rounded shoulder armor, short thick legs with wide heavy feet, and a boxy power-cell backpack with a carry handle.
+- Left arm: a big three-finger manipulator hand.
+- Olive-drab armor with white stenciled markings, dark gray joints, a few small hazard-yellow stripes, cyan lights.
+
+TITLE lines: "NX-07" / "시안 C" / "HEAVY ASSAULT"
+PROFILE lines: "신장 : 150cm" / "분류 : 양산형 안드로이드" / "특징 : 중장갑 돌격"
+WEAPON: the whole right arm is a large drum-shaped energy cannon, shown from the side, from the front with its glowing cyan muzzle, and firing.
+PALETTE: five swatches labeled "올리브", "화이트", "다크 그레이", "옐로", "시안".

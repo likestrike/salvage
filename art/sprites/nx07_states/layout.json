@@ -1,0 +1,96 @@
+{
+  "name": "nx07",
+  "scale": 5,
+  "cell": [112, 96],
+  "base": 89,
+  "colors": 64,
+  "clean_cyan": 6,
+  "shared_anchors": ["front_foot"],
+  "head": { "from": ["idle", 0], "rows": 21, "file": "parts/head.png", "min_match": 0.7 },
+  "game": { "dir": "game/assets/style_c/states", "id": "c" },
+  "sheets": [
+    {
+      "src": "art/sprites/stylec_nx07_sheet_raw.png", "grid": [8, 4],
+      "before": { "sheet": "art/sprites/stylec_nx07_sheet_1x.png", "cell": 96 },
+      "states": [
+        { "name": "idle", "row": 0, "cols": [0], "kind": "planted", "anchor": "front_foot", "ticks": 9, "loop": true, "head_lock": true,
+          "before_cols": [0, 1, 2, 3],
+          "rig": {
+            "parts": "parts/idle_parts.png",
+            "colors": { "arm_back": "#ffd24d", "legs": "#6f7dff", "torso": "#7dff6f", "head": "#ff4d4d", "cannon": "#4de3ff" },
+            "order": ["arm_back", "legs", "torso", "head", "cannon"],
+            "tracks": {
+              "torso":    [[0, 0], [0, 0], [0, 0], [0, -1], [0, -1], [0, -1], [0, -1], [0, -1], [0, -1], [0, -1], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0]],
+              "head":     [[0, 0], [0, 0], [0, 0], [0, -1], [0, -1], [0, -1], [0, -1], [0, -1], [0, -1], [0, -1], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0]],
+              "arm_back": [[0, 0], [0, 0], [0, 0], [0, 0], [0, -1], [0, -1], [0, -1], [0, -1], [0, -1], [0, -1], [0, -1], [0, 0], [0, 0], [0, 0], [0, 0], [0, 0]],
+              "cannon":   [[0, 0], [0, 0], [0, 0], [0, 0], [0, -1], [0, -1], [0, -1], [0, -1], [0, -1], [0, -1], [0, -1], [0, -1], [0, 0], [0, 0], [0, 0], [0, 0]]
+            },
+            "blink": { "file": "parts/head_blink.png", "frames": [13] }
+          } },
+        { "name": "idle_drawn", "row": 0, "cols": [0, 1, 2, 3], "kind": "planted", "anchor": "front_foot", "ticks": 18, "loop": true, "head_lock": true, "use": false },
+        { "name": "run", "row": 1, "cols": [0, 1, 2, 3, 4, 5, 6, 7], "kind": "cycle", "anchor": "head", "ticks": 5, "loop": true, "head_lock": true },
+        { "name": "jump", "row": 2, "cols": [0, 1, 2, 3, 4, 5], "kind": "air", "anchor": "body", "ticks": 6, "ground": [0, 5], "head_lock": true },
+        { "name": "air_shoot", "row": 2, "cols": [6, 7], "kind": "air", "anchor": "head", "ticks": 6, "ground": [], "ground_from": "jump", "x": 55, "head_lock": true },
+        { "name": "shoot", "row": 3, "cols": [0, 1, 2], "kind": "planted", "anchor": "front_foot", "ticks": 6, "head_lock": true },
+        { "name": "punch", "row": 3, "cols": [3, 4, 5], "kind": "planted", "anchor": "front_foot", "ticks": 8, "head_lock": true, "use": false },
+        { "name": "parry", "row": 3, "cols": [6, 7], "kind": "planted", "anchor": "front_foot", "ticks": 8, "head_lock": true },
+        { "name": "dash", "row": 0, "cols": [4, 5], "kind": "cycle", "anchor": "feet", "ticks": 5, "loop": true, "head_lock": true },
+        { "name": "hit", "row": 0, "cols": [6], "kind": "single", "anchor": "none" },
+        { "name": "down_old", "row": 0, "cols": [7], "kind": "single", "anchor": "none", "use": false }
+      ]
+    },
+    {
+      "src": "art/sprites/stylec_idle_check_raw.png", "grid": [6, 2], "zoom": 1, "match": true, "gray": true,
+      "states": [
+        { "name": "idle_check", "cells": [[0, 1], [0, 2], [0, 3], [0, 4], [0, 5], [1, 0], [1, 1], [1, 2], [1, 3], [1, 4]], "kind": "planted", "anchor": "front_foot",
+          "ticks": 9, "head_lock": true, "clean_cyan": 12, "allow": { "top": 4, "height": 4, "head_y": 4 } },
+        { "name": "idle_check_ends", "cells": [[0, 0], [1, 5]], "kind": "planted", "anchor": "front_foot", "ticks": 9, "head_lock": true, "use": false }
+      ]
+    },
+    {
+      "src": "art/sprites/stylec_shots_raw.png", "grid": [5, 2], "zoom": 1, "match": true, "gray": true,
+      "states": [
+        { "name": "shot2", "row": 0, "cols": [0, 1, 2], "kind": "planted", "anchor": "front_foot", "ticks": 6, "head_lock": true, "keep_specks": true },
+        { "name": "air_burst", "row": 0, "cols": [3, 4], "kind": "air", "anchor": "feet", "ticks": 6, "ground": [], "ground_from": "shot2", "x": 53, "head_lock": true, "keep_specks": true },
+        { "name": "shot3", "row": 1, "cols": [0, 1, 2, 3, 4], "kind": "planted", "anchor": "front_foot", "ticks": 6, "head_lock": true, "keep_specks": true,
+          "allow": { "top": null, "height": null, "head_y": null, "anchor_x": 2 } }
+      ]
+    },
+    {
+      "src": "art/sprites/stylec_react_raw.png", "grid": [6, 2], "zoom": 1.07, "match": true, "gray": true,
+      "states": [
+        { "name": "stagger", "row": 0, "cols": [0, 1], "kind": "planted", "anchor": "feet", "ticks": 8, "head_lock": true, "allow": { "top": null, "height": null, "head_y": null } },
+        { "name": "knockback", "row": 0, "cols": [2, 3], "kind": "planted", "anchor": "body", "ticks": 8, "head_lock": true, "allow": { "top": null, "height": null, "head_y": null, "anchor_x": null } },
+        { "name": "launch", "cells": [[0, 4], [0, 5], [1, 0], [1, 1]], "kind": "air", "anchor": "body", "ticks": 6, "ground": [], "center_y": 51 },
+        { "name": "land", "row": 1, "cols": [2], "kind": "single", "anchor": "body" },
+        { "name": "down", "row": 1, "cols": [3], "kind": "single", "anchor": "body" },
+        { "name": "getup", "row": 1, "cols": [4, 5], "kind": "planted", "anchor": "feet", "ticks": 12, "head_lock": true, "allow": { "top": null, "height": null, "head_y": null } }
+      ]
+    },
+    {
+      "src": "art/sprites/stylec_charge_raw.png", "grid": [6, 2], "zoom": 1.08, "match": true, "gray": true,
+      "states": [
+        { "name": "charge", "cells": [[0, 0], [0, 1], [0, 2], [0, 3]], "kind": "planted", "anchor": "front_foot", "ticks": 4, "loop": true, "head_lock": true, "keep_specks": true },
+        { "name": "charge_shot", "cells": [[0, 4], [0, 5], [1, 0]], "kind": "planted", "anchor": "front_foot", "ticks": 8, "head_lock": true, "keep_specks": true,
+          "allow": { "top": 4, "height": 4, "head_y": 4 } },
+        { "name": "learn", "cells": [[1, 1]], "kind": "single", "anchor": "feet", "head_lock": true },
+        { "name": "air_charge", "cells": [[1, 2], [1, 3]], "kind": "air", "anchor": "feet", "ticks": 6, "ground": [], "ground_from": "charge", "x": 53, "head_lock": true, "keep_specks": true },
+        { "name": "run_charge", "cells": [[1, 4], [1, 5]], "kind": "cycle", "anchor": "head", "ticks": 10, "loop": true, "head_lock": true, "keep_specks": true, "use": false }
+      ]
+    },
+    {
+      "src": "art/sprites/stylec_melee_raw.png", "grid": [4, 2], "cell": [144, 96], "zoom": 1, "match": true, "gray": true,
+      "states": [
+        { "name": "melee", "cells": [[0, 0], [0, 1], [0, 2], [0, 3], [1, 0], [1, 1], [1, 2], [1, 3]], "kind": "planted", "anchor": "front_foot", "ticks": 6,
+          "head_lock": true, "keep_specks": true, "allow": { "top": null, "height": null, "head_y": null } }
+      ]
+    },
+    {
+      "src": "art/sprites/stylec_dodge_raw.png", "grid": [6, 2], "zoom": 1.06, "match": true, "gray": true,
+      "states": [
+        { "name": "backstep", "row": 0, "cols": [0, 1, 2, 3, 4, 5], "kind": "air", "anchor": "body", "ticks": 4, "ground": [0, 1, 4, 5], "head_lock": true },
+        { "name": "dodge_dash", "row": 1, "cols": [0, 1, 2, 3, 4, 5], "kind": "air", "anchor": "body", "ticks": 4, "head_lock": true }
+      ]
+    }
+  ]
+}

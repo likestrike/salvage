@@ -1,0 +1,15 @@
+Design a NEW character, Mirine's uncle, and present him as a character design sheet.
+
+REFERENCES: image 1 = his niece Mirine (use it for the sheet layout and the drawing style, and give him a family resemblance: the same silver hair color and teal eyes).
+
+CHARACTER: a genius scientist who once studied at the world's top universities and now lives in a slum, raising his niece. The younger brother of a mechanic. Early thirties, about 180 cm tall, thin and lanky, slightly stooped.
+- Head: longer unkempt ash-silver hair tied in a small short ponytail, thin rectangular glasses, tired teal eyes with dark circles, light stubble.
+- Outfit: a worn, patched white lab coat with rolled sleeves over a dark teal turtleneck sweater; slim dark gray trousers; old sneakers. Pens and a small screwdriver in the breast pocket. A faded blank ID badge on a lanyard around his neck (no logo, no readable text).
+- Carries a slim data pad under one arm.
+
+TITLE lines: "미리네의 삼촌" / "천재 과학자" / "GENIUS SCIENTIST"
+PROFILE lines: "직업 : 과학자" / "가족 : 아버지의 동생" / "역할 : 미리네의 보호자"
+EXPRESSIONS: a wry tired smile, deep in thought with a hand on his chin, alarmed, a gentle smile.
+ITEMS: the data pad, a hand-built signal analyzer with an antenna, the faded blank ID badge, a chipped coffee mug.
+POSES: writing equations on a transparent board; soldering a circuit board while wearing magnifier goggles; patting a small silver-haired girl on the head.
+PALETTE: six swatches labeled "화이트", "청록", "다크 그레이", "가죽", "머리카락", "눈동자".

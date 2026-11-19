@@ -1,0 +1,14 @@
+Redraw the pixel-art sprite of image 2 with FEWER, BIGGER pixels: the same character, the same pose, the same colors, but the whole figure is 83 art pixels tall (image 2 is about 90 art pixels tall, so the pixels become slightly bigger).
+
+REFERENCES:
+- image 1 = the character design sheet, side view (android NX-07A, a BOY-type android soldier). Design only.
+- image 2 = the pixel-art sprite to redraw. Keep its design, pose, build, colors and the way it is drawn (dark 1-pixel outlines, 3-tone cel shading, small highlights). Facing RIGHT, pure side view.
+- image 3 = the LAYOUT GUIDE with exactly the size of the output image. It is a CHECKERBOARD: every checker square is ONE ART PIXEL (11 x 11 image pixels). The dark box is 83 checker squares tall: its bottom edge is the ground line, its top edge is the top of the helmet. The darker horizontal line is the chin line: the head fills the box from the top down to that line (25 art pixels). Draw by filling whole checker squares with one flat color each, exactly aligned to the checkerboard. Do NOT draw the checkerboard, the box or the chin line.
+
+KEEP IT SIMPLE AND CLEAN:
+- Keep only the parts that read at this size, each as a clean shape: the helmet with the cyan inverted-triangle emblem (at least 5 art pixels across), the dark visor band, ONE teal eye of 2 x 3 art pixels with a white catch-light, the pale face, ONE white ear disc with a cyan center and ONE short white swept-back fin, the chest armor, the black bodysuit, white shoulder and knee plates, big olive boots, the olive cannon forearm with white rings, one cyan light band and a cyan muzzle.
+- Lines one art pixel thick. No detail smaller than one art pixel. About 20 to 24 colors.
+- The build stays exactly as in image 2. Do not make the figure slimmer or longer-legged.
+
+Exactly ONE character, nothing else. BACKGROUND: completely flat solid magenta (#FF00FF) everywhere outside the figure. No ground, no shadow, no text, no border, no grid.
+Hard square pixels on one even grid, no anti-aliasing, no blur, no gradients, no dithering, no semi-transparent pixels.

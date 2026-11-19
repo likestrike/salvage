@@ -1,0 +1,14 @@
+Design a NEW alternative version of the android NX-07 and present it as a character design sheet.
+
+REFERENCES: image 1 = the current design of NX-07 (use it only for the sheet layout, the drawing style and the world's military design language). Image 2 = another android of the same army (design language only). The new design must be clearly DIFFERENT from image 1: do not reuse its round full helmet, its triangle forehead emblem, or its armor shapes.
+
+CONCEPT "light striker": a mass-produced combat android built like a slim teenage soldier, about 155 cm tall, fast and agile.
+- Head: no full helmet. The face is fully visible: short spiky dark-green synthetic hair, large teal eyes, calm blank expression. Big over-ear sensor units shaped like headphones, the left one with a short antenna; flat tactical goggles pushed up on the forehead.
+- Body: a short armored jacket-style chest piece in olive drab with a high collar and a stenciled unit number on the shoulder; exposed dark gray mechanical neck and segmented waist; slim upper arms and thighs with visible ball joints at the elbows and knees.
+- Limbs: oversized sand-beige forearm gauntlets and big olive boots with small thruster vents on the calves.
+- Small cyan indicator lights on the ear units, the chest and the boots.
+
+TITLE lines: "NX-07" / "시안 B" / "LIGHT STRIKER"
+PROFILE lines: "신장 : 155cm" / "분류 : 양산형 안드로이드" / "특징 : 경량 고기동"
+WEAPON: the right forearm gauntlet opened into a compact twin-barrel energy blaster, shown closed, opening and firing.
+PALETTE: five swatches labeled "올리브", "샌드", "다크 그레이", "검정", "시안".

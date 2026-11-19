@@ -1,0 +1,510 @@
+{
+  "format": "salvage-character/1",
+  "id": "mirine",
+  "name": "미리네",
+  "kind": "companion",
+  "design": {
+    "current": "시안 A",
+    "status": "[미정]",
+    "options": [
+      "design_a",
+      "design_b",
+      "design_c",
+      "design_d"
+    ],
+    "note": "시안 A(현재) · B · C · D 가운데 어느 것으로 갈지 정하지 않았다. 해킹 단말기가 바 형태인지 조개형인지도 [미정] (9.4.1).",
+    "doc": "docs/STORY.md 4장 · 10장 9"
+  },
+  "story": {
+    "height_cm": 142,
+    "height_mark": "확정",
+    "body": "천재 소녀, 11세",
+    "note": "설정화에 11세 / 142cm. 설정화의 코드 HX-11A 가 작중에서 쓰이는지는 [미정].",
+    "doc": "docs/STORY.md 4장"
+  },
+  "assets": {
+    "front": {
+      "group": "view",
+      "label": "정면 전신",
+      "file": "art/concept/setting/mirine/01_front.png",
+      "source": {
+        "made_by": "tools/setting_sheets.py split mirine",
+        "from": "art/concept/setting/mirine/turnaround.png",
+        "note": "세 시점을 한 장에 그린 뒤 같은 캔버스 · 같은 배율 · 같은 발바닥 줄로 나눴다",
+        "doc": "docs/GAME_DESIGN.md 9.4.1"
+      },
+      "base": {
+        "version": 1,
+        "date": "2026-11-19",
+        "sha256": "cfeeca3ec8a34964a08d2743981b92a86d34bdbfa48c30b28bb459cf348d4d50",
+        "bytes": 1372234,
+        "size": [
+          998,
+          1938
+        ]
+      }
+    },
+    "side": {
+      "group": "view",
+      "label": "측면 전신",
+      "file": "art/concept/setting/mirine/02_side.png",
+      "source": {
+        "made_by": "tools/setting_sheets.py split mirine",
+        "from": "art/concept/setting/mirine/turnaround.png",
+        "note": "세 시점을 한 장에 그린 뒤 같은 캔버스 · 같은 배율 · 같은 발바닥 줄로 나눴다. 측면은 오른쪽을 본다",
+        "doc": "docs/GAME_DESIGN.md 9.4.1"
+      },
+      "facing": "right",
+      "base": {
+        "version": 1,
+        "date": "2026-11-19",
+        "sha256": "3cf4dbb457058d89d34c959cf6fff723858a70b69b5a2db0ea1546b933627a55",
+        "bytes": 1039483,
+        "size": [
+          998,
+          1938
+        ]
+      }
+    },
+    "back": {
+      "group": "view",
+      "label": "후면 전신",
+      "file": "art/concept/setting/mirine/03_back.png",
+      "source": {
+        "made_by": "tools/setting_sheets.py split mirine",
+        "from": "art/concept/setting/mirine/turnaround.png",
+        "note": "세 시점을 한 장에 그린 뒤 같은 캔버스 · 같은 배율 · 같은 발바닥 줄로 나눴다",
+        "doc": "docs/GAME_DESIGN.md 9.4.1"
+      },
+      "base": {
+        "version": 1,
+        "date": "2026-11-19",
+        "sha256": "e31b735c1802fbb0968938c1baea6d8c0f2164b78135dba75b3e8b2d93c70da9",
+        "bytes": 991640,
+        "size": [
+          998,
+          1938
+        ]
+      }
+    },
+    "face": {
+      "group": "sheet",
+      "label": "얼굴 확대",
+      "file": "art/concept/setting/mirine/04_face.png",
+      "source": {
+        "made_by": "tools/setting_sheets.py gen mirine face",
+        "tool": "tools/fal_image.py --keep-style human",
+        "model": "openai/gpt-image-2.6/sunburst/edit",
+        "prompts": [
+          "art/prompts/setting/mirine_design.txt",
+          "art/prompts/setting/mirine_face.txt",
+          "art/prompts/setting/_layout_face.txt"
+        ],
+        "refs": [
+          "art/prompts/setting/guide_mirine.png",
+          "reference/미리네_디자인시안1차.png"
+        ],
+        "style_anchor": "art/style_anchor/human.png",
+        "doc": "docs/GAME_DESIGN.md 9.4.1",
+        "definition": "art/concept/setting/setting.json"
+      },
+      "base": {
+        "version": 1,
+        "date": "2026-11-19",
+        "sha256": "4303da5ff4b7292f0d9ae16799610f0a7425af8da357486e9124c97c82ad3cf6",
+        "bytes": 5291261,
+        "size": [
+          3072,
+          2048
+        ]
+      }
+    },
+    "body": {
+      "group": "sheet",
+      "label": "신체 확대",
+      "file": "art/concept/setting/mirine/05_body.png",
+      "source": {
+        "made_by": "tools/setting_sheets.py gen mirine body",
+        "tool": "tools/fal_image.py --keep-style human",
+        "model": "openai/gpt-image-2.6/sunburst/edit",
+        "prompts": [
+          "art/prompts/setting/mirine_design.txt",
+          "art/prompts/setting/mirine_body.txt",
+          "art/prompts/setting/_layout_body.txt"
+        ],
+        "refs": [
+          "art/prompts/setting/guide_mirine.png",
+          "reference/미리네_디자인시안1차.png"
+        ],
+        "style_anchor": "art/style_anchor/human.png",
+        "doc": "docs/GAME_DESIGN.md 9.4.1",
+        "definition": "art/concept/setting/setting.json"
+      },
+      "base": {
+        "version": 1,
+        "date": "2026-11-19",
+        "sha256": "b512300b3f915129a52d7ac6c3de9535f056164aeb057b6e5055534780a2e8bd",
+        "bytes": 5155280,
+        "size": [
+          3072,
+          2048
+        ]
+      }
+    },
+    "items": {
+      "group": "sheet",
+      "label": "소지품 단독 (해킹 단말기 · 툴 키트) — 무기 없음",
+      "file": "art/concept/setting/mirine/06_items.png",
+      "source": {
+        "made_by": "tools/setting_sheets.py gen mirine items",
+        "tool": "tools/fal_image.py --keep-style human",
+        "model": "openai/gpt-image-2.6/sunburst/edit",
+        "prompts": [
+          "art/prompts/setting/mirine_design.txt",
+          "art/prompts/setting/mirine_items.txt",
+          "art/prompts/setting/_layout_items.txt"
+        ],
+        "refs": [
+          "art/prompts/setting/guide_mirine.png",
+          "reference/미리네_디자인시안1차.png"
+        ],
+        "style_anchor": "art/style_anchor/human.png",
+        "doc": "docs/GAME_DESIGN.md 9.4.1",
+        "definition": "art/concept/setting/setting.json"
+      },
+      "base": {
+        "version": 1,
+        "date": "2026-11-19",
+        "sha256": "1c5be16f8f8bb237498ea2ad8c7eaeee0283260123ff792bc9b44204ba5d909f",
+        "bytes": 4467783,
+        "size": [
+          3072,
+          2048
+        ]
+      }
+    },
+    "poses": {
+      "group": "sheet",
+      "label": "주요 포즈",
+      "file": "art/concept/setting/mirine/07_poses.png",
+      "source": {
+        "made_by": "tools/setting_sheets.py gen mirine poses",
+        "tool": "tools/fal_image.py --keep-style human",
+        "model": "openai/gpt-image-2.6/sunburst/edit",
+        "prompts": [
+          "art/prompts/setting/mirine_design.txt",
+          "art/prompts/setting/mirine_poses.txt",
+          "art/prompts/setting/_layout_poses.txt"
+        ],
+        "refs": [
+          "art/prompts/setting/guide_mirine.png",
+          "reference/미리네_디자인시안1차.png"
+        ],
+        "style_anchor": "art/style_anchor/human.png",
+        "doc": "docs/GAME_DESIGN.md 9.4.1",
+        "definition": "art/concept/setting/setting.json",
+        "cleaned": [
+          {
+            "op": "erase",
+            "why": "놀람 포즈의 감정 표시"
+          }
+        ],
+        "raw": "art/concept/setting/mirine/07_poses_raw.png"
+      },
+      "base": {
+        "version": 1,
+        "date": "2026-11-19",
+        "sha256": "7cea63a5c1adf580d5117501dd204486d3c68bc0968484074713ca4bbb9fe5da",
+        "bytes": 4786337,
+        "size": [
+          3072,
+          2048
+        ]
+      }
+    },
+    "poses_raw": {
+      "group": "source",
+      "label": "주요 포즈 — 손보기 전",
+      "file": "art/concept/setting/mirine/07_poses_raw.png",
+      "source": {
+        "made_by": "tools/setting_sheets.py gen mirine poses",
+        "tool": "tools/fal_image.py --keep-style human",
+        "model": "openai/gpt-image-2.6/sunburst/edit",
+        "prompts": [
+          "art/prompts/setting/mirine_design.txt",
+          "art/prompts/setting/mirine_poses.txt",
+          "art/prompts/setting/_layout_poses.txt"
+        ],
+        "refs": [
+          "art/prompts/setting/guide_mirine.png",
+          "reference/미리네_디자인시안1차.png"
+        ],
+        "style_anchor": "art/style_anchor/human.png",
+        "doc": "docs/GAME_DESIGN.md 9.4.1",
+        "definition": "art/concept/setting/setting.json"
+      },
+      "base": {
+        "version": 1,
+        "date": "2026-11-19",
+        "sha256": "c2349c1855d3f9e8a4dbc1984e4d4a1b3cd8af4790d9aa10593899d1cec78be2",
+        "bytes": 5243147,
+        "size": [
+          3072,
+          2048
+        ]
+      }
+    },
+    "turnaround": {
+      "group": "source",
+      "label": "세 시점 원본 (나누기 전)",
+      "file": "art/concept/setting/mirine/turnaround.png",
+      "source": {
+        "made_by": "tools/setting_sheets.py gen mirine turnaround",
+        "tool": "tools/fal_image.py --keep-style human",
+        "model": "openai/gpt-image-2.6/sunburst/edit",
+        "prompts": [
+          "art/prompts/setting/mirine_design.txt",
+          "art/prompts/setting/mirine_turnaround.txt",
+          "art/prompts/setting/_layout_turnaround.txt"
+        ],
+        "refs": [
+          "art/prompts/setting/guide_mirine.png",
+          "reference/미리네_디자인시안1차.png"
+        ],
+        "style_anchor": "art/style_anchor/human.png",
+        "doc": "docs/GAME_DESIGN.md 9.4.1",
+        "definition": "art/concept/setting/setting.json"
+      },
+      "base": {
+        "version": 1,
+        "date": "2026-11-19",
+        "sha256": "9b6f8045df748e80f4e74dba9d364376de658f4f334f334722ba4bfa2fd9e006",
+        "bytes": 4573545,
+        "size": [
+          3072,
+          2048
+        ]
+      }
+    },
+    "sprite_cast_idle_style3_mirine": {
+      "group": "sprite",
+      "label": "mirine",
+      "file": "art/sprites/cast_idle/style3/mirine.png",
+      "source": {
+        "table": "art/sprites/cast_idle/style3/states.json"
+      },
+      "set": "cast_idle_style3",
+      "anim": {
+        "frames": 4,
+        "cell": [
+          112,
+          112
+        ],
+        "ticks": 20,
+        "loop": true,
+        "sole": 100
+      },
+      "base": {
+        "version": 1,
+        "date": "2026-11-19",
+        "sha256": "1072817838148a785e1bc362d28397ffecf561dbd494d5028cc5535ff33aabd5",
+        "bytes": 12723,
+        "size": [
+          448,
+          112
+        ]
+      }
+    },
+    "design_a": {
+      "group": "design",
+      "label": "시안 A (현재) — 긴 은발 · 남색 도포 · 해킹 단말기",
+      "file": "art/concept/mirine_alt_a.png",
+      "source": {
+        "tool": "tools/fal_image.py --keep-style human",
+        "prompts": [
+          "art/prompts/mirine_alt_a.txt",
+          "art/prompts/_sheet_layout_human.txt"
+        ],
+        "refs_note": "이 시트를 뽑을 때 넣은 참조 그림의 기록이 남아 있지 않다",
+        "doc": "docs/STORY.md 4장"
+      },
+      "base": {
+        "version": 1,
+        "date": "2026-11-19",
+        "sha256": "c734a9f27d0f4158bc5b3a56e69a485d45424d32c0c9c5deaecd00a1a4b78aaa",
+        "bytes": 5738754,
+        "size": [
+          3072,
+          2048
+        ]
+      }
+    },
+    "design_b": {
+      "group": "design",
+      "label": "시안 B — 메카닉",
+      "file": "art/concept/mirine_alt_b.png",
+      "source": {
+        "tool": "tools/fal_image.py --keep-style human",
+        "prompts": [
+          "art/prompts/mirine_alt_b.txt",
+          "art/prompts/_sheet_layout_human.txt"
+        ],
+        "refs_note": "이 시트를 뽑을 때 넣은 참조 그림의 기록이 남아 있지 않다",
+        "doc": "docs/STORY.md 4장"
+      },
+      "base": {
+        "version": 1,
+        "date": "2026-11-19",
+        "sha256": "97e839eac515ab715e3ab8ccadfb0f5fcd8893d8d57b7013e326f493cd2f02a3",
+        "bytes": 6000778,
+        "size": [
+          3072,
+          2048
+        ]
+      }
+    },
+    "design_c": {
+      "group": "design",
+      "label": "시안 C — 해커",
+      "file": "art/concept/mirine_alt_c.png",
+      "source": {
+        "tool": "tools/fal_image.py --keep-style human",
+        "prompts": [
+          "art/prompts/mirine_alt_c.txt",
+          "art/prompts/_sheet_layout_human.txt"
+        ],
+        "refs_note": "이 시트를 뽑을 때 넣은 참조 그림의 기록이 남아 있지 않다",
+        "doc": "docs/STORY.md 4장"
+      },
+      "base": {
+        "version": 1,
+        "date": "2026-11-19",
+        "sha256": "b585c92b5949d3fa682278c8ef3d0204130e26ab2b3efeffb060106482c556ab",
+        "bytes": 5326053,
+        "size": [
+          3072,
+          2048
+        ]
+      }
+    },
+    "design_d": {
+      "group": "design",
+      "label": "시안 D — 반 AI파 대원",
+      "file": "art/concept/mirine_alt_d.png",
+      "source": {
+        "tool": "tools/fal_image.py --keep-style human",
+        "prompts": [
+          "art/prompts/mirine_alt_d.txt",
+          "art/prompts/_sheet_layout_human.txt"
+        ],
+        "refs_note": "이 시트를 뽑을 때 넣은 참조 그림의 기록이 남아 있지 않다",
+        "doc": "docs/STORY.md 4장"
+      },
+      "base": {
+        "version": 1,
+        "date": "2026-11-19",
+        "sha256": "8bf3a3ffb0123bf5b0193198b2106a57e35aa41bfdb6f2c35b9773ec6bcb7994",
+        "bytes": 5703148,
+        "size": [
+          3072,
+          2048
+        ]
+      }
+    },
+    "design_ref": {
+      "group": "design_ref",
+      "label": "원본 설정화",
+      "file": "reference/미리네_디자인시안1차.png",
+      "readonly": true,
+      "base": {
+        "version": 1,
+        "date": "2026-11-19",
+        "sha256": "629308ce67413f53d10c32ab6b15a3515823305cdbb746bd148f34678cfb9d8c",
+        "bytes": 1945401,
+        "size": [
+          1402,
+          1122
+        ]
+      }
+    }
+  },
+  "approvals": [],
+  "records": [],
+  "history": [
+    {
+      "date": "2026-11-19",
+      "what": "등록",
+      "by": "agent",
+      "assets": 9,
+      "note": "설정화 묶음 setting.json#mirine"
+    },
+    {
+      "date": "2026-11-19",
+      "what": "스프라이트 등록",
+      "by": "agent",
+      "table": "art/sprites/cast_idle/style3/states.json",
+      "count": 1
+    },
+    {
+      "date": "2026-11-19",
+      "what": "파일 더함",
+      "by": "agent",
+      "asset": "design_a",
+      "file": "art/concept/mirine_alt_a.png"
+    },
+    {
+      "date": "2026-11-19",
+      "what": "파일 더함",
+      "by": "agent",
+      "asset": "design_b",
+      "file": "art/concept/mirine_alt_b.png"
+    },
+    {
+      "date": "2026-11-19",
+      "what": "파일 더함",
+      "by": "agent",
+      "asset": "design_c",
+      "file": "art/concept/mirine_alt_c.png"
+    },
+    {
+      "date": "2026-11-19",
+      "what": "파일 더함",
+      "by": "agent",
+      "asset": "design_d",
+      "file": "art/concept/mirine_alt_d.png"
+    },
+    {
+      "date": "2026-11-19",
+      "what": "파일 더함",
+      "by": "agent",
+      "asset": "design_ref",
+      "file": "reference/미리네_디자인시안1차.png"
+    },
+    {
+      "date": "2026-11-19",
+      "what": "설명 칸 적음",
+      "by": "agent",
+      "note": "디자인 상태 · 설정 키 · 게임 정보 · 기록을 STORY.md 4장과 기획서 9.4.1 · 9.8 · 9.9 · 9.10 · 9.11에서 옮겨 적었다"
+    }
+  ],
+  "game": {
+    "style": "스타일 3 등장인물 대기 (보기만 하는 용도, 기획서 9.8)",
+    "height_px": 70,
+    "cell": [
+      112,
+      112
+    ],
+    "sole": 100,
+    "note": "대기 한 가지뿐이다. 디자인 확정 전에 시안 A로 뽑았다."
+  },
+  "links": [
+    {
+      "label": "설정화 묶음 확인 그림",
+      "file": "art/concept/setting/mirine/overview.png"
+    },
+    {
+      "label": "등장인물 대기 비교 (스타일 1~3)",
+      "file": "game/preview/cast_styles.png"
+    }
+  ]
+}

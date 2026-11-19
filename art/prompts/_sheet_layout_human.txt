@@ -1,0 +1,8 @@
+SHEET LAYOUT: one character design sheet on a light gray-white background with thin panel borders, using the same panel layout and typography as the reference design sheet in image 1. Write every Korean label exactly as given, and add no other text.
+- Top-left title block: the TITLE lines given above (first line big and bold).
+- Left column headed "프로필": the PROFILE lines given above.
+- Center: three large full-body standing views of the character, labeled "정면", "측면", "후면".
+- Top-right panel headed "표정": four head-and-shoulders drawings showing the EXPRESSIONS given above, without captions.
+- Middle-right panel headed "소지품": the ITEMS given above, each drawn on its own, without captions.
+- Bottom-left panel headed "액션 포즈": the three small POSES given above.
+- Bottom-right panel headed "컬러 팔레트": the PALETTE swatches given above, each with its label under it.

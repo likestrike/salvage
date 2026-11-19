@@ -1,0 +1,14 @@
+{
+  "images": ["nx07_dodge_1x.png", "styleb_dodge_1x.png"],
+  "cell": [96, 96],
+  "columns": 6,
+  "rows": 2,
+  "facing": "right",
+  "note": "두 스타일의 칸 배치가 같다. 왼쪽을 볼 때는 좌우 반전한다. baseline 은 칸 안에서 발바닥이 닿는 y 좌표(px)다. 이동 거리는 그림에 들어 있지 않으므로 코드에서 준다.",
+  "animations": {
+    "backstep":   { "row": 0, "frames": [0, 1, 2, 3, 4, 5], "baseline": 87, "loop": false,
+                    "frame_names": ["anticipation", "push_off", "air_1", "air_2", "land", "recover"] },
+    "dodge_dash": { "row": 1, "frames": [0, 1, 2, 3, 4, 5], "baseline": 84, "loop": false,
+                    "frame_names": ["anticipation", "launch", "slip_low", "slip_rise", "brake", "recover"] }
+  }
+}

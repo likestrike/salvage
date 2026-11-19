@@ -1,0 +1,67 @@
+{
+  "_": "캐릭터 설정화 묶음의 정의. tools/setting_sheets.py 가 읽는다 (기획서 9.4.1).",
+  "prompts": "art/prompts/setting",
+  "out": "art/concept/setting",
+  "kinds": {
+    "turnaround": { "layout": "_layout_turnaround.txt", "label": "세 시점 (정면 · 측면 · 후면)" },
+    "face": { "layout": "_layout_face.txt", "label": "얼굴 확대" },
+    "body": { "layout": "_layout_body.txt", "label": "신체 확대" },
+    "items": { "layout": "_layout_items.txt", "label": "무기 단독" },
+    "poses": { "layout": "_layout_poses.txt", "label": "주요 포즈" }
+  },
+  "split": ["01_front.png", "02_side.png", "03_back.png"],
+  "split_labels": ["정면 전신", "측면 전신", "후면 전신"],
+  "characters": {
+    "nx07": {
+      "name": "NX-07 (시안 A)",
+      "style": "android",
+      "sheet": "art/concept/nx07_alt_a.png",
+      "views": { "x": [400, 935, 1321, 1795], "y": [78, 1351] },
+      "refs": ["reference/캐릭터디자인2차.png", "art/concept/nx07_pixellab_side_1024_white.png"],
+      "extra_refs": { "items": ["art/concept/nx07_short_upper.png"], "poses": ["art/concept/nx07_short_upper.png"] },
+      "files": { "turnaround": "turnaround.png", "face": "04_face.png", "body": "05_body.png", "items": "06_weapon.png", "poses": "07_poses.png" },
+      "items_label": "무기 단독 (에너지 주포 · 기폭 너클)",
+      "clean": {
+        "07_poses.png": [
+          { "op": "paste", "from": "07_poses_v2.png", "box": [1600, 1030, 2304, 2048], "down": 7, "why": "처음 뽑은 숏어퍼 포즈에는 기폭 너클이 없었다. 다시 뽑은 장의 그 칸만 옮긴다" }
+        ]
+      }
+    },
+    "mirine": {
+      "name": "미리네 (시안 A)",
+      "style": "human",
+      "sheet": "art/concept/mirine_alt_a.png",
+      "views": { "x": [437, 1016, 1492, 1998], "y": [20, 1208] },
+      "refs": ["reference/미리네_디자인시안1차.png"],
+      "files": { "turnaround": "turnaround.png", "face": "04_face.png", "body": "05_body.png", "items": "06_items.png", "poses": "07_poses.png" },
+      "items_label": "소지품 단독 (해킹 단말기 · 툴 키트) — 무기 없음",
+      "clean": {
+        "07_poses.png": [{ "op": "erase", "box": [1180, 1080, 1310, 1210], "why": "놀람 포즈의 감정 표시" }]
+      }
+    },
+    "father": {
+      "name": "미리네의 아버지",
+      "style": "human",
+      "sheet": "art/concept/father_sheet.png",
+      "views": { "x": [418, 1025, 1415, 1965], "y": [26, 1234] },
+      "refs": ["art/concept/father_sheet.png"],
+      "files": { "turnaround": "turnaround.png", "face": "04_face.png", "body": "05_body.png", "items": "06_items.png", "poses": "07_poses.png" },
+      "items_label": "소지품 단독 (대형 렌치 · 공구함) — 무기 없음"
+    },
+    "uncle": {
+      "name": "미리네의 삼촌",
+      "style": "human",
+      "sheet": "art/concept/uncle_sheet.png",
+      "views": { "x": [561, 1042, 1406, 1828], "y": [20, 1208] },
+      "refs": ["art/concept/uncle_sheet.png"],
+      "files": { "turnaround": "turnaround.png", "face": "04_face.png", "body": "05_body.png", "items": "06_items.png", "poses": "07_poses.png" },
+      "items_label": "소지품 단독 (신호 분석기 · 데이터 패드) — 무기 없음",
+      "clean": {
+        "07_poses.png": [
+          { "op": "flip", "box": [0, 1030, 1024, 2048], "why": "판서 포즈만 왼쪽을 보게 그려졌다" },
+          { "op": "erase", "box": [2430, 1035, 2620, 1180], "why": "놀람 포즈의 감정 표시" }
+        ]
+      }
+    }
+  }
+}

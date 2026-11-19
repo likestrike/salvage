@@ -1,0 +1,24 @@
+Create ONE pixel-art game sprite of the android NX-07 standing in a pure side view, redrawn FOR A SMALL PIXEL-ART SIZE: the whole figure is exactly 64 art pixels tall.
+
+REFERENCES:
+- image 1 = the character design sheet, side view (android NX-07A, a BOY-type android soldier). It is a detailed illustration: take only the character design from it (helmet, armor pieces, colors, the cannon arm). Do not copy its proportions or its fine detail.
+- image 2 = an existing pixel-art sprite of the same character in the game's pixel-art style. It is the GUIDE FOR HOW TO DRAW PIXELS AND FOR THE BUILD: the same sturdy boyish build, the same thickness of arms and legs, the same big gauntlets and big boots, the same standing pose, dark 1-pixel outlines, 3-tone cel shading with a small bright highlight, bright clean colors.
+- image 3 = a LAYOUT GUIDE (GRAPH PAPER) with exactly the size of the output image. The dark box is the figure's size: its bottom edge is the GROUND LINE, its top edge is the top of the helmet. The box is 64 grid squares tall. Every faint grid square is ONE ART PIXEL: draw by filling whole grid squares with one flat color each. The darker horizontal line inside the box is the CHIN LINE: the head (helmet and face) fills the space from the top of the box down to that line, so the head is 20 art pixels tall and the figure is about 3.2 heads tall. Do NOT draw the box, the chin line or the grid lines.
+
+REDRAW FOR THE SMALL SIZE (this is the point of the image):
+- Every art pixel is a hard square of exactly the grid size of image 3, all on that one grid. Lines are one art pixel thick everywhere. No detail smaller than one art pixel.
+- The head is big so the face reads at this size. Keep only the parts that read at 64 pixels: the round olive-drab helmet, the glowing cyan inverted-triangle emblem at the front of the helmet (a clear triangle of at least 4 art pixels across), the dark visor band, ONE large teal eye (at least 2 x 2 art pixels with a white catch-light), the pale face with the chin. The ear unit is ONE simple round white disc with a cyan center. The antenna and the swept-back fin are merged into ONE short white swept-back fin. No small panel lines, no tiny bolts, no small light dots.
+- Body: chest armor, the black bodysuit, white shoulder and knee plates, big olive boots with dark soles, each as a few clean shapes. A small simple backpack block on the back, no lights on it.
+- Colors: olive-drab armor, white plates, black bodysuit, pale skin, saturated cyan lights. About 20 colors in total. Each material has 3 tones (shadow, base, light) plus one small highlight. Flat fills only.
+
+THE FIGURE:
+- Exactly ONE character. No second pose, no extra views, no effects, no text.
+- VIEW: a PURE SIDE VIEW (profile), facing RIGHT. The chest and the hips are seen exactly from the side; the body is not twisted.
+- POSE: the neutral standing pose of image 2. Standing straight, both feet flat on the ground line, the far foot half a step behind the near foot.
+- RIGHT ARM (nearest to the viewer): from the elbow down it is the energy cannon - a thick olive barrel with white rings, one cyan light band along its side and a cyan glowing muzzle. It hangs low beside the hip, pointing forward and a little down. No muzzle flash.
+- LEFT ARM (far side): hangs straight down behind the body; only its white gauntlet and closed hand show past the body.
+- BUILD: follow image 2 exactly. Do not make the figure slimmer, longer-legged or more curvy than image 2.
+- LIGHTS: only the forehead emblem, the eye, the ear disc center, the cannon light band and the muzzle are cyan.
+
+BACKGROUND: completely flat solid magenta (#FF00FF) everywhere outside the figure. No ground, no shadow, no text, no labels, no border, no grid.
+Hard square pixels on one even grid, no anti-aliasing, no blur, no gradients, no dithering, no semi-transparent pixels.

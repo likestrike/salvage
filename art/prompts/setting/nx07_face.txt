@@ -1,0 +1,7 @@
+HEAD: the helmeted head of NX-07. The helmet is part of the head and never comes off: the big round olive-drab helmet, the cyan inverted-triangle emblem, the dark visor band, the round earpieces with cyan lenses and the antenna rod appear in every drawing, seen from the matching angle. In the back view there is no face: the back of the helmet, the dark neck joint and the rear of both earpieces.
+NEUTRAL: calm and serious. Eyes open and steady, straight brows, small closed mouth.
+EXPRESSIONS:
+1. BATTLE SHOUT: brows pulled down hard, eyes sharp, mouth wide open in a shout.
+2. HIT: head flinching back, one eye squeezed shut, teeth clenched in pain.
+3. QUESTION: brows slightly raised, eyes wide and searching, mouth a little open, as if quietly asking a question.
+4. EYES CLOSED: both eyes closed in a calm blink, mouth closed, face relaxed.

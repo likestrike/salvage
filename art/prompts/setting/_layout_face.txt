@@ -1,0 +1,7 @@
+IMAGE TO DRAW: a FACE SHEET of this one character. Exactly eight large head-and-shoulders drawings in a clean grid of 4 columns and 2 rows, and nothing else.
+- Every drawing shows the whole head, the neck and the top of the shoulders, ending in a clean straight cut below the collarbone. Each one is centered in its cell with empty space around it, and nothing is cut off by the picture edge or by a neighbor. All eight heads are drawn at exactly the same size.
+- TOP ROW, the NEUTRAL face given above seen from four angles, left to right: (1) straight FRONT view; (2) THREE-QUARTER view, turned toward the right; (3) pure SIDE profile facing right; (4) straight BACK view of the head.
+- BOTTOM ROW, left to right: the four EXPRESSIONS given above, in that order, each in a front or slight three-quarter view.
+- It is the same face in every drawing: the same eye shape, eye color and eyelash line, the same head shape, the same headgear or hairstyle, the same collar. Only the angle and the expression change.
+- The heads are drawn large to fix how the face is drawn: draw the eyes, eyebrows, mouth and every detail of the head carefully and cleanly.
+- BACKGROUND: plain flat pure white, completely empty. No panel borders, no frames, no arrows, no text, no labels, no letters, no numbers, no logos, no color swatches, no emotion symbols, no effects.

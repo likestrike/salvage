@@ -1,0 +1,33 @@
+Character design sheet of NX-07, an original mass-produced AI-controlled combat android that broke away from the central AI and joined the resistance. Male-type android, 177 cm tall.
+
+TWO STATES, drawn side by side as full-body figures
+- FACTORY UNIT ("양산형 기본 상태"): a full combat helmet that hides the face. Angular ivory helmet shell, black visor, one thin mint light line at the eye, a small red sensor on the brow, a round ear unit.
+- RESISTANCE ("저항군 합류 상태"): the helmet is removed. Spiky dark-brown hair, amber eyes, a calm and determined young face. A small ivory comm unit with a mint diamond light on the temple. A long torn orange scarf around the neck, flowing behind him. An orange band on the right wrist.
+
+BODY (the same in both states)
+- A graphite-black bodysuit with segmented ivory armor plates: a chest plate with a mint hexagonal core in the center, shoulder pads, forearm guards, a pelvis plate, thigh and shin guards, armored boots.
+- Deep-teal accents on the sides of the torso, the inner legs and the boot soles.
+- Mint diamond-shaped lights on the upper arms, forearms, thighs and shins.
+- Mechanical hands with visible finger joints.
+- Athletic adult proportions, about 6.5 heads tall.
+
+ARMAMENT (the right forearm transforms)
+- HAND -> DEPLOY (the forearm plates open) -> CANNON: an ivory barrel with a mint muzzle.
+- SHOCK KNUCKLE: an oversized armored fist with two mint light strips.
+- ELECTRIC WHIP: a segmented mint energy whip coming out of the wrist.
+- FACTORY RIFLE: a separate ivory and graphite assault rifle.
+
+PALETTE: ivory #F8E0CB, graphite #373636, deep teal #1D5554, orange #F76B15, mint #44F4C1, amber #D38D32, dark brown #513C34, red #E91D1F. Mint is used only for lights; red only for the helmet sensor.
+
+SHEET LAYOUT: one character design sheet on a warm off-white background with thin rounded panel borders. Write every Korean label exactly as given, and add no other text.
+- Title bar: "엔엑스-07" (big and bold) / "저항군 전투 안드로이드" / a box "신장 177센티미터".
+- Panel "주요 전신 비교": the two states side by side, labeled "양산형 기본 상태" and "저항군 합류 상태".
+- Panel "턴어라운드 (저항군 상태)": three full-body views labeled "정면", "측면", "후면".
+- Panel "얼굴 참고": the head labeled "정면", "측면", "반측면", "헬멧 착용".
+- Panel "표정 참고": six expressions labeled "기본", "경계", "결의", "분노", "당황", "희미한 미소".
+- Panel "분리 부품 도해": the parts drawn separately, labeled "전투 헬멧", "어깨 장갑", "흉부 장갑", "팔뚝 장갑", "기계 손", "골반 장갑", "다리 장갑", "장갑 부츠", "스카프", "통신 장치".
+- Panel "색상 견본": eight swatches labeled "아이보리", "흑연색", "짙은 청록색", "주황색", "민트색", "호박색", "흑갈색", "적색".
+
+ART STYLE: clean anime character design sheet. Thin dark outlines, flat cel shading with one hard-edged shadow tone, angular faceted armor plates with clean panel lines, small crisp highlights. Bright, clean colors. No gradients, no texture, no weathering, no painterly or realistic rendering, no 3D look.
+
+This is an original design. Do not make it resemble any existing game or anime character, and do not add logos or brand marks.

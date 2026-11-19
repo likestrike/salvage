@@ -1,0 +1,29 @@
+Create a 2D pixel-art SPRITE SHEET with the IDLE animation of three characters, in exactly the pixel-art style of image 4.
+
+REFERENCES:
+- image 1 = design sheet of MIRINE (a girl).
+- image 2 = design sheet of her UNCLE (a scientist).
+- image 3 = design sheet of BX-05 (a heavy commander android, a boss-type enemy).
+- image 4 = the existing sprite sheet of the player android NX-07 in the target pixel-art style. Use image 4 ONLY as the style and scale guide: copy its pixel size, outline style, shading method, palette character and level of detail. Do not draw NX-07.
+The design sheets (images 1 to 3) are illustrations in a different, non-pixel style: take only the character designs and colors from them.
+- image 5 = a LAYOUT GUIDE with exactly the size and grid of the output image. Its first column shows NX-07 (170 cm tall) at the correct scale. Every other cell contains a dark outline box that marks where the character stands and how tall it is.
+
+STYLE (the same as image 4): mid-proportion pixel art, exactly like NX-07 in image 4: about 4 heads tall, not big-head and not realistic. Mirine is about 4 heads tall, the uncle about 5 heads tall, BX-05 about 4.5 heads tall and very wide. Bright clean colors, dark 1-pixel outlines, 3-tone cel shading with a small bright highlight. The faces of Mirine and the uncle stay readable: clear eyes, simple shapes.
+
+CHARACTERS (side view, facing RIGHT):
+- MIRINE: an 11-year-old girl, 142 cm. Long silver hair, teal eyes, a dark navy long coat (dopo) over a white T-shirt, denim, brown leather boots and a tool pouch on the belt. She holds her small hand-built hacking terminal with a glowing teal screen in both hands in front of her chest.
+- UNCLE: a man in his early thirties, 180 cm, thin with a slight slouch. Silver hair tied back, teal eyes, thin glasses, tired eyes, a worn white lab coat with patches over dark clothes. Hands in the coat pockets.
+- BX-05: a heavy commander android, 185 cm, very broad and bulky. Gunmetal-gray heavy armor with a few white plates, an amber-yellow visor and amber lights, two antennas rising from the backpack. Feet planted wide, arms hanging heavy at the sides, fists closed.
+
+LAYOUT: exactly the grid of image 5: 5 columns x 3 rows = 15 equal square cells.
+- Column 1 of every row: NX-07 exactly as in image 5 (same size, same position). It is the height reference.
+- Row 1, columns 2 to 5: MIRINE, idle frames 1 to 4.
+- Row 2, columns 2 to 5: UNCLE, idle frames 1 to 4.
+- Row 3, columns 2 to 5: BX-05, idle frames 1 to 4.
+One figure per cell. Completely flat solid magenta (#FF00FF) background everywhere. No text, no labels, no numbers, no grid lines, no borders, no ground shadows. Do NOT draw the guide boxes.
+
+IDLE ANIMATION: a calm 4-frame breathing loop. Between frames the body rises and sinks by only one or two pixels; the feet do not move; the silhouette stays the same size. Mirine: her hair and coat hem sway slightly and the terminal screen flickers. Uncle: his coat hem sways slightly. BX-05: the shoulders rise and sink and the amber visor glows a little brighter in frames 2 and 3.
+
+SCALE - THIS IS THE MOST IMPORTANT RULE. Use the boxes of image 5: each figure stands with its feet on the bottom edge of its box, and the top of its head touches the top edge of its box. Do not draw any figure taller than its box (only Mirine's hair tuft and the antennas of BX-05 may stick out above). Heights for comparison: NX-07 is 170 cm, Mirine 142 cm, the uncle 180 cm, BX-05 185 cm. So Mirine is clearly SHORTER than NX-07 (the top of her head reaches about the middle of his helmet), the uncle is a little taller than NX-07, and BX-05 is a little taller than the uncle and about twice as wide as NX-07.
+
+Hard square pixels on one consistent grid, the same pixel size as image 4, no anti-aliasing, no blur, no soft gradients.

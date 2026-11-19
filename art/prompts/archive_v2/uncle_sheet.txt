@@ -1,0 +1,14 @@
+Redraw the character from image 1 as a new character design sheet. Keep the design, and restyle the shapes, proportions and rendering in the ART STYLE described at the end.
+
+REFERENCES: image 1 = the existing design sheet of this character. Use it ONLY for the design and for the sheet layout. Ignore its rendering style and its black line art. Do not copy any caption text from it.
+
+KEEP the design (Mirine's uncle): a genius scientist in his early thirties, about 180 cm tall, thin and lanky, slightly stooped. Longer unkempt ash-silver hair tied in a small short ponytail, thin rectangular glasses, tired teal eyes with dark circles, light stubble. A worn, patched white lab coat with rolled sleeves over a dark teal turtleneck sweater; slim dark gray trousers; old sneakers. Pens and a small screwdriver in the breast pocket. A blank ID badge on a lanyard around his neck (no logo, no readable text). A slim data pad under one arm.
+
+RESTYLE: keep him a tall thin adult, about 6 heads tall. Draw the hair as big angular chunks with sharp tips and small white rectangular highlights; make the sneakers and hands bigger; draw the clothes as big simple shapes with very few folds, and hard items with chamfered edges; use clean saturated colors with purple-tinted hard shadows and small sparkle glints.
+
+TITLE lines: "미리네의 삼촌" / "천재 과학자" / "GENIUS SCIENTIST"
+PROFILE lines: "직업 : 과학자" / "가족 : 아버지의 동생" / "역할 : 미리네의 보호자"
+EXPRESSIONS: a wry tired smile, deep in thought with a hand on his chin, alarmed, a gentle smile.
+ITEMS: the data pad, a hand-built signal analyzer with an antenna, the blank ID badge, a chipped coffee mug.
+POSES: writing equations on a transparent board; soldering a circuit board while wearing magnifier goggles; patting a small silver-haired girl on the head.
+PALETTE: six swatches labeled "화이트", "청록", "다크 그레이", "가죽", "머리카락", "눈동자".

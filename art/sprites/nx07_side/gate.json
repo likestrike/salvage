@@ -1,0 +1,50 @@
+{
+ "states": {
+  "ref_idle": {
+   "kind": "single",
+   "anchor": "none",
+   "allow": {},
+   "pass": true,
+   "fails": [],
+   "sole_drift": 0,
+   "anchor_x_range": 0,
+   "height_range": 0,
+   "head_top_range": 0,
+   "head_x_range": 0.0,
+   "head_y_range": 0,
+   "changed_px": 0.0,
+   "clipped_px": 0
+  },
+  "stand": {
+   "kind": "single",
+   "anchor": "feet",
+   "allow": {},
+   "pass": true,
+   "fails": [],
+   "sole_drift": 0,
+   "anchor_x_range": 0.0,
+   "height_range": 0,
+   "head_top_range": 0,
+   "head_x_range": 0.0,
+   "head_y_range": 0,
+   "changed_px": 0.0,
+   "clipped_px": 0
+  },
+  "stand_drawn": {
+   "kind": "single",
+   "anchor": "feet",
+   "allow": {},
+   "pass": true,
+   "fails": [],
+   "sole_drift": 0,
+   "anchor_x_range": 0.0,
+   "height_range": 0,
+   "head_top_range": 0,
+   "head_x_range": 0.0,
+   "head_y_range": 0,
+   "changed_px": 0.0,
+   "clipped_px": 0
+  }
+ },
+ "pass": true
+}

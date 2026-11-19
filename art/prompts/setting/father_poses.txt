@@ -1,0 +1,9 @@
+POSE GRID: 3 columns and 2 rows, six poses.
+The towel stays around his neck and the goggles stay on his forehead in every pose.
+POSES:
+1. IDLE: standing relaxed with the weight on one leg, one thumb hooked in the tool belt, the other arm hanging, a warm half-smile.
+2. WALK: the middle of a steady walking step, carrying the yellow toolbox in one hand, the other arm swinging.
+3. REPAIR: kneeling on one knee, leaning forward, tightening a bolt on a small robot joint part that lies on the ground in front of him, with the large wrench held in both hands; eyes focused on the work.
+4. PILOT: sitting on a simple operator's seat, leaning forward, each hand gripping one upright control lever, feet on two pedals, eyes fixed ahead. Draw only the seat, the two levers and the pedals - no cockpit and no machine around him.
+5. LAUGH: standing with both fists on his hips, chest out, head tilted back in a big open laugh.
+6. ALARM: twisting around in mid-step to look back over his shoulder, eyes wide, one arm thrown out to the side protectively.

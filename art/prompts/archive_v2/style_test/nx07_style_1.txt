@@ -1,0 +1,14 @@
+Edit image 1. Keep everything exactly as it is: the character design, the bold black line art, every shape and proportion, every mechanical detail and panel line, the poses, the sheet layout and all the text. Do not simplify anything, do not make any shape more angular, do not remove any detail.
+
+Change ONLY these two things.
+
+1. EYES (everywhere the face appears): redraw the eyes as very large round eyes that fill much of the face under the visor brim. The upper lash is one heavy dark arc with a small upward flick at the outer corner; the lower lid is only a short thin line. The iris is a big round disc in vivid teal with a thin darker teal rim and a darker upper half, and no separate pupil. One large round white highlight at the upper left that overlaps the edge of the iris, and one small white dot at the lower right. A thin short eyebrow just above each eye. A friendly, childlike look.
+
+2. COLOR DEPTH: make the colors rich, bright and warm.
+- Armor green: replace the dull gray-olive with a vivid olive green, base #9CAD2B, with one hard-edged shadow tone #5D7315 and small bright highlights.
+- White plates: a clean warm white #FFF8EA with a pale peach shadow #E8CDB4.
+- Bodysuit and other dark parts: a warm brown-black #33262A instead of neutral black.
+- Cyan lights and emblem: bright #35E6F2.
+- Skin: warm peach #F9DAB5 with an orange shadow #ECA57B, and a clear hard-edged shadow band across the upper face under the visor brim.
+- Update the five swatches in the color palette panel to the new colors.
+Flat cel shading only: no gradients, no glow, no texture.

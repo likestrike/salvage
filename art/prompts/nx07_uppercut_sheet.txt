@@ -1,0 +1,23 @@
+Create a 2D pixel-art SPRITE SHEET of one attack animation, a rising explosive uppercut, in exactly the pixel-art style of image 2.
+
+Image 1 is the character design sheet (android NX-07A). Image 2 is the existing sprite sheet of this character: match its pixel size, palette, big-head proportions, character scale and outline style exactly, so that the new frames can be mixed with the old ones. When the character stands upright it is exactly as tall as in image 2.
+
+THE MOVE: the android's right forearm hides a blast mechanism. For this attack the forearm cannon retracts into an armored fist, the forearm armor plates slide back to expose a thick piston and a glowing charge chamber, and exhaust vents open at the elbow. The punch is a rising uppercut. At the moment of impact the piston slams forward and an explosion bursts from the knuckles.
+
+LAYOUT: a strict uniform grid of 6 columns x 2 rows = 12 equal cells. Each cell is taller than it is wide (2 wide : 3 tall). In every cell the ground line is at the same height near the bottom of the cell, and the upper third of the cell is free headroom for the rising punch and the explosion. One pose per cell, centered horizontally, facing RIGHT, pure side view. The feet stand on the ground line in every frame except frames 8, 9 and 10, where the character is in the air. Completely flat solid magenta (#FF00FF) background everywhere. No text, no labels, no numbers, no grid lines, no borders, no ground shadows, no motion blur. Every pose and every effect stays fully inside its own cell with a clear magenta margin on all sides.
+
+FRAMES, left to right, top row first:
+1. martial-arts ready stance: sideways stance, left hand open in front, right fist chambered low at the hip.
+2. quick step-in: lunging forward and low.
+3. deep crouch: knees fully bent, torso twisted, the right arm cocked down and back; the forearm plates have slid open and the piston is pulled back.
+4. armed: the same deep crouch, the open forearm glowing orange-hot, sparks from the elbow vents.
+5. rising: the legs drive upward and the right fist travels straight up in front of the body, a short flame trail from the elbow.
+6. IMPACT: the body fully stretched upward on the toes, the right fist high above the head; the piston has slammed forward and a big orange-and-white explosion bursts at the fist.
+7. impact hold: the same stretched pose, a ring-shaped shockwave and flying debris around the fist.
+8. follow-through: the character has left the ground, arm still raised, a smoke trail from the forearm.
+9. apex: floating at the top of the jump, the arm lowering, steam venting from the open forearm.
+10. falling, knees bending.
+11. landing crouch: one knee down, the right arm lowered and venting steam, plates still open.
+12. recover: standing up, the forearm plates closing, a last wisp of steam.
+
+Hard square pixels on one consistent grid, no anti-aliasing, no blur, no soft gradients, the same limited palette as image 2.

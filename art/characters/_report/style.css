@@ -1,0 +1,97 @@
+/* 캐릭터 등록부 보고 화면. 꾸밈보다 읽기 쉬움. */
+:root {
+  --bg: #f4f4f6; --panel: #ffffff; --ink: #1e2028; --mute: #6b6f7b; --line: #dcdde3;
+  --pass: #1f8a4c; --pass-bg: #e3f4ea; --warn: #9a6a00; --warn-bg: #fff3d4; --fail: #b3261e; --fail-bg: #fde4e1;
+  --info: #4a5160; --info-bg: #eceef2; --accent: #2f5fb3; --sole: #d33; --top: #2f6fd8;
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--ink); font: 15px/1.55 "Malgun Gothic", "맑은 고딕", system-ui, sans-serif; }
+a { color: var(--accent); }
+code { font: 13px Consolas, monospace; background: #eceef2; padding: 1px 4px; border-radius: 3px; }
+.top { display: flex; gap: 14px; align-items: baseline; padding: 14px 24px; background: #23262f; color: #fff; }
+.top .home { color: #fff; font-weight: 700; font-size: 19px; text-decoration: none; }
+.top .sub { color: #b9bdc8; }
+.top .gen { margin-left: auto; color: #b9bdc8; font-size: 13px; }
+main { max-width: 1440px; margin: 0 auto; padding: 18px 24px 60px; }
+h1 { font-size: 26px; margin: 6px 0 4px; }
+h2 { font-size: 19px; margin: 0 0 10px; }
+h3 { font-size: 15px; margin: 14px 0 6px; }
+.note { color: var(--mute); font-size: 13.5px; }
+section.box { background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 16px 18px; margin: 16px 0; }
+.lead { color: var(--mute); margin: 0 0 12px; }
+
+.badge { display: inline-block; padding: 1px 9px; border-radius: 10px; font-size: 13px; font-weight: 700; white-space: nowrap; }
+.r-통과 { color: var(--pass); background: var(--pass-bg); }
+.r-주의 { color: var(--warn); background: var(--warn-bg); }
+.r-실패 { color: var(--fail); background: var(--fail-bg); }
+.r-정보 { color: var(--info); background: var(--info-bg); }
+.mark { display: inline-block; padding: 0 7px; border-radius: 4px; font-size: 12.5px; background: #eef0f5; color: #3d4350; border: 1px solid #d7dae2; }
+.mark.undecided { background: #fff3d4; color: #8a5a00; border-color: #f0d79a; }
+.mark.proposal { background: #e8effc; color: #2b4f93; border-color: #c4d4f2; }
+.mark.fixed { background: #e3f4ea; color: #1f6e40; border-color: #bfe3cc; }
+.mark.ref { background: #f3e8fb; color: #6b2f93; border-color: #dcc6ee; }
+
+/* 목록 */
+.cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 16px; }
+.card { background: var(--panel); border: 1px solid var(--line); border-radius: 8px; overflow: hidden; color: inherit; text-decoration: none; display: flex; flex-direction: column; }
+.card:hover { border-color: var(--accent); box-shadow: 0 2px 10px rgba(30, 40, 80, .12); }
+.card .pics { display: flex; align-items: flex-end; justify-content: center; gap: 14px; height: 300px; background: #fff; padding: 10px; border-bottom: 1px solid var(--line); }
+.card .pics img.art { max-height: 280px; }
+.card .body { padding: 12px 14px; }
+.card .name { font-size: 18px; font-weight: 700; }
+.card dl { display: grid; grid-template-columns: 74px 1fr; gap: 3px 8px; margin: 8px 0 0; font-size: 13.5px; }
+.card dt { color: var(--mute); }
+.card dd { margin: 0; }
+
+/* 요약 표 */
+table { border-collapse: collapse; width: 100%; font-size: 13.5px; }
+th, td { border-bottom: 1px solid var(--line); padding: 6px 8px; text-align: left; vertical-align: top; }
+th { color: var(--mute); font-weight: 600; background: #fafafb; }
+td.num { text-align: right; font-variant-numeric: tabular-nums; }
+.kv { display: grid; grid-template-columns: 120px 1fr; gap: 6px 12px; }
+.kv > div:nth-child(odd) { color: var(--mute); }
+
+/* 세 시점 */
+.views-wrap { overflow-x: auto; }
+.stage { position: relative; display: inline-flex; gap: 28px; padding: 0 24px 0 70px; background: #fff; }
+.stage figure { margin: 0; text-align: center; }
+.stage img { display: block; height: var(--vh); width: auto; }
+.stage figcaption { font-size: 13px; color: var(--mute); margin-top: 4px; }
+.hline { position: absolute; left: 0; right: 0; height: 0; border-top: 2px solid; pointer-events: none; }
+.hline.hl-sole { border-color: var(--sole); }
+.hline.hl-top { border-color: var(--top); border-top-style: dashed; }
+.hline span { position: absolute; right: 4px; top: -19px; font-size: 12px; background: rgba(255,255,255,.85); padding: 0 4px; }
+.hline.hl-sole span { color: var(--sole); top: 2px; }
+.hline.hl-top span { color: var(--top); }
+.ruler { position: absolute; left: 0; width: 60px; border-right: 1px solid #999; }
+.ruler .tick { position: absolute; right: 0; height: 0; border-top: 1px solid #999; width: 8px; }
+.ruler .tick.big { width: 16px; border-color: #555; }
+.ruler .tick span { position: absolute; right: 19px; top: -9px; font-size: 11px; color: #555; white-space: nowrap; }
+.stage .vmark { position: absolute; width: 10px; height: 0; border-top: 3px solid; }
+
+/* 그림 칸 */
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 14px; }
+.tile { border: 1px solid var(--line); border-radius: 6px; overflow: hidden; background: #fff; }
+.tile img { display: block; width: 100%; height: auto; }
+.tile .cap { padding: 6px 10px; font-size: 13px; }
+.tile .cap b { display: block; font-size: 14px; }
+.state-dot { font-size: 12px; }
+
+/* 픽셀 */
+.px { image-rendering: pixelated; image-rendering: crisp-edges; }
+.pmrow { display: flex; gap: 22px; align-items: flex-end; overflow-x: auto; padding: 14px 10px 6px; background: #2a2d36; border-radius: 6px; }
+.pm { text-align: center; color: #e8e9ee; font-size: 12.5px; flex: none; }
+.pm .lab { min-height: 38px; } /* 이름 줄 수가 달라도 발바닥이 한 줄에 오게 */
+.pm img { display: block; margin: 0 auto 6px; }
+.pm.c { outline: 2px solid #9ad3a8; outline-offset: 6px; border-radius: 2px; }
+.pmtable td, .pmtable th { white-space: nowrap; }
+.sprites { display: flex; flex-wrap: wrap; gap: 14px; }
+.spr { background: #2a2d36; border-radius: 6px; padding: 8px; color: #e8e9ee; font-size: 12.5px; text-align: center; }
+.spr .anim { background-repeat: no-repeat; image-rendering: pixelated; margin: 0 auto 4px; }
+@keyframes play { from { background-position: 0 0; } to { background-position: var(--end) 0; } }
+
+.files td.path { word-break: break-all; font-family: Consolas, monospace; font-size: 12.5px; }
+.hash { font-family: Consolas, monospace; font-size: 12px; color: #555; }
+.empty { padding: 18px; text-align: center; color: var(--mute); background: #fafafb; border: 1px dashed var(--line); border-radius: 6px; }
+details summary { cursor: pointer; color: var(--accent); }
+.toc { display: flex; flex-wrap: wrap; gap: 6px 14px; font-size: 13.5px; margin: 8px 0 0; }

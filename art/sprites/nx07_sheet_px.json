@@ -1,0 +1,308 @@
+{
+ "source": "art/sprites/nx07_sheet_raw.png",
+ "cell": 112,
+ "cols": 8,
+ "rows": 4,
+ "baseline": [
+  106,
+  106,
+  106,
+  106
+ ],
+ "frames": [
+  {
+   "row": 0,
+   "col": 0,
+   "grounded": true,
+   "body_h": 86,
+   "body_w": 64,
+   "clipped_px": 0
+  },
+  {
+   "row": 0,
+   "col": 1,
+   "grounded": true,
+   "body_h": 88,
+   "body_w": 59,
+   "clipped_px": 0
+  },
+  {
+   "row": 0,
+   "col": 2,
+   "grounded": true,
+   "body_h": 88,
+   "body_w": 59,
+   "clipped_px": 0
+  },
+  {
+   "row": 0,
+   "col": 3,
+   "grounded": true,
+   "body_h": 86,
+   "body_w": 58,
+   "clipped_px": 0
+  },
+  {
+   "row": 0,
+   "col": 4,
+   "grounded": true,
+   "body_h": 72,
+   "body_w": 86,
+   "clipped_px": 0
+  },
+  {
+   "row": 0,
+   "col": 5,
+   "grounded": true,
+   "body_h": 69,
+   "body_w": 85,
+   "clipped_px": 0
+  },
+  {
+   "row": 0,
+   "col": 6,
+   "grounded": true,
+   "body_h": 81,
+   "body_w": 79,
+   "clipped_px": 0
+  },
+  {
+   "row": 0,
+   "col": 7,
+   "grounded": true,
+   "body_h": 37,
+   "body_w": 88,
+   "clipped_px": 0
+  },
+  {
+   "row": 1,
+   "col": 0,
+   "grounded": true,
+   "body_h": 88,
+   "body_w": 83,
+   "clipped_px": 0
+  },
+  {
+   "row": 1,
+   "col": 1,
+   "grounded": true,
+   "body_h": 88,
+   "body_w": 68,
+   "clipped_px": 0
+  },
+  {
+   "row": 1,
+   "col": 2,
+   "grounded": true,
+   "body_h": 86,
+   "body_w": 68,
+   "clipped_px": 0
+  },
+  {
+   "row": 1,
+   "col": 3,
+   "grounded": true,
+   "body_h": 89,
+   "body_w": 71,
+   "clipped_px": 0
+  },
+  {
+   "row": 1,
+   "col": 4,
+   "grounded": true,
+   "body_h": 88,
+   "body_w": 65,
+   "clipped_px": 0
+  },
+  {
+   "row": 1,
+   "col": 5,
+   "grounded": true,
+   "body_h": 87,
+   "body_w": 62,
+   "clipped_px": 0
+  },
+  {
+   "row": 1,
+   "col": 6,
+   "grounded": true,
+   "body_h": 88,
+   "body_w": 70,
+   "clipped_px": 0
+  },
+  {
+   "row": 1,
+   "col": 7,
+   "grounded": true,
+   "body_h": 90,
+   "body_w": 69,
+   "clipped_px": 0
+  },
+  {
+   "row": 2,
+   "col": 0,
+   "grounded": true,
+   "body_h": 58,
+   "body_w": 74,
+   "clipped_px": 0
+  },
+  {
+   "row": 2,
+   "col": 1,
+   "grounded": true,
+   "body_h": 70,
+   "body_w": 66,
+   "clipped_px": 0
+  },
+  {
+   "row": 2,
+   "col": 2,
+   "grounded": true,
+   "body_h": 84,
+   "body_w": 68,
+   "clipped_px": 0
+  },
+  {
+   "row": 2,
+   "col": 3,
+   "grounded": false,
+   "body_h": 67,
+   "body_w": 66,
+   "clipped_px": 0
+  },
+  {
+   "row": 2,
+   "col": 4,
+   "grounded": false,
+   "body_h": 81,
+   "body_w": 64,
+   "clipped_px": 0
+  },
+  {
+   "row": 2,
+   "col": 5,
+   "grounded": true,
+   "body_h": 58,
+   "body_w": 65,
+   "clipped_px": 0
+  },
+  {
+   "row": 2,
+   "col": 6,
+   "grounded": false,
+   "body_h": 75,
+   "body_w": 66,
+   "clipped_px": 0
+  },
+  {
+   "row": 2,
+   "col": 7,
+   "grounded": false,
+   "body_h": 76,
+   "body_w": 67,
+   "clipped_px": 0
+  },
+  {
+   "row": 3,
+   "col": 0,
+   "grounded": true,
+   "body_h": 80,
+   "body_w": 73,
+   "clipped_px": 0
+  },
+  {
+   "row": 3,
+   "col": 1,
+   "grounded": true,
+   "body_h": 79,
+   "body_w": 67,
+   "clipped_px": 0
+  },
+  {
+   "row": 3,
+   "col": 2,
+   "grounded": true,
+   "body_h": 79,
+   "body_w": 62,
+   "clipped_px": 0
+  },
+  {
+   "row": 3,
+   "col": 3,
+   "grounded": true,
+   "body_h": 78,
+   "body_w": 69,
+   "clipped_px": 0
+  },
+  {
+   "row": 3,
+   "col": 4,
+   "grounded": true,
+   "body_h": 78,
+   "body_w": 79,
+   "clipped_px": 0
+  },
+  {
+   "row": 3,
+   "col": 5,
+   "grounded": true,
+   "body_h": 77,
+   "body_w": 74,
+   "clipped_px": 0
+  },
+  {
+   "row": 3,
+   "col": 6,
+   "grounded": true,
+   "body_h": 79,
+   "body_w": 61,
+   "clipped_px": 0
+  },
+  {
+   "row": 3,
+   "col": 7,
+   "grounded": true,
+   "body_h": 79,
+   "body_w": 66,
+   "clipped_px": 0
+  }
+ ],
+ "raw_px_per_pixel": [
+  4.638,
+  4.752
+ ],
+ "palette": [
+  "#83886B",
+  "#000000",
+  "#DEEAE9",
+  "#3F423E",
+  "#595E4F",
+  "#222422",
+  "#F5F8F7",
+  "#8A8282",
+  "#9F9A99",
+  "#757A5F",
+  "#676E57",
+  "#474943",
+  "#2E312D",
+  "#0B0A0C",
+  "#CDCACB",
+  "#8B8F70",
+  "#B4ADAB",
+  "#4F5448",
+  "#FAE7D1",
+  "#393B35",
+  "#FCFEFE",
+  "#3F7873",
+  "#161415",
+  "#7D8466",
+  "#21C2D8",
+  "#64F7F9",
+  "#F46723",
+  "#1CAFF1",
+  "#2E959A",
+  "#28E1F3",
+  "#F8AD53",
+  "#3785EB"
+ ]
+}

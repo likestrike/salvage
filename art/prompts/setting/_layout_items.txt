@@ -1,0 +1,7 @@
+IMAGE TO DRAW: an EQUIPMENT SHEET: the objects listed above drawn on their own, without the character wearing them, so that their size and construction can be read. Nothing else.
+- LEFT TWO THIRDS of the picture: the MAIN ITEM given above, drawn large from the angles listed, as separate drawings at one and the same scale. Flat orthographic design-drawing look for the straight views (no perspective); the three-quarter view may show volume. The largest drawing is the first angle in the list.
+- RIGHT THIRD of the picture, upper part: the OTHER ITEMS given above, drawn smaller, one below the other.
+- RIGHT THIRD of the picture, bottom corner: the SCALE FIGURE given above: one small full-body drawing of the character, in full color and in the same drawing style, about one quarter of the picture height. It is there only to compare the size of the main item with the body.
+- Every drawing is separate, with empty space around it; drawings never touch or overlap; nothing is cut off at any edge.
+- Draw the construction carefully: panel lines, seams, joints, screws, vents, grips, buttons and lights. The objects are the same design as in the references, not new designs.
+- BACKGROUND: plain flat pure white, completely empty. No panel borders, no frames, no arrows, no dimension lines, no callout lines, no text, no labels, no letters, no numbers, no logos of real brands, no color swatches.

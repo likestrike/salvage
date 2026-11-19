@@ -1,0 +1,14 @@
+Create a CHARACTER EVOLUTION CHART on a design sheet, in the same sheet style and typography as image 1.
+
+REFERENCES: image 1 = the base form NX-07A (mass-produced android, olive-drab armor). Image 2 = the final evolved form of the same android (white and orange armor with five upgrade parts). Reproduce both designs exactly.
+
+CONTENT: six full-body figures of the same android standing in a row from left to right, all in the same three-quarter front view, same height, same pose (standing, right arm lowered), feet on one baseline, evenly spaced. Each stage adds exactly one part from image 2 and keeps everything else as in the previous stage. Parts that have not been replaced yet stay olive-drab as in image 1; every new part is white and orange as in image 2.
+Stage 1: the base form exactly as image 1 (all olive-drab armor, plain round helmet, small backpack, short energy cannon on the right arm).
+Stage 2: + HEAD part: the white-and-orange helmet with brow guard and two rod antennas. Everything else is still olive.
+Stage 3: + BODY ARMOR: the white-and-orange layered chest plate with the cyan core and large shoulder armor.
+Stage 4: + LEGS: the white heavy greaves with hydraulic pistons, hazard stripes and tread heels.
+Stage 5: + BACK BOOSTER: the two ducted-fan thruster pods on the back, replacing the small backpack.
+Stage 6: + MAIN CANNON: the long ring cannon with three teal rings on the right arm. This is the complete final form, identical to image 2, with no olive left.
+
+Between the figures draw a small gray arrow pointing right. Under each figure put a Korean caption written exactly as given: "양산형", "+ 머리", "+ 장갑", "+ 다리", "+ 등 부스터", "+ 주포". Under the sixth caption add a second line "최종 진화형".
+Top-left title: big bold "NX-07", below it "파츠 진화 단계", below it "PARTS EVOLUTION". No other text. Light gray-white background.

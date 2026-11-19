@@ -1,0 +1,9 @@
+.env.local
+.env*.local
+__pycache__/
+.gstack/
+node_modules/
+
+# 다른 회사의 작품 (그리는 방식만 참고하는 레퍼런스). 공개 저장소에 올리지 않는다.
+reference/reference_*.jpg
+reference/pixel_style/

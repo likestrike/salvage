@@ -1,0 +1,14 @@
+Edit image 1. Keep everything exactly as it is: the character design, the bold black line art, every shape and proportion, every mechanical detail and panel line, the poses, the sheet layout and all the text. Do not simplify anything, do not make any shape more angular, do not remove any detail.
+
+Change ONLY these two things.
+
+1. EYES (everywhere the face appears): redraw the eyes as tall rounded eyes of medium-large size. The upper lid is one thick dark line, almost straight and slightly slanted, thicker toward the outer end; there is no lower line. The iris is vivid teal built from concentric rings: a dark teal outer ring, a bright teal inner ring and a small dark pupil in the center. Two white highlights: a round one at the upper left and a tiny one at the lower right. The top of each eye is cut off by the hard-edged shadow of the visor brim. A bright, lively, determined look.
+
+2. COLOR DEPTH: make the colors saturated, with deep purple-tinted darks.
+- Armor green: replace the dull gray-olive with a saturated olive green, base #899E36, with one hard-edged shadow tone #3F5E24 and small bright highlights.
+- White plates: a clean white #F6F6F2 with a pale lavender shadow #CFC8DC.
+- Bodysuit and other dark parts: a deep plum-black #35293B instead of neutral black.
+- Cyan lights and emblem: bright #2FE0EE.
+- Skin: light peach #FFE9D2 with a soft tan shadow #E7C9B4, and a clear hard-edged shadow band across the upper face under the visor brim.
+- Update the five swatches in the color palette panel to the new colors.
+Flat cel shading only: no gradients, no glow, no texture.

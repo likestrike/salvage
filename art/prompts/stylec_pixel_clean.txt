@@ -1,0 +1,15 @@
+Image 1 is a sprite sheet: an 8 x 4 grid of 32 poses of one character on a flat magenta background, with an empty magenta band above and below the grid. It only LOOKS like pixel art. Its pixels are uneven in size, the edges are soft and the outlines are broken and uneven.
+
+Redraw this exact image as clean, finished pixel art.
+
+KEEP EVERYTHING WHERE IT IS. The same 8 x 4 layout, the same pose in every cell, the same size and the same position of the character in every cell, the same colors, and exactly the same effects in the same cells (thruster flame, muzzle flash, bullet, punch burst, smoke, parry spark). Do not add any new effect, smoke or burst that is not in image 1. Do not remove, move or redesign anything. The character keeps the same proportions. The empty magenta bands at the top and bottom stay empty.
+
+STRICT GRID. Every pose cell is 96 x 96 art pixels. Every art pixel is one perfectly square block of a single flat color. All blocks have exactly the same size and are aligned to one global grid. No anti-aliasing, no blur, no gradients, no noise, no dithering, no half pixels.
+
+BOLD CLEAN OUTLINE, THE SAME IN ALL 32 POSES. A continuous near-black outline (#141418) around the whole silhouette of the character, with no gaps and with an even thickness. The same near-black lines separate the main parts: helmet, visor band, earpiece, shoulder armor, forearm cannon, hands, hip plates, knee plates, boots. Every one of the 32 poses is drawn with exactly the same line weight and the same contrast.
+
+CLEAN INTERIOR. Every surface uses three flat tones (base, shadow, highlight) in tidy clusters. No stray single pixels, no speckles. The bodysuit is near-black. The face stays readable: two teal eyes under the visor band and the cyan triangle emblem on the helmet.
+
+LIMITED PALETTE, about 24 colors: olive-drab armor in 3 tones, white plates in 2 tones, a near-black bodysuit in 2 tones, cyan lights in 2 tones, skin in 2 tones, the near-black outline color, and the effect colors (cyan-white flash, orange burst, gray smoke).
+
+BACKGROUND. Completely flat pure magenta #FF00FF everywhere, with no texture.

@@ -1,0 +1,82 @@
+{
+ "name": "cast_idle_style1",
+ "src": "art/sprites/cast_idle_raw.png",
+ "grid": [
+  5,
+  3
+ ],
+ "scale": 5,
+ "cell": [
+  112,
+  112
+ ],
+ "base": 100,
+ "colors": 64,
+ "pack": "cast_idle_1x.png",
+ "states": [
+  {
+   "name": "nx07_ref",
+   "row": 0,
+   "cols": [
+    0
+   ],
+   "kind": "single",
+   "anchor": "feet",
+   "use": false
+  },
+  {
+   "name": "mirine",
+   "row": 0,
+   "cols": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "kind": "planted",
+   "anchor": "feet",
+   "ticks": 20,
+   "loop": true,
+   "allow": {
+    "top": 4,
+    "height": 4
+   }
+  },
+  {
+   "name": "uncle",
+   "row": 1,
+   "cols": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "kind": "planted",
+   "anchor": "feet",
+   "ticks": 20,
+   "loop": true,
+   "allow": {
+    "top": 4,
+    "height": 4
+   }
+  },
+  {
+   "name": "bx05",
+   "row": 2,
+   "cols": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "kind": "planted",
+   "anchor": "feet",
+   "ticks": 20,
+   "loop": true,
+   "allow": {
+    "top": 4,
+    "height": 4
+   }
+  }
+ ]
+}

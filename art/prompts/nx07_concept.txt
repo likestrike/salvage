@@ -1,0 +1,26 @@
+Character design sheet of NX-07, an original mass-produced combat android. BOY-type android soldier, 170 cm tall.
+
+CHARACTER
+- Head: a large round olive-drab helmet with a glowing cyan inverted-triangle emblem on the forehead and a dark visor band above the eyes. The lower front of the helmet is open and the face shows: a young boy's face with large teal eyes and a small serious mouth. On the side of the helmet, a round white earpiece with a cyan lens and a short straight antenna rod behind it.
+- Body: bulky olive-drab chest armor and round shoulder armor, with a small cyan core light on the chest. Black bodysuit on the torso, upper arms and thighs. White hip plates. A small olive backpack with a cyan core.
+- Arms: white forearm plates and dark gloved hands. The RIGHT forearm is an interchangeable weapon module. By default it is a thick olive energy cannon with two white rings, a cyan light strip along the side and a glowing cyan muzzle.
+- Legs: white knee plates with round dark knee joints, thick olive shin armor, big blunt flat-soled boots.
+- Build: a sturdy boy-soldier build. The helmet is big: from the top of the helmet to the chin is a little less than one quarter of the total height (about 4 heads tall). Thick shins and boots. Do not make the body slender, long-legged or feminine.
+
+PALETTE: olive drab #6F7457, white #F0EFEE, dark gray #3E3E3E, black #2A2A2A, cyan glow #61E2DD. Cyan is used only for lights.
+
+SHEET LAYOUT: one character design sheet on a light gray-white background with thin panel borders. Write every Korean label exactly as given, and add no other text.
+- Top-left title block: "NX-07" (big and bold) / "GENERAL INFANTRY", with a small V-shaped unit emblem below.
+- Left column headed "프로필": "신장 : 170cm" / "분류 : 양산형 안드로이드" / "특징 : 범용 보병".
+- Center: three large full-body standing views labeled "정면", "측면", "후면".
+- Top-right panel headed "헤드 디테일": the head drawn from the front, the side and the back.
+- Middle-right panel headed "무장": the three right-arm modules, each drawn on its own without captions: the energy cannon with a cyan muzzle, a compact submachine gun, and a segmented cyan electric whip.
+- Bottom-left panel headed "액션 포즈": three small dynamic poses: aiming and firing, running, and a close-range punch.
+- Bottom-right panel headed "컬러 팔레트": five swatches labeled "올리브", "화이트", "다크 그레이", "검정", "시안".
+
+ART STYLE: official character illustration for an early-2000s Japanese handheld action game.
+- Line art: bold black ink outlines drawn with confident tapered strokes; thickest on the outer silhouette, thinner for inner details. No sketchy or textured lines.
+- Coloring: flat cel shading only. One base tone plus one hard-edged shadow tone per surface, and small crisp white specular highlights on the armor and the helmet. Bright, clean, saturated colors. No gradients, no airbrushing, no texture, no dirt or weathering, no painterly or realistic rendering, no 3D look.
+- Shapes: armor is simplified into smooth rounded volumes with clean panel lines, joints, vents and light strips. The gauntlets and boots are oversized and flare outward; the helmet is big; the torso, upper arms and thighs are a plain dark bodysuit. Large angular anime eyes with thick upper lash lines.
+
+This is an original design. Do not make it resemble any existing game or anime character, and do not add logos or brand marks.

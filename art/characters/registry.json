@@ -1,0 +1,30 @@
+{
+  "format": "salvage-registry/1",
+  "_": "캐릭터 등록부의 목록. 캐릭터마다의 내용은 <id>/character.json (기획서 9.11)",
+  "characters": [
+    {
+      "id": "nx07",
+      "name": "NX-07",
+      "kind": "player",
+      "file": "nx07/character.json"
+    },
+    {
+      "id": "mirine",
+      "name": "미리네",
+      "kind": "companion",
+      "file": "mirine/character.json"
+    },
+    {
+      "id": "father",
+      "name": "미리네의 아버지",
+      "kind": "npc",
+      "file": "father/character.json"
+    },
+    {
+      "id": "uncle",
+      "name": "미리네의 삼촌",
+      "kind": "npc",
+      "file": "uncle/character.json"
+    }
+  ]
+}

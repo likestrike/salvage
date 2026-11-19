@@ -1,0 +1,238 @@
+{
+ "cell": [
+  112,
+  112
+ ],
+ "base": 100,
+ "scale": 5,
+ "states": {
+  "nx07_ref": {
+   "file": "nx07_ref.png",
+   "frames": 1,
+   "ticks": 8,
+   "loop": false,
+   "cell": [
+    112,
+    112
+   ],
+   "kind": "single",
+   "anchor": "feet",
+   "use": false,
+   "head_locked": 0,
+   "shift_raw": [
+    [
+     0,
+     5
+    ]
+   ],
+   "keys": [
+    {
+     "sole": 100,
+     "top": 19,
+     "height": 82,
+     "front_foot": 67.0,
+     "rear_foot": 37.0,
+     "head": 51.9
+    }
+   ]
+  },
+  "mirine": {
+   "file": "mirine.png",
+   "frames": 4,
+   "ticks": 20,
+   "loop": true,
+   "cell": [
+    112,
+    112
+   ],
+   "kind": "planted",
+   "anchor": "feet",
+   "use": true,
+   "head_locked": 0,
+   "shift_raw": [
+    [
+     -5,
+     5
+    ],
+    [
+     0,
+     5
+    ],
+    [
+     0,
+     5
+    ],
+    [
+     10,
+     5
+    ]
+   ],
+   "keys": [
+    {
+     "sole": 100,
+     "top": 30,
+     "height": 71,
+     "front_foot": 55.5,
+     "rear_foot": 41.0,
+     "head": 47.5
+    },
+    {
+     "sole": 100,
+     "top": 29,
+     "height": 72,
+     "front_foot": 49.0,
+     "rear_foot": 49.0,
+     "head": 47.9
+    },
+    {
+     "sole": 100,
+     "top": 28,
+     "height": 73,
+     "front_foot": 55.5,
+     "rear_foot": 41.0,
+     "head": 47.1
+    },
+    {
+     "sole": 100,
+     "top": 30,
+     "height": 71,
+     "front_foot": 49.5,
+     "rear_foot": 49.5,
+     "head": 48.4
+    }
+   ]
+  },
+  "uncle": {
+   "file": "uncle.png",
+   "frames": 4,
+   "ticks": 20,
+   "loop": true,
+   "cell": [
+    112,
+    112
+   ],
+   "kind": "planted",
+   "anchor": "feet",
+   "use": true,
+   "head_locked": 0,
+   "shift_raw": [
+    [
+     -10,
+     5
+    ],
+    [
+     -5,
+     5
+    ],
+    [
+     0,
+     5
+    ],
+    [
+     5,
+     5
+    ]
+   ],
+   "keys": [
+    {
+     "sole": 100,
+     "top": 6,
+     "height": 95,
+     "front_foot": 46.5,
+     "rear_foot": 46.5,
+     "head": 46.4
+    },
+    {
+     "sole": 100,
+     "top": 4,
+     "height": 97,
+     "front_foot": 46.5,
+     "rear_foot": 46.5,
+     "head": 46.3
+    },
+    {
+     "sole": 100,
+     "top": 3,
+     "height": 98,
+     "front_foot": 46.5,
+     "rear_foot": 46.5,
+     "head": 46.1
+    },
+    {
+     "sole": 100,
+     "top": 6,
+     "height": 95,
+     "front_foot": 46.5,
+     "rear_foot": 46.5,
+     "head": 46.3
+    }
+   ]
+  },
+  "bx05": {
+   "file": "bx05.png",
+   "frames": 4,
+   "ticks": 20,
+   "loop": true,
+   "cell": [
+    112,
+    112
+   ],
+   "kind": "planted",
+   "anchor": "feet",
+   "use": true,
+   "head_locked": 0,
+   "shift_raw": [
+    [
+     -5,
+     5
+    ],
+    [
+     0,
+     5
+    ],
+    [
+     0,
+     5
+    ],
+    [
+     5,
+     5
+    ]
+   ],
+   "keys": [
+    {
+     "sole": 100,
+     "top": 9,
+     "height": 92,
+     "front_foot": 69.0,
+     "rear_foot": 37.0,
+     "head": 53.3
+    },
+    {
+     "sole": 100,
+     "top": 6,
+     "height": 95,
+     "front_foot": 69.5,
+     "rear_foot": 37.5,
+     "head": 53.0
+    },
+    {
+     "sole": 100,
+     "top": 6,
+     "height": 95,
+     "front_foot": 68.5,
+     "rear_foot": 36.5,
+     "head": 52.8
+    },
+    {
+     "sole": 100,
+     "top": 9,
+     "height": 92,
+     "front_foot": 69.0,
+     "rear_foot": 37.0,
+     "head": 52.5
+    }
+   ]
+  }
+ }
+}

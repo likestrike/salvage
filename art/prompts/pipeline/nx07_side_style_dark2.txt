@@ -1,0 +1,20 @@
+Redraw the rough pixel block-out of image 2 as a CLEAN, FINISHED pixel-art game sprite of the android NX-07, in a chunky low-resolution pixel-art style whose outline is a DARK COLORED line, not black.
+
+REFERENCES:
+- image 1 = the character design sheet, side view (android NX-07A, a BOY-type android soldier). Take only the design from it: the round olive-drab helmet, the cyan inverted-triangle emblem on the front of the helmet, the white ear disc with a cyan center and the white swept-back fin, the pale boyish face, the olive chest armor, the black bodysuit, the white shoulder and knee plates, the big olive boots, the olive cannon forearm with white rings and cyan lights. Do not copy its fine detail or its outlines.
+- image 2 = a ROUGH BLOCK-OUT on the exact pixel grid of the output. It has exactly the size of the output image. Every square block in it is ONE ART PIXEL (16 x 16 image pixels) and the figure is 56 art pixels tall. KEEP: its grid, its size, its position on the canvas, its pose and its silhouette (helmet, the cannon arm pointing forward and down, the stance, the sturdy boyish build with big boots). It is messy: redraw every part as a clean shape. The face lost its eye in the block-out: draw it back.
+
+THE STYLE (this is the point of the image):
+- Big chunky pixels: every art pixel is a hard 16 x 16 square exactly on the grid of image 2. No detail smaller than one art pixel.
+- OUTLINE: the OUTERMOST ring of art pixels of the silhouette is recolored with the darkest tone of the part it belongs to: dark olive on the olive armor, dark grey on the white plates, deep blue-grey on the bodysuit. Never pure black. The outline is made of WHOLE 16 x 16 grid squares like every other pixel: it is not a thinner line added on top, and it does not make the figure bigger. The outer silhouette stays exactly the silhouette of image 2. Inside the figure there are no outlines: parts meet with their own shadow tone.
+- Every color block, including the eye, the emblem, the ear disc and the outline, starts and ends exactly on the lines of the 16-pixel grid of image 2. Never shift a block by half a square.
+- Large flat color areas. Each material has only 2 tones (base and shadow) in big clean blocks; only the helmet top and the white plates get one small 1-art-pixel highlight. No noise, no speckles, no dithering, no stray single pixels.
+- About 16 colors for the whole figure.
+- The black bodysuit is a dark charcoal, not pure black.
+- Face: a small pale face under the dark visor band; ONE teal eye of 1 x 2 art pixels; no mouth. The cyan emblem is a clear inverted triangle 3 art pixels wide. The ear disc is a white round block with a 1-art-pixel cyan center.
+- The cyan lights (emblem, eye, ear center, the light band on the cannon, the muzzle) are the brightest and most saturated colors of the figure.
+
+THE FIGURE: exactly ONE character, a pure side view facing RIGHT, the same standing pose as image 2, both feet on the same ground line. The build stays exactly as in image 2: do not make it slimmer, taller, longer-legged or curvier.
+
+BACKGROUND: completely flat solid magenta (#FF00FF) everywhere outside the figure. No ground, no shadow, no text, no border, no grid lines.
+Hard square pixels on one even grid, no anti-aliasing, no blur, no gradients, no semi-transparent pixels.

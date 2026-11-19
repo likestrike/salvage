@@ -1,0 +1,700 @@
+{
+  "id": "nx07",
+  "date": "2026-11-19",
+  "result": "통과",
+  "items": [
+    {
+      "name": "원화 일곱 장",
+      "result": "통과",
+      "detail": "정면 · 측면 · 후면 · 얼굴 · 신체 · 무기/소지품 · 포즈가 모두 있다",
+      "what": "원화"
+    },
+    {
+      "name": "세 시점의 캔버스 크기",
+      "result": "통과",
+      "detail": "정면 898×1989 / 측면 898×1989 / 후면 898×1989",
+      "what": "원화"
+    },
+    {
+      "name": "세 시점의 캐릭터 키",
+      "result": "통과",
+      "detail": "정면 1827 · 측면 1815 · 후면 1829 px (차이 14px, 0.8%)",
+      "what": "원화"
+    },
+    {
+      "name": "세 시점의 발바닥 줄",
+      "result": "통과",
+      "detail": "정면 1908 · 측면 1904 · 후면 1909 (차이 5px)",
+      "what": "원화"
+    },
+    {
+      "name": "세 시점이 잘리지 않았나",
+      "result": "통과",
+      "detail": "캔버스 끝까지 여백 81px · 85px · 80px",
+      "what": "원화"
+    },
+    {
+      "name": "배경이 흰색인가",
+      "result": "통과",
+      "detail": "일곱 장 모두 가장자리 띠의 98% 넘게 흰색",
+      "what": "원화"
+    },
+    {
+      "name": "가장자리에 그림이 닿았나",
+      "result": "통과",
+      "detail": "일곱 장 모두 가장자리에 닿은 그림이 없다",
+      "what": "원화"
+    },
+    {
+      "name": "등록한 뒤 바뀐 파일",
+      "result": "통과",
+      "detail": "등록한 49개 파일의 내용이 등록할 때와 같다",
+      "what": "모든 파일"
+    },
+    {
+      "name": "승인 뒤 바뀐 파일",
+      "result": "정보",
+      "detail": "승인 기록 없음 — 비교할 승인이 없다",
+      "what": "승인"
+    },
+    {
+      "name": "스프라이트 검사 (art/sprites/nx07_states/gate.json)",
+      "result": "통과",
+      "detail": "상태별 시트를 만든 도구(state_sheets.py)의 검사 결과를 옮겨 적었다",
+      "what": "스프라이트"
+    }
+  ],
+  "now": {
+    "front": {
+      "exists": true,
+      "sha256": "45cfe0f91c1dc92d420cccb1aedaf9af85e5670f6ee97f711d519a640a3bb26f",
+      "bytes": 1149377,
+      "size": [
+        898,
+        1989
+      ],
+      "state": "그대로",
+      "measure": {
+        "white_ratio": 1.0,
+        "edge_color": "#ffffff",
+        "edge_ink": 0.0,
+        "top": 81,
+        "sole": 1908,
+        "height": 1827,
+        "left": 84,
+        "right": 814,
+        "margin": 81
+      }
+    },
+    "side": {
+      "exists": true,
+      "sha256": "9908c8f0fe4f8a94142fe47a0ab7c070f4b5c7cb6acb76e132777b4bebab04b2",
+      "bytes": 753757,
+      "size": [
+        898,
+        1989
+      ],
+      "state": "그대로",
+      "measure": {
+        "white_ratio": 1.0,
+        "edge_color": "#ffffff",
+        "edge_ink": 0.0,
+        "top": 89,
+        "sole": 1904,
+        "height": 1815,
+        "left": 210,
+        "right": 688,
+        "margin": 85
+      }
+    },
+    "back": {
+      "exists": true,
+      "sha256": "0fdae6ddb589a0954d0eb168cc3c64b9e2627513221fec080ad1d46d6db989f2",
+      "bytes": 1063216,
+      "size": [
+        898,
+        1989
+      ],
+      "state": "그대로",
+      "measure": {
+        "white_ratio": 1.0,
+        "edge_color": "#ffffff",
+        "edge_ink": 0.0,
+        "top": 80,
+        "sole": 1909,
+        "height": 1829,
+        "left": 80,
+        "right": 818,
+        "margin": 80
+      }
+    },
+    "face": {
+      "exists": true,
+      "sha256": "e5d8fa53320334917954e229b7985c0cc4838286362e1b8a1d4440414093b3c7",
+      "bytes": 4608864,
+      "size": [
+        3072,
+        2048
+      ],
+      "state": "그대로",
+      "measure": {
+        "white_ratio": 1.0,
+        "edge_color": "#fefefe",
+        "edge_ink": 0.0
+      }
+    },
+    "body": {
+      "exists": true,
+      "sha256": "55781579f693c12fa6d79579c0f206801fea2e6ae0b72c68f058cd44cd1a94fd",
+      "bytes": 4527126,
+      "size": [
+        3072,
+        2048
+      ],
+      "state": "그대로",
+      "measure": {
+        "white_ratio": 1.0,
+        "edge_color": "#fefefe",
+        "edge_ink": 0.0
+      }
+    },
+    "items": {
+      "exists": true,
+      "sha256": "9d27cc24cee1c5ee59d606fc42ac3b7786886f125b40a6f34bf6478ce287d8a3",
+      "bytes": 4008762,
+      "size": [
+        3072,
+        2048
+      ],
+      "state": "그대로",
+      "measure": {
+        "white_ratio": 1.0,
+        "edge_color": "#fefefe",
+        "edge_ink": 0.0
+      }
+    },
+    "poses": {
+      "exists": true,
+      "sha256": "d132815dc7c7a0c46a774c0ee123138481a3bf42518571f44cba015925b574c4",
+      "bytes": 4107261,
+      "size": [
+        3072,
+        2048
+      ],
+      "state": "그대로",
+      "measure": {
+        "white_ratio": 1.0,
+        "edge_color": "#fefefe",
+        "edge_ink": 0.0
+      }
+    },
+    "poses_raw": {
+      "exists": true,
+      "sha256": "46b3e599184d62a34aabda55377f4e0729a885635d103e6b2ad48e981ad70219",
+      "bytes": 4610632,
+      "size": [
+        3072,
+        2048
+      ],
+      "state": "그대로"
+    },
+    "turnaround": {
+      "exists": true,
+      "sha256": "f262570a7a68a17bb030340fe2addc5865e85dbf81e92056245deb8c3c064a9a",
+      "bytes": 4159258,
+      "size": [
+        3072,
+        2048
+      ],
+      "state": "그대로"
+    },
+    "sprite_nx07_states_idle": {
+      "exists": true,
+      "sha256": "b8f318157731516858a2ddbf0a5e7863b52d7256f39dd1b567b8fb9651a96bfe",
+      "bytes": 9079,
+      "size": [
+        1792,
+        96
+      ],
+      "state": "그대로"
+    },
+    "sprite_nx07_states_run": {
+      "exists": true,
+      "sha256": "75633b45b8a0a54310c79c37528ba3f51d2acd034baf68d337a940ce48e8f130",
+      "bytes": 19684,
+      "size": [
+        896,
+        96
+      ],
+      "state": "그대로"
+    },
+    "sprite_nx07_states_jump": {
+      "exists": true,
+      "sha256": "6f2e07efd03308cb9dfc141a22ca80f3fba6d89683decdfdc11dd2381aab7eb5",
+      "bytes": 14936,
+      "size": [
+        672,
+        96
+      ],
+      "state": "그대로"
+    },
+    "sprite_nx07_states_air_shoot": {
+      "exists": true,
+      "sha256": "536d5ea3f03c806fb26d2c792eaba3e8b75787d50929ef1bd620be91880938fd",
+      "bytes": 5468,
+      "size": [
+        224,
+        96
+      ],
+      "state": "그대로"
+    },
+    "sprite_nx07_states_shoot": {
+      "exists": true,
+      "sha256": "97afa2e66c7920352cc56cb43234bb89815527f67fd6213ca53f88ba07ae6442",
+      "bytes": 8358,
+      "size": [
+        336,
+        96
+      ],
+      "state": "그대로"
+    },
+    "sprite_nx07_states_parry": {
+      "exists": true,
+      "sha256": "f09a65fd0f809ab8f93ef47b6a0c7e7f53e3170ab80087a478ec66f14b3c9db2",
+      "bytes": 6286,
+      "size": [
+        224,
+        96
+      ],
+      "state": "그대로"
+    },
+    "sprite_nx07_states_dash": {
+      "exists": true,
+      "sha256": "d8c8fec6bf42c16f3c5913a748a39a7728cd5139bb686c56bdfc835fdd827964",
+      "bytes": 6816,
+      "size": [
+        224,
+        96
+      ],
+      "state": "그대로"
+    },
+    "sprite_nx07_states_hit": {
+      "exists": true,
+      "sha256": "86f34097ab54ec280f9d2db22bf8db7a1e4476c685e5ea8453aba56644bbfa88",
+      "bytes": 3877,
+      "size": [
+        112,
+        96
+      ],
+      "state": "그대로"
+    },
+    "sprite_nx07_states_idle_check": {
+      "exists": true,
+      "sha256": "1171311cf45df7a7f3302f7516820e419965dc9b0fd65d339dee0682708ac4d9",
+      "bytes": 24859,
+      "size": [
+        1120,
+        96
+      ],
+      "state": "그대로"
+    },
+    "sprite_nx07_states_shot2": {
+      "exists": true,
+      "sha256": "61e93d788df8b6c61f0d6e3404014ed154dccf37aecc939e6d56afab79084b51",
+      "bytes": 9305,
+      "size": [
+        336,
+        96
+      ],
+      "state": "그대로"
+    },
+    "sprite_nx07_states_air_burst": {
+      "exists": true,
+      "sha256": "030ef5c01f2099546944222953d17d45598ec9fad15a6f0847e55e8f1b587302",
+      "bytes": 6083,
+      "size": [
+        224,
+        96
+      ],
+      "state": "그대로"
+    },
+    "sprite_nx07_states_shot3": {
+      "exists": true,
+      "sha256": "3596ef624f2abef4d094ac2769c81680a8e4401b8b626773ad2c5c3746b8275e",
+      "bytes": 14894,
+      "size": [
+        560,
+        96
+      ],
+      "state": "그대로"
+    },
+    "sprite_nx07_states_stagger": {
+      "exists": true,
+      "sha256": "6764f1c19c62bbbbab354f089a8c31f51b52f61c4753f09bb7ed71f915a258c4",
+      "bytes": 6293,
+      "size": [
+        224,
+        96
+      ],
+      "state": "그대로"
+    },
+    "sprite_nx07_states_knockback": {
+      "exists": true,
+      "sha256": "a44cb2effad44428870701e46d00767c5dfe623d3277ed3c1be8e029ed4265c5",
+      "bytes": 6574,
+      "size": [
+        224,
+        96
+      ],
+      "state": "그대로"
+    },
+    "sprite_nx07_states_launch": {
+      "exists": true,
+      "sha256": "dbacba7791315a90917ff1560c2e1a87ec68c4b65a429e9e6919613c14c10ce9",
+      "bytes": 11448,
+      "size": [
+        448,
+        96
+      ],
+      "state": "그대로"
+    },
+    "sprite_nx07_states_land": {
+      "exists": true,
+      "sha256": "2e3bf537498043f77bad83a660f24067ee90773dfc75821ddc2aac3b31f65e65",
+      "bytes": 3709,
+      "size": [
+        112,
+        96
+      ],
+      "state": "그대로"
+    },
+    "sprite_nx07_states_down": {
+      "exists": true,
+      "sha256": "56ef2a819e030d952f8f1818b703cd79d771d0e57e673bcdc3126a28254d6301",
+      "bytes": 2667,
+      "size": [
+        112,
+        96
+      ],
+      "state": "그대로"
+    },
+    "sprite_nx07_states_getup": {
+      "exists": true,
+      "sha256": "6a1a9291fdb533ee05d8724af8a1dea0d57b4e862cc8fdda67e2e926d946e184",
+      "bytes": 5760,
+      "size": [
+        224,
+        96
+      ],
+      "state": "그대로"
+    },
+    "sprite_nx07_states_charge": {
+      "exists": true,
+      "sha256": "f0fe06e1df79ee5da604ee5dc5eb8dfe169c6ad859bd1afa35c23ceeaf418f49",
+      "bytes": 11455,
+      "size": [
+        448,
+        96
+      ],
+      "state": "그대로"
+    },
+    "sprite_nx07_states_charge_shot": {
+      "exists": true,
+      "sha256": "8b67178e17fbe26feb63374f90b8cd6f565eeda45181d60b04aeeb0780932f94",
+      "bytes": 9640,
+      "size": [
+        336,
+        96
+      ],
+      "state": "그대로"
+    },
+    "sprite_nx07_states_learn": {
+      "exists": true,
+      "sha256": "80cd45d8074bab0bf3f81076d2d05fe68f7e97af88b742013fffd0c3ecc7493b",
+      "bytes": 3598,
+      "size": [
+        112,
+        96
+      ],
+      "state": "그대로"
+    },
+    "sprite_nx07_states_air_charge": {
+      "exists": true,
+      "sha256": "0bb443e0306762a795db4bb9a72979bfa54623e4aa9d32be19b11959b5932259",
+      "bytes": 5598,
+      "size": [
+        224,
+        96
+      ],
+      "state": "그대로"
+    },
+    "sprite_nx07_states_melee": {
+      "exists": true,
+      "sha256": "6d35e932a94409c125b6d3554968aa4abbea99c1a6dfa476ef0aca24962cf26e",
+      "bytes": 29721,
+      "size": [
+        1152,
+        96
+      ],
+      "state": "그대로"
+    },
+    "sprite_nx07_states_backstep": {
+      "exists": true,
+      "sha256": "363c275883bfaa7d8e94fa86f74483d1c5c92a2011fea91af2b2cfc662d478e4",
+      "bytes": 15671,
+      "size": [
+        672,
+        96
+      ],
+      "state": "그대로"
+    },
+    "sprite_nx07_states_dodge_dash": {
+      "exists": true,
+      "sha256": "d3c8a06ea982c5fcdf8ed88c9f70be0593bc8a7d095d31caace0d4840a50b918",
+      "bytes": 15575,
+      "size": [
+        672,
+        96
+      ],
+      "state": "그대로"
+    },
+    "sprite_head": {
+      "exists": true,
+      "sha256": "69b632897dd739991a9f24965f54eb045f5c0d951dcbabfe0892cf9ec0c2cf55",
+      "bytes": 606,
+      "size": [
+        29,
+        21
+      ],
+      "state": "그대로"
+    },
+    "sprite_side": {
+      "exists": true,
+      "sha256": "78a0cfadae5de465a4de4fb583d2d5d4f04817d5b653550b3b047c396701aadd",
+      "bytes": 2821,
+      "size": [
+        128,
+        128
+      ],
+      "state": "그대로"
+    },
+    "pm_e1": {
+      "exists": true,
+      "sha256": "52e518d5daf71c55a0160c77ca93f5ffa0b6c3171020c1c222d20d93d5367422",
+      "bytes": 4183,
+      "size": [
+        47,
+        118
+      ],
+      "state": "그대로",
+      "metrics": {
+        "size": [
+          47,
+          118
+        ],
+        "height": 118,
+        "head": 34,
+        "heads_tall": 3.47,
+        "colors": 24,
+        "orphan_pct": 19.9,
+        "spread": 0.64,
+        "err": 5.473,
+        "cell": 8.25,
+        "picked": "8.25",
+        "recommended": "8.25"
+      }
+    },
+    "pm_e2_64": {
+      "exists": true,
+      "sha256": "f8e507b8d998149c92aa5804da71f287f3b7aff54c5bc0738a6d349f724156a1",
+      "bytes": 2665,
+      "size": [
+        33,
+        90
+      ],
+      "state": "그대로",
+      "metrics": {
+        "size": [
+          33,
+          90
+        ],
+        "height": 90,
+        "head": 27,
+        "heads_tall": 3.33,
+        "colors": 24,
+        "orphan_pct": 20.5,
+        "spread": 0.28,
+        "err": 3.256,
+        "cell": 12.25,
+        "picked": "12.25",
+        "recommended": "12.25"
+      }
+    },
+    "pm_e2_64b": {
+      "exists": true,
+      "sha256": "e0fff6d38d3ac1e02a1cb3b70a92bc479e2ab6b4c623626ba3b68de09bc6491e",
+      "bytes": 1643,
+      "size": [
+        24,
+        64
+      ],
+      "state": "그대로",
+      "metrics": {
+        "size": [
+          24,
+          64
+        ],
+        "height": 64,
+        "head": 18,
+        "heads_tall": 3.56,
+        "colors": 24,
+        "orphan_pct": 25.0,
+        "spread": 0.6,
+        "err": 7.705,
+        "cell": 15.25,
+        "picked": "15.25",
+        "recommended": "16.25"
+      }
+    },
+    "pm_e2_83": {
+      "exists": true,
+      "sha256": "f5dd80bb63754133a98cac63f9892677ba81c1cccf13bbae4d23334f8dea81a9",
+      "bytes": 2742,
+      "size": [
+        37,
+        98
+      ],
+      "state": "그대로",
+      "metrics": {
+        "size": [
+          37,
+          98
+        ],
+        "height": 98,
+        "head": 29,
+        "heads_tall": 3.38,
+        "colors": 24,
+        "orphan_pct": 14.1,
+        "spread": 0.6,
+        "err": 5.152,
+        "cell": 10.25,
+        "picked": "10.25",
+        "recommended": "10.25"
+      }
+    },
+    "pm_e2_83b": {
+      "exists": true,
+      "sha256": "3f8574b08a7091797c99f60e315537033786f744e98be94ef90e634c02e821bd",
+      "bytes": 2173,
+      "size": [
+        26,
+        79
+      ],
+      "state": "그대로",
+      "metrics": {
+        "size": [
+          26,
+          79
+        ],
+        "height": 79,
+        "head": 25,
+        "heads_tall": 3.16,
+        "colors": 24,
+        "orphan_pct": 25.8,
+        "spread": 0.58,
+        "err": 6.574,
+        "cell": 12.5,
+        "picked": "12.5",
+        "recommended": "14.25"
+      }
+    },
+    "design_a": {
+      "exists": true,
+      "sha256": "5d0150017e05a4c5c9122bd061c1892ba23e19f1742e05e6265e6f0a56380976",
+      "bytes": 4618234,
+      "size": [
+        3072,
+        2048
+      ],
+      "state": "그대로"
+    },
+    "design_b": {
+      "exists": true,
+      "sha256": "503dee2468687962c4b20c865d17ba462a6182d502646aa6848499901262b252",
+      "bytes": 5045020,
+      "size": [
+        3072,
+        2048
+      ],
+      "state": "그대로"
+    },
+    "design_c": {
+      "exists": true,
+      "sha256": "c794401780e013ff714b05190260ce468328b682815ceec8a8a942fbb115f1ba",
+      "bytes": 4827181,
+      "size": [
+        3072,
+        2048
+      ],
+      "state": "그대로"
+    },
+    "design_d": {
+      "exists": true,
+      "sha256": "f06177e79e5a51e9f8f822ae689eeb5244be758b61dc656db26d42f447c21f15",
+      "bytes": 5060758,
+      "size": [
+        3072,
+        2048
+      ],
+      "state": "그대로"
+    },
+    "design_ref": {
+      "exists": true,
+      "sha256": "0727f739fb55029fe934b223f770c471dbdfaf19a34061f0c21ac48b832f0ff3",
+      "bytes": 1967025,
+      "size": [
+        1536,
+        1024
+      ],
+      "state": "그대로"
+    },
+    "nova_concept": {
+      "exists": true,
+      "sha256": "94ef94099d3dfc017ace3448fd611747bac82bbf00ed11b9361525e4c24ff123",
+      "bytes": 2016849,
+      "size": [
+        1536,
+        1024
+      ],
+      "state": "그대로"
+    },
+    "nova_body": {
+      "exists": true,
+      "sha256": "0f4027fb0a06b089e32ea0858e9e03891cdab549995cf4be99d7172af89a0baf",
+      "bytes": 1818654,
+      "size": [
+        1536,
+        1024
+      ],
+      "state": "그대로"
+    },
+    "nova_arms": {
+      "exists": true,
+      "sha256": "04259d839cbb014ddbbfa61eb58682812b90771d06e0f7c2562f3e6352c11180",
+      "bytes": 1743669,
+      "size": [
+        1536,
+        1024
+      ],
+      "state": "그대로"
+    }
+  },
+  "thresholds": {
+    "height_pass": 0.01,
+    "height_warn": 0.03,
+    "white_pass": 0.98,
+    "white_warn": 0.9,
+    "edge_warn": 0.002,
+    "margin_min": 10
+  }
+}

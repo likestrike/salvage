@@ -1,0 +1,13 @@
+ADDITIONAL REFERENCE: image 4 = this project's concept sheet for the close-combat move. Use it only for pose 7 (the short uppercut and the knuckle in the fist); do not copy its text, its layout or its enemy.
+
+POSE GRID: 4 columns and 2 rows, eight poses.
+In every pose except pose 7 the right forearm is the energy cannon. The face stays calm and serious unless the pose says otherwise.
+POSES:
+1. IDLE: relaxed combat stance, feet apart, knees slightly bent, the cannon held low in front of the hip, the left fist at the side.
+2. RUN: the middle of a running stride, body leaning forward, the rear leg pushing off, the front knee lifted, the left arm swinging back, the cannon carried forward at waist height.
+3. JUMP: in the air at the top of a jump, both knees tucked up, the cannon pointing forward, the left arm thrown back for balance.
+4. SHOOT: standing firm with the feet wide, the cannon raised to chest height and aimed straight ahead, the left hand bracing the barrel; a small cyan flash at the muzzle.
+5. CHARGE: a slightly lowered stance, the cannon pulled back beside the hip, a ball of cyan energy growing at the muzzle with a few small sparks.
+6. DASH: lunging forward and low, the body stretched almost horizontal, a short cyan jet from the backpack, the cannon pointing ahead.
+7. SHORT UPPERCUT: both feet planted on the ground, the body just risen from a crouch, the right arm (the arm nearest to the viewer) bent at the elbow and driven up in a short uppercut to chest height. In this pose only, the right arm has a normal gauntlet and a black hand instead of the cannon, and that hand grips the handle of the BLAST KNUCKLE of image 4: a flat rectangular gunmetal striking plate, wider than the fist, carried in front of the knuckles like a brick, with two copper bars and a row of round caps on its face and a short cable running back to the forearm. The striking plate must be drawn large and clearly readable - it is the point of this pose. A few small cyan sparks on the plate; mouth open in a shout.
+8. HIT: knocked backward, the upper body bent back, the head thrown back, one foot leaving the ground, the arms flung loose, one eye shut in pain.

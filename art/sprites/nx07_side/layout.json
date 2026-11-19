@@ -1,0 +1,22 @@
+{
+  "name": "nx07_side",
+  "scale": 5,
+  "cell": [112, 96],
+  "base": 89,
+  "colors": 64,
+  "clean_cyan": 6,
+  "head": { "from": ["ref_idle", 0], "rows": 21, "file": "../nx07_states/parts/head.png", "min_match": 0.7 },
+  "sheets": [
+    {
+      "src": "art/sprites/stylec_nx07_sheet_raw.png", "grid": [8, 4],
+      "states": [ { "name": "ref_idle", "row": 0, "cols": [0], "kind": "single", "anchor": "none", "use": false } ]
+    },
+    {
+      "src": "art/sprites/stylec_side_raw.png", "grid": [1, 1], "zoom": 0.475, "match": true, "gray": true,
+      "states": [
+        { "name": "stand", "row": 0, "cols": [0], "kind": "single", "anchor": "feet", "head_lock": true, "head_anchor": "neck" },
+        { "name": "stand_drawn", "row": 0, "cols": [0], "kind": "single", "anchor": "feet", "use": false }
+      ]
+    }
+  ]
+}

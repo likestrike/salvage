@@ -1,0 +1,12 @@
+Redraw the android character from image 1 as a new character design sheet. Keep its design, and restyle its shapes, proportions and rendering in the ART STYLE described at the end.
+
+REFERENCES: image 1 = the existing design sheet of this character. Use it ONLY for the design (which pieces exist and where) and for the sheet layout. Ignore its rendering style, its black line art, its dull colors and its realistic detailing. Do not copy any caption text from it.
+
+KEEP the design "heavy assault" (NX-07, design draft C): a short, wide, sturdy combat robot about 150 cm tall, tough but endearing. A smooth fully closed dome helmet with no human face; a wide dark horizontal visor band with two round glowing cyan eye-lights; small cheek vents; one stubby antenna on top. A thick barrel-shaped chest with a front hatch and a grab handle; massive rounded shoulder armor; short thick legs with wide heavy feet; a boxy power-cell backpack with a carry handle. The whole right arm is a large drum-shaped energy cannon; the left arm ends in a big three-finger hand. Olive-green armor, white markings, dark gray joints, a few small yellow hazard stripes, cyan lights.
+
+RESTYLE: keep this character short, wide and sturdy, about 3 heads tall; do not slim it. Redraw each armor piece as one smooth molded volume with chamfered edges; give the feet rounded toe caps on wide dark clog soles; use clean saturated colors with purple-tinted hard shadows, light bevel strips and small sparkle glints.
+
+TITLE lines: "NX-07" / "시안 C" / "HEAVY ASSAULT"
+PROFILE lines: "신장 : 150cm" / "분류 : 양산형 안드로이드" / "특징 : 중장갑 돌격"
+WEAPON: the drum-shaped arm cannon shown from the side, from the front with its glowing cyan muzzle, and firing.
+PALETTE: five swatches labeled "올리브", "화이트", "다크 그레이", "옐로", "시안".

@@ -1,0 +1,11 @@
+POSE GRID: 4 columns and 2 rows, eight poses.
+In every pose she has her handheld terminal with her. The long hair and the wide coat follow the movement.
+POSES:
+1. IDLE: standing relaxed, the terminal held at chest height in one hand, looking at the screen with a small smile.
+2. WALK: the middle of a walking step, the free arm swinging, the coat and hair swaying a little, looking ahead.
+3. RUN: running fast, body leaning forward, the hair and the coat streaming out behind her, the terminal clutched in one hand, mouth open, breathing hard.
+4. HACK: crouched on one knee, the terminal opened like a tiny laptop on her raised knee, both hands typing, eyes sharp and focused; two small flat teal holographic panels float in front of her (simple shapes only, no readable letters or digits).
+5. POINT: standing with the feet apart, the free arm stretched out pointing straight ahead, mouth open, calling out.
+6. SURPRISE: flinching backward, shoulders pulled up, eyes wide, one foot stepping back, the terminal pulled in against her chest.
+7. TAKE COVER: crouched very low and small, knees to her chest, hugging the terminal, head ducked, eyes squeezed shut.
+8. CHEER: a small jump with both feet off the ground, the terminal lifted high in one hand, the other fist clenched, a big open grin with the eyes closed.

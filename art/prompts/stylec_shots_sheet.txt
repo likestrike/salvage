@@ -1,0 +1,32 @@
+Create a 2D pixel-art SPRITE SHEET of the second and third attacks of a three-shot combo fired with the arm cannon, in exactly the pixel-art style of image 2.
+
+REFERENCES:
+- image 1 = the character design sheet (android NX-07A, a BOY-type android soldier). It is an illustration: take only the character design from it.
+- image 2 = the existing sprite sheet of this character. This is the STYLE AND SCALE GUIDE. Match it exactly: the same mid proportions (about 4 heads tall), the same helmet size, the same sturdy boyish build, the same pixel size, the same bright clean palette (olive-drab armor, white plates, black bodysuit, saturated cyan lights), dark 1-pixel outlines, 3-tone cel shading with a small bright highlight. The new frames will be mixed with the frames of image 2.
+- image 3 = a LAYOUT GUIDE with exactly the size and grid of the output image. Every cell contains a dark outline box. The bottom edge of the box is the GROUND LINE, and the box is exactly as tall as the character standing upright. Draw the character inside the box of its cell, feet on the bottom edge. Muzzle flashes may extend outside the box but stay inside the cell. Do NOT draw the boxes.
+
+THE HEAD IS THE SAME SIZE IN EVERY FRAME: the round olive-drab helmet of image 2 with the glowing cyan inverted-triangle emblem at the front, the dark visor band, one teal eye, a pale face, a round white earpiece with a short white swept-back fin.
+LIGHTS: the only cyan lights are the forehead emblem, the eye, the earpiece, and the light band and muzzle of the cannon. No small light dots scattered on the armor.
+CHARACTER: olive-drab chest / shoulder / boot armor, white plates on the forearms, hips and knees, black bodysuit, big gauntlets and big boots, small backpack. The right forearm (the arm nearest to the viewer) is the energy cannon: a thick olive barrel with white rings, one cyan light band and a cyan muzzle.
+
+The character faces RIGHT, pure side view. In image 2, the bottom row starts with the first shot of the combo (aim, fire, recoil): the new frames continue that combo and must match its stance and its feet.
+
+LAYOUT: exactly the grid of image 3: 5 columns x 2 rows = 10 equal square cells, one pose per cell.
+
+TOP ROW - SECOND SHOT (a quick follow-up shot) and an AIR SHOT:
+1. second shot, startup: a short half-step forward with the front foot, the cannon pushed forward at chest height, the left hand open for balance.
+2. second shot, fire: the cannon fully extended forward, a small cyan-white muzzle flash at the muzzle (no bullet), the shoulders pushed back a little.
+3. second shot, recoil: the cannon kicks up a little, the body settles back, a tiny wisp of smoke at the muzzle.
+4. air shot, fire: jumping, knees tucked, the cannon aimed forward with a LARGE star-shaped cyan-white muzzle blast (no bullet).
+5. air shot, recoil: still in the air, the body pushed back by the recoil, the cannon kicked up, a puff of smoke at the muzzle.
+
+BOTTOM ROW - THIRD SHOT (the heavy finishing shot of the combo):
+6. anticipation: the cannon pulled back to the hip, the left hand gripping the barrel, both knees bent, the body leaning back like a drawn bow; a cyan glint at the muzzle.
+7. thrust: the whole body drives forward, the cannon thrust out at chest height with both hands, the front knee bent.
+8. fire: a LARGE star-shaped cyan-white muzzle blast, clearly bigger than the flash of frame 2 (no bullet); the front foot planted hard.
+9. recoil: the body thrown back by the recoil, the heels sliding back with a low dust streak at the feet, the cannon kicked up high.
+10. recover: back to the ready stance, the cannon lowered, a wisp of smoke at the muzzle.
+In frames 6 to 10 the character stays on the ground.
+
+Completely flat solid magenta (#FF00FF) background everywhere. No text, no labels, no numbers, no grid lines, no borders, no ground shadows, no motion blur. Every pose and every effect stays fully inside its own cell with a clear magenta margin on all sides.
+Hard square pixels on one consistent grid, the same pixel size as image 2, no anti-aliasing, no blur, no soft gradients, the same limited palette as image 2.

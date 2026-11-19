@@ -1,0 +1,308 @@
+{
+ "source": "art/sprites/stylec_nx07_sheet_raw.png",
+ "cell": 112,
+ "cols": 8,
+ "rows": 4,
+ "baseline": [
+  106,
+  106,
+  106,
+  106
+ ],
+ "frames": [
+  {
+   "row": 0,
+   "col": 0,
+   "grounded": true,
+   "body_h": 98,
+   "body_w": 61,
+   "clipped_px": 0
+  },
+  {
+   "row": 0,
+   "col": 1,
+   "grounded": true,
+   "body_h": 98,
+   "body_w": 56,
+   "clipped_px": 0
+  },
+  {
+   "row": 0,
+   "col": 2,
+   "grounded": true,
+   "body_h": 98,
+   "body_w": 55,
+   "clipped_px": 0
+  },
+  {
+   "row": 0,
+   "col": 3,
+   "grounded": true,
+   "body_h": 98,
+   "body_w": 57,
+   "clipped_px": 0
+  },
+  {
+   "row": 0,
+   "col": 4,
+   "grounded": true,
+   "body_h": 84,
+   "body_w": 89,
+   "clipped_px": 0
+  },
+  {
+   "row": 0,
+   "col": 5,
+   "grounded": true,
+   "body_h": 81,
+   "body_w": 89,
+   "clipped_px": 0
+  },
+  {
+   "row": 0,
+   "col": 6,
+   "grounded": true,
+   "body_h": 92,
+   "body_w": 80,
+   "clipped_px": 0
+  },
+  {
+   "row": 0,
+   "col": 7,
+   "grounded": true,
+   "body_h": 40,
+   "body_w": 94,
+   "clipped_px": 0
+  },
+  {
+   "row": 1,
+   "col": 0,
+   "grounded": true,
+   "body_h": 96,
+   "body_w": 80,
+   "clipped_px": 0
+  },
+  {
+   "row": 1,
+   "col": 1,
+   "grounded": true,
+   "body_h": 95,
+   "body_w": 65,
+   "clipped_px": 0
+  },
+  {
+   "row": 1,
+   "col": 2,
+   "grounded": true,
+   "body_h": 95,
+   "body_w": 66,
+   "clipped_px": 0
+  },
+  {
+   "row": 1,
+   "col": 3,
+   "grounded": true,
+   "body_h": 96,
+   "body_w": 70,
+   "clipped_px": 0
+  },
+  {
+   "row": 1,
+   "col": 4,
+   "grounded": true,
+   "body_h": 95,
+   "body_w": 65,
+   "clipped_px": 0
+  },
+  {
+   "row": 1,
+   "col": 5,
+   "grounded": true,
+   "body_h": 95,
+   "body_w": 65,
+   "clipped_px": 0
+  },
+  {
+   "row": 1,
+   "col": 6,
+   "grounded": true,
+   "body_h": 95,
+   "body_w": 69,
+   "clipped_px": 0
+  },
+  {
+   "row": 1,
+   "col": 7,
+   "grounded": true,
+   "body_h": 96,
+   "body_w": 70,
+   "clipped_px": 0
+  },
+  {
+   "row": 2,
+   "col": 0,
+   "grounded": true,
+   "body_h": 64,
+   "body_w": 69,
+   "clipped_px": 0
+  },
+  {
+   "row": 2,
+   "col": 1,
+   "grounded": true,
+   "body_h": 76,
+   "body_w": 63,
+   "clipped_px": 0
+  },
+  {
+   "row": 2,
+   "col": 2,
+   "grounded": true,
+   "body_h": 90,
+   "body_w": 65,
+   "clipped_px": 0
+  },
+  {
+   "row": 2,
+   "col": 3,
+   "grounded": false,
+   "body_h": 72,
+   "body_w": 65,
+   "clipped_px": 0
+  },
+  {
+   "row": 2,
+   "col": 4,
+   "grounded": false,
+   "body_h": 86,
+   "body_w": 66,
+   "clipped_px": 0
+  },
+  {
+   "row": 2,
+   "col": 5,
+   "grounded": true,
+   "body_h": 65,
+   "body_w": 66,
+   "clipped_px": 0
+  },
+  {
+   "row": 2,
+   "col": 6,
+   "grounded": false,
+   "body_h": 85,
+   "body_w": 62,
+   "clipped_px": 0
+  },
+  {
+   "row": 2,
+   "col": 7,
+   "grounded": false,
+   "body_h": 85,
+   "body_w": 70,
+   "clipped_px": 0
+  },
+  {
+   "row": 3,
+   "col": 0,
+   "grounded": true,
+   "body_h": 90,
+   "body_w": 71,
+   "clipped_px": 0
+  },
+  {
+   "row": 3,
+   "col": 1,
+   "grounded": true,
+   "body_h": 90,
+   "body_w": 69,
+   "clipped_px": 0
+  },
+  {
+   "row": 3,
+   "col": 2,
+   "grounded": true,
+   "body_h": 90,
+   "body_w": 63,
+   "clipped_px": 0
+  },
+  {
+   "row": 3,
+   "col": 3,
+   "grounded": true,
+   "body_h": 90,
+   "body_w": 74,
+   "clipped_px": 0
+  },
+  {
+   "row": 3,
+   "col": 4,
+   "grounded": true,
+   "body_h": 89,
+   "body_w": 80,
+   "clipped_px": 0
+  },
+  {
+   "row": 3,
+   "col": 5,
+   "grounded": true,
+   "body_h": 89,
+   "body_w": 74,
+   "clipped_px": 0
+  },
+  {
+   "row": 3,
+   "col": 6,
+   "grounded": true,
+   "body_h": 89,
+   "body_w": 65,
+   "clipped_px": 0
+  },
+  {
+   "row": 3,
+   "col": 7,
+   "grounded": true,
+   "body_h": 89,
+   "body_w": 72,
+   "clipped_px": 0
+  }
+ ],
+ "raw_px_per_pixel": [
+  4.561,
+  4.444
+ ],
+ "palette": [
+  "#8E8F6F",
+  "#000000",
+  "#FAFCFC",
+  "#3F413B",
+  "#75785C",
+  "#2E2F2C",
+  "#4C4E43",
+  "#AEA8A8",
+  "#7E8164",
+  "#646753",
+  "#161715",
+  "#D6D7D5",
+  "#F8F0D9",
+  "#86886A",
+  "#9B9393",
+  "#343631",
+  "#07090B",
+  "#BABDB2",
+  "#20221F",
+  "#878080",
+  "#4C8882",
+  "#EEF4F2",
+  "#54574A",
+  "#99A585",
+  "#5DF2F9",
+  "#2AC6EE",
+  "#F46832",
+  "#3E9EF8",
+  "#5F8967",
+  "#37DDF1",
+  "#F9BB48",
+  "#29AAB5"
+ ]
+}

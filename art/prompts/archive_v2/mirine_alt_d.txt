@@ -1,0 +1,14 @@
+Redraw the character from image 1 as a new character design sheet. Keep the design, and restyle the shapes, proportions and rendering in the ART STYLE described at the end.
+
+REFERENCES: image 1 = the existing design sheet of this character. Use it ONLY for the design and for the sheet layout. Ignore its rendering style and its black line art. Do not copy any caption text from it.
+
+KEEP the design "resistance scout" (Mirine, design draft D): an 11-year-old girl, 142 cm tall, teal eyes. Long silver hair tied in one thick braid down her back; a faded red bandana worn as a headband; a small ahoge. A short sand-colored poncho-cape with a hand-painted emblem on the back (a ring broken by a diagonal slash). Under it a fitted dark navy jumpsuit with long sleeves and long legs, knee pads, and a utility harness with small pouches. Sturdy ankle boots, fingerless gloves. A portable hacking deck slung on a shoulder strap, and a coil of jumper cables with clamps over one shoulder. A determined, serious expression.
+
+RESTYLE: draw the hair as big angular chunks with sharp tips and small white rectangular highlights; make the shoes, cuffs and hands bigger and the torso and legs slimmer; draw the clothes as big simple shapes with very few folds, and hard items with chamfered edges; use clean saturated colors with purple-tinted hard shadows and small sparkle glints.
+
+TITLE lines: "미리네" / "시안 D" / "RESISTANCE SCOUT"
+PROFILE lines: "나이 : 11세" / "신장 : 142cm" / "소속 : 반 AI파"
+EXPRESSIONS: determined, a small relieved smile, anger, worry.
+ITEMS: the hacking deck, the coil of jumper cables, the bandana, the poncho emblem.
+POSES: sprinting while looking back over her shoulder, crouching and clamping jumper cables onto a machine, standing with arms crossed.
+PALETTE: six swatches labeled "샌드", "네이비", "레드", "가죽", "머리카락", "눈동자".

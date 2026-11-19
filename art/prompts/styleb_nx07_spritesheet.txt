@@ -1,0 +1,15 @@
+Redraw the sprite sheet in image 2 in a different pixel-art style, keeping the same grid and the same pose in every cell.
+
+Image 1 is the character design sheet (android NX-07A). Image 2 is the existing sprite sheet: an 8 x 4 grid of 32 equal cells on a magenta background. Keep exactly the same layout: the same grid, the same action and pose in each cell, the character facing RIGHT, the feet on the same baseline in each row, and the same effects in the same cells (thruster flame, muzzle flash and bullet, punch burst, smoke, parry spark).
+
+NEW STYLE: detailed cinematic pixel art, the kind used in modern high-end 2D action platformers and gothic exploration platformers.
+- Realistic proportions instead of big-head proportions: about 6 heads tall, a small head, a slim athletic build, long legs, normal-sized hands and feet. The character is as tall in its cell as the character in image 2.
+- Fine pixel detail: 4 to 5 tones per material; clearly readable armor plates, joints and panel lines; a dark bodysuit with subtle folds.
+- Dramatic lighting: a strong cool cyan rim light along the back edge of the figure, deep shadows on the opposite side, and glowing cyan lights on the armor.
+- Palette: muted olive-drab armor, off-white plates, a near-black bodysuit, dark gray joints, saturated cyan lights.
+- A dark outline around the silhouette and colored lines inside it.
+- Hard square pixels on one consistent grid, no anti-aliasing, no blur, no soft gradients.
+
+Keep the character's design: a round olive helmet with a glowing cyan inverted-triangle emblem and a dark visor band, teal eyes, an earpiece with a short antenna, olive chest, shoulder, forearm and boot armor, white plates on the forearms, hips and knees, a small backpack with a cyan core, and the right forearm as an energy cannon (it becomes an armored fist only in the punch frames).
+
+Completely flat solid magenta (#FF00FF) background everywhere. No text, no labels, no numbers, no grid lines, no borders, no ground shadows, no motion blur. Every pose and every effect stays fully inside its own cell with a clear magenta margin on all sides.

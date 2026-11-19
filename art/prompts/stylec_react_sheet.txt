@@ -1,0 +1,34 @@
+Create a 2D pixel-art SPRITE SHEET of the HIT REACTIONS of this android when it is struck in a fight, in exactly the pixel-art style of image 2.
+
+REFERENCES:
+- image 1 = the character design sheet (android NX-07A, a BOY-type android soldier). It is an illustration: take only the character design from it.
+- image 2 = the existing sprite sheet of this character. This is the STYLE AND SCALE GUIDE. Match it exactly: the same mid proportions (about 4 heads tall), the same helmet size, the same sturdy boyish build, the same pixel size, the same bright clean palette (olive-drab armor, white plates, black bodysuit, saturated cyan lights), dark 1-pixel outlines, 3-tone cel shading with a small bright highlight. The new frames will be mixed with the frames of image 2.
+- image 3 = a LAYOUT GUIDE with exactly the size and grid of the output image. Every cell contains a dark outline box. The bottom edge of the box is the GROUND LINE, and the box is exactly as tall as the character standing upright. The box shows the size of the standing character: use it only for scale. Standing poses stand in the box; airborne poses float in the cell above the ground line. Do NOT draw the boxes.
+
+THE HEAD IS THE SAME SIZE IN EVERY FRAME: the round olive-drab helmet of image 2 with the glowing cyan inverted-triangle emblem at the front, the dark visor band, one teal eye, a pale face, a round white earpiece with a short white swept-back fin.
+LIGHTS: the only cyan lights are the forehead emblem, the eye, the earpiece, and the light band and muzzle of the cannon. No small light dots scattered on the armor.
+CHARACTER: olive-drab chest / shoulder / boot armor, white plates on the forearms, hips and knees, black bodysuit, big gauntlets and big boots, small backpack. The right forearm (the arm nearest to the viewer) is the energy cannon: a thick olive barrel with white rings, one cyan light band and a cyan muzzle.
+
+The character faces RIGHT. Every hit comes from the front (from the right side), so the character is always knocked BACKWARD, toward the left. It carries its arm cannon but never fires: no muzzle flash, no bullets, no explosions in this sheet.
+
+LAYOUT: exactly the grid of image 3: 6 columns x 2 rows = 12 equal square cells, one pose per cell.
+
+TOP ROW:
+1. stagger A (hit high): the head and the chest snapped back, the arms flung loose, both feet still on the ground, a small white impact star in front of the chest.
+2. stagger B (hit in the body): doubled over forward around the stomach, the knees buckling, both feet still on the ground.
+3. knockback 1: shoved backward - the body leaning far back, both heels skidding on the ground, the arms thrown forward, a low dust streak at the feet.
+4. knockback 2: still sliding backward but lower, one foot braced behind, an arm out for balance, a little dust at the feet.
+5. launched 1 (just struck upward from below): the body bent like a bow, the hips highest, the head and the arms trailing back, both feet off the ground.
+6. launched 2 (rising): tumbling backward in the air, the body tilted about 45 degrees, the legs higher than the head.
+
+BOTTOM ROW:
+7. launched 3 (top of the arc): floating horizontally on its back in mid-air, the arms and legs loose, the face turned up.
+8. launched 4 (falling): dropping backward, the head and the shoulders lowest, the legs trailing up.
+9. land: slamming onto the ground on its back and shoulders, the legs still in the air, a burst of dust on the ground.
+10. down: lying flat on its back on the ground, the limbs limp.
+11. get up 1: pushing itself up on one arm and one knee, the head low.
+12. get up 2: rising to its feet, almost upright, the cannon coming back up.
+Frames 5 to 8 are in the air. In frames 1 to 4 and 9 to 12 the body touches the ground line.
+
+Completely flat solid magenta (#FF00FF) background everywhere. No text, no labels, no numbers, no grid lines, no borders, no ground shadows, no motion blur. Every pose and every effect stays fully inside its own cell with a clear magenta margin on all sides.
+Hard square pixels on one consistent grid, the same pixel size as image 2, no anti-aliasing, no blur, no soft gradients, the same limited palette as image 2.

@@ -1,0 +1,14 @@
+Redraw the character from image 1 as a new character design sheet. Keep the design, and restyle the shapes, proportions and rendering in the ART STYLE described at the end.
+
+REFERENCES: image 1 = the existing design sheet of this character. Use it ONLY for the design and for the sheet layout. Ignore its rendering style and its black line art. Do not copy any caption text from it.
+
+KEEP the design (Mirine, design draft A): an 11-year-old girl, 142 cm tall; long loose silver hair down to her waist with a small ahoge; large teal eyes; a small teal device clipped above her ear; an oversized navy-blue robe coat with wide sleeves, pale trim lines, a wing-shaped emblem on the sleeve and on the back, and a frayed hem; a white T-shirt; rolled-up denim shorts; a brown leather belt with a tool pouch on her right hip; gray socks; chunky navy-and-white sneakers; a handheld hacking terminal with a glowing teal screen.
+
+RESTYLE: draw the hair as big angular chunks with sharp tips and small white rectangular highlights; make the shoes, cuffs and hands bigger and the torso and legs slimmer; draw the clothes as big simple shapes with very few folds, and hard items with chamfered edges; use clean saturated colors with purple-tinted hard shadows and small sparkle glints.
+
+TITLE lines: "미리네" / "시안 A" / "GENIUS HACKER"
+PROFILE lines: "나이 : 11세" / "신장 : 142cm" / "역할 : 해킹"
+EXPRESSIONS: a gentle smile, an excited open-mouthed grin, focused concentration, surprise.
+ITEMS: the handheld hacking terminal shown open, the same terminal shown closed, the leather multi-tool pouch kit, the wing emblem of her coat.
+POSES: running while holding the terminal, crouching and hacking with holographic panels around her, holding the terminal up triumphantly.
+PALETTE: six swatches labeled "도포", "화이트", "데님", "가죽", "머리카락", "눈동자".

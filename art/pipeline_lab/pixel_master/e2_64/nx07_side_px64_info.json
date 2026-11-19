@@ -1,0 +1,342 @@
+{
+  "src": "art/pipeline_lab/pixel_master/e2_64/nx07_side_px64_raw.png",
+  "char_px_height_in_src": 960,
+  "period_estimate_px": 10.75,
+  "colors": 24,
+  "recommended": "12.25",
+  "picked": "12.25",
+  "master": {
+    "name": "12.25",
+    "method": "dp",
+    "method_ko": "직접",
+    "cell": 12.25,
+    "err": 3.256,
+    "sil": 0.76,
+    "forced": false,
+    "grid": {
+      "cols": 37,
+      "rows": 94,
+      "gap_x": [
+        10,
+        12
+      ],
+      "gap_y": [
+        9,
+        12
+      ],
+      "mean_x": 10.77,
+      "mean_y": 10.7
+    },
+    "spread": 0.28,
+    "metrics": {
+      "size": [
+        33,
+        90
+      ],
+      "height": 90,
+      "head": 27,
+      "heads_tall": 3.33,
+      "colors": 24,
+      "orphan_pct": 20.5,
+      "qa": []
+    },
+    "recommended": true,
+    "palette_size": 24
+  },
+  "candidates": [
+    {
+      "name": "9.25",
+      "method": "dp",
+      "method_ko": "직접",
+      "cell": 9.25,
+      "err": 3.257,
+      "sil": 0.77,
+      "forced": false,
+      "grid": {
+        "cols": 38,
+        "rows": 94,
+        "gap_x": [
+          9,
+          11
+        ],
+        "gap_y": [
+          9,
+          12
+        ],
+        "mean_x": 10.56,
+        "mean_y": 10.7
+      },
+      "spread": 0.28,
+      "metrics": {
+        "size": [
+          33,
+          90
+        ],
+        "height": 90,
+        "head": 27,
+        "heads_tall": 3.33,
+        "colors": 24,
+        "orphan_pct": 20.6,
+        "qa": []
+      }
+    },
+    {
+      "name": "10",
+      "method": "dp",
+      "method_ko": "직접",
+      "cell": 10.0,
+      "err": 3.258,
+      "sil": 0.72,
+      "forced": false,
+      "grid": {
+        "cols": 37,
+        "rows": 94,
+        "gap_x": [
+          10,
+          11
+        ],
+        "gap_y": [
+          9,
+          12
+        ],
+        "mean_x": 10.66,
+        "mean_y": 10.67
+      },
+      "spread": 0.28,
+      "metrics": {
+        "size": [
+          33,
+          90
+        ],
+        "height": 90,
+        "head": 27,
+        "heads_tall": 3.33,
+        "colors": 24,
+        "orphan_pct": 20.6,
+        "qa": []
+      }
+    },
+    {
+      "name": "10.75",
+      "method": "dp",
+      "method_ko": "직접",
+      "cell": 10.75,
+      "err": 3.258,
+      "sil": 0.72,
+      "forced": false,
+      "grid": {
+        "cols": 37,
+        "rows": 94,
+        "gap_x": [
+          10,
+          11
+        ],
+        "gap_y": [
+          9,
+          12
+        ],
+        "mean_x": 10.66,
+        "mean_y": 10.67
+      },
+      "spread": 0.28,
+      "metrics": {
+        "size": [
+          33,
+          90
+        ],
+        "height": 90,
+        "head": 27,
+        "heads_tall": 3.33,
+        "colors": 24,
+        "orphan_pct": 20.6,
+        "qa": []
+      }
+    },
+    {
+      "name": "11.5",
+      "method": "dp",
+      "method_ko": "직접",
+      "cell": 11.5,
+      "err": 3.258,
+      "sil": 0.72,
+      "forced": false,
+      "grid": {
+        "cols": 37,
+        "rows": 94,
+        "gap_x": [
+          10,
+          12
+        ],
+        "gap_y": [
+          9,
+          12
+        ],
+        "mean_x": 10.69,
+        "mean_y": 10.68
+      },
+      "spread": 0.28,
+      "metrics": {
+        "size": [
+          33,
+          90
+        ],
+        "height": 90,
+        "head": 27,
+        "heads_tall": 3.33,
+        "colors": 24,
+        "orphan_pct": 20.6,
+        "qa": []
+      }
+    },
+    {
+      "name": "12.25",
+      "method": "dp",
+      "method_ko": "직접",
+      "cell": 12.25,
+      "err": 3.256,
+      "sil": 0.76,
+      "forced": false,
+      "grid": {
+        "cols": 37,
+        "rows": 94,
+        "gap_x": [
+          10,
+          12
+        ],
+        "gap_y": [
+          9,
+          12
+        ],
+        "mean_x": 10.77,
+        "mean_y": 10.7
+      },
+      "spread": 0.28,
+      "metrics": {
+        "size": [
+          33,
+          90
+        ],
+        "height": 90,
+        "head": 27,
+        "heads_tall": 3.33,
+        "colors": 24,
+        "orphan_pct": 20.5,
+        "qa": []
+      },
+      "recommended": true
+    },
+    {
+      "name": "15",
+      "method": "dp",
+      "method_ko": "직접",
+      "cell": 15.0,
+      "err": 12.169,
+      "sil": 4.99,
+      "forced": true,
+      "grid": {
+        "cols": 27,
+        "rows": 68,
+        "gap_x": [
+          15,
+          15
+        ],
+        "gap_y": [
+          15,
+          15
+        ],
+        "mean_x": 15.0,
+        "mean_y": 15.0
+      },
+      "forced_height": 64,
+      "spread": 0.0,
+      "metrics": {
+        "size": [
+          23,
+          64
+        ],
+        "height": 64,
+        "head": 19,
+        "heads_tall": 3.37,
+        "colors": 24,
+        "orphan_pct": 19.4,
+        "qa": []
+      }
+    },
+    {
+      "name": "ppa12",
+      "method": "ppa",
+      "method_ko": "proper-pixel-art",
+      "cell": 12,
+      "forced": false,
+      "err": 5.158,
+      "sil": 1.91,
+      "grid": {
+        "cols": 37,
+        "rows": 94,
+        "gap_x": [
+          8,
+          12
+        ],
+        "gap_y": [
+          7,
+          16
+        ]
+      },
+      "spread": 0.84,
+      "metrics": {
+        "size": [
+          33,
+          90
+        ],
+        "height": 90,
+        "head": 27,
+        "heads_tall": 3.33,
+        "colors": 24,
+        "orphan_pct": 9.8,
+        "qa": []
+      }
+    },
+    {
+      "name": "ppa13",
+      "method": "ppa",
+      "method_ko": "proper-pixel-art",
+      "cell": 13,
+      "forced": false,
+      "err": 5.235,
+      "sil": 1.98,
+      "grid": {
+        "cols": 36,
+        "rows": 93,
+        "gap_x": [
+          8,
+          16
+        ],
+        "gap_y": [
+          7,
+          17
+        ]
+      },
+      "spread": 0.93,
+      "metrics": {
+        "size": [
+          32,
+          89
+        ],
+        "height": 89,
+        "head": 27,
+        "heads_tall": 3.3,
+        "colors": 24,
+        "orphan_pct": 8.1,
+        "qa": []
+      }
+    }
+  ],
+  "notes": {
+    "err": "마스터를 격자대로 원본 크기로 되돌렸을 때 원본과의 평균 색 차이 (OKLab ΔE×100). 칸이 작을수록 작아진다",
+    "sil": "실루엣(불투명 영역)이 원본과 다른 픽셀의 비율 %",
+    "head": "정수리에서 목(위쪽 몸에서 가장 좁은 줄)까지. 자동으로 잰 값이니 그림으로 확인한다",
+    "orphan_pct": "네 이웃이 모두 다른 색인 픽셀의 비율 (잡티의 정도)",
+    "recommend_rule": "오차가 가장 작은 후보 + 0.5 안에서 칸이 가장 큰 것. 억지 맞춤(--target-height)과 ppa 는 추천에서 뺀다",
+    "spread": "칸 너비 들쭉날쭉 = 격자 줄 사이 간격의 (최대-최소)/평균, 가로·세로 중 큰 쪽. 0.3 안쪽이면 고른 격자"
+  }
+}

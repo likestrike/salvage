@@ -1,0 +1,21 @@
+Create ONE pixel-art sprite of the android NX-07 standing in a pure side view, in exactly the pixel-art style of image 2. It will be used as the reference image for a pixel-art character generator, so it must be one complete figure and nothing else.
+
+REFERENCES:
+- image 1 = the character design sheet (android NX-07A, a BOY-type android soldier). It is an illustration: take only the character design from it.
+- image 2 = the existing sprite sheet of this character. This is the STYLE AND CHARACTER GUIDE. The new sprite must look as if it was cut out of this sheet: the same character drawn the same way - the same mid proportions (about 4 heads tall), the same helmet size, the same sturdy boyish build, the same thickness of the arms and legs, the same big gauntlets and big boots, the same bright clean palette (olive-drab armor, white plates, black bodysuit, saturated cyan lights), dark 1-pixel outlines, 3-tone cel shading with a small bright highlight.
+- image 3 = a LAYOUT GUIDE with exactly the size of the output image. It contains one dark outline box. The bottom edge of the box is the GROUND LINE and the box is exactly as tall as the character standing upright. Draw the character inside the box: feet on the bottom edge, the top of the helmet touching the top edge. Do NOT draw the box.
+
+PIXEL SIZE: the output is drawn at exactly twice the scale of image 2. Every art pixel is a hard square, twice as large as an art pixel of image 2, all on one consistent grid.
+
+THE FIGURE:
+- Exactly ONE character. No second pose, no extra views, no effects.
+- VIEW: a PURE SIDE VIEW (profile), facing RIGHT. Not a three-quarter view: the chest and the hips are seen exactly from the side and the body is not twisted.
+- POSE: a neutral standing pose, easy to animate. Standing straight and upright, at ease - not crouching, not leaning, not a combat stance. Both feet flat on the ground line, close together, the far foot half a step behind the near foot so that both legs can be seen.
+- RIGHT ARM (the arm nearest to the viewer): from the elbow down it is the energy cannon, exactly as in image 2 - a thick olive barrel with white rings, one cyan light band along its side and a cyan glowing muzzle. It hangs low beside the hip, pointing forward and a little down. No muzzle flash.
+- LEFT ARM (far side): hangs straight down behind the body; only its white gauntlet and closed hand show past the body.
+- HEAD: exactly the helmet of image 2 - round olive-drab helmet, glowing cyan inverted-triangle emblem at the front, dark visor band, one teal eye, pale face, round white earpiece with a short white swept-back fin.
+- BUILD: a boy soldier. Straight, compact and sturdy. No narrow waist with wide hips, no curves, no long slender legs. Do not make the figure slimmer or longer-legged than in image 2.
+- LIGHTS: the only cyan lights are the forehead emblem, the eye, the earpiece, the light band and the muzzle of the cannon. No small light dots scattered on the armor.
+
+BACKGROUND: completely flat solid magenta (#FF00FF) everywhere. No ground, no floor line, no shadow, no text, no labels, no numbers, no borders, no frame.
+Hard square pixels, no anti-aliasing, no blur, no soft gradients, the same limited palette as image 2.

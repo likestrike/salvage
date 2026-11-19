@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SALVAGE — 전투 테스트</title>
+<style>
+  :root { --s: 2; }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; height: 100%; background: #0d0b12; color: #e9e6f2; font-family: "Malgun Gothic", "Apple SD Gothic Neo", sans-serif; overflow: hidden; }
+  body { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 10px; }
+  #stage { position: relative; width: calc(640px * var(--s)); height: calc(360px * var(--s)); }
+  #screen { width: 100%; height: 100%; display: block; image-rendering: pixelated; image-rendering: crisp-edges; background: #000; }
+  #overlay { position: absolute; inset: 0; pointer-events: none; font-size: calc(7px * var(--s)); line-height: 1.35; text-shadow: 0 0 calc(1px * var(--s)) #000, calc(1px * var(--s)) calc(1px * var(--s)) 0 #14121c; }
+  #media { position: absolute; left: calc(104px * var(--s)); top: calc(30px * var(--s)); }
+  #media div { height: calc(13px * var(--s)); }
+  #media b { color: #7ff5ee; }
+  #combo { position: absolute; right: calc(12px * var(--s)); top: calc(8px * var(--s)); text-align: right; font-weight: 700; font-size: calc(12px * var(--s)); color: #ffd24d; display: none; }
+  #combo small { display: block; font-size: calc(6px * var(--s)); color: #e9e6f2; font-weight: 400; }
+  #skin { position: absolute; right: calc(10px * var(--s)); top: calc(30px * var(--s)); text-align: right; font-size: calc(6.5px * var(--s)); color: #cfcbe0; }
+  #skin b { color: #fff; }
+  #skin kbd { font-family: inherit; background: rgba(20, 18, 28, .85); border: 1px solid #55506a; border-radius: 3px; padding: 0 calc(2px * var(--s)); color: #fff; }
+  #message { position: absolute; left: 0; right: 0; top: calc(84px * var(--s)); text-align: center; font-size: calc(9px * var(--s)); font-weight: 700; color: #fff; opacity: 0; transition: opacity .25s; }
+  #message span { background: rgba(20, 18, 28, .82); border-left: calc(2px * var(--s)) solid #4fe3e6; padding: calc(3px * var(--s)) calc(8px * var(--s)); }
+  #help { position: absolute; left: 0; right: 0; bottom: calc(5px * var(--s)); text-align: center; color: #cfcbe0; font-size: calc(6.5px * var(--s)); }
+  #help kbd { font-family: inherit; background: rgba(20, 18, 28, .85); border: 1px solid #55506a; border-radius: 3px; padding: 0 calc(2px * var(--s)); color: #fff; }
+  #debug { color: #8d88a3; font-size: 12px; }
+  #debug kbd { font-family: inherit; border: 1px solid #3b3750; border-radius: 3px; padding: 0 4px; color: #c9c5dc; }
+</style>
+</head>
+<body>
+<div id="stage">
+  <canvas id="screen" width="640" height="360"></canvas>
+  <div id="overlay">
+    <div id="media"></div>
+    <div id="combo"></div>
+    <div id="skin"></div>
+    <div id="message"><span></span></div>
+    <div id="help">
+      <kbd>←</kbd> <kbd>→</kbd> 이동 &nbsp; <kbd>Z</kbd> 점프 &nbsp; <kbd>X</kbd> 공격 — 누르면 기본 공격(이어 누르면 1타 → 2타 → 3타), 누르고 있다가 떼면 차지샷, 적에게 붙어서 누르면 너클 펀치
+    </div>
+  </div>
+</div>
+<div id="debug">
+  <kbd>V</kbd> 캐릭터 바꾸기 (NX-07 ↔ NOVA 시안) · <kbd>C</kbd> 색상 바꾸기 · <kbd>B</kbd> 등장인물 보기 · <kbd>N</kbd> 상태 시트 보기 &nbsp;|&nbsp; 테스트 키: <kbd>R</kbd> 다시 시작 · <kbd>1</kbd> 너클 펀치 켜기/끄기 · <kbd>2</kbd> 양산형 소환 · <kbd>3</kbd> 드론 소환 · <kbd>H</kbd> 판정 상자 · <kbd>P</kbd> 일시 정지 · <kbd>M</kbd> 소리
+</div>
+<script src="src/sim.js"></script>
+<script src="assets/style_c/states/states.js"></script>
+<script src="assets/nova/states/states.js"></script>
+<script src="src/render.js"></script>
+<script src="src/main.js"></script>
+</body>
+</html>

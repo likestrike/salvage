@@ -1,0 +1,26 @@
+Redraw the figure in image 2 as ONE clean full-body illustration. It will be used as the reference image for a pixel-art character generator, so it must be one complete figure and nothing else.
+
+REFERENCES:
+- image 1 = the original design sheet of the android NX-07, a BOY-type android soldier. Design reference only: do not copy its text, its layout or its extra views.
+- image 2 = the SIDE VIEW of this character, taken from this project's own design sheet and mirrored so that it faces right. THIS IS THE FIGURE TO DRAW. Copy it faithfully: exactly the same body proportions (measure them on image 2: from the top of the helmet to the chin is a little less than one quarter of the total height, so the figure is about 4.3 heads tall - do not make the helmet bigger or smaller than that), the same sturdy boyish build, the same thickness of the arms and legs, the same armor shapes and the same details in the same places.
+
+KEEP EXACTLY AS IN IMAGE 2:
+- the large round olive-drab helmet with the cyan inverted-triangle emblem at the front, the dark visor band, the face of a young boy with one large teal eye and a small serious mouth;
+- the round white earpiece with its cyan lens and the straight gray antenna rod behind it;
+- the bulky olive-drab chest and shoulder armor with the white shoulder plate; the black bodysuit;
+- the small olive backpack with its short antenna and its cyan light;
+- the white hip plate, the white knee plate with the round dark knee joint, the thick olive shin armor, the round ankle joint with its cyan light, the big chunky boot with the white toe cap and the dark sole;
+- the lights exactly where image 2 has them, and no additional lights.
+
+BUILD - VERY IMPORTANT: this android is a BOY soldier and must read as a boy at first glance. The body is straight, compact and sturdy, like a toy soldier. No feminine shapes at all: no narrow waist with wide hips, no hourglass curve, no bust shape on the chest armor, no rounded hips or buttocks, no long slender legs, no thin arms, no arched back, no hip sway, no elegant pose. The torso is a straight block from the chest armor down to the hips; the hips are not wider than the chest armor. The legs are exactly as long and as thick as in image 2, with thick armored shins and big boots. Do NOT make the figure slimmer or longer-legged than image 2, and do not change the size of the head.
+
+CHANGE ONLY THESE THINGS:
+1. The right arm (the arm nearest to the viewer) keeps its shoulder and upper arm, but from the elbow down it is the ENERGY CANNON module of the design sheet (image 1): a thick olive barrel as wide as the gauntlet, a white ring at the elbow end, one cyan light band along its side and a cyan glowing muzzle. It hangs low beside the hip, pointing forward and a little down.
+2. The far arm (left arm) hangs straight down behind the body; only its gauntlet and closed hand may show past the body.
+3. No ground shadow and no label.
+
+VIEW AND POSE: a pure SIDE VIEW (profile), facing RIGHT, flat orthographic look with no perspective. Standing straight and upright, at ease, both feet flat on the same ground level, exactly the stance of image 2.
+
+FRAMING: exactly one figure, centered. The whole body is inside the picture with a clear empty margin on every side: the top of the helmet, the antenna rod, the backpack, the cannon muzzle and the boots are all fully visible. Nothing is cut off.
+
+BACKGROUND: none. Completely empty and transparent. No ground, no floor line, no cast shadow, no scenery, no props, no effects, no glow halo outside the silhouette, no frame, no text, no letters, no numbers, no logos.

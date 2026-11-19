@@ -1,0 +1,16 @@
+Design a NEW alternative version of the girl character Mirine and present it as a character design sheet.
+
+REFERENCES: image 1 = the current design of Mirine (use it for the sheet layout, the drawing style, and her identity: an 11-year-old genius girl, 142 cm, teal eyes). The new design must have a clearly DIFFERENT outfit, hairstyle and silhouette from image 1: no long loose silver hair, no blue robe coat.
+
+CONCEPT "hacker": she is the programmer of a resistance group in a slum.
+- Hair: black, shoulder-length, tied in two low twin tails whose tips are dyed cyan; straight bangs; a small ahoge.
+- Outfit: a huge charcoal-gray hoodie that reaches her thighs, hood down, sleeves so long they cover her hands, with one cyan stripe around each sleeve. Dark shorts over full-length black leggings. Worn high-top sneakers.
+- Gear: big headphones around her neck; a small hard-shell backpack computer with a folding antenna and a few cables running to her handheld device; in her hands a self-made clamshell mini-computer with a slot for old game cartridges.
+- Sleepy half-closed eyes that turn sharp when she works.
+
+TITLE lines: "미리네" / "시안 C" / "HACKER"
+PROFILE lines: "나이 : 11세" / "신장 : 142cm" / "역할 : 프로그래밍"
+EXPRESSIONS: sleepy, a sharp focused stare, a smug smile, startled.
+ITEMS: the clamshell mini-computer, the backpack computer, the headphones, an old game cartridge whose label shows only a plain four-point sparkle shape.
+POSES: sitting cross-legged and typing with holographic windows around her, plugging a cartridge into the mini-computer, running with the hood flapping.
+PALETTE: six swatches labeled "차콜", "시안", "검정", "화이트", "머리카락", "눈동자".

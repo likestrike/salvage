@@ -1,0 +1,4 @@
+[upload] image 1: 02_side.png
+[upload] image 2: nx07_side_style_guide56.png
+[run] openai/gpt-image-2.6/sunburst/edit …
+[saved] art\pipeline_lab\pixel_style\sample_flat\nx07_side_flat_raw.png (850 KB)

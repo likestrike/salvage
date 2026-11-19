@@ -1,0 +1,42 @@
+ART STYLE (follow exactly; it defines the look of the whole project). A 2000s Japanese handheld action-game character illustration with a toy-like, molded look: a few big simple volumes, taut curves cut by flat chamfered facets, candy-bright colors.
+
+1. LINE ART
+- Outlines are a dark warm plum-brown, never pure black. Thin to medium weight, clean and confident, a little heavier on the outer silhouette and thinner for inner details. No thick cartoon outlines, no sketchy texture, no hatching.
+
+2. PROPORTIONS AND SILHOUETTE
+- About 5 heads tall. Large head, short torso, a very narrow waist, long legs.
+- Size hierarchy from biggest to smallest: feet, hands and forearms, head, chest, waist. Upper arms and thighs are slim but shapely (never stick-thin; the bodysuit shows simple anatomy) and widen into forearm cuffs and flared lower legs and feet that are about one and a half times natural size, so the legs form an A-line.
+- The silhouette reads as a few big shapes.
+
+3. FORM LANGUAGE (how every part is built)
+- Each part is ONE simple volume with a smooth, taut curved surface: a dome, a flared tube, a cuff or a rounded box. Its edges and rims are cut by a narrow flat chamfer, drawn as a thin lighter strip along the edge, and one or two crisp ridge lines may run along the form. Hard-surface but soft, like injection-molded plastic.
+- The surface itself stays smooth: not low-poly, not gem-cut, no facets across a surface.
+- Also never balloon-like or inflated: the curves are taut and flatten into a clear front plane and side planes.
+- Round against sharp: round domes and cuffs next to a few pointed triangular fins.
+- Very few panel lines. No rivets, no greebles, no realistic mechanical clutter, no dirt or weathering.
+
+4. HOW ARMOR IS COMPOSED (layers; the character description decides the actual colors)
+- A skin-tight dark bodysuit covers the torso, upper arms and thighs and stays visible at the abdomen, upper arms and thighs.
+- Armor shells in one dominant color: a close-fitting helmet, a short vest-like chest piece with a high collar that leaves the abdomen bare, forearm cuffs, bell-shaped lower legs.
+- Thick ring bands at the wrists, ankles and collar, in the accent color.
+- Light plates at the hips and thighs, and big cartoon-glove hands with chunky rounded fingers.
+- A few round glowing lens discs, each with one white specular dot, as focal points at the joints.
+- Feet: a smooth rounded toe dome sitting on a wide dark sole plate that sticks out beyond the toe like a clog, with a ring band at the ankle.
+- For characters in ordinary clothes use the same logic: slim torso and thighs, oversized cuffs, gloves and shoes, clothing drawn as big simple shapes with very few folds.
+
+5. FACE AND EYES
+- Face: wide round cheeks narrowing to a small pointed chin. No nose, or only a tiny tick. A small simple mouth; an open mouth is one flat shape with a pink tongue.
+- Eyes: very large, tall rounded ovals set wide apart and low on the face. A heavy dark upper lash arc that thickens toward the outer corner, and almost no lower line. The iris is a big flat-colored disc with a darker upper part and one crisp round white highlight at the upper left (sometimes a second small dot). Short thick angled eyebrows close to the eyes.
+- A hard-edged shadow band falls across the upper face under the helmet brim or the bangs.
+- Hair: big angular chunks ending in sharp points, with two or three small white rectangular highlights.
+
+6. COLOR AND SHADING
+- Flat cel shading: a base tone plus ONE hard-edged shadow tone, drawn as a clear shape that follows the planes of the form. Shadows are saturated and hue-shifted toward purple or blue, never gray. No soft gradient across a dome.
+- Highlights: thin light chamfer strips along edges, small white four-point sparkle glints on glossy corners, round white dots on domes and lenses.
+- Highly saturated, clean, candy-like colors. No gradients, no airbrush, no texture, no painterly or realistic rendering, no 3D look.
+- Energy effects are flat translucent shapes with jagged edges.
+
+7. POSE
+- Standing views are relaxed with the big feet planted wide. Action poses are strongly foreshortened, with one big foot or fist thrust toward the viewer and a sweeping S-curve through the body.
+
+- Background: plain white or very light gray.

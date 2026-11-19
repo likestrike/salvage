@@ -1,0 +1,14 @@
+Redraw the character from image 1 as a new character design sheet. Keep the design, and restyle the shapes, proportions and rendering in the ART STYLE described at the end.
+
+REFERENCES: image 1 = the existing design sheet of this character. Use it ONLY for the design and for the sheet layout. Ignore its rendering style and its black line art. Do not copy any caption text from it.
+
+KEEP the design (Mirine's father): a warm, dependable mechanic in his late thirties, about 178 cm tall, broad shoulders and strong forearms. Short messy ash-silver hair, a short stubble beard, kind teal eyes, welding goggles pushed up on his forehead. An industrial-yellow work jacket with black hazard trim and a cargo-robot workshop emblem on the back, worn open with the sleeves rolled up. Under it a white T-shirt. Dark navy work overalls, a tool belt, heavy work boots, thick work gloves. A towel around his neck.
+
+RESTYLE: keep him a sturdy adult, about 6 heads tall. Draw the hair as big angular chunks with sharp tips and small white rectangular highlights; make the boots, gloves and forearms bigger; draw the clothes as big simple shapes with very few folds, and hard items with chamfered edges; use clean saturated colors with purple-tinted hard shadows and small sparkle glints.
+
+TITLE lines: "미리네의 아버지" / "화물 운반 로봇 메카닉" / "CARGO ROBOT MECHANIC"
+PROFILE lines: "직업 : 메카닉" / "제작 : 화물 운반 로봇" / "가족 : 딸 미리네"
+EXPRESSIONS: a big warm laugh, focused on his work, worried, resolute.
+ITEMS: a large wrench, a dented toolbox, the start-up key of the cargo mover, a small framed photo of him with a little silver-haired girl.
+POSES: repairing a robot arm with the wrench; sitting in the open cockpit of a yellow cargo mover machine and gripping the control levers; carrying a small silver-haired child on his shoulders.
+PALETTE: six swatches labeled "옐로", "네이비", "화이트", "가죽", "머리카락", "눈동자".

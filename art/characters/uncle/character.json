@@ -1,0 +1,395 @@
+{
+  "format": "salvage-character/1",
+  "id": "uncle",
+  "name": "미리네의 삼촌",
+  "kind": "npc",
+  "design": {
+    "current": "디자인 시안 한 장",
+    "status": "[제안]",
+    "options": [
+      "design_sheet"
+    ],
+    "note": "시안이 한 장뿐이다 (STORY.md 10장 9). 이름과 나이도 [미정].",
+    "doc": "docs/STORY.md 4장"
+  },
+  "story": {
+    "height_cm": 180,
+    "height_mark": "[제안]",
+    "body": "30대 초반, 마르고 구부정한 체형",
+    "note": "키 · 나이 · 체형은 디자인 시안을 그리면서 붙인 [제안]이다. 지금 살아 있는지는 [미정].",
+    "doc": "docs/STORY.md 4장"
+  },
+  "assets": {
+    "front": {
+      "group": "view",
+      "label": "정면 전신",
+      "file": "art/concept/setting/uncle/01_front.png",
+      "source": {
+        "made_by": "tools/setting_sheets.py split uncle",
+        "from": "art/concept/setting/uncle/turnaround.png",
+        "note": "세 시점을 한 장에 그린 뒤 같은 캔버스 · 같은 배율 · 같은 발바닥 줄로 나눴다",
+        "doc": "docs/GAME_DESIGN.md 9.4.1"
+      },
+      "base": {
+        "version": 1,
+        "date": "2026-11-19",
+        "sha256": "dbe6159b3eff594cbbe24a7492881b6ce051b74519943a4c8d1be73526cbfca2",
+        "bytes": 1179420,
+        "size": [
+          869,
+          2097
+        ]
+      }
+    },
+    "side": {
+      "group": "view",
+      "label": "측면 전신",
+      "file": "art/concept/setting/uncle/02_side.png",
+      "source": {
+        "made_by": "tools/setting_sheets.py split uncle",
+        "from": "art/concept/setting/uncle/turnaround.png",
+        "note": "세 시점을 한 장에 그린 뒤 같은 캔버스 · 같은 배율 · 같은 발바닥 줄로 나눴다. 측면은 오른쪽을 본다",
+        "doc": "docs/GAME_DESIGN.md 9.4.1"
+      },
+      "facing": "right",
+      "base": {
+        "version": 1,
+        "date": "2026-11-19",
+        "sha256": "98becdc0eafd1056cddeb892fbd4d6b11dca4ae45bd2201d5d005c7564262a29",
+        "bytes": 835554,
+        "size": [
+          869,
+          2097
+        ]
+      }
+    },
+    "back": {
+      "group": "view",
+      "label": "후면 전신",
+      "file": "art/concept/setting/uncle/03_back.png",
+      "source": {
+        "made_by": "tools/setting_sheets.py split uncle",
+        "from": "art/concept/setting/uncle/turnaround.png",
+        "note": "세 시점을 한 장에 그린 뒤 같은 캔버스 · 같은 배율 · 같은 발바닥 줄로 나눴다",
+        "doc": "docs/GAME_DESIGN.md 9.4.1"
+      },
+      "base": {
+        "version": 1,
+        "date": "2026-11-19",
+        "sha256": "50cb08078b7b49261267183d401f5ef423398bfbe4fccbc6fcc36d471726957a",
+        "bytes": 937357,
+        "size": [
+          869,
+          2097
+        ]
+      }
+    },
+    "face": {
+      "group": "sheet",
+      "label": "얼굴 확대",
+      "file": "art/concept/setting/uncle/04_face.png",
+      "source": {
+        "made_by": "tools/setting_sheets.py gen uncle face",
+        "tool": "tools/fal_image.py --keep-style human",
+        "model": "openai/gpt-image-2.6/sunburst/edit",
+        "prompts": [
+          "art/prompts/setting/uncle_design.txt",
+          "art/prompts/setting/uncle_face.txt",
+          "art/prompts/setting/_layout_face.txt"
+        ],
+        "refs": [
+          "art/prompts/setting/guide_uncle.png",
+          "art/concept/uncle_sheet.png"
+        ],
+        "style_anchor": "art/style_anchor/human.png",
+        "doc": "docs/GAME_DESIGN.md 9.4.1",
+        "definition": "art/concept/setting/setting.json"
+      },
+      "base": {
+        "version": 1,
+        "date": "2026-11-19",
+        "sha256": "eb38fc3368b133512e73d3738d2af33e5f22dd54a1c2dd77085b3d610e24c2c8",
+        "bytes": 5326280,
+        "size": [
+          3072,
+          2048
+        ]
+      }
+    },
+    "body": {
+      "group": "sheet",
+      "label": "신체 확대",
+      "file": "art/concept/setting/uncle/05_body.png",
+      "source": {
+        "made_by": "tools/setting_sheets.py gen uncle body",
+        "tool": "tools/fal_image.py --keep-style human",
+        "model": "openai/gpt-image-2.6/sunburst/edit",
+        "prompts": [
+          "art/prompts/setting/uncle_design.txt",
+          "art/prompts/setting/uncle_body.txt",
+          "art/prompts/setting/_layout_body.txt"
+        ],
+        "refs": [
+          "art/prompts/setting/guide_uncle.png",
+          "art/concept/uncle_sheet.png"
+        ],
+        "style_anchor": "art/style_anchor/human.png",
+        "doc": "docs/GAME_DESIGN.md 9.4.1",
+        "definition": "art/concept/setting/setting.json"
+      },
+      "base": {
+        "version": 1,
+        "date": "2026-11-19",
+        "sha256": "e16ee19cf251135498f407b68d828ef03763453e7f2a5294a82bbdc2fc1e3929",
+        "bytes": 4571773,
+        "size": [
+          3072,
+          2048
+        ]
+      }
+    },
+    "items": {
+      "group": "sheet",
+      "label": "소지품 단독 (신호 분석기 · 데이터 패드) — 무기 없음",
+      "file": "art/concept/setting/uncle/06_items.png",
+      "source": {
+        "made_by": "tools/setting_sheets.py gen uncle items",
+        "tool": "tools/fal_image.py --keep-style human",
+        "model": "openai/gpt-image-2.6/sunburst/edit",
+        "prompts": [
+          "art/prompts/setting/uncle_design.txt",
+          "art/prompts/setting/uncle_items.txt",
+          "art/prompts/setting/_layout_items.txt"
+        ],
+        "refs": [
+          "art/prompts/setting/guide_uncle.png",
+          "art/concept/uncle_sheet.png"
+        ],
+        "style_anchor": "art/style_anchor/human.png",
+        "doc": "docs/GAME_DESIGN.md 9.4.1",
+        "definition": "art/concept/setting/setting.json"
+      },
+      "base": {
+        "version": 1,
+        "date": "2026-11-19",
+        "sha256": "74f2534acc8d02fc39f1a44852b58290f04ef465166947749dd81da33289879d",
+        "bytes": 4522149,
+        "size": [
+          3072,
+          2048
+        ]
+      }
+    },
+    "poses": {
+      "group": "sheet",
+      "label": "주요 포즈",
+      "file": "art/concept/setting/uncle/07_poses.png",
+      "source": {
+        "made_by": "tools/setting_sheets.py gen uncle poses",
+        "tool": "tools/fal_image.py --keep-style human",
+        "model": "openai/gpt-image-2.6/sunburst/edit",
+        "prompts": [
+          "art/prompts/setting/uncle_design.txt",
+          "art/prompts/setting/uncle_poses.txt",
+          "art/prompts/setting/_layout_poses.txt"
+        ],
+        "refs": [
+          "art/prompts/setting/guide_uncle.png",
+          "art/concept/uncle_sheet.png"
+        ],
+        "style_anchor": "art/style_anchor/human.png",
+        "doc": "docs/GAME_DESIGN.md 9.4.1",
+        "definition": "art/concept/setting/setting.json",
+        "cleaned": [
+          {
+            "op": "flip",
+            "why": "판서 포즈만 왼쪽을 보게 그려졌다"
+          },
+          {
+            "op": "erase",
+            "why": "놀람 포즈의 감정 표시"
+          }
+        ],
+        "raw": "art/concept/setting/uncle/07_poses_raw.png"
+      },
+      "base": {
+        "version": 1,
+        "date": "2026-11-19",
+        "sha256": "7a5d583c15cd0e308de337ae786d07581712f90542e1ccae72e97c3f4fddeb44",
+        "bytes": 3883187,
+        "size": [
+          3072,
+          2048
+        ]
+      }
+    },
+    "poses_raw": {
+      "group": "source",
+      "label": "주요 포즈 — 손보기 전",
+      "file": "art/concept/setting/uncle/07_poses_raw.png",
+      "source": {
+        "made_by": "tools/setting_sheets.py gen uncle poses",
+        "tool": "tools/fal_image.py --keep-style human",
+        "model": "openai/gpt-image-2.6/sunburst/edit",
+        "prompts": [
+          "art/prompts/setting/uncle_design.txt",
+          "art/prompts/setting/uncle_poses.txt",
+          "art/prompts/setting/_layout_poses.txt"
+        ],
+        "refs": [
+          "art/prompts/setting/guide_uncle.png",
+          "art/concept/uncle_sheet.png"
+        ],
+        "style_anchor": "art/style_anchor/human.png",
+        "doc": "docs/GAME_DESIGN.md 9.4.1",
+        "definition": "art/concept/setting/setting.json"
+      },
+      "base": {
+        "version": 1,
+        "date": "2026-11-19",
+        "sha256": "2a5bff1f297efc8e56ed5bb9b3826f4d2013130ea34c4ddb6c95b0e0a391360b",
+        "bytes": 4395889,
+        "size": [
+          3072,
+          2048
+        ]
+      }
+    },
+    "turnaround": {
+      "group": "source",
+      "label": "세 시점 원본 (나누기 전)",
+      "file": "art/concept/setting/uncle/turnaround.png",
+      "source": {
+        "made_by": "tools/setting_sheets.py gen uncle turnaround",
+        "tool": "tools/fal_image.py --keep-style human",
+        "model": "openai/gpt-image-2.6/sunburst/edit",
+        "prompts": [
+          "art/prompts/setting/uncle_design.txt",
+          "art/prompts/setting/uncle_turnaround.txt",
+          "art/prompts/setting/_layout_turnaround.txt"
+        ],
+        "refs": [
+          "art/prompts/setting/guide_uncle.png",
+          "art/concept/uncle_sheet.png"
+        ],
+        "style_anchor": "art/style_anchor/human.png",
+        "doc": "docs/GAME_DESIGN.md 9.4.1",
+        "definition": "art/concept/setting/setting.json"
+      },
+      "base": {
+        "version": 1,
+        "date": "2026-11-19",
+        "sha256": "c1e33acec040beba9fb7d1c3bf639b592204f828dacb43d938f419bdb776cb98",
+        "bytes": 4351757,
+        "size": [
+          3072,
+          2048
+        ]
+      }
+    },
+    "sprite_cast_idle_style3_uncle": {
+      "group": "sprite",
+      "label": "uncle",
+      "file": "art/sprites/cast_idle/style3/uncle.png",
+      "source": {
+        "table": "art/sprites/cast_idle/style3/states.json"
+      },
+      "set": "cast_idle_style3",
+      "anim": {
+        "frames": 4,
+        "cell": [
+          112,
+          112
+        ],
+        "ticks": 20,
+        "loop": true,
+        "sole": 100
+      },
+      "base": {
+        "version": 1,
+        "date": "2026-11-19",
+        "sha256": "3b5ebad2aaa67f67c23658f3491b459283fd7e54cbd403d4c731532994235fec",
+        "bytes": 12759,
+        "size": [
+          448,
+          112
+        ]
+      }
+    },
+    "design_sheet": {
+      "group": "design",
+      "label": "디자인 시안 [제안]",
+      "file": "art/concept/uncle_sheet.png",
+      "source": {
+        "tool": "tools/fal_image.py --keep-style human",
+        "prompts": [
+          "art/prompts/uncle_sheet.txt",
+          "art/prompts/_sheet_layout_human.txt"
+        ],
+        "refs_note": "이 시트를 뽑을 때 넣은 참조 그림의 기록이 남아 있지 않다",
+        "doc": "docs/STORY.md 4장"
+      },
+      "base": {
+        "version": 1,
+        "date": "2026-11-19",
+        "sha256": "875c175505bd6191ba75696a1c098f3abaff0452b11d0b2d36cc22edf871230f",
+        "bytes": 5361672,
+        "size": [
+          3072,
+          2048
+        ]
+      }
+    }
+  },
+  "approvals": [],
+  "records": [],
+  "history": [
+    {
+      "date": "2026-11-19",
+      "what": "등록",
+      "by": "agent",
+      "assets": 9,
+      "note": "설정화 묶음 setting.json#uncle"
+    },
+    {
+      "date": "2026-11-19",
+      "what": "스프라이트 등록",
+      "by": "agent",
+      "table": "art/sprites/cast_idle/style3/states.json",
+      "count": 1
+    },
+    {
+      "date": "2026-11-19",
+      "what": "파일 더함",
+      "by": "agent",
+      "asset": "design_sheet",
+      "file": "art/concept/uncle_sheet.png"
+    },
+    {
+      "date": "2026-11-19",
+      "what": "설명 칸 적음",
+      "by": "agent",
+      "note": "디자인 상태 · 설정 키 · 게임 정보 · 기록을 STORY.md 4장과 기획서 9.4.1 · 9.8 · 9.9 · 9.10 · 9.11에서 옮겨 적었다"
+    }
+  ],
+  "game": {
+    "style": "스타일 3 등장인물 대기 (보기만 하는 용도, 기획서 9.8)",
+    "height_px": 95,
+    "cell": [
+      112,
+      112
+    ],
+    "sole": 100,
+    "note": "대기 한 가지뿐이다. 설정(NX-07의 1.06배)보다 조금 크게 나왔다 (1.16배)."
+  },
+  "links": [
+    {
+      "label": "설정화 묶음 확인 그림",
+      "file": "art/concept/setting/uncle/overview.png"
+    },
+    {
+      "label": "등장인물 대기 비교 (스타일 1~3)",
+      "file": "game/preview/cast_styles.png"
+    }
+  ]
+}

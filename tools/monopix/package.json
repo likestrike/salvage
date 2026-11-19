@@ -1,0 +1,10 @@
+{
+  "name": "salvage-monopix-tools",
+  "private": true,
+  "type": "module",
+  "description": "mono-pix(https://github.com/handsupmin/mono-pix)의 엔진 fast-pixelizer 로 스프라이트 시트를 줄이는 시험용 스크립트. npm install 뒤에 쓴다.",
+  "dependencies": {
+    "fast-pixelizer": "^1.3.10",
+    "pngjs": "^7.0.0"
+  }
+}

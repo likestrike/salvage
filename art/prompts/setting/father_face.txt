@@ -1,0 +1,7 @@
+HEAD: the head of Mirine's father: the short messy ash-silver hair, the thick dark eyebrows, the kind teal eyes, the short stubble beard, the welding goggles with amber lenses pushed up on his forehead, and at the shoulders the white towel around his neck over the yellow jacket collar. The same in every drawing. In the back view there is no face: the back of the hair, the dark goggle strap around the head, and the towel behind the neck.
+NEUTRAL: calm and warm, a slight confident half-smile, eyes open.
+EXPRESSIONS:
+1. LAUGH: a big warm open-mouthed laugh, eyes closed into happy arcs.
+2. FOCUS: looking down at his work, brows drawn together, eyes narrowed, mouth set, a small confident smirk.
+3. WORRY: brows tilted up, eyes wide and anxious, mouth slightly open, one small sweat drop on the temple.
+4. RESOLVE: brows down, eyes steady and determined, jaw set, mouth a firm line.

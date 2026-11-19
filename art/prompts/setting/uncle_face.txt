@@ -1,0 +1,7 @@
+HEAD: the head of Mirine's uncle: the unkempt ash-silver hair with messy bangs and a small ahoge, the small short ponytail at the back, the thin rectangular glasses, the tired teal eyes with faint dark circles, the light stubble on the chin, and at the shoulders the high collar of the dark teal turtleneck inside the white lab coat collar. The same in every drawing; the glasses are on in every drawing. In the back view there is no face: the back of the hair and the short ponytail.
+NEUTRAL: tired and calm. Half-lidded eyes, mouth closed and level.
+EXPRESSIONS:
+1. WRY SMILE: one corner of the mouth lifted in a crooked, tired smile, one eyebrow raised.
+2. THINKING: eyes looking down and to the side, brows slightly drawn together, mouth closed, lost in thought.
+3. ALARM: eyes wide open, brows high, mouth open, one small sweat drop on the temple.
+4. GENTLE SMILE: eyes closed into soft arcs behind the glasses, a warm relaxed smile.

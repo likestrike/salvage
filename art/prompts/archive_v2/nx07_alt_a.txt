@@ -1,0 +1,12 @@
+Redraw the android character from image 1 as a new character design sheet. Keep its design, and restyle its shapes, proportions and rendering in the ART STYLE described at the end.
+
+REFERENCES: image 1 = the existing design sheet of this character. Use it ONLY for the design (which pieces exist and where) and for the sheet layout. Ignore its rendering style, its black line art, its dull colors and its realistic detailing. Do not copy any caption text from it.
+
+KEEP the design (NX-07, design draft A): a round olive-green helmet with a glowing cyan inverted-triangle emblem on the forehead and a dark angular visor brim over the eyes; a visible face with large teal eyes; a round earpiece disc with a short antenna; an olive-green chest plate with a collar, and olive shoulder pads; olive forearm armor with white ring bands; white plates on the hips, thighs and knees; olive lower legs and boots with white toe plates; a near-black bodysuit; a small backpack with a cyan core; round cyan lens discs at the knees and ankles; normal armored hands in the standing views; a compact 150 cm android.
+
+RESTYLE: redraw each armor piece as one smooth molded volume with chamfered edges; enlarge the forearm cuffs, hands, lower legs and feet and slim the waist, upper arms and thighs; give the feet rounded toe caps on wide dark clog soles; use clean saturated colors with purple-tinted hard shadows, light bevel strips and small sparkle glints.
+
+TITLE lines: "NX-07" / "시안 A" / "GENERAL INFANTRY"
+PROFILE lines: "신장 : 150cm" / "분류 : 양산형 안드로이드" / "특징 : 범용 보병"
+WEAPON: the three interchangeable right-arm modules, each drawn on its own as a chunky molded shape: the energy cannon with a cyan muzzle, the compact submachine gun, and the segmented cyan electric whip.
+PALETTE: five swatches labeled "올리브", "화이트", "다크 그레이", "검정", "시안".

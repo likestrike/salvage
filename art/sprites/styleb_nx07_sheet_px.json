@@ -1,0 +1,308 @@
+{
+ "source": "art/sprites/styleb_nx07_sheet_raw.png",
+ "cell": 120,
+ "cols": 8,
+ "rows": 4,
+ "baseline": [
+  114,
+  114,
+  114,
+  114
+ ],
+ "frames": [
+  {
+   "row": 0,
+   "col": 0,
+   "grounded": true,
+   "body_h": 100,
+   "body_w": 58,
+   "clipped_px": 0
+  },
+  {
+   "row": 0,
+   "col": 1,
+   "grounded": true,
+   "body_h": 100,
+   "body_w": 58,
+   "clipped_px": 0
+  },
+  {
+   "row": 0,
+   "col": 2,
+   "grounded": true,
+   "body_h": 100,
+   "body_w": 56,
+   "clipped_px": 0
+  },
+  {
+   "row": 0,
+   "col": 3,
+   "grounded": true,
+   "body_h": 100,
+   "body_w": 54,
+   "clipped_px": 0
+  },
+  {
+   "row": 0,
+   "col": 4,
+   "grounded": true,
+   "body_h": 86,
+   "body_w": 86,
+   "clipped_px": 0
+  },
+  {
+   "row": 0,
+   "col": 5,
+   "grounded": true,
+   "body_h": 76,
+   "body_w": 95,
+   "clipped_px": 0
+  },
+  {
+   "row": 0,
+   "col": 6,
+   "grounded": true,
+   "body_h": 100,
+   "body_w": 75,
+   "clipped_px": 0
+  },
+  {
+   "row": 0,
+   "col": 7,
+   "grounded": true,
+   "body_h": 38,
+   "body_w": 98,
+   "clipped_px": 0
+  },
+  {
+   "row": 1,
+   "col": 0,
+   "grounded": true,
+   "body_h": 91,
+   "body_w": 83,
+   "clipped_px": 0
+  },
+  {
+   "row": 1,
+   "col": 1,
+   "grounded": true,
+   "body_h": 90,
+   "body_w": 69,
+   "clipped_px": 0
+  },
+  {
+   "row": 1,
+   "col": 2,
+   "grounded": true,
+   "body_h": 90,
+   "body_w": 60,
+   "clipped_px": 0
+  },
+  {
+   "row": 1,
+   "col": 3,
+   "grounded": true,
+   "body_h": 91,
+   "body_w": 63,
+   "clipped_px": 0
+  },
+  {
+   "row": 1,
+   "col": 4,
+   "grounded": true,
+   "body_h": 91,
+   "body_w": 61,
+   "clipped_px": 0
+  },
+  {
+   "row": 1,
+   "col": 5,
+   "grounded": true,
+   "body_h": 91,
+   "body_w": 60,
+   "clipped_px": 0
+  },
+  {
+   "row": 1,
+   "col": 6,
+   "grounded": true,
+   "body_h": 91,
+   "body_w": 68,
+   "clipped_px": 0
+  },
+  {
+   "row": 1,
+   "col": 7,
+   "grounded": true,
+   "body_h": 90,
+   "body_w": 71,
+   "clipped_px": 0
+  },
+  {
+   "row": 2,
+   "col": 0,
+   "grounded": true,
+   "body_h": 64,
+   "body_w": 69,
+   "clipped_px": 0
+  },
+  {
+   "row": 2,
+   "col": 1,
+   "grounded": true,
+   "body_h": 80,
+   "body_w": 68,
+   "clipped_px": 0
+  },
+  {
+   "row": 2,
+   "col": 2,
+   "grounded": true,
+   "body_h": 92,
+   "body_w": 68,
+   "clipped_px": 0
+  },
+  {
+   "row": 2,
+   "col": 3,
+   "grounded": false,
+   "body_h": 71,
+   "body_w": 67,
+   "clipped_px": 0
+  },
+  {
+   "row": 2,
+   "col": 4,
+   "grounded": true,
+   "body_h": 93,
+   "body_w": 67,
+   "clipped_px": 0
+  },
+  {
+   "row": 2,
+   "col": 5,
+   "grounded": true,
+   "body_h": 63,
+   "body_w": 69,
+   "clipped_px": 0
+  },
+  {
+   "row": 2,
+   "col": 6,
+   "grounded": false,
+   "body_h": 88,
+   "body_w": 66,
+   "clipped_px": 0
+  },
+  {
+   "row": 2,
+   "col": 7,
+   "grounded": false,
+   "body_h": 89,
+   "body_w": 69,
+   "clipped_px": 0
+  },
+  {
+   "row": 3,
+   "col": 0,
+   "grounded": true,
+   "body_h": 90,
+   "body_w": 66,
+   "clipped_px": 0
+  },
+  {
+   "row": 3,
+   "col": 1,
+   "grounded": true,
+   "body_h": 89,
+   "body_w": 72,
+   "clipped_px": 0
+  },
+  {
+   "row": 3,
+   "col": 2,
+   "grounded": true,
+   "body_h": 90,
+   "body_w": 66,
+   "clipped_px": 0
+  },
+  {
+   "row": 3,
+   "col": 3,
+   "grounded": true,
+   "body_h": 89,
+   "body_w": 73,
+   "clipped_px": 0
+  },
+  {
+   "row": 3,
+   "col": 4,
+   "grounded": true,
+   "body_h": 89,
+   "body_w": 94,
+   "clipped_px": 0
+  },
+  {
+   "row": 3,
+   "col": 5,
+   "grounded": true,
+   "body_h": 89,
+   "body_w": 72,
+   "clipped_px": 0
+  },
+  {
+   "row": 3,
+   "col": 6,
+   "grounded": true,
+   "body_h": 90,
+   "body_w": 62,
+   "clipped_px": 0
+  },
+  {
+   "row": 3,
+   "col": 7,
+   "grounded": true,
+   "body_h": 90,
+   "body_w": 68,
+   "clipped_px": 0
+  }
+ ],
+ "raw_px_per_pixel": [
+  4.539,
+  4.324
+ ],
+ "palette": [
+  "#000002",
+  "#756E53",
+  "#F7FAF9",
+  "#31312D",
+  "#5C5641",
+  "#A6A398",
+  "#090A0C",
+  "#4D4A44",
+  "#242523",
+  "#6B644A",
+  "#C4C1C2",
+  "#0A162E",
+  "#948E73",
+  "#877E5F",
+  "#ECE6E5",
+  "#3F3D39",
+  "#B4F3FB",
+  "#1B1D1D",
+  "#625D5E",
+  "#F0D5C6",
+  "#7B7457",
+  "#7A797D",
+  "#DDFDFE",
+  "#141414",
+  "#2ED7F8",
+  "#0B1E5A",
+  "#F88635",
+  "#20B3F1",
+  "#5AF2FA",
+  "#1952A7",
+  "#78855F",
+  "#1F8AE3"
+ ]
+}

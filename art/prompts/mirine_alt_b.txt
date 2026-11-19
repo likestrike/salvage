@@ -1,0 +1,16 @@
+Design a NEW alternative version of the girl character Mirine and present it as a character design sheet.
+
+REFERENCES: image 1 = the current design of Mirine (use it for the sheet layout, the drawing style, and her identity: an 11-year-old genius girl, 142 cm, silver hair, teal eyes). Image 2 = a heavy cargo mover machine built by her father (source of the yellow workshop colors). The new design must have a clearly DIFFERENT outfit, hairstyle and silhouette from image 1: no long loose hair, no blue robe coat.
+
+CONCEPT "mechanic": she is the mechanic of a resistance group in a slum.
+- Hair: a short, choppy silver bob with a small ahoge; welding goggles pushed up on top of her head.
+- Outfit: an adult-size industrial-yellow work jacket with black hazard trim, far too big for her, sleeves rolled up many times. It was her late father's workshop jacket and has a faded cargo-robot workshop emblem on the back. Under it a white T-shirt and dark navy work overalls with long legs and one shoulder strap undone. Heavy work boots, fingerless work gloves.
+- Gear: a tool belt, a large wrench, and a small self-made computer strapped to her left forearm with a tiny glowing teal screen.
+- A smudge of oil on one cheek. Confident, cheerful grin.
+
+TITLE lines: "미리네" / "시안 B" / "MECHANIC"
+PROFILE lines: "나이 : 11세" / "신장 : 142cm" / "역할 : 메카닉"
+EXPRESSIONS: a confident grin, deep concentration, surprise, a stubborn pout.
+ITEMS: the large wrench, the forearm computer, the welding goggles, the tool belt.
+POSES: tightening a bolt on a robot arm, typing on the forearm computer, running while carrying a toolbox.
+PALETTE: six swatches labeled "옐로", "네이비", "화이트", "가죽", "머리카락", "눈동자".

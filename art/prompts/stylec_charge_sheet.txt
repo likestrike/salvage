@@ -1,0 +1,32 @@
+Create a 2D pixel-art SPRITE SHEET of the charged-shot animation, in exactly the pixel-art style of image 2.
+
+REFERENCES:
+- image 1 = the character design sheet (android NX-07A). It is an illustration: take only the character design from it.
+- image 2 = the existing sprite sheet of this character. This is the STYLE AND SCALE GUIDE. Match it exactly: the same mid proportions (about 4 heads tall - not big-head, not realistic), the same helmet size, the same pixel size, the same bright clean palette (olive-drab armor, white plates, black bodysuit, saturated cyan lights), dark 1-pixel outlines, 3-tone cel shading with a small bright highlight. The new frames will be mixed with the frames of image 2.
+- image 3 = a LAYOUT GUIDE with exactly the size and grid of the output image. Every cell contains a dark outline box. The box marks where the character stands: the bottom edge of the box is the GROUND LINE, and the box is exactly as tall as the character standing upright. Draw the character inside the box of its cell, feet on the bottom edge. A crouching pose is lower than the box; only a jump leaves the ground. Effects (energy, sparks, dust, blast) may extend outside the box but stay inside the cell. Do NOT draw the boxes.
+
+THE HEAD MUST BE IDENTICAL IN EVERY FRAME: the same helmet at the same size, drawn the same way as in image 2 - a round olive-drab helmet, a glowing cyan inverted-triangle emblem on the forehead, a dark visor band, one teal eye, a pale face, a round white earpiece with a short white swept-back fin. Do not make the helmet bigger or smaller from frame to frame.
+
+CHARACTER: olive-drab chest / shoulder / boot armor, white plates on the forearms, hips and knees, black bodysuit, slim waist and thighs, big gauntlets and big boots, small backpack with a cyan core. Facing RIGHT, pure side view.
+
+The right forearm (the arm nearest to the viewer) is the energy cannon: an olive barrel with white rings and a cyan glowing muzzle.
+
+LAYOUT: exactly the grid of image 3: 6 columns x 2 rows = 12 equal square cells, one pose per cell.
+
+FRAMES, left to right, top row first:
+1. charging stance: feet planted wide, knees bent, cannon aimed forward, the left hand bracing the cannon arm; a few small cyan sparks at the muzzle.
+2. charging: the same stance, a small cyan energy ball at the muzzle and cyan specks being drawn in.
+3. charging: the same stance, a medium cyan energy ball with a white core.
+4. fully charged: the same stance, a large bright cyan-white energy ball with short lightning flickers.
+5. firing the charged shot: a big cyan-white muzzle blast, the upper body pushed back by recoil, the feet in the same place.
+6. recoil: leaning back, a puff of smoke at the muzzle, the feet in the same place.
+7. recovering to the ready stance.
+8. data-learning pose: standing upright, head slightly raised, both arms lowered (no ring, no effect).
+9. mid-air: jumping with the knees tucked, the cannon aimed forward with a large energy ball at the muzzle.
+10. mid-air: firing the charged shot with a big cyan-white muzzle blast.
+11. running while charging, an energy ball at the muzzle (one leg forward).
+12. running while charging, an energy ball at the muzzle (the other leg forward).
+In frames 1 to 7 the feet do not move at all: the same two feet in the same place in every frame.
+
+Completely flat solid magenta (#FF00FF) background everywhere. No text, no labels, no numbers, no grid lines, no borders, no ground shadows, no motion blur. Every pose and every effect stays fully inside its own cell with a clear magenta margin on all sides.
+Hard square pixels on one consistent grid, the same pixel size as image 2, no anti-aliasing, no blur, no soft gradients, the same limited palette as image 2.

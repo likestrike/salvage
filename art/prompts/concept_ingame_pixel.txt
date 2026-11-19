@@ -1,0 +1,9 @@
+In-game screenshot mockup of a 2D side-scrolling pixel-art action game, 16:9. Use the attached sheets as exact design references: image 1 = the player character android NX-07, image 2 = the companion girl, image 3 = the enemy recon drone.
+
+PIXEL ART STYLE: 32-bit handheld-era action platformer look: crisp hard pixels on one consistent grid, no anti-aliasing, no blur, limited palette, dark outlines, cel-shaded sprites, pure side view, flat 2D with parallax background layers.
+
+SCENE: a slum street at dusk. The player character NX-07 (small sprite, about 1/6 of the screen height, facing right) is mid-combo: lunging forward and landing an explosive punch on a recon drone, with a big orange-and-cyan pixel shockwave burst, hit sparks and a few flying drone fragments. Two more recon drones hover at the upper right, one firing a thin red laser. The girl crouches behind a rusty dumpster on the left, typing on her mini-computer. Ground: cracked asphalt, puddles, rubble platforms, a tilted shipping container to jump on. Collectible pickups glow softly on the ground and on a ledge: an old game cartridge, a CD and a USB stick.
+
+BACKGROUND LAYERS: mid layer = stacked shanty buildings, tangled power lines, flickering neon signs, hanging laundry; far layer = a pristine futuristic city skyline under an orange-purple sky with a giant translucent teal data sphere hovering above it.
+
+HUD (pixel font, minimal): top-left a segmented cyan HP bar with a small helmet icon; below it three small slots showing cartridge / CD / USB icons; top-right "COMBO 12" with a small rank letter "A". No other text, no watermark.

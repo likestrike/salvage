@@ -1,0 +1,46 @@
+Create a 2D pixel-art SPRITE SHEET for a side-scrolling action game: extra combat animations for the player character, one enemy, and pickup items and effects. Everything is in exactly the same pixel-art style as image 2.
+
+Image 1 is the design sheet of the player character (android NX-07A). Image 2 is the existing sprite sheet of this character: match its pixel size, palette, proportions, character scale and outline style exactly, so that the new frames can be mixed with the old ones. Image 3 is the design sheet of the enemy: the RS-2 recon drone (a dark gunmetal pod with one big red eye lens, two ducted fans and a tail fin antenna).
+
+LAYOUT: a strict uniform grid of 8 columns x 4 rows = 32 equal square cells. One sprite per cell, centered horizontally. Completely flat solid magenta (#FF00FF) background everywhere. No text, no letters, no numbers, no grid lines, no borders, no ground shadows, no motion blur. Every sprite and every effect stays fully inside its own cell with a clear magenta margin on all sides.
+
+ROWS 1 and 2 show the player character, facing RIGHT, pure side view, the same scale as image 2, feet on the same baseline within each row.
+
+ROW 1 - CHARGE SHOT (the right forearm is the energy cannon: an olive barrel with white rings and a cyan glowing muzzle):
+cell 1: charging stance: feet planted wide, knees bent, cannon aimed forward, the left hand bracing the cannon arm; a few small cyan sparks at the muzzle.
+cell 2: charging: the same stance, a small cyan energy ball at the muzzle and cyan specks being drawn in.
+cell 3: charging: the same stance, a medium cyan energy ball with a white core.
+cell 4: fully charged: the same stance, a large bright cyan-white energy ball with short lightning flickers.
+cell 5: firing the charged shot: a big cyan-white muzzle blast, the body pushed back by recoil.
+cell 6: recoil: leaning back, a puff of smoke at the muzzle.
+cell 7: recovering to the ready stance.
+cell 8: data-learning pose: standing upright, head slightly raised, a thin cyan ring of light around the helmet, both arms lowered.
+
+ROW 2 - MARTIAL-ARTS PUNCH in the manner of a kung-fu movie (the cannon has retracted into an armored right fist):
+cell 1: martial-arts ready stance: sideways stance, front hand open and extended, rear fist chambered at the hip.
+cell 2: quick step-in: lunging forward and low, front foot sliding.
+cell 3: wind-up: hips twisted back, the right fist pulled far back and glowing cyan.
+cell 4: straight right punch at full extension, body fully rotated, a compact orange-and-cyan explosive burst at the fist.
+cell 5: impact hold: the same extended punch with a ring-shaped shockwave at the fist and small debris specks.
+cell 6: follow-through: fist still extended, a small smoke puff, body weight forward.
+cell 7: pulling the fist back to the hip.
+cell 8: back in the martial-arts ready stance.
+
+ROW 3 - THE RECON DRONE, side view, facing LEFT, centered in each cell, about two-thirds as wide as the player character is tall:
+cells 1-4: hover loop (bobbing slightly, the fan blades in a different position in each frame).
+cell 5: aiming: the red eye lens glowing brighter.
+cell 6: firing a short red laser bolt from the lens toward the left (the bolt stays inside the cell).
+cell 7: hit: tilted back with sparks.
+cell 8: destroyed: broken open, burning, with smoke.
+
+ROW 4 - ITEMS AND EFFECTS, each centered in its cell and small (about one third of the cell):
+cell 1: an old gray game cartridge with a blank blue label.
+cell 2: an old black VHS video tape with a blank white label.
+cell 3: a compact disc with a rainbow shine.
+cell 4: a USB memory stick.
+cell 5: a small cyan energy bullet, horizontal, flying to the right.
+cell 6: a large charged cyan-white energy shot with a trailing tail, flying to the right.
+cell 7: an explosion burst in orange, yellow and white.
+cell 8: a white-cyan hit spark shaped like a star.
+
+PIXEL ART STYLE: authentic 32-bit handheld-era action-platformer sprites. Hard square pixels on one consistent grid, no anti-aliasing, no blur, no soft gradients, dark 1-pixel outlines, 3-tone cel shading with a bright specular highlight on the armor, the same limited palette as image 2.

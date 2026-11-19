@@ -1,0 +1,9 @@
+POSE GRID: 3 columns and 2 rows, six poses.
+The glasses and the lab coat stay on in every pose. He moves like a tired, lanky man.
+POSES:
+1. IDLE: standing a little stooped, one hand in the coat pocket, the data pad held against the hip with the other hand, a tired calm face.
+2. WALK: the middle of a slow slouching walking step, shoulders rounded, the coat tails swaying behind, the data pad under one arm.
+3. THINK: standing still, one hand on his chin, the other arm folded across the body holding the data pad, eyes looking down in thought.
+4. WRITE: standing and reaching up to write with a marker on a transparent pale-teal board that stands in front of him; on the board only simple geometric diagrams, circles and wavy lines (no readable letters or digits).
+5. SOLDER: sitting hunched forward on a low stool at a small workbench, round magnifier goggles over his eyes, a soldering iron in one hand and a small circuit board held in the other; a tiny wisp of smoke.
+6. ALARM: startled, jerking upright and stepping back, eyes wide, the glasses slipping, the data pad fumbled in both hands.

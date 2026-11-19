@@ -1,0 +1,24 @@
+{
+  "image": "nx07_sheet_1x.png",
+  "cell": [96, 96],
+  "columns": 8,
+  "rows": 4,
+  "facing": "right",
+  "note": "왼쪽을 볼 때는 좌우 반전한다. baseline 은 칸 안에서 발바닥이 닿는 y 좌표(px)다.",
+  "animations": {
+    "idle":      { "row": 0, "frames": [0, 1, 2, 3],             "baseline": 91, "loop": true },
+    "dash":      { "row": 0, "frames": [4, 5],                   "baseline": 91, "loop": true },
+    "hit":       { "row": 0, "frames": [6],                      "baseline": 91, "loop": false },
+    "down":      { "row": 0, "frames": [7],                      "baseline": 91, "loop": false },
+    "run":       { "row": 1, "frames": [0, 1, 2, 3, 4, 5, 6, 7], "baseline": 91, "loop": true },
+    "jump":      { "row": 2, "frames": [0, 1, 2, 3, 4, 5],       "baseline": 91, "loop": false,
+                   "frame_names": ["anticipation", "takeoff", "rise", "apex", "fall", "land"] },
+    "air_shoot": { "row": 2, "frames": [6, 7],                   "baseline": 91, "loop": false },
+    "shoot":     { "row": 3, "frames": [0, 1, 2],                "baseline": 87, "loop": false,
+                   "frame_names": ["aim", "fire", "recoil"] },
+    "punch":     { "row": 3, "frames": [3, 4, 5],                "baseline": 87, "loop": false,
+                   "frame_names": ["windup", "strike", "follow_through"] },
+    "parry":     { "row": 3, "frames": [6, 7],                   "baseline": 87, "loop": false,
+                   "frame_names": ["guard", "success"] }
+  }
+}

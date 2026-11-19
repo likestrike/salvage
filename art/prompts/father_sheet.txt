@@ -1,0 +1,15 @@
+Design a NEW character, Mirine's father, and present him as a character design sheet.
+
+REFERENCES: image 1 = his daughter Mirine (use it for the sheet layout and the drawing style, and give him a family resemblance: the same silver hair color and teal eyes). Image 2 = the heavy cargo mover machine he builds and pilots (source of his workshop colors).
+
+CHARACTER: a mechanic who builds cargo-carrying robots in a slum. A warm, dependable working man in his late thirties, about 178 cm tall, broad shoulders and strong forearms.
+- Head: short messy ash-silver hair, short stubble beard, kind teal eyes, welding goggles pushed up on his forehead.
+- Outfit: an industrial-yellow work jacket with black hazard trim and a cargo-robot workshop emblem on the back, worn open with the sleeves rolled up. Under it a white T-shirt with a few oil stains. Dark navy work overalls, a tool belt, heavy work boots, thick work gloves.
+- A towel around his neck.
+
+TITLE lines: "미리네의 아버지" / "화물 운반 로봇 메카닉" / "CARGO ROBOT MECHANIC"
+PROFILE lines: "직업 : 메카닉" / "제작 : 화물 운반 로봇" / "가족 : 딸 미리네"
+EXPRESSIONS: a big warm laugh, focused on his work, worried, resolute.
+ITEMS: a large wrench, a dented toolbox, the start-up key of the cargo mover, a small framed photo of him with a little silver-haired girl.
+POSES: repairing a robot arm with the wrench; sitting in the open cockpit of the cargo mover from image 2 and gripping the control levers; carrying a small silver-haired child on his shoulders.
+PALETTE: six swatches labeled "옐로", "네이비", "화이트", "가죽", "머리카락", "눈동자".

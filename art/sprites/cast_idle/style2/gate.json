@@ -1,0 +1,83 @@
+{
+ "states": {
+  "nx07_ref": {
+   "kind": "single",
+   "anchor": "feet",
+   "allow": {},
+   "pass": true,
+   "fails": [],
+   "sole_drift": 0,
+   "anchor_x_range": 0.0,
+   "height_range": 0,
+   "head_top_range": 0,
+   "head_x_range": 0.0,
+   "head_y_range": 0,
+   "changed_px": 0.0,
+   "clipped_px": 0
+  },
+  "mirine": {
+   "kind": "planted",
+   "anchor": "feet",
+   "allow": {
+    "sole": 0,
+    "anchor_x": 1,
+    "top": 4,
+    "height": 4,
+    "head_y": 2
+   },
+   "pass": true,
+   "fails": [],
+   "sole_drift": 0,
+   "anchor_x_range": 1.0,
+   "height_range": 1,
+   "head_top_range": 1,
+   "head_x_range": 1.0,
+   "head_y_range": 0,
+   "changed_px": 0.711,
+   "clipped_px": 284
+  },
+  "uncle": {
+   "kind": "planted",
+   "anchor": "feet",
+   "allow": {
+    "sole": 0,
+    "anchor_x": 1,
+    "top": 4,
+    "height": 4,
+    "head_y": 2
+   },
+   "pass": true,
+   "fails": [],
+   "sole_drift": 0,
+   "anchor_x_range": 0.5,
+   "height_range": 0,
+   "head_top_range": 0,
+   "head_x_range": 1.4,
+   "head_y_range": 0,
+   "changed_px": 0.684,
+   "clipped_px": 74
+  },
+  "bx05": {
+   "kind": "planted",
+   "anchor": "feet",
+   "allow": {
+    "sole": 0,
+    "anchor_x": 1,
+    "top": 4,
+    "height": 4,
+    "head_y": 2
+   },
+   "pass": true,
+   "fails": [],
+   "sole_drift": 0,
+   "anchor_x_range": 1.0,
+   "height_range": 3,
+   "head_top_range": 3,
+   "head_x_range": 1.0,
+   "head_y_range": 0,
+   "changed_px": 0.814,
+   "clipped_px": 0
+  }
+ },
+ "pass": true
+}

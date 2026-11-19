@@ -1,0 +1,23 @@
+Create a 2D pixel-art SPRITE SHEET of the charged-shot animation, in exactly the pixel-art style of image 2.
+
+Image 1 is the character design sheet (android NX-07A). Image 2 is the existing sprite sheet of this character in detailed cinematic pixel art. Match image 2 exactly: the same realistic proportions (about 6 heads tall, a SMALL head, slim build, long legs), the same character scale, the same dark olive armor colors, the same fine pixel detail, the same cyan rim light and the same outline style, so that the new frames can be mixed with the old ones. When the character stands upright it is exactly as tall as in image 2, and its head is exactly as small as in image 2. Do not enlarge the head.
+
+The right forearm is the energy cannon (a dark barrel with pale rings and a cyan glowing muzzle).
+
+LAYOUT: a strict uniform grid of 6 columns x 2 rows = 12 equal square cells. One pose per cell, centered horizontally, facing RIGHT, pure side view, feet on the same ground line in every cell except the two mid-air frames. Completely flat solid magenta (#FF00FF) background everywhere. No text, no labels, no numbers, no grid lines, no borders, no ground shadows, no motion blur. Every pose and every effect stays fully inside its own cell with a clear magenta margin on all sides.
+
+FRAMES, left to right, top row first:
+1. charging stance: feet planted wide, knees bent, cannon aimed forward, the left hand bracing the cannon arm; a few small cyan sparks at the muzzle.
+2. charging: the same stance, a small cyan energy ball at the muzzle and cyan specks being drawn in.
+3. charging: the same stance, a medium cyan energy ball with a white core.
+4. fully charged: the same stance, a large bright cyan-white energy ball with short lightning flickers.
+5. firing the charged shot: a big cyan-white muzzle blast, the body pushed back by recoil.
+6. recoil: leaning back, a puff of smoke at the muzzle.
+7. recovering to the ready stance.
+8. data-learning pose: standing upright, head slightly raised, a thin cyan ring of light around the helmet, both arms lowered.
+9. mid-air: jumping with the knees tucked, the cannon aimed forward with a large energy ball at the muzzle.
+10. mid-air: firing the charged shot with a big cyan-white muzzle blast.
+11. running while charging, an energy ball at the muzzle (one leg forward).
+12. running while charging, an energy ball at the muzzle (the other leg forward).
+
+Hard square pixels on one consistent grid, no anti-aliasing, no blur, no soft gradients, the same limited palette as image 2.

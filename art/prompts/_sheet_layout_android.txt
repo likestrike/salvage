@@ -1,0 +1,8 @@
+SHEET LAYOUT: one character design sheet on a light gray-white background with thin panel borders, using the same panel layout and typography as the reference design sheet in image 1. Write every Korean label exactly as given, and add no other text.
+- Top-left title block: the TITLE lines given above (first line big and bold), with a small V-shaped unit emblem below them.
+- Left column headed "프로필": the PROFILE lines given above.
+- Center: three large full-body standing views of the character, labeled "정면", "측면", "후면".
+- Top-right panel headed "헤드 디테일": the head drawn from the front, the side and the back.
+- Middle-right panel headed "무장": the WEAPON details given above, drawn without any captions or numbers.
+- Bottom-left panel headed "액션 포즈": three small dynamic poses: aiming and firing, running, and a close-range punch.
+- Bottom-right panel headed "컬러 팔레트": the PALETTE swatches given above, each with its label under it; next to it a box headed "유닛 마킹" with the V emblem and "07".

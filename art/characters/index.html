@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>캐릭터 등록부</title>
+<!-- 더블클릭으로 연다 (file://). 자료는 tools/charpipe.py report 가 _report/data.js 로 쓴다. 기획서 9.11 -->
+<link rel="stylesheet" href="_report/style.css">
+</head>
+<body>
+<header class="top">
+  <a class="home" href="#">캐릭터 등록부</a>
+  <span class="sub">Character Master · 원화 관리</span>
+  <span class="gen" id="gen"></span>
+</header>
+<main id="app"><p>자료(_report/data.js)를 읽지 못했다. <code>python tools/charpipe.py build</code> 를 돌린다.</p></main>
+<script src="_report/data.js" charset="utf-8"></script>
+<script src="_report/app.js" charset="utf-8"></script>
+</body>
+</html>

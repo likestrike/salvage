@@ -1,0 +1,8 @@
+Redraw the android character NX-07 from image 1 as a new character design sheet, keeping its design exactly and changing only the drawing style.
+
+REFERENCES: image 1 = the existing design sheet of NX-07. Keep every design element exactly: the round olive-drab helmet with the glowing cyan inverted-triangle emblem on the forehead and the dark visor band; the face with large teal eyes; the round earpiece with a short antenna; the olive-drab chest, shoulder and boot armor; the white plates on the forearms, thighs, knees and boots; the black bodysuit; the small backpack with a cyan core; the small cyan lights; the proportions of a 170 cm android. Image 2 = a newer sheet from the same project: match its line weight, flat cel shading, highlights and color brightness exactly, but do not copy its character design.
+
+TITLE lines: "NX-07" / "시안 A" / "GENERAL INFANTRY"
+PROFILE lines: "신장 : 170cm" / "분류 : 양산형 안드로이드" / "특징 : 범용 보병"
+WEAPON: the three interchangeable right-arm modules from image 1, each drawn on its own: the energy cannon with a cyan muzzle, the compact submachine gun, and the segmented cyan electric whip.
+PALETTE: five swatches labeled "올리브", "화이트", "다크 그레이", "검정", "시안".

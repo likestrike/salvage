@@ -1,0 +1,31 @@
+Create a 2D pixel-art SPRITE SHEET of the one close-combat move of the android: a SHORT UPPERCUT BODY BLOW (a liver shot) thrown with a deployable knuckle held in the right hand, in exactly the pixel-art style of image 2.
+
+REFERENCES:
+- image 1 = the character design sheet (android NX-07A). It is an illustration: take only the character design from it.
+- image 2 = the existing sprite sheet of this character. This is the STYLE AND SCALE GUIDE. Match it exactly: the same mid proportions (about 4 heads tall - not big-head, not realistic), the same helmet size, the same pixel size, the same bright clean palette (olive-drab armor, white plates, black bodysuit, saturated cyan lights), dark 1-pixel outlines, 3-tone cel shading with a small bright highlight. The new frames will be mixed with the frames of image 2.
+- image 3 = the concept sheet of this move and of the weapon (an illustration in a different style). Take from it the design of the knuckle and the poses of the move. Do not copy its drawing style, its text or its panels. Do not draw the enemy.
+- image 4 = a LAYOUT GUIDE with exactly the size and grid of the output image. Every cell contains a dark outline box. The box marks where the character stands: the bottom edge of the box is the GROUND LINE, and the box is exactly as tall as the character standing upright. Draw the character inside the box of its cell, feet on the bottom edge. A crouching pose is lower than the box; only a jump leaves the ground. Effects (energy, sparks, dust, blast) may extend outside the box but stay inside the cell. Do NOT draw the boxes.
+
+THE HEAD MUST BE IDENTICAL IN EVERY FRAME: the same helmet at the same size, drawn the same way as in image 2 - a round olive-drab helmet, a glowing cyan inverted-triangle emblem on the forehead, a dark visor band, one teal eye, a pale face, a round white earpiece with a short white swept-back fin. Do not make the helmet bigger or smaller from frame to frame.
+
+CHARACTER: olive-drab chest / shoulder / boot armor, white plates on the forearms, hips and knees, black bodysuit, slim waist and thighs, big gauntlets and big boots, small backpack with a cyan core. Facing RIGHT, pure side view.
+
+THE WEAPON - BLAST KNUCKLE, in the right hand (the hand nearest to the viewer). In this sheet the right forearm is NOT a cannon: it is an armored forearm whose plates open. A compact grip-type knuckle slides out into the fist: a thick handle held inside the closed fist, and in front of the fingers one wide FLAT striking plate - a thick flat slab with slightly rounded corners, no spikes, no points. Two copper electrode bars run across the flat face. A short cable connects it to the forearm. Current: cyan-white electric arcs crawl over the plate. On impact it detonates: an orange-and-white explosion mixed with forked cyan-white arcs.
+
+THE MOVE. The android steps in very close, drops low with bent knees and a twisted torso, then drives the legs and the hip upward and throws a SHORT, compact uppercut with the right arm into the flank of an enemy standing right in front of it. The elbow stays bent at about 90 degrees and close to the body. The fist travels only a short way upward and forward and stops at about chest height. BOTH FEET STAY ON THE GROUND in every frame. It is NOT a tall rising uppercut: the android never jumps and the arm is never stretched straight up.
+
+LAYOUT: exactly the grid of image 4: 4 columns x 2 rows = 8 equal WIDE cells, one pose per cell. The character stands in the LEFT half of its cell (inside the box); the right half of the cell is free space for the fist, the arcs and the explosion. The enemy is NOT drawn.
+
+FRAMES, left to right, top row first:
+1. step in: a low forward step, the right forearm plates opening, the knuckle sliding out into the right hand.
+2. crouch: a deep low crouch, knees bent, torso twisted away, the right elbow pulled back at the hip, the fist gripping the knuckle; the flat plate is visible.
+3. charge: the same deep crouch, cyan-white electric arcs crawling over the knuckle and the forearm, the body coiled like a spring.
+4. short uppercut: the legs and hip drive up, the bent right arm punches up and forward to chest height, a short curved cyan motion trail behind the fist. No explosion yet.
+5. detonation: the same punching pose at the moment of impact; right in front of the fist a big orange-and-white explosion with forked cyan-white arcs and flying sparks.
+6. shockwave: the same pose held; the explosion has opened into a ring of smoke and a few embers, thin cyan arcs fading.
+7. recover: the fist pulled back to the hip, the body rising, white steam venting from the knuckle and the forearm.
+8. back to the ready stance: standing, the knuckle folding back into the forearm, a last small wisp of steam.
+The feet stay in the same place from frame 2 to frame 8.
+
+Completely flat solid magenta (#FF00FF) background everywhere. No text, no labels, no numbers, no grid lines, no borders, no ground shadows, no motion blur. Every pose and every effect stays fully inside its own cell with a clear magenta margin on all sides.
+Hard square pixels on one consistent grid, the same pixel size as image 2, no anti-aliasing, no blur, no soft gradients, the same limited palette as image 2.

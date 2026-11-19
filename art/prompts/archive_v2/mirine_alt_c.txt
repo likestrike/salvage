@@ -1,0 +1,14 @@
+Redraw the character from image 1 as a new character design sheet. Keep the design, and restyle the shapes, proportions and rendering in the ART STYLE described at the end.
+
+REFERENCES: image 1 = the existing design sheet of this character. Use it ONLY for the design and for the sheet layout. Ignore its rendering style and its black line art. Do not copy any caption text from it.
+
+KEEP the design "hacker" (Mirine, design draft C): an 11-year-old girl, 142 cm tall, teal eyes. Black shoulder-length hair tied in two low twin tails whose tips are dyed cyan; straight bangs; a small ahoge. A huge charcoal-gray hoodie that reaches her thighs, hood down, sleeves so long they cover her hands, with one cyan stripe around each sleeve. Dark shorts over full-length black leggings. Worn high-top sneakers. Big headphones around her neck; a small hard-shell backpack computer with a folding antenna and cables; in her hands a self-made clamshell mini-computer with a slot for old game cartridges. Sleepy half-closed eyes.
+
+RESTYLE: draw the hair as big angular chunks with sharp tips and small white rectangular highlights; make the shoes, cuffs and hands bigger and the torso and legs slimmer; draw the clothes as big simple shapes with very few folds, and hard items with chamfered edges; use clean saturated colors with purple-tinted hard shadows and small sparkle glints.
+
+TITLE lines: "미리네" / "시안 C" / "HACKER"
+PROFILE lines: "나이 : 11세" / "신장 : 142cm" / "역할 : 프로그래밍"
+EXPRESSIONS: sleepy, a sharp focused stare, a smug smile, startled.
+ITEMS: the clamshell mini-computer, the backpack computer, the headphones, an old game cartridge whose label shows only a plain four-point sparkle shape.
+POSES: sitting cross-legged and typing with holographic windows around her, plugging a cartridge into the mini-computer, running with the hood flapping.
+PALETTE: six swatches labeled "차콜", "시안", "검정", "화이트", "머리카락", "눈동자".

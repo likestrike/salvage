@@ -1,0 +1,15 @@
+Design a NEW alternative version of the android NX-07 and present it as a character design sheet.
+
+REFERENCES: image 1 = the current design of NX-07 (use it only for the sheet layout, the drawing style and the world's military design language). Image 2 = another android of the same army (design language only). The new design must be clearly DIFFERENT from image 1: do not reuse its round helmet, its triangle forehead emblem, or its armor shapes.
+
+CONCEPT "visor scout": a mass-produced combat android with a slender, sharp silhouette, about 160 cm tall, quiet and precise.
+- Head: an angular, swept-back helmet like a pilot's helmet, with one wide glowing cyan visor covering the eyes. The mouth and chin are visible and human-like. One long sensor fin on the right side of the helmet.
+- Body: slim layered armor in dark olive-gray over a black bodysuit. Asymmetric: an armored right shoulder with a stenciled unit number, the left shoulder unarmored.
+- A short, tattered sand-colored cloak with a hood hangs over the shoulders and back, made from salvaged tarp, with a frayed hem.
+- A holster on the right thigh, oversized forearm guards, and long sprint boots with flared ankles.
+- Thin cyan light lines along the armor.
+
+TITLE lines: "NX-07" / "시안 D" / "VISOR SCOUT"
+PROFILE lines: "신장 : 160cm" / "분류 : 양산형 안드로이드" / "특징 : 정찰 저격"
+WEAPON: a long-barreled energy rifle carried in both hands, shown on its own, docked onto the right forearm, and firing a thin cyan beam.
+PALETTE: five swatches labeled "올리브 그레이", "샌드", "검정", "화이트", "시안".

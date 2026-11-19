@@ -1,0 +1,27 @@
+Create a 2D pixel-art SPRITE SHEET of two evasion animations, in exactly the pixel-art style of image 2.
+
+Image 1 is the character design sheet (android NX-07A). Image 2 is the existing sprite sheet of this character in detailed cinematic pixel art. Match image 2 exactly: the same realistic proportions (about 6 heads tall, a SMALL head, slim build, long legs), the same character scale, the same dark olive armor colors, the same fine pixel detail, the same cyan rim light and the same outline style, so that the new frames can be mixed with the old ones. When the character stands upright it is exactly as tall as in image 2, and its head is exactly as small as in image 2. Do not enlarge the head.
+
+This sheet adds two EVASION moves. The right forearm is the energy cannon, as in image 2.
+
+IMPORTANT - the existing sheet (image 2) already has a NORMAL DASH (top row, 5th and 6th frames): a booster dash with the body stretched out long, a bright cyan jet flame shooting from the backpack, and the cannon pointing straight forward. The forward dodge on this sheet must read as a DIFFERENT move at a glance. It is an evasive slip, not a booster dash: NO jet flame and NO glow from the backpack in any frame of this sheet; the body is turned sideways and ducks low, shoulder first; the head is tucked down; the cannon arm is folded tight against the chest and is not aimed; the character slides on its feet with dust at the ground.
+
+TOP ROW - BACKSTEP (a short hop straight backward while still facing right, toward the enemy). Frames 1 to 6, left to right:
+1. anticipation: the weight shifts onto the front foot, both knees bend, the upper body pulls back a little.
+2. push-off: the front foot kicks the ground and the body starts to lean back; a small dust puff at the front foot.
+3. airborne: a low hop backward, both feet just off the ground, knees tucked, the body leaning back, the eyes and the cannon still pointed forward at the enemy.
+4. airborne: the rear leg reaches back and down for the ground, the front leg trails.
+5. landing: the rear foot lands first and skids, knees bent deep to absorb, a low dust streak at the feet.
+6. recover: a low ready stance, cannon forward.
+
+BOTTOM ROW - DODGE DASH (a very short evasive slip forward). Frames 7 to 12, left to right:
+7. anticipation: a quick dip - the head and shoulders drop, the torso starts to twist sideways, the cannon arm pulls in toward the chest.
+8. launch: lunging forward very low, the leading shoulder first, the head tucked behind the shoulder, the cannon arm folded against the chest, the free hand skimming just above the ground.
+9. slip, the lowest point: the body turned sideways and almost horizontal, sliding on the lead foot with the rear knee nearly on the ground; dust kicked up behind the feet and two or three short thin white speed streaks behind the body.
+10. slip, starting to rise: still low and sideways, the trailing leg swinging forward, a little dust behind.
+11. brake: the lead foot planted hard and skidding, a dust puff in front of that foot, the body rotating upright again.
+12. recover: a low ready stance, the cannon coming back up.
+
+LAYOUT: a strict uniform grid of 6 columns x 2 rows = 12 equal square cells. One pose per cell, facing RIGHT, pure side view. The character stays in the middle of its cell in every frame (do not draw the distance travelled). The feet stand on the same ground line in every cell, except the frames described as airborne. Completely flat solid magenta (#FF00FF) background everywhere. No text, no labels, no numbers, no grid lines, no borders, no ground shadows, no motion blur. Every pose and every effect stays fully inside its own cell with a clear magenta margin on all sides.
+
+Hard square pixels on one consistent grid, no anti-aliasing, no blur, no soft gradients, the same limited palette as image 2.

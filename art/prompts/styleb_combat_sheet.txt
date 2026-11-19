@@ -1,0 +1,9 @@
+Redraw the sprite sheet in image 1 in the pixel-art style of image 2, keeping the same grid and the same content in every cell.
+
+Image 1 is the existing combat sprite sheet: an 8 x 4 grid of 32 equal cells on a magenta background. Row 1 = the player character charging and firing a charged shot, and a data-learning pose. Row 2 = the player character's martial-arts punch. Row 3 = an enemy recon drone. Row 4 = pickup items and effects. Keep exactly the same layout: the same grid, the same action, pose and effect in each cell, the same facing directions, the feet on the same baseline in rows 1 and 2, and the sprites of rows 3 and 4 centered in their cells.
+
+Image 2 is the new sprite sheet of the same player character. Draw the character in rows 1 and 2 exactly like image 2: the same realistic proportions (about 6 heads tall, small head, slim build, long legs), the same height in the cell, the same dark olive armor colors, the same fine pixel detail, the same cyan rim light and the same outline style. In row 1 the right forearm is the energy cannon; in row 2 it has become an armored fist.
+
+Redraw the drone in row 3 and the items and effects in row 4 with the same fine pixel detail, lighting and palette treatment as image 2: the drone is dark gunmetal with one red eye lens, two ducted fans and a tail antenna; the items are a gray game cartridge with a blank blue label, a black VHS tape with a blank white label, a compact disc, a USB stick; the effects are a small cyan bullet, a large charged cyan-white shot with a tail, an orange-and-white explosion and a white-cyan hit spark.
+
+Hard square pixels on one consistent grid, no anti-aliasing, no blur, no soft gradients. Completely flat solid magenta (#FF00FF) background everywhere. No text, no letters, no numbers, no grid lines, no borders, no ground shadows, no motion blur. Every sprite and every effect stays fully inside its own cell with a clear magenta margin on all sides.

@@ -1,0 +1,19 @@
+Create a CHARACTER DESIGN SHEET for the final evolved form of the android NX-07, in the same sheet layout and typography as image 1.
+
+REFERENCES: image 1 = the base form NX-07A. Keep this character: its face, teal eyes, build of about 170 cm, round helmet with the glowing cyan inverted-triangle emblem, black bodysuit, and the sheet layout. Images 2-5 are enemy machines whose salvaged parts were rebuilt into NX-07's new equipment: image 2 = heavy commander android (source of the HEAD part), image 3 = heavy cargo mover machine (source of the LEG part), image 4 = recon drone (source of the BACK BOOSTER), image 5 = orbital AI node (source of the MAIN CANNON).
+
+THE FINAL FORM is the same android upgraded with five parts. Its mass-produced olive-drab armor is gone: every armor plate is now WHITE with SAFETY-ORANGE accent panels, dark gray joints, black bodysuit and cyan glowing lights.
+1. HEAD: the round helmet and its cyan inverted-triangle emblem are kept, but it gains an armored brow guard, an orange stripe over the top, and two long rod antennas rising from the ear units (a commander-unit comms array).
+2. BODY ARMOR: a thick layered chest plate with a cyan core in the center and large angular shoulder armor.
+3. LEGS: heavy greaves with exposed hydraulic pistons at the knees and a small caterpillar-tread roller unit built into each heel (from the cargo mover), black-and-orange hazard stripes on the shins.
+4. BACK BOOSTER: two ducted-fan thruster pods mounted on short arms on the back (from the recon drone), with cyan thrust glow.
+5. MAIN CANNON: the right forearm is a long heavy cannon with three glowing teal accelerator rings floating around the barrel (from the orbital AI node's ring).
+The left arm keeps a normal armored hand. It must still read as the same small android from image 1: heroic but compact, not bulky, not taller.
+
+SHEET CONTENT (light gray-white background, thin panel borders, Korean labels written exactly as given):
+- Top-left title: big bold "NX-07", below it "최종 진화형", below it "FINAL EVOLUTION FORM", and the same V-shaped unit emblem as image 1.
+- Left column headed "프로필" with three lines: "분류 : 진화형 안드로이드", "기반 : NX-07A 양산형", "구성 : 보스 파츠 5종".
+- Center: three large full-body views labeled "정면", "측면", "후면".
+- Right panel headed "파츠 구성": five detail drawings, each part shown on its own, labeled "1. 머리", "2. 장갑", "3. 다리", "4. 등 부스터", "5. 주포".
+- Bottom-left headed "액션 포즈": three small dynamic poses: dashing with the boosters firing, firing the ring cannon, and punching with an explosive burst at the fist.
+- Bottom-right headed "컬러 팔레트": five swatches labeled "화이트", "오렌지", "다크 그레이", "블랙", "시안 글로우"; next to it a box headed "유닛 마킹" with the V emblem and "07".

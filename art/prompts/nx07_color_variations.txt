@@ -1,0 +1,15 @@
+Create a COLOR VARIATION design sheet, in the same sheet style and typography as image 1.
+
+REFERENCES: image 1 = the base form NX-07A of the android (mass-produced type). Image 2 = the final evolved form of the same android. Reproduce both designs exactly; only the armor colors change.
+
+LAYOUT: a grid of 2 rows x 6 columns of full-body figures in a three-quarter front standing view, all the same size, evenly spaced, on a light gray-white background.
+Top row = the BASE FORM (image 1 design) in six color schemes. Bottom row = the FINAL FORM (image 2 design) in the same six color schemes, each directly below its base version.
+In every scheme the bodysuit stays black, the joints stay dark gray, and the glowing lights, eyes and triangle emblem stay cyan. Only the main armor color and the accent color change:
+Column 1 "A": olive drab armor with white accent plates (the original military color).
+Column 2 "B": white armor with safety-orange accents.
+Column 3 "C": cobalt blue armor with white accents and small yellow details.
+Column 4 "D": crimson red armor with white accents and small gold details.
+Column 5 "E": charcoal black armor with gunmetal gray accents and brighter cyan lines.
+Column 6 "F": industrial yellow armor with black accents and hazard stripes.
+
+TEXT (Korean, written exactly as given): top-left title big bold "NX-07", below it "컬러 바리에이션", below it "COLOR VARIATION". At the left of the top row the label "양산형"; at the left of the bottom row the label "최종 진화형". Under each column one caption: "A 올리브 드랩", "B 화이트 오렌지", "C 코발트 블루", "D 크림슨 레드", "E 차콜 블랙", "F 인더스트리얼 옐로". Beside each caption two small square color swatches (main color, accent color). No other text.

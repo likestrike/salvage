@@ -1,0 +1,303 @@
+{
+  "format": "salvage-character/1",
+  "id": "father",
+  "name": "미리네의 아버지",
+  "kind": "npc",
+  "design": {
+    "current": "디자인 시안 한 장",
+    "status": "[제안]",
+    "options": [
+      "design_sheet"
+    ],
+    "note": "시안이 한 장뿐이다 (STORY.md 10장 9). 이름과 나이도 [미정].",
+    "doc": "docs/STORY.md 4장"
+  },
+  "story": {
+    "height_cm": 178,
+    "height_mark": "[제안]",
+    "body": "30대 후반, 어깨가 넓은 일꾼 체형",
+    "note": "키 · 나이 · 체형은 디자인 시안을 그리면서 붙인 [제안]이다. 고인 (프롤로그).",
+    "doc": "docs/STORY.md 4장"
+  },
+  "assets": {
+    "front": {
+      "group": "view",
+      "label": "정면 전신",
+      "file": "art/concept/setting/father/01_front.png",
+      "source": {
+        "made_by": "tools/setting_sheets.py split father",
+        "from": "art/concept/setting/father/turnaround.png",
+        "note": "세 시점을 한 장에 그린 뒤 같은 캔버스 · 같은 배율 · 같은 발바닥 줄로 나눴다",
+        "doc": "docs/GAME_DESIGN.md 9.4.1"
+      },
+      "base": {
+        "version": 1,
+        "date": "2026-11-19",
+        "sha256": "d1a3004721723a1a8b6bdc6b82ac82fc8f7ac1d87b2d9315ac3ce7ae3e42a8be",
+        "bytes": 1328551,
+        "size": [
+          958,
+          2062
+        ]
+      }
+    },
+    "side": {
+      "group": "view",
+      "label": "측면 전신",
+      "file": "art/concept/setting/father/02_side.png",
+      "source": {
+        "made_by": "tools/setting_sheets.py split father",
+        "from": "art/concept/setting/father/turnaround.png",
+        "note": "세 시점을 한 장에 그린 뒤 같은 캔버스 · 같은 배율 · 같은 발바닥 줄로 나눴다. 측면은 오른쪽을 본다",
+        "doc": "docs/GAME_DESIGN.md 9.4.1"
+      },
+      "facing": "right",
+      "base": {
+        "version": 1,
+        "date": "2026-11-19",
+        "sha256": "155e8727ae2f0d4666fcca06714ff143fa2d018a7618e3c971d10655a6c25d82",
+        "bytes": 865294,
+        "size": [
+          958,
+          2062
+        ]
+      }
+    },
+    "back": {
+      "group": "view",
+      "label": "후면 전신",
+      "file": "art/concept/setting/father/03_back.png",
+      "source": {
+        "made_by": "tools/setting_sheets.py split father",
+        "from": "art/concept/setting/father/turnaround.png",
+        "note": "세 시점을 한 장에 그린 뒤 같은 캔버스 · 같은 배율 · 같은 발바닥 줄로 나눴다",
+        "doc": "docs/GAME_DESIGN.md 9.4.1"
+      },
+      "base": {
+        "version": 1,
+        "date": "2026-11-19",
+        "sha256": "06de0f8bd23a76eec6ffd9d5c2b9cb31f9c85d35aa21ad0c3a97ef7f52d8ff13",
+        "bytes": 1179078,
+        "size": [
+          958,
+          2062
+        ]
+      }
+    },
+    "face": {
+      "group": "sheet",
+      "label": "얼굴 확대",
+      "file": "art/concept/setting/father/04_face.png",
+      "source": {
+        "made_by": "tools/setting_sheets.py gen father face",
+        "tool": "tools/fal_image.py --keep-style human",
+        "model": "openai/gpt-image-2.6/sunburst/edit",
+        "prompts": [
+          "art/prompts/setting/father_design.txt",
+          "art/prompts/setting/father_face.txt",
+          "art/prompts/setting/_layout_face.txt"
+        ],
+        "refs": [
+          "art/prompts/setting/guide_father.png",
+          "art/concept/father_sheet.png"
+        ],
+        "style_anchor": "art/style_anchor/human.png",
+        "doc": "docs/GAME_DESIGN.md 9.4.1",
+        "definition": "art/concept/setting/setting.json"
+      },
+      "base": {
+        "version": 1,
+        "date": "2026-11-19",
+        "sha256": "a0fd35b11d32f9b1d64ceb10cc6052dd2064eb4608a34760e088f9a34b9f4fc8",
+        "bytes": 5370580,
+        "size": [
+          3072,
+          2048
+        ]
+      }
+    },
+    "body": {
+      "group": "sheet",
+      "label": "신체 확대",
+      "file": "art/concept/setting/father/05_body.png",
+      "source": {
+        "made_by": "tools/setting_sheets.py gen father body",
+        "tool": "tools/fal_image.py --keep-style human",
+        "model": "openai/gpt-image-2.6/sunburst/edit",
+        "prompts": [
+          "art/prompts/setting/father_design.txt",
+          "art/prompts/setting/father_body.txt",
+          "art/prompts/setting/_layout_body.txt"
+        ],
+        "refs": [
+          "art/prompts/setting/guide_father.png",
+          "art/concept/father_sheet.png"
+        ],
+        "style_anchor": "art/style_anchor/human.png",
+        "doc": "docs/GAME_DESIGN.md 9.4.1",
+        "definition": "art/concept/setting/setting.json"
+      },
+      "base": {
+        "version": 1,
+        "date": "2026-11-19",
+        "sha256": "704fada4b6af8e4829e5e6ee01b062b1bccf5adf011297511e0e0811b62bb424",
+        "bytes": 4798564,
+        "size": [
+          3072,
+          2048
+        ]
+      }
+    },
+    "items": {
+      "group": "sheet",
+      "label": "소지품 단독 (대형 렌치 · 공구함) — 무기 없음",
+      "file": "art/concept/setting/father/06_items.png",
+      "source": {
+        "made_by": "tools/setting_sheets.py gen father items",
+        "tool": "tools/fal_image.py --keep-style human",
+        "model": "openai/gpt-image-2.6/sunburst/edit",
+        "prompts": [
+          "art/prompts/setting/father_design.txt",
+          "art/prompts/setting/father_items.txt",
+          "art/prompts/setting/_layout_items.txt"
+        ],
+        "refs": [
+          "art/prompts/setting/guide_father.png",
+          "art/concept/father_sheet.png"
+        ],
+        "style_anchor": "art/style_anchor/human.png",
+        "doc": "docs/GAME_DESIGN.md 9.4.1",
+        "definition": "art/concept/setting/setting.json"
+      },
+      "base": {
+        "version": 1,
+        "date": "2026-11-19",
+        "sha256": "0cdc337fcc3fba1dfba64820250efe433fa2c14e347c7d371fcc6a8388c37c77",
+        "bytes": 4291180,
+        "size": [
+          3072,
+          2048
+        ]
+      }
+    },
+    "poses": {
+      "group": "sheet",
+      "label": "주요 포즈",
+      "file": "art/concept/setting/father/07_poses.png",
+      "source": {
+        "made_by": "tools/setting_sheets.py gen father poses",
+        "tool": "tools/fal_image.py --keep-style human",
+        "model": "openai/gpt-image-2.6/sunburst/edit",
+        "prompts": [
+          "art/prompts/setting/father_design.txt",
+          "art/prompts/setting/father_poses.txt",
+          "art/prompts/setting/_layout_poses.txt"
+        ],
+        "refs": [
+          "art/prompts/setting/guide_father.png",
+          "art/concept/father_sheet.png"
+        ],
+        "style_anchor": "art/style_anchor/human.png",
+        "doc": "docs/GAME_DESIGN.md 9.4.1",
+        "definition": "art/concept/setting/setting.json"
+      },
+      "base": {
+        "version": 1,
+        "date": "2026-11-19",
+        "sha256": "dd820be39683c1d6286f098a73e7fe54430cf72e24a6bff1fd2415ba8cd09770",
+        "bytes": 4810548,
+        "size": [
+          3072,
+          2048
+        ]
+      }
+    },
+    "turnaround": {
+      "group": "source",
+      "label": "세 시점 원본 (나누기 전)",
+      "file": "art/concept/setting/father/turnaround.png",
+      "source": {
+        "made_by": "tools/setting_sheets.py gen father turnaround",
+        "tool": "tools/fal_image.py --keep-style human",
+        "model": "openai/gpt-image-2.6/sunburst/edit",
+        "prompts": [
+          "art/prompts/setting/father_design.txt",
+          "art/prompts/setting/father_turnaround.txt",
+          "art/prompts/setting/_layout_turnaround.txt"
+        ],
+        "refs": [
+          "art/prompts/setting/guide_father.png",
+          "art/concept/father_sheet.png"
+        ],
+        "style_anchor": "art/style_anchor/human.png",
+        "doc": "docs/GAME_DESIGN.md 9.4.1",
+        "definition": "art/concept/setting/setting.json"
+      },
+      "base": {
+        "version": 1,
+        "date": "2026-11-19",
+        "sha256": "c07d54b9bed0fda6baa4b3ad1300be16f7d585fe1d89964bc46d213e0bb0e7f2",
+        "bytes": 4419566,
+        "size": [
+          3072,
+          2048
+        ]
+      }
+    },
+    "design_sheet": {
+      "group": "design",
+      "label": "디자인 시안 [제안]",
+      "file": "art/concept/father_sheet.png",
+      "source": {
+        "tool": "tools/fal_image.py --keep-style human",
+        "prompts": [
+          "art/prompts/father_sheet.txt",
+          "art/prompts/_sheet_layout_human.txt"
+        ],
+        "refs_note": "이 시트를 뽑을 때 넣은 참조 그림의 기록이 남아 있지 않다",
+        "doc": "docs/STORY.md 4장"
+      },
+      "base": {
+        "version": 1,
+        "date": "2026-11-19",
+        "sha256": "223a9c4ad688dffdeecb402c0b2242f72cd5b8a4c332b53e68fff8719aa88e9b",
+        "bytes": 5621788,
+        "size": [
+          3072,
+          2048
+        ]
+      }
+    }
+  },
+  "approvals": [],
+  "records": [],
+  "history": [
+    {
+      "date": "2026-11-19",
+      "what": "등록",
+      "by": "agent",
+      "assets": 8,
+      "note": "설정화 묶음 setting.json#father"
+    },
+    {
+      "date": "2026-11-19",
+      "what": "파일 더함",
+      "by": "agent",
+      "asset": "design_sheet",
+      "file": "art/concept/father_sheet.png"
+    },
+    {
+      "date": "2026-11-19",
+      "what": "설명 칸 적음",
+      "by": "agent",
+      "note": "디자인 상태 · 설정 키 · 게임 정보 · 기록을 STORY.md 4장과 기획서 9.4.1 · 9.8 · 9.9 · 9.10 · 9.11에서 옮겨 적었다"
+    }
+  ],
+  "game": null,
+  "links": [
+    {
+      "label": "설정화 묶음 확인 그림",
+      "file": "art/concept/setting/father/overview.png"
+    }
+  ]
+}

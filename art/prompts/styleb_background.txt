@@ -1,0 +1,13 @@
+Create a wide background for a 2D side-scrolling action game in detailed cinematic pixel art, the kind used in modern high-end 2D action platformers and gothic exploration platformers.
+
+Image 1 shows the setting only (a slum street below a gleaming city with a giant teal data sphere in the sky). Do not copy its drawing style, its characters or its interface.
+
+SCENE, seen straight from the side, with NO characters, NO enemies, NO items, NO interface and NO text:
+- Night, light rain. A dystopian slum street. The street surface itself is NOT drawn: the lowest 16 percent of the image is left as a plain flat band of very dark blue-gray, with a straight horizontal top edge.
+- Directly behind the street: a continuous row of stacked shanty buildings, corrugated metal walls, shuttered shops, awnings, air conditioners, tangled power lines, pipes, hanging laundry, a few glowing neon signs with abstract shapes only, and warm lit windows. The buildings stand on the top edge of the dark band.
+- Far behind: the clean towers of a rich futuristic city, pale and hazy, and above them a huge translucent teal sphere made of glowing glyph-like marks, hanging in the sky like a moon.
+- Atmosphere: depth through haze, light shafts from the sphere, wet reflections of neon on metal, thin rain streaks, drifting steam.
+
+STYLE: fine pixel detail, a limited palette of deep blues and purples with warm orange window lights, pink and cyan neon and a teal glow from the sphere; strong contrast between dark silhouettes and light sources; hard square pixels on one consistent grid, no anti-aliasing, no blur.
+
+The left and right edges should show plain building walls so that the image can be repeated side by side.

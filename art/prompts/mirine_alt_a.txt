@@ -1,0 +1,10 @@
+Redraw the girl character Mirine from image 1 as a new character design sheet, keeping her design exactly and changing only the drawing style.
+
+REFERENCES: image 1 = the existing design sheet of Mirine. Keep every design element exactly: an 11-year-old girl, 142 cm tall; long loose silver hair down to her waist with a small ahoge; large teal eyes; a small teal device clipped above her ear; an oversized navy-blue robe coat with wide sleeves, pale trim lines, a wing-shaped emblem on the sleeve and on the back, and a frayed hem; a white T-shirt; rolled-up denim shorts; a brown leather belt with a tool pouch on her right hip; gray socks; chunky navy-and-white sneakers; a handheld hacking terminal with a glowing teal screen. Image 2 = a newer sheet from the same project: match its line weight, flat cel shading, highlights and color brightness exactly, but do not copy its character design.
+
+TITLE lines: "미리네" / "시안 A" / "GENIUS HACKER"
+PROFILE lines: "나이 : 11세" / "신장 : 142cm" / "역할 : 해킹"
+EXPRESSIONS: a gentle smile, an excited open-mouthed grin, focused concentration, surprise.
+ITEMS: the handheld hacking terminal shown open, the same terminal shown closed, the leather multi-tool pouch kit, the wing emblem of her coat.
+POSES: running while holding the terminal, crouching and hacking with holographic panels around her, holding the terminal up triumphantly.
+PALETTE: six swatches labeled "도포", "화이트", "데님", "가죽", "머리카락", "눈동자".

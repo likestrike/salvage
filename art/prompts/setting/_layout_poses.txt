@@ -1,0 +1,7 @@
+IMAGE TO DRAW: a KEY POSE SHEET used as the standard for animating this character in a side-scrolling game. The POSES given above, each as one full-body drawing, in the clean grid given in POSE GRID above, and nothing else.
+- One pose per cell, in the order given: left to right, top row first. Each figure is centered in its cell with empty space around it; figures never touch or overlap; nothing is cut off by the picture edge.
+- SIDE-SCROLLER VIEW: in every pose the character is seen from the side and faces RIGHT (the chest may turn a little toward the viewer so that both arms can be read). Camera at eye level, no perspective, no foreshortening, no dramatic camera angle.
+- It is the same character at the same scale in every cell: the same head size, the same body proportions and the same costume as in image 1. In every pose that touches the ground, the soles rest on one invisible horizontal ground line per row.
+- Each pose is one frozen key frame of a movement, with a clear readable silhouette and a clear line of action. Whole body visible, including both feet.
+- Effects only where a pose asks for them, and small.
+- BACKGROUND: plain flat pure white, completely empty. No ground line, no cast shadow, no scenery, no panel borders, no frames, no arrows, no motion lines, no text, no labels, no letters, no numbers, no logos, no color swatches.

@@ -1,0 +1,19 @@
+Redraw the sprite sheet in image 2 with different body proportions, keeping the same grid, the same pose in every cell and the same pixel-art rendering.
+
+Image 1 is the character design sheet (android NX-07A). Image 2 is the existing sprite sheet: an 8 x 4 grid of 32 equal cells on a magenta background. Keep exactly the same layout: the same grid, the same action and pose in each cell, the character facing RIGHT, the feet on the same baseline in each row, and the same effects in the same cells (thruster flame, muzzle flash and bullet, punch burst, smoke, parry spark).
+
+WHAT CHANGES - PROPORTIONS ONLY. In image 2 the character is squashed into big-head proportions (about 3 heads tall). Redraw it with the body proportions of the design sheet in image 1: about 4 to 4.5 heads tall.
+- The helmet is clearly smaller than in image 2: its height is a little under one quarter of the standing height.
+- The torso and the legs are longer. The legs are about half of the standing height.
+- Keep the design's action silhouette: a slim waist and slim thighs in the black bodysuit, broad round shoulder armor, BIG forearm gauntlets, BIG chunky boots, large hands. The fists and the cannon stay large and easy to read.
+- The face stays readable: two teal eyes are clearly visible under the visor band, and the cyan triangle emblem is clearly visible on the helmet.
+- Do NOT go as far as realistic proportions: not 6 heads tall, no tiny head, no thin realistic limbs.
+- The character is exactly as tall in its cell as the character in image 2 (the standing pose fills the same height).
+
+WHAT STAYS THE SAME - RENDERING. Exactly the pixel-art rendering of image 2: the same pixel size, the same bright clean palette (olive-drab armor, white plates, black bodysuit, saturated cyan lights), dark 1-pixel outlines, 3-tone cel shading with a bright specular highlight on the armor, hard square pixels on one consistent grid, no anti-aliasing, no blur, no soft gradients. Do not make the colors darker or more muted.
+
+POSES. Because the limbs are longer, make every pose read more clearly than in image 2: strong, clear key poses with a distinct silhouette; the arms and legs stretch and bend visibly; the run cycle has a long stride; the punch is thrown with the whole body.
+
+CHARACTER: round olive-drab helmet with a glowing cyan inverted-triangle emblem on the forehead, dark visor band, teal eyes, round earpiece with a short swept-back fin, olive-drab chest / shoulder / boot armor, white plates on the forearms, hips and knees, black bodysuit, small backpack with a cyan core, small glowing cyan accent lights. The right forearm (the arm nearest to the viewer) is the energy cannon: an olive barrel with white rings and a cyan glowing muzzle. It stays a cannon in every frame except the PUNCH frames.
+
+Completely flat solid magenta (#FF00FF) background everywhere. No text, no labels, no numbers, no grid lines, no borders, no ground shadows, no motion blur. Every pose and every effect stays fully inside its own cell with a clear magenta margin on all sides.

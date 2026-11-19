@@ -1,0 +1,7 @@
+HEAD: the head of Mirine: the long loose silver hair with its bangs and the small curled ahoge, the large teal eyes, the small dark-teal device clipped in the hair above her ear, and the hood collar of the navy coat over the white T-shirt at the shoulders. The hair is the same in every drawing. In the back view there is no face: the long hair falling straight down and the ahoge on top.
+NEUTRAL: calm, with a faint gentle smile. Eyes open and bright, mouth closed.
+EXPRESSIONS:
+1. JOY: a big excited open-mouthed grin, eyes sparkling, brows lifted.
+2. FOCUS: brows drawn down, eyes narrowed and sharp, mouth a small firm line, concentrating hard.
+3. SURPRISE: eyes wide open with small pupils, brows high, mouth a small round "o".
+4. SAD: eyes lowered and half closed, brows tilted up in the middle, mouth small and pressed shut, quietly holding back tears.

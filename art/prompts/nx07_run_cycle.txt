@@ -1,0 +1,21 @@
+Create a pixel-art RUN CYCLE sprite strip for a side-scrolling action game.
+
+Image 1 is the character design sheet (android NX-07A). Image 2 is the existing sprite sheet of this character: match its pixel-art style, palette and proportions exactly.
+
+LAYOUT: a strict uniform grid of 4 columns x 2 rows = 8 equal cells, read left to right, top row first. One frame per cell, character centered, facing RIGHT, pure side view, same scale and same ground baseline in every cell. Completely flat solid magenta (#FF00FF) background. No text, no numbers, no grid lines, no borders, no ground shadows, no motion blur, no dust.
+
+ARMS (identical in all 8 frames): the right forearm IS the energy cannon (olive barrel with a cyan glowing muzzle). It is held straight forward at chest height and never changes into a hand or fist. The left arm is behind the body and swings only slightly. Only the legs and the body height change between frames.
+
+LEGS: the 8 frames form one full looping run cycle and the legs must be clearly different in every frame:
+1. CONTACT: near leg stretched far forward with the heel touching the ground, far leg stretched far back, body leaning forward.
+2. DOWN: near leg bent under the body taking the weight, body at its lowest, far leg trailing behind with the knee bent.
+3. PASSING: near leg straight under the body, far knee swinging forward past it, far foot lifted high behind.
+4. UP: pushing off the near toe, body at its highest and airborne, far knee driven high and forward.
+5. CONTACT: opposite of frame 1, far leg stretched far forward with the heel touching, near leg stretched far back.
+6. DOWN: opposite of frame 2, far leg bent under the body, body at its lowest, near leg trailing behind.
+7. PASSING: opposite of frame 3, near knee swinging forward past the far leg.
+8. UP: opposite of frame 4, pushing off the far toe, near knee driven high and forward.
+
+The head bobs up and down slightly following the body height.
+
+PIXEL ART STYLE: hard square pixels on one consistent grid, no anti-aliasing, no blur, dark 1-pixel outlines, 3-tone cel shading, the same limited palette as image 2.

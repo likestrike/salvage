@@ -1,0 +1,32 @@
+Create a 2D pixel-art SPRITE SHEET of one idle animation of the android NX-07: while standing and waiting, it lifts its arm cannon, inspects it, and lowers it again. In exactly the pixel-art style of image 2.
+
+REFERENCES:
+- image 1 = the character design sheet (android NX-07A). It is an illustration: take only the character design from it.
+- image 2 = the existing sprite sheet of this character. This is the STYLE AND SCALE GUIDE. Match it exactly: the same mid proportions (about 4 heads tall - not big-head, not realistic), the same helmet size, the same pixel size, the same bright clean palette (olive-drab armor, white plates, black bodysuit, saturated cyan lights), dark 1-pixel outlines, 3-tone cel shading with a small bright highlight. The new frames will be mixed with the frames of image 2. The first frame of this sheet is the same standing pose as the first frame of image 2.
+- image 3 = a LAYOUT GUIDE with exactly the size and grid of the output image. Every cell contains a dark outline box. The bottom edge of the box is the GROUND LINE, and the box is exactly as tall as the character standing upright. Draw the character inside the box of its cell, feet on the bottom edge. Do NOT draw the boxes.
+
+CHARACTER: round olive-drab helmet with a glowing cyan inverted-triangle emblem on the forehead, dark visor band, one teal eye, pale face, round white earpiece with a short white swept-back fin; olive-drab chest / shoulder / boot armor, white plates on the forearms, hips and knees, black bodysuit, slim waist and thighs, big boots, small backpack. Facing RIGHT, pure side view. The right forearm (the arm nearest to the viewer) is the energy cannon: a thick olive barrel with white rings, one cyan light band along its side and a cyan glowing muzzle. The left arm (far side) has a normal hand in a white gauntlet.
+
+IMPORTANT - CONSISTENCY:
+- The feet never move. The two boots, the legs and the hips are drawn EXACTLY the same, in exactly the same place, in all 12 frames. Only the upper body, the arms and the head move.
+- The helmet is the same size in every frame. When the head looks down at the cannon it tilts only a little.
+- No small stray light dots on the armor: the only cyan lights are the forehead emblem, the eye, the earpiece, the light band on the cannon and the muzzle.
+
+LAYOUT: exactly the grid of image 3: 6 columns x 2 rows = 12 equal square cells, one pose per cell.
+
+FRAMES, left to right, top row first:
+1. standing idle pose, the cannon lowered and pointing forward-down, exactly like the first frame of image 2.
+2. the cannon arm starts to bend and lift; the head begins to turn down toward the cannon.
+3. the cannon is raised in front of the chest, the barrel pointing up and forward at about 45 degrees; the head is tilted down, the eye looking at the cannon.
+4. the same pose; the left hand comes across and holds the barrel from below.
+5. the same pose; the cyan light band on the cannon is DARK (switched off) and the muzzle is dark; the left hand taps the side of the barrel, with one tiny white tick mark at the tap.
+6. the same pose; the light band is lit halfway (dim cyan), the muzzle still dark.
+7. the same pose; the light band is fully lit bright cyan and the muzzle glows cyan with a small ring of light.
+8. the cannon is turned a little by the wrist to show its other side, the head following; lights on.
+9. a small satisfied nod: the head dips slightly; the left hand lets go of the barrel.
+10. the cannon arm lowers halfway; the head rises again and looks forward.
+11. the cannon is almost back down; the left arm returns to the side.
+12. standing idle pose again, exactly like frame 1.
+
+Completely flat solid magenta (#FF00FF) background everywhere. No text, no labels, no numbers, no grid lines, no borders, no ground shadows, no motion blur. Every pose stays fully inside its own cell with a clear magenta margin on all sides.
+Hard square pixels on one consistent grid, the same pixel size as image 2, no anti-aliasing, no blur, no soft gradients, the same limited palette as image 2.

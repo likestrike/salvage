@@ -1,0 +1,1556 @@
+{
+  "format": "salvage-character/1",
+  "id": "nx07",
+  "name": "NX-07",
+  "kind": "player",
+  "design": {
+    "current": "시안 A",
+    "status": "[미정]",
+    "options": [
+      "design_a",
+      "design_b",
+      "design_c",
+      "design_d",
+      "nova_concept"
+    ],
+    "note": "시안 A(현재) · B · C · D · NOVA 가운데 어느 것으로 갈지 정하지 않았다. NOVA는 기획자가 넣은 원본이라 참조로만 올렸다 (파일을 고치지 않는다).",
+    "doc": "docs/STORY.md 4장 · 10장 9"
+  },
+  "story": {
+    "height_cm": 170,
+    "height_mark": "확정",
+    "body": "소년형 안드로이드 (양산형 전투 안드로이드)",
+    "note": "원본 설정화에는 150cm / 42kg로 적혀 있지만 키는 170cm로 정했다. NOVA 컨셉 시트에는 177cm · 남성형으로 적혀 있다 (어느 쪽으로 맞출지 [미정]).",
+    "doc": "docs/STORY.md 4장"
+  },
+  "assets": {
+    "front": {
+      "group": "view",
+      "label": "정면 전신",
+      "file": "art/concept/setting/nx07/01_front.png",
+      "source": {
+        "made_by": "tools/setting_sheets.py split nx07",
+        "from": "art/concept/setting/nx07/turnaround.png",
+        "note": "세 시점을 한 장에 그린 뒤 같은 캔버스 · 같은 배율 · 같은 발바닥 줄로 나눴다",
+        "doc": "docs/GAME_DESIGN.md 9.4.1"
+      },
+      "base": {
+        "version": 1,
+        "date": "2026-11-19",
+        "sha256": "45cfe0f91c1dc92d420cccb1aedaf9af85e5670f6ee97f711d519a640a3bb26f",
+        "bytes": 1149377,
+        "size": [
+          898,
+          1989
+        ]
+      }
+    },
+    "side": {
+      "group": "view",
+      "label": "측면 전신",
+      "file": "art/concept/setting/nx07/02_side.png",
+      "source": {
+        "made_by": "tools/setting_sheets.py split nx07",
+        "from": "art/concept/setting/nx07/turnaround.png",
+        "note": "세 시점을 한 장에 그린 뒤 같은 캔버스 · 같은 배율 · 같은 발바닥 줄로 나눴다. 측면은 오른쪽을 본다",
+        "doc": "docs/GAME_DESIGN.md 9.4.1"
+      },
+      "facing": "right",
+      "base": {
+        "version": 1,
+        "date": "2026-11-19",
+        "sha256": "9908c8f0fe4f8a94142fe47a0ab7c070f4b5c7cb6acb76e132777b4bebab04b2",
+        "bytes": 753757,
+        "size": [
+          898,
+          1989
+        ]
+      }
+    },
+    "back": {
+      "group": "view",
+      "label": "후면 전신",
+      "file": "art/concept/setting/nx07/03_back.png",
+      "source": {
+        "made_by": "tools/setting_sheets.py split nx07",
+        "from": "art/concept/setting/nx07/turnaround.png",
+        "note": "세 시점을 한 장에 그린 뒤 같은 캔버스 · 같은 배율 · 같은 발바닥 줄로 나눴다",
+        "doc": "docs/GAME_DESIGN.md 9.4.1"
+      },
+      "base": {
+        "version": 1,
+        "date": "2026-11-19",
+        "sha256": "0fdae6ddb589a0954d0eb168cc3c64b9e2627513221fec080ad1d46d6db989f2",
+        "bytes": 1063216,
+        "size": [
+          898,
+          1989
+        ]
+      }
+    },
+    "face": {
+      "group": "sheet",
+      "label": "얼굴 확대",
+      "file": "art/concept/setting/nx07/04_face.png",
+      "source": {
+        "made_by": "tools/setting_sheets.py gen nx07 face",
+        "tool": "tools/fal_image.py --keep-style android",
+        "model": "openai/gpt-image-2.6/sunburst/edit",
+        "prompts": [
+          "art/prompts/setting/nx07_design.txt",
+          "art/prompts/setting/nx07_face.txt",
+          "art/prompts/setting/_layout_face.txt"
+        ],
+        "refs": [
+          "art/prompts/setting/guide_nx07.png",
+          "reference/캐릭터디자인2차.png",
+          "art/concept/nx07_pixellab_side_1024_white.png"
+        ],
+        "style_anchor": "art/style_anchor/android.png",
+        "doc": "docs/GAME_DESIGN.md 9.4.1",
+        "definition": "art/concept/setting/setting.json"
+      },
+      "base": {
+        "version": 1,
+        "date": "2026-11-19",
+        "sha256": "e5d8fa53320334917954e229b7985c0cc4838286362e1b8a1d4440414093b3c7",
+        "bytes": 4608864,
+        "size": [
+          3072,
+          2048
+        ]
+      }
+    },
+    "body": {
+      "group": "sheet",
+      "label": "신체 확대",
+      "file": "art/concept/setting/nx07/05_body.png",
+      "source": {
+        "made_by": "tools/setting_sheets.py gen nx07 body",
+        "tool": "tools/fal_image.py --keep-style android",
+        "model": "openai/gpt-image-2.6/sunburst/edit",
+        "prompts": [
+          "art/prompts/setting/nx07_design.txt",
+          "art/prompts/setting/nx07_body.txt",
+          "art/prompts/setting/_layout_body.txt"
+        ],
+        "refs": [
+          "art/prompts/setting/guide_nx07.png",
+          "reference/캐릭터디자인2차.png",
+          "art/concept/nx07_pixellab_side_1024_white.png"
+        ],
+        "style_anchor": "art/style_anchor/android.png",
+        "doc": "docs/GAME_DESIGN.md 9.4.1",
+        "definition": "art/concept/setting/setting.json"
+      },
+      "base": {
+        "version": 1,
+        "date": "2026-11-19",
+        "sha256": "55781579f693c12fa6d79579c0f206801fea2e6ae0b72c68f058cd44cd1a94fd",
+        "bytes": 4527126,
+        "size": [
+          3072,
+          2048
+        ]
+      }
+    },
+    "items": {
+      "group": "sheet",
+      "label": "무기 단독 (에너지 주포 · 기폭 너클)",
+      "file": "art/concept/setting/nx07/06_weapon.png",
+      "source": {
+        "made_by": "tools/setting_sheets.py gen nx07 items",
+        "tool": "tools/fal_image.py --keep-style android",
+        "model": "openai/gpt-image-2.6/sunburst/edit",
+        "prompts": [
+          "art/prompts/setting/nx07_design.txt",
+          "art/prompts/setting/nx07_items.txt",
+          "art/prompts/setting/_layout_items.txt"
+        ],
+        "refs": [
+          "art/prompts/setting/guide_nx07.png",
+          "reference/캐릭터디자인2차.png",
+          "art/concept/nx07_pixellab_side_1024_white.png",
+          "art/concept/nx07_short_upper.png"
+        ],
+        "style_anchor": "art/style_anchor/android.png",
+        "doc": "docs/GAME_DESIGN.md 9.4.1",
+        "definition": "art/concept/setting/setting.json"
+      },
+      "base": {
+        "version": 1,
+        "date": "2026-11-19",
+        "sha256": "9d27cc24cee1c5ee59d606fc42ac3b7786886f125b40a6f34bf6478ce287d8a3",
+        "bytes": 4008762,
+        "size": [
+          3072,
+          2048
+        ]
+      }
+    },
+    "poses": {
+      "group": "sheet",
+      "label": "주요 포즈",
+      "file": "art/concept/setting/nx07/07_poses.png",
+      "source": {
+        "made_by": "tools/setting_sheets.py gen nx07 poses",
+        "tool": "tools/fal_image.py --keep-style android",
+        "model": "openai/gpt-image-2.6/sunburst/edit",
+        "prompts": [
+          "art/prompts/setting/nx07_design.txt",
+          "art/prompts/setting/nx07_poses.txt",
+          "art/prompts/setting/_layout_poses.txt"
+        ],
+        "refs": [
+          "art/prompts/setting/guide_nx07.png",
+          "reference/캐릭터디자인2차.png",
+          "art/concept/nx07_pixellab_side_1024_white.png",
+          "art/concept/nx07_short_upper.png"
+        ],
+        "style_anchor": "art/style_anchor/android.png",
+        "doc": "docs/GAME_DESIGN.md 9.4.1",
+        "definition": "art/concept/setting/setting.json",
+        "cleaned": [
+          {
+            "op": "paste",
+            "why": "처음 뽑은 숏어퍼 포즈에는 기폭 너클이 없었다. 다시 뽑은 장의 그 칸만 옮긴다"
+          }
+        ],
+        "raw": "art/concept/setting/nx07/07_poses_raw.png"
+      },
+      "base": {
+        "version": 1,
+        "date": "2026-11-19",
+        "sha256": "d132815dc7c7a0c46a774c0ee123138481a3bf42518571f44cba015925b574c4",
+        "bytes": 4107261,
+        "size": [
+          3072,
+          2048
+        ]
+      }
+    },
+    "poses_raw": {
+      "group": "source",
+      "label": "주요 포즈 — 손보기 전",
+      "file": "art/concept/setting/nx07/07_poses_raw.png",
+      "source": {
+        "made_by": "tools/setting_sheets.py gen nx07 poses",
+        "tool": "tools/fal_image.py --keep-style android",
+        "model": "openai/gpt-image-2.6/sunburst/edit",
+        "prompts": [
+          "art/prompts/setting/nx07_design.txt",
+          "art/prompts/setting/nx07_poses.txt",
+          "art/prompts/setting/_layout_poses.txt"
+        ],
+        "refs": [
+          "art/prompts/setting/guide_nx07.png",
+          "reference/캐릭터디자인2차.png",
+          "art/concept/nx07_pixellab_side_1024_white.png",
+          "art/concept/nx07_short_upper.png"
+        ],
+        "style_anchor": "art/style_anchor/android.png",
+        "doc": "docs/GAME_DESIGN.md 9.4.1",
+        "definition": "art/concept/setting/setting.json"
+      },
+      "base": {
+        "version": 1,
+        "date": "2026-11-19",
+        "sha256": "46b3e599184d62a34aabda55377f4e0729a885635d103e6b2ad48e981ad70219",
+        "bytes": 4610632,
+        "size": [
+          3072,
+          2048
+        ]
+      }
+    },
+    "turnaround": {
+      "group": "source",
+      "label": "세 시점 원본 (나누기 전)",
+      "file": "art/concept/setting/nx07/turnaround.png",
+      "source": {
+        "made_by": "tools/setting_sheets.py gen nx07 turnaround",
+        "tool": "tools/fal_image.py --keep-style android",
+        "model": "openai/gpt-image-2.6/sunburst/edit",
+        "prompts": [
+          "art/prompts/setting/nx07_design.txt",
+          "art/prompts/setting/nx07_turnaround.txt",
+          "art/prompts/setting/_layout_turnaround.txt"
+        ],
+        "refs": [
+          "art/prompts/setting/guide_nx07.png",
+          "reference/캐릭터디자인2차.png",
+          "art/concept/nx07_pixellab_side_1024_white.png"
+        ],
+        "style_anchor": "art/style_anchor/android.png",
+        "doc": "docs/GAME_DESIGN.md 9.4.1",
+        "definition": "art/concept/setting/setting.json"
+      },
+      "base": {
+        "version": 1,
+        "date": "2026-11-19",
+        "sha256": "f262570a7a68a17bb030340fe2addc5865e85dbf81e92056245deb8c3c064a9a",
+        "bytes": 4159258,
+        "size": [
+          3072,
+          2048
+        ]
+      }
+    },
+    "sprite_nx07_states_idle": {
+      "group": "sprite",
+      "label": "idle",
+      "file": "art/sprites/nx07_states/idle.png",
+      "source": {
+        "table": "art/sprites/nx07_states/states.json"
+      },
+      "set": "nx07_states",
+      "anim": {
+        "frames": 16,
+        "cell": [
+          112,
+          96
+        ],
+        "ticks": 9,
+        "loop": true,
+        "sole": 89
+      },
+      "base": {
+        "version": 1,
+        "date": "2026-11-19",
+        "sha256": "b8f318157731516858a2ddbf0a5e7863b52d7256f39dd1b567b8fb9651a96bfe",
+        "bytes": 9079,
+        "size": [
+          1792,
+          96
+        ]
+      }
+    },
+    "sprite_nx07_states_run": {
+      "group": "sprite",
+      "label": "run",
+      "file": "art/sprites/nx07_states/run.png",
+      "source": {
+        "table": "art/sprites/nx07_states/states.json"
+      },
+      "set": "nx07_states",
+      "anim": {
+        "frames": 8,
+        "cell": [
+          112,
+          96
+        ],
+        "ticks": 5,
+        "loop": true,
+        "sole": 89
+      },
+      "base": {
+        "version": 1,
+        "date": "2026-11-19",
+        "sha256": "75633b45b8a0a54310c79c37528ba3f51d2acd034baf68d337a940ce48e8f130",
+        "bytes": 19684,
+        "size": [
+          896,
+          96
+        ]
+      }
+    },
+    "sprite_nx07_states_jump": {
+      "group": "sprite",
+      "label": "jump",
+      "file": "art/sprites/nx07_states/jump.png",
+      "source": {
+        "table": "art/sprites/nx07_states/states.json"
+      },
+      "set": "nx07_states",
+      "anim": {
+        "frames": 6,
+        "cell": [
+          112,
+          96
+        ],
+        "ticks": 6,
+        "loop": false,
+        "sole": 89
+      },
+      "base": {
+        "version": 1,
+        "date": "2026-11-19",
+        "sha256": "6f2e07efd03308cb9dfc141a22ca80f3fba6d89683decdfdc11dd2381aab7eb5",
+        "bytes": 14936,
+        "size": [
+          672,
+          96
+        ]
+      }
+    },
+    "sprite_nx07_states_air_shoot": {
+      "group": "sprite",
+      "label": "air_shoot",
+      "file": "art/sprites/nx07_states/air_shoot.png",
+      "source": {
+        "table": "art/sprites/nx07_states/states.json"
+      },
+      "set": "nx07_states",
+      "anim": {
+        "frames": 2,
+        "cell": [
+          112,
+          96
+        ],
+        "ticks": 6,
+        "loop": false,
+        "sole": 89
+      },
+      "base": {
+        "version": 1,
+        "date": "2026-11-19",
+        "sha256": "536d5ea3f03c806fb26d2c792eaba3e8b75787d50929ef1bd620be91880938fd",
+        "bytes": 5468,
+        "size": [
+          224,
+          96
+        ]
+      }
+    },
+    "sprite_nx07_states_shoot": {
+      "group": "sprite",
+      "label": "shoot",
+      "file": "art/sprites/nx07_states/shoot.png",
+      "source": {
+        "table": "art/sprites/nx07_states/states.json"
+      },
+      "set": "nx07_states",
+      "anim": {
+        "frames": 3,
+        "cell": [
+          112,
+          96
+        ],
+        "ticks": 6,
+        "loop": false,
+        "sole": 89
+      },
+      "base": {
+        "version": 1,
+        "date": "2026-11-19",
+        "sha256": "97afa2e66c7920352cc56cb43234bb89815527f67fd6213ca53f88ba07ae6442",
+        "bytes": 8358,
+        "size": [
+          336,
+          96
+        ]
+      }
+    },
+    "sprite_nx07_states_parry": {
+      "group": "sprite",
+      "label": "parry",
+      "file": "art/sprites/nx07_states/parry.png",
+      "source": {
+        "table": "art/sprites/nx07_states/states.json"
+      },
+      "set": "nx07_states",
+      "anim": {
+        "frames": 2,
+        "cell": [
+          112,
+          96
+        ],
+        "ticks": 8,
+        "loop": false,
+        "sole": 89
+      },
+      "base": {
+        "version": 1,
+        "date": "2026-11-19",
+        "sha256": "f09a65fd0f809ab8f93ef47b6a0c7e7f53e3170ab80087a478ec66f14b3c9db2",
+        "bytes": 6286,
+        "size": [
+          224,
+          96
+        ]
+      }
+    },
+    "sprite_nx07_states_dash": {
+      "group": "sprite",
+      "label": "dash",
+      "file": "art/sprites/nx07_states/dash.png",
+      "source": {
+        "table": "art/sprites/nx07_states/states.json"
+      },
+      "set": "nx07_states",
+      "anim": {
+        "frames": 2,
+        "cell": [
+          112,
+          96
+        ],
+        "ticks": 5,
+        "loop": true,
+        "sole": 89
+      },
+      "base": {
+        "version": 1,
+        "date": "2026-11-19",
+        "sha256": "d8c8fec6bf42c16f3c5913a748a39a7728cd5139bb686c56bdfc835fdd827964",
+        "bytes": 6816,
+        "size": [
+          224,
+          96
+        ]
+      }
+    },
+    "sprite_nx07_states_hit": {
+      "group": "sprite",
+      "label": "hit",
+      "file": "art/sprites/nx07_states/hit.png",
+      "source": {
+        "table": "art/sprites/nx07_states/states.json"
+      },
+      "set": "nx07_states",
+      "anim": {
+        "frames": 1,
+        "cell": [
+          112,
+          96
+        ],
+        "ticks": 8,
+        "loop": false,
+        "sole": 89
+      },
+      "base": {
+        "version": 1,
+        "date": "2026-11-19",
+        "sha256": "86f34097ab54ec280f9d2db22bf8db7a1e4476c685e5ea8453aba56644bbfa88",
+        "bytes": 3877,
+        "size": [
+          112,
+          96
+        ]
+      }
+    },
+    "sprite_nx07_states_idle_check": {
+      "group": "sprite",
+      "label": "idle_check",
+      "file": "art/sprites/nx07_states/idle_check.png",
+      "source": {
+        "table": "art/sprites/nx07_states/states.json"
+      },
+      "set": "nx07_states",
+      "anim": {
+        "frames": 10,
+        "cell": [
+          112,
+          96
+        ],
+        "ticks": 9,
+        "loop": false,
+        "sole": 89
+      },
+      "base": {
+        "version": 1,
+        "date": "2026-11-19",
+        "sha256": "1171311cf45df7a7f3302f7516820e419965dc9b0fd65d339dee0682708ac4d9",
+        "bytes": 24859,
+        "size": [
+          1120,
+          96
+        ]
+      }
+    },
+    "sprite_nx07_states_shot2": {
+      "group": "sprite",
+      "label": "shot2",
+      "file": "art/sprites/nx07_states/shot2.png",
+      "source": {
+        "table": "art/sprites/nx07_states/states.json"
+      },
+      "set": "nx07_states",
+      "anim": {
+        "frames": 3,
+        "cell": [
+          112,
+          96
+        ],
+        "ticks": 6,
+        "loop": false,
+        "sole": 89
+      },
+      "base": {
+        "version": 1,
+        "date": "2026-11-19",
+        "sha256": "61e93d788df8b6c61f0d6e3404014ed154dccf37aecc939e6d56afab79084b51",
+        "bytes": 9305,
+        "size": [
+          336,
+          96
+        ]
+      }
+    },
+    "sprite_nx07_states_air_burst": {
+      "group": "sprite",
+      "label": "air_burst",
+      "file": "art/sprites/nx07_states/air_burst.png",
+      "source": {
+        "table": "art/sprites/nx07_states/states.json"
+      },
+      "set": "nx07_states",
+      "anim": {
+        "frames": 2,
+        "cell": [
+          112,
+          96
+        ],
+        "ticks": 6,
+        "loop": false,
+        "sole": 89
+      },
+      "base": {
+        "version": 1,
+        "date": "2026-11-19",
+        "sha256": "030ef5c01f2099546944222953d17d45598ec9fad15a6f0847e55e8f1b587302",
+        "bytes": 6083,
+        "size": [
+          224,
+          96
+        ]
+      }
+    },
+    "sprite_nx07_states_shot3": {
+      "group": "sprite",
+      "label": "shot3",
+      "file": "art/sprites/nx07_states/shot3.png",
+      "source": {
+        "table": "art/sprites/nx07_states/states.json"
+      },
+      "set": "nx07_states",
+      "anim": {
+        "frames": 5,
+        "cell": [
+          112,
+          96
+        ],
+        "ticks": 6,
+        "loop": false,
+        "sole": 89
+      },
+      "base": {
+        "version": 1,
+        "date": "2026-11-19",
+        "sha256": "3596ef624f2abef4d094ac2769c81680a8e4401b8b626773ad2c5c3746b8275e",
+        "bytes": 14894,
+        "size": [
+          560,
+          96
+        ]
+      }
+    },
+    "sprite_nx07_states_stagger": {
+      "group": "sprite",
+      "label": "stagger",
+      "file": "art/sprites/nx07_states/stagger.png",
+      "source": {
+        "table": "art/sprites/nx07_states/states.json"
+      },
+      "set": "nx07_states",
+      "anim": {
+        "frames": 2,
+        "cell": [
+          112,
+          96
+        ],
+        "ticks": 8,
+        "loop": false,
+        "sole": 89
+      },
+      "base": {
+        "version": 1,
+        "date": "2026-11-19",
+        "sha256": "6764f1c19c62bbbbab354f089a8c31f51b52f61c4753f09bb7ed71f915a258c4",
+        "bytes": 6293,
+        "size": [
+          224,
+          96
+        ]
+      }
+    },
+    "sprite_nx07_states_knockback": {
+      "group": "sprite",
+      "label": "knockback",
+      "file": "art/sprites/nx07_states/knockback.png",
+      "source": {
+        "table": "art/sprites/nx07_states/states.json"
+      },
+      "set": "nx07_states",
+      "anim": {
+        "frames": 2,
+        "cell": [
+          112,
+          96
+        ],
+        "ticks": 8,
+        "loop": false,
+        "sole": 89
+      },
+      "base": {
+        "version": 1,
+        "date": "2026-11-19",
+        "sha256": "a44cb2effad44428870701e46d00767c5dfe623d3277ed3c1be8e029ed4265c5",
+        "bytes": 6574,
+        "size": [
+          224,
+          96
+        ]
+      }
+    },
+    "sprite_nx07_states_launch": {
+      "group": "sprite",
+      "label": "launch",
+      "file": "art/sprites/nx07_states/launch.png",
+      "source": {
+        "table": "art/sprites/nx07_states/states.json"
+      },
+      "set": "nx07_states",
+      "anim": {
+        "frames": 4,
+        "cell": [
+          112,
+          96
+        ],
+        "ticks": 6,
+        "loop": false,
+        "sole": 89
+      },
+      "base": {
+        "version": 1,
+        "date": "2026-11-19",
+        "sha256": "dbacba7791315a90917ff1560c2e1a87ec68c4b65a429e9e6919613c14c10ce9",
+        "bytes": 11448,
+        "size": [
+          448,
+          96
+        ]
+      }
+    },
+    "sprite_nx07_states_land": {
+      "group": "sprite",
+      "label": "land",
+      "file": "art/sprites/nx07_states/land.png",
+      "source": {
+        "table": "art/sprites/nx07_states/states.json"
+      },
+      "set": "nx07_states",
+      "anim": {
+        "frames": 1,
+        "cell": [
+          112,
+          96
+        ],
+        "ticks": 8,
+        "loop": false,
+        "sole": 89
+      },
+      "base": {
+        "version": 1,
+        "date": "2026-11-19",
+        "sha256": "2e3bf537498043f77bad83a660f24067ee90773dfc75821ddc2aac3b31f65e65",
+        "bytes": 3709,
+        "size": [
+          112,
+          96
+        ]
+      }
+    },
+    "sprite_nx07_states_down": {
+      "group": "sprite",
+      "label": "down",
+      "file": "art/sprites/nx07_states/down.png",
+      "source": {
+        "table": "art/sprites/nx07_states/states.json"
+      },
+      "set": "nx07_states",
+      "anim": {
+        "frames": 1,
+        "cell": [
+          112,
+          96
+        ],
+        "ticks": 8,
+        "loop": false,
+        "sole": 89
+      },
+      "base": {
+        "version": 1,
+        "date": "2026-11-19",
+        "sha256": "56ef2a819e030d952f8f1818b703cd79d771d0e57e673bcdc3126a28254d6301",
+        "bytes": 2667,
+        "size": [
+          112,
+          96
+        ]
+      }
+    },
+    "sprite_nx07_states_getup": {
+      "group": "sprite",
+      "label": "getup",
+      "file": "art/sprites/nx07_states/getup.png",
+      "source": {
+        "table": "art/sprites/nx07_states/states.json"
+      },
+      "set": "nx07_states",
+      "anim": {
+        "frames": 2,
+        "cell": [
+          112,
+          96
+        ],
+        "ticks": 12,
+        "loop": false,
+        "sole": 89
+      },
+      "base": {
+        "version": 1,
+        "date": "2026-11-19",
+        "sha256": "6a1a9291fdb533ee05d8724af8a1dea0d57b4e862cc8fdda67e2e926d946e184",
+        "bytes": 5760,
+        "size": [
+          224,
+          96
+        ]
+      }
+    },
+    "sprite_nx07_states_charge": {
+      "group": "sprite",
+      "label": "charge",
+      "file": "art/sprites/nx07_states/charge.png",
+      "source": {
+        "table": "art/sprites/nx07_states/states.json"
+      },
+      "set": "nx07_states",
+      "anim": {
+        "frames": 4,
+        "cell": [
+          112,
+          96
+        ],
+        "ticks": 4,
+        "loop": true,
+        "sole": 89
+      },
+      "base": {
+        "version": 1,
+        "date": "2026-11-19",
+        "sha256": "f0fe06e1df79ee5da604ee5dc5eb8dfe169c6ad859bd1afa35c23ceeaf418f49",
+        "bytes": 11455,
+        "size": [
+          448,
+          96
+        ]
+      }
+    },
+    "sprite_nx07_states_charge_shot": {
+      "group": "sprite",
+      "label": "charge_shot",
+      "file": "art/sprites/nx07_states/charge_shot.png",
+      "source": {
+        "table": "art/sprites/nx07_states/states.json"
+      },
+      "set": "nx07_states",
+      "anim": {
+        "frames": 3,
+        "cell": [
+          112,
+          96
+        ],
+        "ticks": 8,
+        "loop": false,
+        "sole": 89
+      },
+      "base": {
+        "version": 1,
+        "date": "2026-11-19",
+        "sha256": "8b67178e17fbe26feb63374f90b8cd6f565eeda45181d60b04aeeb0780932f94",
+        "bytes": 9640,
+        "size": [
+          336,
+          96
+        ]
+      }
+    },
+    "sprite_nx07_states_learn": {
+      "group": "sprite",
+      "label": "learn",
+      "file": "art/sprites/nx07_states/learn.png",
+      "source": {
+        "table": "art/sprites/nx07_states/states.json"
+      },
+      "set": "nx07_states",
+      "anim": {
+        "frames": 1,
+        "cell": [
+          112,
+          96
+        ],
+        "ticks": 8,
+        "loop": false,
+        "sole": 89
+      },
+      "base": {
+        "version": 1,
+        "date": "2026-11-19",
+        "sha256": "80cd45d8074bab0bf3f81076d2d05fe68f7e97af88b742013fffd0c3ecc7493b",
+        "bytes": 3598,
+        "size": [
+          112,
+          96
+        ]
+      }
+    },
+    "sprite_nx07_states_air_charge": {
+      "group": "sprite",
+      "label": "air_charge",
+      "file": "art/sprites/nx07_states/air_charge.png",
+      "source": {
+        "table": "art/sprites/nx07_states/states.json"
+      },
+      "set": "nx07_states",
+      "anim": {
+        "frames": 2,
+        "cell": [
+          112,
+          96
+        ],
+        "ticks": 6,
+        "loop": false,
+        "sole": 89
+      },
+      "base": {
+        "version": 1,
+        "date": "2026-11-19",
+        "sha256": "0bb443e0306762a795db4bb9a72979bfa54623e4aa9d32be19b11959b5932259",
+        "bytes": 5598,
+        "size": [
+          224,
+          96
+        ]
+      }
+    },
+    "sprite_nx07_states_melee": {
+      "group": "sprite",
+      "label": "melee",
+      "file": "art/sprites/nx07_states/melee.png",
+      "source": {
+        "table": "art/sprites/nx07_states/states.json"
+      },
+      "set": "nx07_states",
+      "anim": {
+        "frames": 8,
+        "cell": [
+          144,
+          96
+        ],
+        "ticks": 6,
+        "loop": false,
+        "sole": 89
+      },
+      "base": {
+        "version": 1,
+        "date": "2026-11-19",
+        "sha256": "6d35e932a94409c125b6d3554968aa4abbea99c1a6dfa476ef0aca24962cf26e",
+        "bytes": 29721,
+        "size": [
+          1152,
+          96
+        ]
+      }
+    },
+    "sprite_nx07_states_backstep": {
+      "group": "sprite",
+      "label": "backstep",
+      "file": "art/sprites/nx07_states/backstep.png",
+      "source": {
+        "table": "art/sprites/nx07_states/states.json"
+      },
+      "set": "nx07_states",
+      "anim": {
+        "frames": 6,
+        "cell": [
+          112,
+          96
+        ],
+        "ticks": 4,
+        "loop": false,
+        "sole": 89
+      },
+      "base": {
+        "version": 1,
+        "date": "2026-11-19",
+        "sha256": "363c275883bfaa7d8e94fa86f74483d1c5c92a2011fea91af2b2cfc662d478e4",
+        "bytes": 15671,
+        "size": [
+          672,
+          96
+        ]
+      }
+    },
+    "sprite_nx07_states_dodge_dash": {
+      "group": "sprite",
+      "label": "dodge_dash",
+      "file": "art/sprites/nx07_states/dodge_dash.png",
+      "source": {
+        "table": "art/sprites/nx07_states/states.json"
+      },
+      "set": "nx07_states",
+      "anim": {
+        "frames": 6,
+        "cell": [
+          112,
+          96
+        ],
+        "ticks": 4,
+        "loop": false,
+        "sole": 89
+      },
+      "base": {
+        "version": 1,
+        "date": "2026-11-19",
+        "sha256": "d3c8a06ea982c5fcdf8ed88c9f70be0593bc8a7d095d31caace0d4840a50b918",
+        "bytes": 15575,
+        "size": [
+          672,
+          96
+        ]
+      }
+    },
+    "sprite_head": {
+      "group": "sprite",
+      "label": "머리 키 그림 (모든 프레임이 함께 쓴다)",
+      "file": "art/sprites/nx07_states/parts/head.png",
+      "source": {
+        "made_by": "art/sprites/nx07_states/parts/head_refine.py",
+        "doc": "docs/GAME_DESIGN.md 9.9"
+      },
+      "set": "nx07_states",
+      "base": {
+        "version": 1,
+        "date": "2026-11-19",
+        "sha256": "69b632897dd739991a9f24965f54eb045f5c0d951dcbabfe0892cf9ec0c2cf55",
+        "bytes": 606,
+        "size": [
+          29,
+          21
+        ]
+      }
+    },
+    "sprite_side": {
+      "group": "sprite",
+      "label": "옆모습 한 장 (PixelLab에 넣을 것, 게임은 쓰지 않는다)",
+      "file": "art/sprites/nx07_side/nx07_side_128.png",
+      "source": {
+        "made_by": "tools/state_sheets.py art/sprites/nx07_side/layout.json",
+        "from": "art/sprites/stylec_side_raw.png",
+        "doc": "docs/GAME_DESIGN.md 9.6"
+      },
+      "set": "nx07_side",
+      "base": {
+        "version": 1,
+        "date": "2026-11-19",
+        "sha256": "78a0cfadae5de465a4de4fb583d2d5d4f04817d5b653550b3b047c396701aadd",
+        "bytes": 2821,
+        "size": [
+          128,
+          128
+        ]
+      }
+    },
+    "pm_e1": {
+      "group": "pixel_master",
+      "label": "E1 · 있는 도트풍 원본에서 (생성 0회)",
+      "file": "art/pipeline_lab/pixel_master/e1/e1_side.png",
+      "source": {
+        "made_by": "tools/pixel_master.py (고른 칸 8.25, 도구의 추천 8.25)",
+        "from": "art/sprites/stylec_side_raw.png",
+        "doc": "docs/GAME_DESIGN.md 9.11",
+        "note": "재료는 nx07_side 의 원본(art/prompts/stylec_side_stand.txt 로 뽑은 도트풍 옆모습)"
+      },
+      "status": "실험",
+      "info": "art/pipeline_lab/pixel_master/e1/e1_side_info.json",
+      "also": {
+        "x8": "art/pipeline_lab/pixel_master/e1/e1_side_x8.png",
+        "candidates": "art/pipeline_lab/pixel_master/e1/e1_side_candidates.png",
+        "palette": "art/pipeline_lab/pixel_master/e1/e1_side_palette.hex"
+      },
+      "base": {
+        "version": 1,
+        "date": "2026-11-19",
+        "sha256": "52e518d5daf71c55a0160c77ca93f5ffa0b6c3171020c1c222d20d93d5367422",
+        "bytes": 4183,
+        "size": [
+          47,
+          118
+        ]
+      }
+    },
+    "pm_e2_64": {
+      "group": "pixel_master",
+      "label": "E2-64 첫 시도",
+      "file": "art/pipeline_lab/pixel_master/e2_64/nx07_side_px64.png",
+      "source": {
+        "made_by": "tools/pixel_master.py (고른 칸 12.25, 도구의 추천 12.25)",
+        "from": "art/pipeline_lab/pixel_master/e2_64/nx07_side_px64_raw.png",
+        "doc": "docs/GAME_DESIGN.md 9.11",
+        "note": "재료는 설정화 측면을 참조로 AI가 도트용으로 다시 그린 그림이다.",
+        "prompts": [
+          "art/prompts/pipeline/nx07_side_px64.txt"
+        ],
+        "refs": [
+          "art/prompts/pipeline/nx07_side_px64_guide.png"
+        ],
+        "refs_note": "참조 그림 순서: art/concept/setting/nx07/02_side.png (image 1, 설정화 측면 — 기획서 9.11) · image 2 = 게임 도트풍의 기존 스프라이트 (어느 파일인지 기록 없음, 기획서 9.11은 \"스타일 3 원본\") · image 3 = 배치 안내 그림(위 파일). fal.ai로 뽑았다 (기획서 9.11: 4회)"
+      },
+      "status": "실험",
+      "info": "art/pipeline_lab/pixel_master/e2_64/nx07_side_px64_info.json",
+      "also": {
+        "x8": "art/pipeline_lab/pixel_master/e2_64/nx07_side_px64_x8.png",
+        "candidates": "art/pipeline_lab/pixel_master/e2_64/nx07_side_px64_candidates.png",
+        "palette": "art/pipeline_lab/pixel_master/e2_64/nx07_side_px64_palette.hex"
+      },
+      "base": {
+        "version": 1,
+        "date": "2026-11-19",
+        "sha256": "f8e507b8d998149c92aa5804da71f287f3b7aff54c5bc0738a6d349f724156a1",
+        "bytes": 2665,
+        "size": [
+          33,
+          90
+        ]
+      }
+    },
+    "pm_e2_64b": {
+      "group": "pixel_master",
+      "label": "E2-64 다시 (눈으로 고름)",
+      "file": "art/pipeline_lab/pixel_master/e2_64b/nx07_side_px64b.png",
+      "source": {
+        "made_by": "tools/pixel_master.py (고른 칸 15.25, 도구의 추천 16.25)",
+        "from": "art/pipeline_lab/pixel_master/e2_64b/nx07_side_px64b_raw.png",
+        "doc": "docs/GAME_DESIGN.md 9.11",
+        "note": "재료는 설정화 측면을 참조로 AI가 도트용으로 다시 그린 그림이다.",
+        "prompts": [
+          "art/prompts/pipeline/nx07_side_px64b.txt"
+        ],
+        "refs": [
+          "art/prompts/pipeline/nx07_side_px64b_guide.png"
+        ],
+        "refs_note": "참조 그림 순서: art/concept/setting/nx07/02_side.png (image 1) · image 2 = 다시 그릴 도트 그림 (기획서 9.11: 첫 시도를 굵은 칸으로) · image 3 = 배치 안내 그림(위 파일). fal.ai로 뽑았다 (기획서 9.11: 4회)"
+      },
+      "status": "실험",
+      "info": "art/pipeline_lab/pixel_master/e2_64b/nx07_side_px64b_info.json",
+      "also": {
+        "x8": "art/pipeline_lab/pixel_master/e2_64b/nx07_side_px64b_x8.png",
+        "candidates": "art/pipeline_lab/pixel_master/e2_64b/nx07_side_px64b_candidates.png",
+        "palette": "art/pipeline_lab/pixel_master/e2_64b/nx07_side_px64b_palette.hex"
+      },
+      "base": {
+        "version": 1,
+        "date": "2026-11-19",
+        "sha256": "e0fff6d38d3ac1e02a1cb3b70a92bc479e2ab6b4c623626ba3b68de09bc6491e",
+        "bytes": 1643,
+        "size": [
+          24,
+          64
+        ]
+      }
+    },
+    "pm_e2_83": {
+      "group": "pixel_master",
+      "label": "E2-83 첫 시도",
+      "file": "art/pipeline_lab/pixel_master/e2_83/nx07_side_px83.png",
+      "source": {
+        "made_by": "tools/pixel_master.py (고른 칸 10.25, 도구의 추천 10.25)",
+        "from": "art/pipeline_lab/pixel_master/e2_83/nx07_side_px83_raw.png",
+        "doc": "docs/GAME_DESIGN.md 9.11",
+        "note": "재료는 설정화 측면을 참조로 AI가 도트용으로 다시 그린 그림이다.",
+        "prompts": [
+          "art/prompts/pipeline/nx07_side_px83.txt"
+        ],
+        "refs": [
+          "art/prompts/pipeline/nx07_side_px83_guide.png"
+        ],
+        "refs_note": "참조 그림 순서: art/concept/setting/nx07/02_side.png (image 1, 설정화 측면 — 기획서 9.11) · image 2 = 게임 도트풍의 기존 스프라이트 (어느 파일인지 기록 없음, 기획서 9.11은 \"스타일 3 원본\") · image 3 = 배치 안내 그림(위 파일). fal.ai로 뽑았다 (기획서 9.11: 4회)"
+      },
+      "status": "실험",
+      "info": "art/pipeline_lab/pixel_master/e2_83/nx07_side_px83_info.json",
+      "also": {
+        "x8": "art/pipeline_lab/pixel_master/e2_83/nx07_side_px83_x8.png",
+        "candidates": "art/pipeline_lab/pixel_master/e2_83/nx07_side_px83_candidates.png",
+        "palette": "art/pipeline_lab/pixel_master/e2_83/nx07_side_px83_palette.hex"
+      },
+      "base": {
+        "version": 1,
+        "date": "2026-11-19",
+        "sha256": "f5dd80bb63754133a98cac63f9892677ba81c1cccf13bbae4d23334f8dea81a9",
+        "bytes": 2742,
+        "size": [
+          37,
+          98
+        ]
+      }
+    },
+    "pm_e2_83b": {
+      "group": "pixel_master",
+      "label": "E2-83 다시 (눈으로 고름)",
+      "file": "art/pipeline_lab/pixel_master/e2_83b/nx07_side_px83b.png",
+      "source": {
+        "made_by": "tools/pixel_master.py (고른 칸 12.5, 도구의 추천 14.25)",
+        "from": "art/pipeline_lab/pixel_master/e2_83b/nx07_side_px83b_raw.png",
+        "doc": "docs/GAME_DESIGN.md 9.11",
+        "note": "재료는 설정화 측면을 참조로 AI가 도트용으로 다시 그린 그림이다.",
+        "prompts": [
+          "art/prompts/pipeline/nx07_side_px83b.txt"
+        ],
+        "refs": [
+          "art/prompts/pipeline/nx07_side_px83b_guide.png"
+        ],
+        "refs_note": "참조 그림 순서: art/concept/setting/nx07/02_side.png (image 1) · image 2 = 다시 그릴 도트 그림 (기획서 9.11: E2-64 첫 시도를 참조로) · image 3 = 배치 안내 그림(위 파일). fal.ai로 뽑았다 (기획서 9.11: 4회)"
+      },
+      "status": "실험",
+      "info": "art/pipeline_lab/pixel_master/e2_83b/nx07_side_px83b_info.json",
+      "also": {
+        "x8": "art/pipeline_lab/pixel_master/e2_83b/nx07_side_px83b_x8.png",
+        "candidates": "art/pipeline_lab/pixel_master/e2_83b/nx07_side_px83b_candidates.png",
+        "palette": "art/pipeline_lab/pixel_master/e2_83b/nx07_side_px83b_palette.hex"
+      },
+      "base": {
+        "version": 1,
+        "date": "2026-11-19",
+        "sha256": "3f8574b08a7091797c99f60e315537033786f744e98be94ef90e634c02e821bd",
+        "bytes": 2173,
+        "size": [
+          26,
+          79
+        ]
+      }
+    },
+    "design_a": {
+      "group": "design",
+      "label": "시안 A (현재) — 둥근 헬멧 · 이마 엠블럼 · 소년형",
+      "file": "art/concept/nx07_alt_a.png",
+      "source": {
+        "tool": "tools/fal_image.py --keep-style android",
+        "prompts": [
+          "art/prompts/nx07_alt_a.txt",
+          "art/prompts/_sheet_layout_android.txt"
+        ],
+        "refs_note": "이 시트를 뽑을 때 넣은 참조 그림의 기록이 남아 있지 않다",
+        "doc": "docs/STORY.md 4장"
+      },
+      "base": {
+        "version": 1,
+        "date": "2026-11-19",
+        "sha256": "5d0150017e05a4c5c9122bd061c1892ba23e19f1742e05e6265e6f0a56380976",
+        "bytes": 4618234,
+        "size": [
+          3072,
+          2048
+        ]
+      }
+    },
+    "design_b": {
+      "group": "design",
+      "label": "시안 B — 경량 고기동형",
+      "file": "art/concept/nx07_alt_b.png",
+      "source": {
+        "tool": "tools/fal_image.py --keep-style android",
+        "prompts": [
+          "art/prompts/nx07_alt_b.txt",
+          "art/prompts/_sheet_layout_android.txt"
+        ],
+        "refs_note": "이 시트를 뽑을 때 넣은 참조 그림의 기록이 남아 있지 않다",
+        "doc": "docs/STORY.md 4장"
+      },
+      "base": {
+        "version": 1,
+        "date": "2026-11-19",
+        "sha256": "503dee2468687962c4b20c865d17ba462a6182d502646aa6848499901262b252",
+        "bytes": 5045020,
+        "size": [
+          3072,
+          2048
+        ]
+      }
+    },
+    "design_c": {
+      "group": "design",
+      "label": "시안 C — 중장 돌격형",
+      "file": "art/concept/nx07_alt_c.png",
+      "source": {
+        "tool": "tools/fal_image.py --keep-style android",
+        "prompts": [
+          "art/prompts/nx07_alt_c.txt",
+          "art/prompts/_sheet_layout_android.txt"
+        ],
+        "refs_note": "이 시트를 뽑을 때 넣은 참조 그림의 기록이 남아 있지 않다",
+        "doc": "docs/STORY.md 4장"
+      },
+      "base": {
+        "version": 1,
+        "date": "2026-11-19",
+        "sha256": "c794401780e013ff714b05190260ce468328b682815ceec8a8a942fbb115f1ba",
+        "bytes": 4827181,
+        "size": [
+          3072,
+          2048
+        ]
+      }
+    },
+    "design_d": {
+      "group": "design",
+      "label": "시안 D — 바이저 정찰형",
+      "file": "art/concept/nx07_alt_d.png",
+      "source": {
+        "tool": "tools/fal_image.py --keep-style android",
+        "prompts": [
+          "art/prompts/nx07_alt_d.txt",
+          "art/prompts/_sheet_layout_android.txt"
+        ],
+        "refs_note": "이 시트를 뽑을 때 넣은 참조 그림의 기록이 남아 있지 않다",
+        "doc": "docs/STORY.md 4장"
+      },
+      "base": {
+        "version": 1,
+        "date": "2026-11-19",
+        "sha256": "f06177e79e5a51e9f8f822ae689eeb5244be758b61dc656db26d42f447c21f15",
+        "bytes": 5060758,
+        "size": [
+          3072,
+          2048
+        ]
+      }
+    },
+    "design_ref": {
+      "group": "design_ref",
+      "label": "원본 설정화 (NX-07A)",
+      "file": "reference/캐릭터디자인2차.png",
+      "readonly": true,
+      "base": {
+        "version": 1,
+        "date": "2026-11-19",
+        "sha256": "0727f739fb55029fe934b223f770c471dbdfaf19a34061f0c21ac48b832f0ff3",
+        "bytes": 1967025,
+        "size": [
+          1536,
+          1024
+        ]
+      }
+    },
+    "nova_concept": {
+      "group": "reference_only",
+      "label": "NOVA 컨셉 시트 (한글)",
+      "file": "art/concept/nova/nx07_type_nova_concept.png",
+      "source": {
+        "made_by": "기획자가 넣은 원본 (2026-11-18)",
+        "doc": "docs/GAME_DESIGN.md 9.10"
+      },
+      "readonly": true,
+      "base": {
+        "version": 1,
+        "date": "2026-11-19",
+        "sha256": "94ef94099d3dfc017ace3448fd611747bac82bbf00ed11b9361525e4c24ff123",
+        "bytes": 2016849,
+        "size": [
+          1536,
+          1024
+        ]
+      }
+    },
+    "nova_body": {
+      "group": "reference_only",
+      "label": "NOVA 몸과 머리",
+      "file": "art/concept/nova/nx07_type_nova.png",
+      "source": {
+        "made_by": "기획자가 넣은 원본 (2026-11-18)",
+        "doc": "docs/GAME_DESIGN.md 9.10"
+      },
+      "readonly": true,
+      "base": {
+        "version": 1,
+        "date": "2026-11-19",
+        "sha256": "0f4027fb0a06b089e32ea0858e9e03891cdab549995cf4be99d7172af89a0baf",
+        "bytes": 1818654,
+        "size": [
+          1536,
+          1024
+        ]
+      }
+    },
+    "nova_arms": {
+      "group": "reference_only",
+      "label": "NOVA 무장",
+      "file": "art/concept/nova/nx07_type_nova_arms.png",
+      "source": {
+        "made_by": "기획자가 넣은 원본 (2026-11-18)",
+        "doc": "docs/GAME_DESIGN.md 9.10"
+      },
+      "readonly": true,
+      "base": {
+        "version": 1,
+        "date": "2026-11-19",
+        "sha256": "04259d839cbb014ddbbfa61eb58682812b90771d06e0f7c2562f3e6352c11180",
+        "bytes": 1743669,
+        "size": [
+          1536,
+          1024
+        ]
+      }
+    }
+  },
+  "approvals": [],
+  "records": [
+    {
+      "date": "2026-11-19",
+      "by": "기획자",
+      "kind": "평가",
+      "what": "픽셀 마스터 비교 그림(art/pipeline_lab/pixel_master/compare.png)에서 C(지금 게임의 도트)가 가장 낫다",
+      "quote": "그리고 비교 그림은 C.지금 게임의 도트가 낫다.",
+      "doc": "docs/GAME_DESIGN.md 9.11",
+      "note": "평가이고 승인 기록이 아니다. 픽셀 마스터를 기준으로 삼을지는 [미정]."
+    }
+  ],
+  "history": [
+    {
+      "date": "2026-11-19",
+      "what": "등록",
+      "by": "agent",
+      "assets": 9,
+      "note": "설정화 묶음 setting.json#nx07"
+    },
+    {
+      "date": "2026-11-19",
+      "what": "스프라이트 등록",
+      "by": "agent",
+      "table": "art/sprites/nx07_states/states.json",
+      "count": 25
+    },
+    {
+      "date": "2026-11-19",
+      "what": "파일 더함",
+      "by": "agent",
+      "asset": "sprite_head",
+      "file": "art/sprites/nx07_states/parts/head.png"
+    },
+    {
+      "date": "2026-11-19",
+      "what": "파일 더함",
+      "by": "agent",
+      "asset": "sprite_side",
+      "file": "art/sprites/nx07_side/nx07_side_128.png"
+    },
+    {
+      "date": "2026-11-19",
+      "what": "픽셀 마스터 후보 등록",
+      "by": "agent",
+      "folder": "art/pipeline_lab/pixel_master",
+      "count": 5
+    },
+    {
+      "date": "2026-11-19",
+      "what": "파일 더함",
+      "by": "agent",
+      "asset": "design_a",
+      "file": "art/concept/nx07_alt_a.png"
+    },
+    {
+      "date": "2026-11-19",
+      "what": "파일 더함",
+      "by": "agent",
+      "asset": "design_b",
+      "file": "art/concept/nx07_alt_b.png"
+    },
+    {
+      "date": "2026-11-19",
+      "what": "파일 더함",
+      "by": "agent",
+      "asset": "design_c",
+      "file": "art/concept/nx07_alt_c.png"
+    },
+    {
+      "date": "2026-11-19",
+      "what": "파일 더함",
+      "by": "agent",
+      "asset": "design_d",
+      "file": "art/concept/nx07_alt_d.png"
+    },
+    {
+      "date": "2026-11-19",
+      "what": "파일 더함",
+      "by": "agent",
+      "asset": "design_ref",
+      "file": "reference/캐릭터디자인2차.png"
+    },
+    {
+      "date": "2026-11-19",
+      "what": "파일 더함",
+      "by": "agent",
+      "asset": "nova_concept",
+      "file": "art/concept/nova/nx07_type_nova_concept.png"
+    },
+    {
+      "date": "2026-11-19",
+      "what": "파일 더함",
+      "by": "agent",
+      "asset": "nova_body",
+      "file": "art/concept/nova/nx07_type_nova.png"
+    },
+    {
+      "date": "2026-11-19",
+      "what": "파일 더함",
+      "by": "agent",
+      "asset": "nova_arms",
+      "file": "art/concept/nova/nx07_type_nova_arms.png"
+    },
+    {
+      "date": "2026-11-19",
+      "what": "설명 칸 적음",
+      "by": "agent",
+      "note": "디자인 상태 · 설정 키 · 게임 정보 · 기록을 STORY.md 4장과 기획서 9.4.1 · 9.8 · 9.9 · 9.10 · 9.11에서 옮겨 적었다"
+    },
+    {
+      "date": "2026-11-19",
+      "what": "출처 고침",
+      "by": "agent",
+      "note": "E2 픽셀 마스터의 프롬프트가 art/prompts/pipeline/ 에 들어와 출처에 적었다 (앞서 \"기록 없음\"으로 적었던 것을 고침)"
+    }
+  ],
+  "game": {
+    "style": "스타일 3 (게임 화면, 확정 — 기획서 9.1)",
+    "height_px": 83,
+    "cell": [
+      112,
+      96
+    ],
+    "sole": 89,
+    "facing": "right",
+    "note": "게임 캐릭터의 크기와 등신은 [미정] (기획서 9.11 · 10장 2-7). 픽셀 마스터는 아직 실험이다."
+  },
+  "links": [
+    {
+      "label": "설정화 묶음 확인 그림 (일곱 장 + 화풍 기준 그림)",
+      "file": "art/concept/setting/nx07/overview.png"
+    },
+    {
+      "label": "픽셀 마스터 비교 그림 (실험, 9.11)",
+      "file": "art/pipeline_lab/pixel_master/compare.png"
+    },
+    {
+      "label": "상태별 시트의 표 · 검사",
+      "file": "art/sprites/nx07_states/states.json"
+    },
+    {
+      "label": "NOVA 동작별 스트립 (27장, 기획자 원본)",
+      "file": "art/concept/nova/strips/"
+    },
+    {
+      "label": "NOVA를 게임에 올리는 표",
+      "file": "art/sprites/nx07_nova/layout.json"
+    }
+  ]
+}

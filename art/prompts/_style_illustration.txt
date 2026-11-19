@@ -1,0 +1,5 @@
+ART STYLE (must be followed exactly): official character illustration for an early-2000s Japanese handheld action game.
+- Line art: bold black ink outlines drawn with confident tapered strokes; thickest on the outer silhouette, thinner for inner details; sharp, slightly angular shapes; no sketchy, hairy or textured lines.
+- Coloring: flat cel shading only. One base tone plus one hard-edged shadow tone per surface, and small crisp white specular highlights (rounded "window" shapes and thin edge glints) on armor, helmet and hair. Bright, clean, saturated colors. No gradients, no airbrushing, no texture, no dirt or weathering, no painterly or realistic rendering, no 3D look.
+- Shapes: armor is simplified into smooth rounded volumes with clean panel lines. Forearms / gauntlets and boots are oversized and flare outward; the torso, upper arms and thighs are slim in a dark bodysuit; the helmet is big. Large angular anime eyes with thick upper lash lines.
+- Background: plain white or very light gray.

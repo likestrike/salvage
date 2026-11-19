@@ -1,0 +1,103 @@
+{
+ "cell": [
+  112,
+  96
+ ],
+ "base": 89,
+ "scale": 5,
+ "states": {
+  "ref_idle": {
+   "file": "ref_idle.png",
+   "frames": 1,
+   "ticks": 8,
+   "loop": false,
+   "cell": [
+    112,
+    96
+   ],
+   "kind": "single",
+   "anchor": "none",
+   "use": false,
+   "head_locked": 0,
+   "rig": false,
+   "shift_raw": [
+    [
+     40,
+     -5
+    ]
+   ],
+   "keys": [
+    {
+     "sole": 89,
+     "top": 7,
+     "height": 83,
+     "front_foot": 68.5,
+     "rear_foot": 38.5,
+     "head": 53.6
+    }
+   ]
+  },
+  "stand": {
+   "file": "stand.png",
+   "frames": 1,
+   "ticks": 8,
+   "loop": false,
+   "cell": [
+    112,
+    96
+   ],
+   "kind": "single",
+   "anchor": "feet",
+   "use": true,
+   "head_locked": 1,
+   "rig": false,
+   "shift_raw": [
+    [
+     50,
+     5
+    ]
+   ],
+   "keys": [
+    {
+     "sole": 89,
+     "top": 8,
+     "height": 82,
+     "front_foot": 52.5,
+     "rear_foot": 52.5,
+     "head": 53.2
+    }
+   ]
+  },
+  "stand_drawn": {
+   "file": "stand_drawn.png",
+   "frames": 1,
+   "ticks": 8,
+   "loop": false,
+   "cell": [
+    112,
+    96
+   ],
+   "kind": "single",
+   "anchor": "feet",
+   "use": false,
+   "head_locked": 0,
+   "rig": false,
+   "shift_raw": [
+    [
+     50,
+     5
+    ]
+   ],
+   "keys": [
+    {
+     "sole": 89,
+     "top": 3,
+     "height": 87,
+     "front_foot": 52.5,
+     "rear_foot": 52.5,
+     "head": 52.9
+    }
+   ]
+  }
+ }
+}

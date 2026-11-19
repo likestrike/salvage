@@ -1,0 +1,7 @@
+IMAGE TO DRAW: a TURNAROUND of this one character. Exactly three full-body standing figures side by side, and nothing else.
+- The picture is divided into three equal columns. Left column: FRONT VIEW. Middle column: SIDE VIEW, a pure profile facing RIGHT. Right column: BACK VIEW. One figure per column, centered in its column, with a wide empty gap between the figures so that they never touch or overlap.
+- The three figures are the same character at exactly the same scale: the tops of the heads are on one horizontal line and the soles of the feet are on one horizontal line. Each figure is about 85% of the picture height. Nothing is cut off at any edge.
+- Flat orthographic design-drawing look at eye level: no perspective, no foreshortening, no tilt.
+- This is a faithful, larger and cleaner redraw of the three views of image 1 (which are already arranged front / side / back). Image 1 fixes the body: keep exactly its head size, its height in heads, the thickness of the limbs and the place of every design detail. Change only what STANDING POSE above asks for.
+- Left and right stay consistent between the front view and the back view: whatever is on the character's own right side appears on the viewer's left in the front view and on the viewer's right in the back view.
+- BACKGROUND: plain flat pure white, completely empty. No ground line, no cast shadow, no panel borders, no frames, no arrows, no text, no labels, no letters, no numbers, no logos, no color swatches, no extra props, no effects.

@@ -1,0 +1,16 @@
+Design a NEW alternative version of the girl character Mirine and present it as a character design sheet.
+
+REFERENCES: image 1 = the current design of Mirine (use it for the sheet layout, the drawing style, and her identity: an 11-year-old genius girl, 142 cm, silver hair, teal eyes). The new design must have a clearly DIFFERENT outfit, hairstyle and silhouette from image 1: no long loose hair, no blue robe coat.
+
+CONCEPT "resistance scout": she is a young member of a resistance group fighting a controlling AI, used to running through the slum.
+- Hair: long silver hair tied in one thick braid down her back, a faded red bandana worn as a headband, a small ahoge.
+- Outfit: a short sand-colored poncho-cape with a hand-painted emblem on the back (a ring broken by a diagonal slash). Under it a fitted dark navy jumpsuit with long sleeves and long legs, knee pads, and a utility harness with small pouches. Sturdy ankle boots, fingerless gloves.
+- Gear: a portable hacking deck slung on a shoulder strap, and a coil of jumper cables with clamps carried over one shoulder.
+- Determined, serious expression.
+
+TITLE lines: "미리네" / "시안 D" / "RESISTANCE SCOUT"
+PROFILE lines: "나이 : 11세" / "신장 : 142cm" / "소속 : 반 AI파"
+EXPRESSIONS: determined, a small relieved smile, anger, worry.
+ITEMS: the hacking deck, the coil of jumper cables, the bandana, the poncho emblem.
+POSES: sprinting while looking back over her shoulder, crouching and clamping jumper cables onto a machine, standing with arms crossed.
+PALETTE: six swatches labeled "샌드", "네이비", "레드", "가죽", "머리카락", "눈동자".

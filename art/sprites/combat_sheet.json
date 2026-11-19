@@ -1,0 +1,13 @@
+{
+  "image": "combat_sheet_1x.png",
+  "cell": [96, 96],
+  "columns": 8,
+  "rows": 4,
+  "note": "1·2행은 NX-07 의 추가 전투 동작 (오른쪽 보기, 발 기준선 y=91). 3행은 RS-2 드론 (왼쪽 보기, 칸 가운데). 4행은 아이템과 이펙트 (칸 가운데). 게임에서는 1·2행의 장갑 색을 기존 시트에 맞춘 game/assets/combat_sheet_1x.png 를 쓴다.",
+  "rows_detail": {
+    "0": { "name": "charge_shot", "frames": ["charge_1", "charge_2", "charge_3", "charge_full", "fire", "recoil", "recover", "learn"] },
+    "1": { "name": "martial_punch", "frames": ["stance", "step_in", "windup", "strike", "impact_hold", "follow_through", "pull_back", "stance_end"] },
+    "2": { "name": "rs2_drone", "frames": ["hover_1", "hover_2", "hover_3", "hover_4", "aim", "fire", "hit", "destroyed"] },
+    "3": { "name": "items_fx", "frames": ["game_cartridge", "vhs_tape", "cd", "usb", "bullet", "charged_shot", "explosion", "hit_spark"] }
+  }
+}

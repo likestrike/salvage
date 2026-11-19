@@ -1,0 +1,35 @@
+Create a 2D pixel-art SPRITE SHEET of two evasion animations, in exactly the pixel-art style of image 2.
+
+REFERENCES:
+- image 1 = the character design sheet (android NX-07A). It is an illustration: take only the character design from it.
+- image 2 = the existing sprite sheet of this character. This is the STYLE AND SCALE GUIDE. Match it exactly: the same mid proportions (about 4 heads tall - not big-head, not realistic), the same helmet size, the same pixel size, the same bright clean palette (olive-drab armor, white plates, black bodysuit, saturated cyan lights), dark 1-pixel outlines, 3-tone cel shading with a small bright highlight. The new frames will be mixed with the frames of image 2.
+- image 3 = a LAYOUT GUIDE with exactly the size and grid of the output image. Every cell contains a dark outline box. The box marks where the character stands: the bottom edge of the box is the GROUND LINE, and the box is exactly as tall as the character standing upright. Draw the character inside the box of its cell, feet on the bottom edge. A crouching pose is lower than the box; only a jump leaves the ground. Effects (energy, sparks, dust, blast) may extend outside the box but stay inside the cell. Do NOT draw the boxes.
+
+THE HEAD MUST BE IDENTICAL IN EVERY FRAME: the same helmet at the same size, drawn the same way as in image 2 - a round olive-drab helmet, a glowing cyan inverted-triangle emblem on the forehead, a dark visor band, one teal eye, a pale face, a round white earpiece with a short white swept-back fin. Do not make the helmet bigger or smaller from frame to frame.
+
+CHARACTER: olive-drab chest / shoulder / boot armor, white plates on the forearms, hips and knees, black bodysuit, slim waist and thighs, big gauntlets and big boots, small backpack with a cyan core. Facing RIGHT, pure side view.
+
+The right forearm (the arm nearest to the viewer) is the energy cannon, as in image 2.
+
+IMPORTANT - the existing sheet (image 2) already has a NORMAL DASH (top row, 5th and 6th frames): a booster dash with the body stretched out long, a cyan jet flame from the backpack, and the cannon pointing straight forward. The forward dodge on this sheet must read as a DIFFERENT move at a glance. It is an evasive slip, not a booster dash: NO jet flame and NO glow from the backpack in any frame of this sheet; the body is turned sideways and ducks low, shoulder first; the head is tucked down; the cannon arm is folded tight against the chest and is not aimed; the character slides on its feet with dust at the ground.
+
+LAYOUT: exactly the grid of image 3: 6 columns x 2 rows = 12 equal square cells, one pose per cell. The character stays in the middle of its cell in every frame (do not draw the distance travelled).
+
+TOP ROW - BACKSTEP (a short hop straight backward while still facing right, toward the enemy). Frames 1 to 6, left to right:
+1. anticipation: the weight shifts onto the front foot, both knees bend, the upper body pulls back a little.
+2. push-off: the front foot kicks the ground and the body starts to lean back; a small dust puff at the front foot.
+3. airborne: a low hop backward, both feet just off the ground, knees tucked, the body leaning back, the eyes and the cannon still pointed forward at the enemy.
+4. airborne: the rear leg reaches back and down for the ground, the front leg trails.
+5. landing: the rear foot lands first and skids, knees bent deep to absorb, a low dust streak at the feet.
+6. recover: a low ready stance, cannon forward.
+
+BOTTOM ROW - DODGE DASH (a very short evasive slip forward). Frames 7 to 12, left to right:
+7. anticipation: a quick dip - the head and shoulders drop, the torso starts to twist sideways, the cannon arm pulls in toward the chest.
+8. launch: lunging forward very low, the leading shoulder first, the head tucked behind the shoulder, the cannon arm folded against the chest.
+9. slip, the lowest point: the body turned sideways and very low, sliding on the lead foot with the rear knee nearly on the ground; dust kicked up behind the feet and two or three short thin white speed streaks behind the body.
+10. slip, starting to rise: still low and sideways, the trailing leg swinging forward, a little dust behind.
+11. brake: the lead foot planted hard and skidding, a dust puff in front of that foot, the body rotating upright again.
+12. recover: a low ready stance, the cannon coming back up.
+
+Completely flat solid magenta (#FF00FF) background everywhere. No text, no labels, no numbers, no grid lines, no borders, no ground shadows, no motion blur. Every pose and every effect stays fully inside its own cell with a clear magenta margin on all sides.
+Hard square pixels on one consistent grid, the same pixel size as image 2, no anti-aliasing, no blur, no soft gradients, the same limited palette as image 2.
